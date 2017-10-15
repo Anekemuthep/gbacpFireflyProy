@@ -1,0 +1,114 @@
+
+==================== FINAL INTERFACE ====================
+2017-10-15 01:19:22.800607 UTC
+
+interface gbacpFireflyProy-0.1.0.0-FA6gtHkCdITCMgGgfyRuCP:Algorithms.Gbacp 8002
+  interface hash: fe10aa4406adf24bdfa07e7fef08bf84
+  ABI hash: 6e73149f7913c3cd7f7e5f09ccca426b
+  export-list hash: 14591f7572a3a8c2e5f51f8519dce679
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 0d5af76a5aa992bf9c6324432f453bda
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Algorithms.Gbacp.getCustomAudience
+  Algorithms.Gbacp.splitByTwoDots
+module dependencies: Lib.Prelude
+package dependencies: array-0.5.1.1@array-0.5.1.1
+                      async-2.1.1.1@async-2.1.1.1-8yywY4inVGRLJSCg60gBXj base-4.9.1.0*
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      deepseq-1.4.2.0@deepseq-1.4.2.0 ghc-prim-0.5.0.0
+                      integer-gmp-1.0.0.1 mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6
+                      protolude-0.1.10@protolude-0.1.10-EbWghKT4Ra36YSCOzDFDKT
+                      safe-0.3.15@safe-0.3.15-2Yd45VWFfdcKqKyispOifY
+                      stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve
+                      text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00*
+                      transformers-0.5.2.0@transformers-0.5.2.0
+orphans: base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve:Control.Monad.STM
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Show
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+family instance modules: base-4.9.1.0:Control.Applicative
+                         base-4.9.1.0:Data.Complex base-4.9.1.0:Data.Either
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+import  -/  base-4.9.1.0:Data.Char 01433d23661edb6e5ef1536ef1e6774c
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  Lib.Prelude 0d07ccb4f2f1924b2e5084cb8992ad6e
+  exports: 7f97854b2cbe78cf55994970281b4148
+import  -/  ghc-prim-0.5.0.0:GHC.Classes 0bdf3d057a415ec1b84a7b1994efbe47
+import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text f7d3d648ffeef1043fe2e522e7e66c1b
+import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Internal 9bfcbbbe07ecef48f631025a838df7da
+5679f04abf0280c27efaa1f84695149e
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Algorithms.Gbacp.$trModule2
+                   Algorithms.Gbacp.$trModule1) -}
+a26640782392afe90d754497dd679745
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Algorithms.Gbacp"#) -}
+54bdebc16d598e2a8415b3486ebb1352
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "gbacpFireflyProy-0.1.0.0-FA6gtHkCdITCMgGgfyRuCP"#) -}
+aeef298fe19bae9021c9757c57305eec
+  $wgetCustomAudience ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> GHC.Base.Maybe
+         (Data.Text.Internal.Text, Data.Text.Internal.Text)
+  {- Arity: 3, Strictness: <L,U><L,U><S,U>, Inline: [0] -}
+b8a87363b2635553e23ac448a95d4e1c
+  getCustomAudience ::
+    Data.Text.Internal.Text
+    -> GHC.Base.Maybe
+         (Data.Text.Internal.Text, Data.Text.Internal.Text)
+  {- Arity: 1, Strictness: <S(LLS),1*U(U,U,U)>, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: Data.Text.Internal.Text) ->
+                 case w of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                 Algorithms.Gbacp.$wgetCustomAudience ww1 ww2 ww3 }) -}
+64f6644ef1ce34537996434f98b7053a
+  splitByTwoDots :: [GHC.Types.Char] -> [[GHC.Types.Char]]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: [GHC.Types.Char]) ->
+                 Algorithms.Gbacp.splitHelper
+                   (GHC.Types.[] @ [GHC.Types.Char])
+                   (GHC.Types.[] @ GHC.Types.Char)
+                   x) -}
+3da0e08aa146e21d0ab941606418173d
+  splitHelper ::
+    [[GHC.Types.Char]]
+    -> [GHC.Types.Char] -> [GHC.Types.Char] -> [[GHC.Types.Char]]
+  {- Arity: 3, HasNoCafRefs, Strictness: <S,1*U><L,U><S,1*U> -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+
