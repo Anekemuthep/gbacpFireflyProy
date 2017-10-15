@@ -1,17 +1,18 @@
 
 ==================== FINAL INTERFACE ====================
-2017-10-15 01:41:24.671352 UTC
+2017-10-15 18:12:50.811801 UTC
 
 interface gbacpFireflyProy-0.1.0.0-FA6gtHkCdITCMgGgfyRuCP:Algorithms.Firefly 8002
-  interface hash: a5dab5d30a4ca84ce8c2894b8ebc434c
-  ABI hash: 1cba87a60d7305a1470c3df6bb0326b6
-  export-list hash: df6970310ed69778d89276c435f1b0c4
+  interface hash: 4eb50aed9ee615ad1b1e2858f727f8ea
+  ABI hash: 7981fef73d3cf0e71484881e22a360bf
+  export-list hash: 85a444a88208277c9a39a76b25945a94
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 0d5af76a5aa992bf9c6324432f453bda
   sig of: Nothing
   used TH splices: False
   where
 exports:
+  Algorithms.Firefly.intensity
   Algorithms.Firefly.restNum
   Algorithms.Firefly.sumSet
 module dependencies: Lib.Prelude
@@ -52,6 +53,7 @@ family instance modules: base-4.9.1.0:Control.Applicative
                          text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
 import  -/  base-4.9.1.0:Data.Char 01433d23661edb6e5ef1536ef1e6774c
 import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:GHC.Float 33e2b9ffe427edd6a5c2fd6a3b26703c
 import  -/  base-4.9.1.0:GHC.Num 00bfaa7b2f9d6084913c0697a8a49ec8
 import  -/  Lib.Prelude 0d07ccb4f2f1924b2e5084cb8992ad6e
   exports: 7f97854b2cbe78cf55994970281b4148
@@ -71,6 +73,19 @@ e68940c1e4214355588edb78b7a780db
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    "gbacpFireflyProy-0.1.0.0-FA6gtHkCdITCMgGgfyRuCP"#) -}
+12492b725f0c7db6650954a53b62a947
+  intensity :: GHC.Types.Float -> GHC.Types.Float -> GHC.Types.Float
+  {- Arity: 2, HasNoCafRefs, Strictness: <S(S),1*U(U)><S(S),1*U(U)>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ (x1 :: GHC.Types.Float) (x2 :: GHC.Types.Float) ->
+                 case x1 of wild { GHC.Types.F# x ->
+                 case x2 of wild1 { GHC.Types.F# y ->
+                 GHC.Types.F#
+                   (GHC.Prim.timesFloat#
+                      1.2#
+                      (GHC.Prim.powerFloat#
+                         (GHC.Prim.expFloat# 1.0#)
+                         (GHC.Prim.timesFloat# 0.2# (GHC.Prim.minusFloat# x y)))) } }) -}
 9e50c3a32c6436a036b2f731fdc6e8b1
   restNum :: [GHC.Types.Char] -> [GHC.Types.Char]
   {- Arity: 1, HasNoCafRefs, Strictness: <S,U>,
