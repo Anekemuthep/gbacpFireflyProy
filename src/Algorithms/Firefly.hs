@@ -16,3 +16,13 @@ intensity x1 x2 =
     let e = exp 1
         dist = x1 - x2
     in 1.2 * (e ** (0.2 * dist))
+
+-- | The sigmoid function:  1 / (1 + exp (-x))
+sigmoid :: Floating a => a -> a
+sigmoid !x = 1 / (1 + exp (-x))
+{-# INLINE sigmoid #-}
+
+-- | Derivative of the sigmoid function: sigmoid x * (1 - sigmoid x)
+sigmoid' :: Floating a => a -> a
+sigmoid' !x = case sigmoid x of
+  s -> s * (1 - s)
