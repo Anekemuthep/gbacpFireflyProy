@@ -38,8 +38,7 @@ library
                      , stm
                      , mtl
                      , bytestring
-                     , cairo
-                     , gtk2hs
+                     , cairo-gtk2hs
                      , colour
                      , data-default-class
          --            , map
