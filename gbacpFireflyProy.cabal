@@ -43,6 +43,7 @@ library
                      , pango
                      , data-default-class
                      , gtk2hs-buildtools
+                     , chart-diagrams
                      , gtk
          --            , map
                      , monad-par
