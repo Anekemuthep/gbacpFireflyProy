@@ -30,7 +30,7 @@ version = Version [0,1,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "/Users/alfonsobustamante/Documents/GitHub/gbacpFireflyProy/.stack-work/install/x86_64-osx/lts-9.8/8.0.2/bin"
-libdir     = "/Users/alfonsobustamante/Documents/GitHub/gbacpFireflyProy/.stack-work/install/x86_64-osx/lts-9.8/8.0.2/lib/x86_64-osx-ghc-8.0.2/gbacpFireflyProy-0.1.0.0-FA6gtHkCdITCMgGgfyRuCP"
+libdir     = "/Users/alfonsobustamante/Documents/GitHub/gbacpFireflyProy/.stack-work/install/x86_64-osx/lts-9.8/8.0.2/lib/x86_64-osx-ghc-8.0.2/gbacpFireflyProy-0.1.0.0-480a2L3WuNqH1RkR0tdG1R"
 dynlibdir  = "/Users/alfonsobustamante/Documents/GitHub/gbacpFireflyProy/.stack-work/install/x86_64-osx/lts-9.8/8.0.2/lib/x86_64-osx-ghc-8.0.2"
 datadir    = "/Users/alfonsobustamante/Documents/GitHub/gbacpFireflyProy/.stack-work/install/x86_64-osx/lts-9.8/8.0.2/share/x86_64-osx-ghc-8.0.2/gbacpFireflyProy-0.1.0.0"
 libexecdir = "/Users/alfonsobustamante/Documents/GitHub/gbacpFireflyProy/.stack-work/install/x86_64-osx/lts-9.8/8.0.2/libexec"

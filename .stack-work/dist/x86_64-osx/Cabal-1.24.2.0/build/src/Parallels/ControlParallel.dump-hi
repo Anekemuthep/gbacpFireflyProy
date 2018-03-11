@@ -1,0 +1,322 @@
+
+==================== FINAL INTERFACE ====================
+2018-03-11 13:27:43.879595 UTC
+
+interface gbacpFireflyProy-0.1.0.0-480a2L3WuNqH1RkR0tdG1R:Parallels.ControlParallel 8002
+  interface hash: 9373f330ced3dbe89aa7604116edeaf2
+  ABI hash: 8747d9f95f3655afddf9d0dc8ca8d5ee
+  export-list hash: 522aaf46d2c3eabcde49c979debb541a
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: b71dc45b182f92bcd40f4a863bfe396d
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Parallels.ControlParallel.main
+  Parallels.ControlParallel.main1
+module dependencies: Lib.Prelude
+package dependencies: StateVar-1.1.0.4@StateVar-1.1.0.4-5dJbnTVECtEAhfJXPZKdbO
+                      adjunctions-4.3@adjunctions-4.3-A5jfd1yrmaY4DRMJuiquBp
+                      array-0.5.1.1@array-0.5.1.1
+                      async-2.1.1.1@async-2.1.1.1-8yywY4inVGRLJSCg60gBXj base-4.9.1.0
+                      base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu
+                      bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      call-stack-0.1.0@call-stack-0.1.0-FYVrCPXGP9EGAuTW32963O
+                      comonad-5.0.2@comonad-5.0.2-Fq9Xy9jdx6uIyJZn00E6Yc
+                      containers-0.5.7.1@containers-0.5.7.1
+                      contravariant-1.4@contravariant-1.4-29zF0Im431177ovfbHYCGv
+                      deepseq-1.4.2.0@deepseq-1.4.2.0
+                      distributive-0.5.3@distributive-0.5.3-IX4kyVcHAyoH4uFYrsjY1R
+                      exceptions-0.8.3@exceptions-0.8.3-ADEDRATtUrMK1JW4zMQ9U
+                      flow-1.0.9@flow-1.0.9-6UGGr00GHun4odhYxndgpk
+                      free-4.12.4@free-4.12.4-C2gBQV0m8J42HxqSLTFyVx
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol
+                      integer-gmp-1.0.0.1
+                      kan-extensions-5.0.2@kan-extensions-5.0.2-8LTJJ1zQJWB7SfewWXUuqX
+                      lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW
+                      mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6
+                      parallel-3.2.1.1@parallel-3.2.1.1-KQJHWCcq2Ka569Stb10nhx
+                      prelude-extras-0.4.0.3@prelude-extras-0.4.0.3-BhL9U5k7NtGJn1itwIHt2Y
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh
+                      profunctors-5.2.1@profunctors-5.2.1-Ga89Nyw0d7LBEIoX4AZ6gT
+                      protolude-0.1.10@protolude-0.1.10-EbWghKT4Ra36YSCOzDFDKT
+                      reflection-2.1.2@reflection-2.1.2-Bem12O1xFGSHr4C2Hyu1c4
+                      safe-0.3.15@safe-0.3.15-2Yd45VWFfdcKqKyispOifY
+                      semigroupoids-5.2.1@semigroupoids-5.2.1-Db8txM8kTsI6Y49CY6g5Jn
+                      stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      template-haskell-2.11.1.0
+                      text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00
+                      th-abstraction-0.2.6.0@th-abstraction-0.2.6.0-HRFJgpoqs5HJ5LgHnjmMhQ
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-compat-0.5.1.4@transformers-compat-0.5.1.4-IuFogs8HAVUJBWVNMhtssu
+                      unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC
+                      vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ
+orphans: base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu:Data.Orphans
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable.Generic
+         reflection-2.1.2@reflection-2.1.2-Bem12O1xFGSHr4C2Hyu1c4:Data.Reflection
+         stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve:Control.Monad.STM
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Show
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Fusion.Bundle
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+family instance modules: adjunctions-4.3@adjunctions-4.3-A5jfd1yrmaY4DRMJuiquBp:Data.Functor.Rep
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Compose
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Biff
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Clown
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Fix
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Flip
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Join
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Joker
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Product
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Sum
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Tannen
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Wrapped
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         kan-extensions-5.0.2@kan-extensions-5.0.2-8LTJJ1zQJWB7SfewWXUuqX:Data.Functor.Day
+                         kan-extensions-5.0.2@kan-extensions-5.0.2-8LTJJ1zQJWB7SfewWXUuqX:Data.Functor.Yoneda
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.At
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Internal.Indexed
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Reified
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Tuple
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Wrapped
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Zoom
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Control.Monad.Primitive
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Data.Primitive.Array
+                         profunctors-5.2.1@profunctors-5.2.1-Ga89Nyw0d7LBEIoX4AZ6gT:Data.Profunctor.Rep
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+                         th-abstraction-0.2.6.0@th-abstraction-0.2.6.0-HRFJgpoqs5HJ5LgHnjmMhQ:Language.Haskell.TH.Datatype
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Base
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashSet
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Primitive
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Storable
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed.Base
+import  -/  base-4.9.1.0:Data.Foldable 3e0b6967a1da89945d0e2d47266337a2
+import  -/  base-4.9.1.0:Data.List 07ae2acca6538aa0800bd0a993ac6ac1
+import  -/  base-4.9.1.0:GHC.Enum 3811281f7b5f26da514529cf3ed44009
+import  -/  base-4.9.1.0:GHC.List ab8c4e523e6c479c549d3bcd5fc4a439
+import  -/  base-4.9.1.0:GHC.Num 00bfaa7b2f9d6084913c0697a8a49ec8
+import  -/  base-4.9.1.0:GHC.Real 82e4e59051a13dba1da63e1e970a69e6
+import  -/  Lib.Prelude 1309d9bc2a99cd4089e7eedcf24ef20b
+  exports: 90f18e8a2ae5288b846165f2067ed404
+import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
+import  -/  parallel-3.2.1.1@parallel-3.2.1.1-KQJHWCcq2Ka569Stb10nhx:Control.Parallel f51ba55db4edbaab45613077825ddd90
+import  -/  protolude-0.1.10@protolude-0.1.10-EbWghKT4Ra36YSCOzDFDKT:Protolude 0d67a6d6446145e8dd8f2764f3da7a22
+e736c546108b98a5a452ea9c5458ffe4
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Parallels.ControlParallel.$trModule2
+                   Parallels.ControlParallel.$trModule1) -}
+b7ac277af6396f398590f4ca2f2dcf81
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Parallels.ControlParallel"#) -}
+b070072596b40c6c76a943f0f1845049
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "gbacpFireflyProy-0.1.0.0-480a2L3WuNqH1RkR0tdG1R"#) -}
+bad9f6f9a88e64bb24d1477330efe148
+  main :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Parallels.ControlParallel.main2
+                  `cast`
+                (Sym (GHC.Types.N:IO[0] <()>_R)) -}
+5527f24557d66a7173a5cbe1f682e68f
+  main1 :: GHC.Types.IO ()
+  {- Unfolding: (case GHC.Prim.par#
+                        @ GHC.Integer.Type.Integer
+                        Parallels.ControlParallel.main1_a of ds { DEFAULT ->
+                 GHC.Magic.lazy
+                   @ (GHC.Types.IO ())
+                   Parallels.ControlParallel.main7 }) -}
+992d2286f233c9016b5bfac45a7ad16e
+  main10 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (42) -}
+7cfc2de34f83c3325e95ebca78347896
+  main11 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (10) -}
+066eb662bd5d180f9b5be85777a1fc58
+  main12 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (3) -}
+6ff66d00c5792e9cdfe1209a279313e6
+  main13 :: GHC.Base.String -> [GHC.Types.Char]
+  {- Arity: 1,
+     Unfolding: (\ (w2 :: GHC.Base.String) ->
+                 case GHC.Show.$w$cshowsPrec1
+                        0#
+                        Parallels.ControlParallel.main1_b
+                        w2 of ww2 { (#,#) ww3 ww4 ->
+                 GHC.Types.: @ GHC.Types.Char ww3 ww4 }) -}
+83a7e5408d7d4eeb77eeea584556af93
+  main14 :: [GHC.Types.Char]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Char
+                   GHC.Show.shows4
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+77d2afbc1d03c06815cebf22c0565a4a
+  main15 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (34) -}
+5fc6337391f185a409aa50b3f23284e1
+  main1_a :: GHC.Integer.Type.Integer
+  {- Unfolding: (Parallels.ControlParallel.main1_ack
+                   Parallels.ControlParallel.main12
+                   Parallels.ControlParallel.main11) -}
+b90ba1618d42d79ad62dd38a2a271ee2
+  main1_ack ::
+    GHC.Integer.Type.Integer
+    -> GHC.Integer.Type.Integer -> GHC.Integer.Type.Integer
+  {- Arity: 2, Strictness: <S,U><S,U> -}
+e5699c674052dbf688cc07b3e20398b7
+  main1_b :: GHC.Integer.Type.Integer
+  {- Unfolding: (Parallels.ControlParallel.main1_fac
+                   Parallels.ControlParallel.main10) -}
+2988eabe4b6da91c486a0aadd1964094
+  main1_fac :: GHC.Integer.Type.Integer -> GHC.Integer.Type.Integer
+  {- Arity: 1, Strictness: <S,U> -}
+061a4b5eee09986252538d6c4027ad00
+  main1_fib :: GHC.Integer.Type.Integer -> GHC.Integer.Type.Integer
+  {- Arity: 1, Strictness: <S,U> -}
+847f76930bed9f6bff4c087eb0f53328
+  main2 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (eta :: GHC.Prim.State#
+                             GHC.Prim.RealWorld)[OneShot] ->
+                 GHC.IO.Handle.Text.hPutStr2
+                   GHC.IO.Handle.FD.stdout
+                   Parallels.ControlParallel.main3
+                   GHC.Types.True
+                   eta) -}
+a320592a896f4430f30e9f151e21dbdf
+  main3 :: GHC.Base.String
+  {- Unfolding: (case GHC.Show.$w$cshowsPrec1
+                        0#
+                        Parallels.ControlParallel.main4
+                        (GHC.Types.[] @ GHC.Types.Char) of ww2 { (#,#) ww3 ww4 ->
+                 GHC.Types.: @ GHC.Types.Char ww3 ww4 }) -}
+5045421675b7431ce5736b1e4e9fa6f8
+  main4 :: GHC.Integer.Type.Integer
+  {- Unfolding: (Parallels.ControlParallel.main_$spfold
+                   GHC.Integer.Type.plusInteger
+                   Parallels.ControlParallel.main5) -}
+5f8d13858e88620e85cf86a24982f42c
+  main5 :: [GHC.Integer.Type.Integer]
+  {- Unfolding: (Parallels.ControlParallel.main_go
+                   Parallels.ControlParallel.main6) -}
+a5be04b56dfe193a7dec236a4daf0419
+  main6 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (1) -}
+7d5f484ee5cc9fba573b9bc02f085df7
+  main7 :: GHC.Types.IO ()
+  {- Unfolding: (case GHC.Prim.par#
+                        @ GHC.Integer.Type.Integer
+                        Parallels.ControlParallel.main1_b of ds { DEFAULT ->
+                 GHC.Magic.lazy
+                   @ (GHC.Types.IO ())
+                   Parallels.ControlParallel.main8 }) -}
+7d476751c35681861e7970b613bf4a26
+  main8 :: GHC.Types.IO ()
+  {- Unfolding: (case Parallels.ControlParallel.main1_fib
+                        Parallels.ControlParallel.main15 of x1 { DEFAULT ->
+                 GHC.Magic.lazy
+                   @ (GHC.Types.IO ())
+                   (\ (eta :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                    GHC.IO.Handle.Text.hPutStr2
+                      GHC.IO.Handle.FD.stdout
+                      (GHC.Types.:
+                         @ GHC.Types.Char
+                         GHC.Show.shows7
+                         (case GHC.Show.$w$cshowsPrec1
+                                 0#
+                                 Parallels.ControlParallel.main1_a
+                                 (GHC.Types.:
+                                    @ GHC.Types.Char
+                                    GHC.Show.shows5
+                                    (GHC.Show.$fShow(,,,)_$sgo
+                                       Parallels.ControlParallel.main14
+                                       Parallels.ControlParallel.main13
+                                       (GHC.Types.:
+                                          @ GHC.Show.ShowS
+                                          (\ (w2 :: GHC.Base.String) ->
+                                           case GHC.Show.$w$cshowsPrec1
+                                                  0#
+                                                  x1
+                                                  w2 of ww2 { (#,#) ww3 ww4 ->
+                                           GHC.Types.: @ GHC.Types.Char ww3 ww4 })
+                                          (GHC.Types.:
+                                             @ GHC.Show.ShowS
+                                             (let {
+                                                w1 :: GHC.Integer.Type.Integer
+                                                = GHC.Integer.Type.plusInteger
+                                                    Parallels.ControlParallel.main9
+                                                    x1
+                                              } in
+                                              \ (w2 :: GHC.Base.String) ->
+                                              case GHC.Show.$w$cshowsPrec1
+                                                     0#
+                                                     w1
+                                                     w2 of ww2 { (#,#) ww3 ww4 ->
+                                              GHC.Types.: @ GHC.Types.Char ww3 ww4 })
+                                             (GHC.Types.[]
+                                                @ GHC.Show.ShowS))))) of ww2 { (#,#) ww3 ww4 ->
+                          GHC.Types.: @ GHC.Types.Char ww3 ww4 }))
+                      GHC.Types.True
+                      eta)
+                     `cast`
+                   (Sym (GHC.Types.N:IO[0] <()>_R)) }) -}
+7ee4153070901a439b62738275bf8979
+  main9 :: GHC.Integer.Type.Integer
+  {- Unfolding: (GHC.Integer.Type.plusInteger
+                   Parallels.ControlParallel.main1_a
+                   Parallels.ControlParallel.main1_b) -}
+56666dd291f84196edb53832af64b229
+  main_$spfold ::
+    (GHC.Integer.Type.Integer
+     -> GHC.Integer.Type.Integer -> GHC.Integer.Type.Integer)
+    -> [GHC.Integer.Type.Integer] -> GHC.Integer.Type.Integer
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,C(C1(U))><S,U> -}
+b0ecd2c1b6662c99595843feb28944a8
+  main_go :: GHC.Integer.Type.Integer -> [GHC.Integer.Type.Integer]
+  {- Arity: 1, Strictness: <S,U> -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

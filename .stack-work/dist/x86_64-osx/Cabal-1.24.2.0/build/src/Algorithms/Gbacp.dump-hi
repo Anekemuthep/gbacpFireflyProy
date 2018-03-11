@@ -1,96 +1,2013 @@
 
 ==================== FINAL INTERFACE ====================
-2017-10-15 01:19:22.800607 UTC
+2017-12-05 21:07:43.647291 UTC
 
-interface gbacpFireflyProy-0.1.0.0-FA6gtHkCdITCMgGgfyRuCP:Algorithms.Gbacp 8002
-  interface hash: fe10aa4406adf24bdfa07e7fef08bf84
-  ABI hash: 6e73149f7913c3cd7f7e5f09ccca426b
-  export-list hash: 14591f7572a3a8c2e5f51f8519dce679
+interface gbacpFireflyProy-0.1.0.0-480a2L3WuNqH1RkR0tdG1R:Algorithms.Gbacp [family instance module] 8002
+  interface hash: f215c235937a42d4d4c13b4a212f2eb0
+  ABI hash: ceb1d4b6ba6a72a01e5690c48a962fcf
+  export-list hash: 99d04f4ae71a3fd9acd9f930446b083a
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
-  flag hash: 0d5af76a5aa992bf9c6324432f453bda
+  flag hash: 7adacbd3a7a8720a05b175a017a0a2e6
   sig of: Nothing
   used TH splices: False
   where
 exports:
-  Algorithms.Gbacp.getCustomAudience
   Algorithms.Gbacp.splitByTwoDots
 module dependencies: Lib.Prelude
-package dependencies: array-0.5.1.1@array-0.5.1.1
+package dependencies: StateVar-1.1.0.4@StateVar-1.1.0.4-5dJbnTVECtEAhfJXPZKdbO
+                      adjunctions-4.3@adjunctions-4.3-A5jfd1yrmaY4DRMJuiquBp
+                      array-0.5.1.1@array-0.5.1.1
                       async-2.1.1.1@async-2.1.1.1-8yywY4inVGRLJSCg60gBXj base-4.9.1.0*
+                      base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu
+                      bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw
                       binary-0.8.3.0@binary-0.8.3.0
                       bytestring-0.10.8.1@bytestring-0.10.8.1
+                      call-stack-0.1.0@call-stack-0.1.0-FYVrCPXGP9EGAuTW32963O
+                      comonad-5.0.2@comonad-5.0.2-Fq9Xy9jdx6uIyJZn00E6Yc
                       containers-0.5.7.1@containers-0.5.7.1
-                      deepseq-1.4.2.0@deepseq-1.4.2.0 ghc-prim-0.5.0.0
-                      integer-gmp-1.0.0.1 mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6
+                      contravariant-1.4@contravariant-1.4-29zF0Im431177ovfbHYCGv
+                      deepseq-1.4.2.0@deepseq-1.4.2.0
+                      distributive-0.5.3@distributive-0.5.3-IX4kyVcHAyoH4uFYrsjY1R
+                      exceptions-0.8.3@exceptions-0.8.3-ADEDRATtUrMK1JW4zMQ9U
+                      flow-1.0.9@flow-1.0.9-6UGGr00GHun4odhYxndgpk
+                      free-4.12.4@free-4.12.4-C2gBQV0m8J42HxqSLTFyVx
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol
+                      integer-gmp-1.0.0.1
+                      kan-extensions-5.0.2@kan-extensions-5.0.2-8LTJJ1zQJWB7SfewWXUuqX
+                      lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW
+                      mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6
+                      prelude-extras-0.4.0.3@prelude-extras-0.4.0.3-BhL9U5k7NtGJn1itwIHt2Y
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh
+                      profunctors-5.2.1@profunctors-5.2.1-Ga89Nyw0d7LBEIoX4AZ6gT
                       protolude-0.1.10@protolude-0.1.10-EbWghKT4Ra36YSCOzDFDKT
+                      reflection-2.1.2@reflection-2.1.2-Bem12O1xFGSHr4C2Hyu1c4
                       safe-0.3.15@safe-0.3.15-2Yd45VWFfdcKqKyispOifY
+                      semigroupoids-5.2.1@semigroupoids-5.2.1-Db8txM8kTsI6Y49CY6g5Jn
                       stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      template-haskell-2.11.1.0
                       text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00*
+                      th-abstraction-0.2.6.0@th-abstraction-0.2.6.0-HRFJgpoqs5HJ5LgHnjmMhQ
                       transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-compat-0.5.1.4@transformers-compat-0.5.1.4-IuFogs8HAVUJBWVNMhtssu
+                      unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC
+                      vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ
 orphans: base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu:Data.Orphans
          binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
          bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable.Generic
+         reflection-2.1.2@reflection-2.1.2-Bem12O1xFGSHr4C2Hyu1c4:Data.Reflection
          stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve:Control.Monad.STM
          text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
          text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
          text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Show
          transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
-family instance modules: base-4.9.1.0:Control.Applicative
-                         base-4.9.1.0:Data.Complex base-4.9.1.0:Data.Either
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Fusion.Bundle
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+family instance modules: adjunctions-4.3@adjunctions-4.3-A5jfd1yrmaY4DRMJuiquBp:Data.Functor.Rep
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Compose
                          base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
                          base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
                          base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
                          base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
                          base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
                          base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Biff
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Clown
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Fix
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Flip
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Join
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Joker
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Product
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Sum
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Tannen
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Wrapped
                          containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
                          containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
                          containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
                          containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
                          containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         kan-extensions-5.0.2@kan-extensions-5.0.2-8LTJJ1zQJWB7SfewWXUuqX:Data.Functor.Day
+                         kan-extensions-5.0.2@kan-extensions-5.0.2-8LTJJ1zQJWB7SfewWXUuqX:Data.Functor.Yoneda
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.At
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Internal.Indexed
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Reified
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Tuple
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Wrapped
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Zoom
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Control.Monad.Primitive
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Data.Primitive.Array
+                         profunctors-5.2.1@profunctors-5.2.1-Ga89Nyw0d7LBEIoX4AZ6gT:Data.Profunctor.Rep
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
                          text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
                          text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+                         th-abstraction-0.2.6.0@th-abstraction-0.2.6.0-HRFJgpoqs5HJ5LgHnjmMhQ:Language.Haskell.TH.Datatype
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Base
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashSet
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Primitive
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Storable
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed.Base
 import  -/  base-4.9.1.0:Data.Char 01433d23661edb6e5ef1536ef1e6774c
 import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
-import  -/  Lib.Prelude 0d07ccb4f2f1924b2e5084cb8992ad6e
-  exports: 7f97854b2cbe78cf55994970281b4148
+import  -/  base-4.9.1.0:GHC.Generics 1dbec2bc7dd1c5bd8c89ed857eaed19b
+import  -/  base-4.9.1.0:GHC.Num 00bfaa7b2f9d6084913c0697a8a49ec8
+import  -/  base-4.9.1.0:GHC.Show a027f5ac24879eaba752f44aa90fe511
+import  -/  containers-0.5.7.1@containers-0.5.7.1:Data.Set 3ed2324fd1e757464a8ac2b636a64e5a
+import  -/  Lib.Prelude 1309d9bc2a99cd4089e7eedcf24ef20b
+  exports: 90f18e8a2ae5288b846165f2067ed404
 import  -/  ghc-prim-0.5.0.0:GHC.Classes 0bdf3d057a415ec1b84a7b1994efbe47
+import  -/  integer-gmp-1.0.0.1:GHC.Integer.Type 318df275d77dcdb18e0006d8d7870c2a
 import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text f7d3d648ffeef1043fe2e522e7e66c1b
-import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Internal 9bfcbbbe07ecef48f631025a838df7da
-5679f04abf0280c27efaa1f84695149e
+b69140f2dec8c47a749a8f619f4bdb21
+  $fGenericCourseLoad ::
+    GHC.Generics.Generic Algorithms.Gbacp.CourseLoad
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Algorithms.Gbacp.CourseLoad
+                  Algorithms.Gbacp.$fGenericCourseLoad_$cfrom
+                  Algorithms.Gbacp.$fGenericCourseLoad_$cto -}
+b69140f2dec8c47a749a8f619f4bdb21
+  $fGenericCourseLoad1 ::
+    Algorithms.Gbacp.CourseLoad
+    -> GHC.Generics.M1
+         GHC.Generics.C
+         ('GHC.Generics.MetaCons
+            "CourseLoad" 'GHC.Generics.PrefixI 'GHC.Types.True)
+         (GHC.Generics.M1
+            GHC.Generics.S
+            ('GHC.Generics.MetaSel
+               ('GHC.Base.Just "mincourse")
+               'GHC.Generics.NoSourceUnpackedness
+               'GHC.Generics.NoSourceStrictness
+               'GHC.Generics.DecidedLazy)
+            (GHC.Generics.K1 GHC.Generics.R GHC.Types.Int)
+          GHC.Generics.:*: GHC.Generics.M1
+                             GHC.Generics.S
+                             ('GHC.Generics.MetaSel
+                                ('GHC.Base.Just "maxcourse")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy)
+                             (GHC.Generics.K1 GHC.Generics.R GHC.Types.Int))
+         x
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ x (x1 :: Algorithms.Gbacp.CourseLoad) ->
+                 case x1 of wild { Algorithms.Gbacp.CourseLoad g1 g2 ->
+                 (GHC.Generics.:*:
+                    @ (GHC.Generics.M1
+                         GHC.Generics.S
+                         ('GHC.Generics.MetaSel
+                            ('GHC.Base.Just "mincourse")
+                            'GHC.Generics.NoSourceUnpackedness
+                            'GHC.Generics.NoSourceStrictness
+                            'GHC.Generics.DecidedLazy)
+                         (GHC.Generics.K1 GHC.Generics.R GHC.Types.Int))
+                    @ (GHC.Generics.M1
+                         GHC.Generics.S
+                         ('GHC.Generics.MetaSel
+                            ('GHC.Base.Just "maxcourse")
+                            'GHC.Generics.NoSourceUnpackedness
+                            'GHC.Generics.NoSourceStrictness
+                            'GHC.Generics.DecidedLazy)
+                         (GHC.Generics.K1 GHC.Generics.R GHC.Types.Int))
+                    @ x
+                    g1
+                      `cast`
+                    (Trans
+                         (Sym (GHC.Generics.N:K1[0]
+                                   <GHC.Generics.R>_P <GHC.Types.Int>_R <x>_P))
+                         (Sym (GHC.Generics.N:M1[0]
+                                   <GHC.Generics.S>_P
+                                   <'GHC.Generics.MetaSel
+                                      ('GHC.Base.Just "mincourse")
+                                      'GHC.Generics.NoSourceUnpackedness
+                                      'GHC.Generics.NoSourceStrictness
+                                      'GHC.Generics.DecidedLazy>_P
+                                   <GHC.Generics.K1 GHC.Generics.R GHC.Types.Int>_R) <x>_N))
+                    g2
+                      `cast`
+                    (Trans
+                         (Sym (GHC.Generics.N:K1[0]
+                                   <GHC.Generics.R>_P <GHC.Types.Int>_R <x>_P))
+                         (Sym (GHC.Generics.N:M1[0]
+                                   <GHC.Generics.S>_P
+                                   <'GHC.Generics.MetaSel
+                                      ('GHC.Base.Just "maxcourse")
+                                      'GHC.Generics.NoSourceUnpackedness
+                                      'GHC.Generics.NoSourceStrictness
+                                      'GHC.Generics.DecidedLazy>_P
+                                   <GHC.Generics.K1 GHC.Generics.R GHC.Types.Int>_R) <x>_N)))
+                   `cast`
+                 (Sym (GHC.Generics.N:M1[0]
+                           <GHC.Generics.C>_P
+                           <'GHC.Generics.MetaCons
+                              "CourseLoad" 'GHC.Generics.PrefixI 'GHC.Types.True>_P
+                           <GHC.Generics.M1
+                              GHC.Generics.S
+                              ('GHC.Generics.MetaSel
+                                 ('GHC.Base.Just "mincourse")
+                                 'GHC.Generics.NoSourceUnpackedness
+                                 'GHC.Generics.NoSourceStrictness
+                                 'GHC.Generics.DecidedLazy)
+                              (GHC.Generics.K1 GHC.Generics.R GHC.Types.Int)
+                            GHC.Generics.:*: GHC.Generics.M1
+                                               GHC.Generics.S
+                                               ('GHC.Generics.MetaSel
+                                                  ('GHC.Base.Just "maxcourse")
+                                                  'GHC.Generics.NoSourceUnpackedness
+                                                  'GHC.Generics.NoSourceStrictness
+                                                  'GHC.Generics.DecidedLazy)
+                                               (GHC.Generics.K1
+                                                  GHC.Generics.R GHC.Types.Int)>_R) <x>_N) }) -}
+b69140f2dec8c47a749a8f619f4bdb21
+  $fGenericCourseLoad_$cfrom ::
+    Algorithms.Gbacp.CourseLoad
+    -> GHC.Generics.Rep Algorithms.Gbacp.CourseLoad x
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U)>m,
+     Unfolding: InlineRule (0, True, True)
+                Algorithms.Gbacp.$fGenericCourseLoad1
+                  `cast`
+                (forall (x :: <GHC.Types.*>_N).
+                 <Algorithms.Gbacp.CourseLoad>_R
+                 ->_R Trans
+                          (Sym (GHC.Generics.N:M1[0]
+                                    <GHC.Generics.D>_P
+                                    <'GHC.Generics.MetaData
+                                       "CourseLoad"
+                                       "Algorithms.Gbacp"
+                                       "gbacpFireflyProy-0.1.0.0-480a2L3WuNqH1RkR0tdG1R"
+                                       'GHC.Types.False>_P
+                                    <GHC.Generics.M1
+                                       GHC.Generics.C
+                                       ('GHC.Generics.MetaCons
+                                          "CourseLoad" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                                       (GHC.Generics.M1
+                                          GHC.Generics.S
+                                          ('GHC.Generics.MetaSel
+                                             ('GHC.Base.Just "mincourse")
+                                             'GHC.Generics.NoSourceUnpackedness
+                                             'GHC.Generics.NoSourceStrictness
+                                             'GHC.Generics.DecidedLazy)
+                                          (GHC.Generics.K1 GHC.Generics.R GHC.Types.Int)
+                                        GHC.Generics.:*: GHC.Generics.M1
+                                                           GHC.Generics.S
+                                                           ('GHC.Generics.MetaSel
+                                                              ('GHC.Base.Just "maxcourse")
+                                                              'GHC.Generics.NoSourceUnpackedness
+                                                              'GHC.Generics.NoSourceStrictness
+                                                              'GHC.Generics.DecidedLazy)
+                                                           (GHC.Generics.K1
+                                                              GHC.Generics.R GHC.Types.Int))>_R))
+                          (Sub (Sym (Algorithms.Gbacp.Rep_CourseLoad[0]))) <x>_N) -}
+b69140f2dec8c47a749a8f619f4bdb21
+  $fGenericCourseLoad_$cto ::
+    GHC.Generics.Rep Algorithms.Gbacp.CourseLoad x
+    -> Algorithms.Gbacp.CourseLoad
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ x (ds :: GHC.Generics.Rep Algorithms.Gbacp.CourseLoad x) ->
+                 case ds
+                        `cast`
+                      (Trans
+                           (Sub (Algorithms.Gbacp.Rep_CourseLoad[0]))
+                           (Trans
+                                (GHC.Generics.N:M1[0]
+                                     <GHC.Generics.D>_P
+                                     <'GHC.Generics.MetaData
+                                        "CourseLoad"
+                                        "Algorithms.Gbacp"
+                                        "gbacpFireflyProy-0.1.0.0-480a2L3WuNqH1RkR0tdG1R"
+                                        'GHC.Types.False>_P
+                                     <GHC.Generics.M1
+                                        GHC.Generics.C
+                                        ('GHC.Generics.MetaCons
+                                           "CourseLoad" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                                        (GHC.Generics.M1
+                                           GHC.Generics.S
+                                           ('GHC.Generics.MetaSel
+                                              ('GHC.Base.Just "mincourse")
+                                              'GHC.Generics.NoSourceUnpackedness
+                                              'GHC.Generics.NoSourceStrictness
+                                              'GHC.Generics.DecidedLazy)
+                                           (GHC.Generics.K1 GHC.Generics.R GHC.Types.Int)
+                                         GHC.Generics.:*: GHC.Generics.M1
+                                                            GHC.Generics.S
+                                                            ('GHC.Generics.MetaSel
+                                                               ('GHC.Base.Just "maxcourse")
+                                                               'GHC.Generics.NoSourceUnpackedness
+                                                               'GHC.Generics.NoSourceStrictness
+                                                               'GHC.Generics.DecidedLazy)
+                                                            (GHC.Generics.K1
+                                                               GHC.Generics.R GHC.Types.Int))>_R)
+                                (GHC.Generics.N:M1[0]
+                                     <GHC.Generics.C>_P
+                                     <'GHC.Generics.MetaCons
+                                        "CourseLoad" 'GHC.Generics.PrefixI 'GHC.Types.True>_P
+                                     <GHC.Generics.M1
+                                        GHC.Generics.S
+                                        ('GHC.Generics.MetaSel
+                                           ('GHC.Base.Just "mincourse")
+                                           'GHC.Generics.NoSourceUnpackedness
+                                           'GHC.Generics.NoSourceStrictness
+                                           'GHC.Generics.DecidedLazy)
+                                        (GHC.Generics.K1 GHC.Generics.R GHC.Types.Int)
+                                      GHC.Generics.:*: GHC.Generics.M1
+                                                         GHC.Generics.S
+                                                         ('GHC.Generics.MetaSel
+                                                            ('GHC.Base.Just "maxcourse")
+                                                            'GHC.Generics.NoSourceUnpackedness
+                                                            'GHC.Generics.NoSourceStrictness
+                                                            'GHC.Generics.DecidedLazy)
+                                                         (GHC.Generics.K1
+                                                            GHC.Generics.R
+                                                            GHC.Types.Int)>_R)) <x>_N) of wild { GHC.Generics.:*: ds1 ds2 ->
+                 Algorithms.Gbacp.CourseLoad
+                   ds1
+                     `cast`
+                   (Trans
+                        (GHC.Generics.N:M1[0]
+                             <GHC.Generics.S>_P
+                             <'GHC.Generics.MetaSel
+                                ('GHC.Base.Just "mincourse")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy>_P
+                             <GHC.Generics.K1 GHC.Generics.R GHC.Types.Int>_R <x>_N)
+                        (GHC.Generics.N:K1[0] <GHC.Generics.R>_P <GHC.Types.Int>_R <x>_P))
+                   ds2
+                     `cast`
+                   (Trans
+                        (GHC.Generics.N:M1[0]
+                             <GHC.Generics.S>_P
+                             <'GHC.Generics.MetaSel
+                                ('GHC.Base.Just "maxcourse")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy>_P
+                             <GHC.Generics.K1 GHC.Generics.R GHC.Types.Int>_R <x>_N)
+                        (GHC.Generics.N:K1[0]
+                             <GHC.Generics.R>_P <GHC.Types.Int>_R <x>_P)) }) -}
+b69140f2dec8c47a749a8f619f4bdb21
+  $fGenericGbacpFeatures ::
+    GHC.Generics.Generic Algorithms.Gbacp.GbacpFeatures
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Algorithms.Gbacp.GbacpFeatures
+                  Algorithms.Gbacp.$fGenericGbacpFeatures_$cfrom
+                  Algorithms.Gbacp.$fGenericGbacpFeatures_$cto -}
+b69140f2dec8c47a749a8f619f4bdb21
+  $fGenericGbacpFeatures1 ::
+    Algorithms.Gbacp.GbacpFeatures
+    -> GHC.Generics.M1
+         GHC.Generics.C
+         ('GHC.Generics.MetaCons
+            "GbacpFeatures" 'GHC.Generics.PrefixI 'GHC.Types.True)
+         ((GHC.Generics.M1
+             GHC.Generics.S
+             ('GHC.Generics.MetaSel
+                ('GHC.Base.Just "descripiton")
+                'GHC.Generics.NoSourceUnpackedness
+                'GHC.Generics.NoSourceStrictness
+                'GHC.Generics.DecidedLazy)
+             (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+           GHC.Generics.:*: (GHC.Generics.M1
+                               GHC.Generics.S
+                               ('GHC.Generics.MetaSel
+                                  ('GHC.Base.Just "periodsPerYear")
+                                  'GHC.Generics.NoSourceUnpackedness
+                                  'GHC.Generics.NoSourceStrictness
+                                  'GHC.Generics.DecidedLazy)
+                               (GHC.Generics.K1 GHC.Generics.R GHC.Types.Int)
+                             GHC.Generics.:*: GHC.Generics.M1
+                                                GHC.Generics.S
+                                                ('GHC.Generics.MetaSel
+                                                   ('GHC.Base.Just "numCourses")
+                                                   'GHC.Generics.NoSourceUnpackedness
+                                                   'GHC.Generics.NoSourceStrictness
+                                                   'GHC.Generics.DecidedLazy)
+                                                (GHC.Generics.K1 GHC.Generics.R GHC.Types.Int)))
+          GHC.Generics.:*: ((GHC.Generics.M1
+                               GHC.Generics.S
+                               ('GHC.Generics.MetaSel
+                                  ('GHC.Base.Just "numCurricula")
+                                  'GHC.Generics.NoSourceUnpackedness
+                                  'GHC.Generics.NoSourceStrictness
+                                  'GHC.Generics.DecidedLazy)
+                               (GHC.Generics.K1 GHC.Generics.R GHC.Types.Int)
+                             GHC.Generics.:*: GHC.Generics.M1
+                                                GHC.Generics.S
+                                                ('GHC.Generics.MetaSel
+                                                   ('GHC.Base.Just "courseLoad")
+                                                   'GHC.Generics.NoSourceUnpackedness
+                                                   'GHC.Generics.NoSourceStrictness
+                                                   'GHC.Generics.DecidedLazy)
+                                                (GHC.Generics.K1
+                                                   GHC.Generics.R Algorithms.Gbacp.CourseLoad))
+                            GHC.Generics.:*: (GHC.Generics.M1
+                                                GHC.Generics.S
+                                                ('GHC.Generics.MetaSel
+                                                   ('GHC.Base.Just "numPrerrequisites")
+                                                   'GHC.Generics.NoSourceUnpackedness
+                                                   'GHC.Generics.NoSourceStrictness
+                                                   'GHC.Generics.DecidedLazy)
+                                                (GHC.Generics.K1
+                                                   GHC.Generics.R [Algorithms.Gbacp.Prerrequisites])
+                                              GHC.Generics.:*: GHC.Generics.M1
+                                                                 GHC.Generics.S
+                                                                 ('GHC.Generics.MetaSel
+                                                                    ('GHC.Base.Just
+                                                                       "numUndessiredPeriods")
+                                                                    'GHC.Generics.NoSourceUnpackedness
+                                                                    'GHC.Generics.NoSourceStrictness
+                                                                    'GHC.Generics.DecidedLazy)
+                                                                 (GHC.Generics.K1
+                                                                    GHC.Generics.R GHC.Types.Int))))
+         x
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U,U,U,U,U,U)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ x (x1 :: Algorithms.Gbacp.GbacpFeatures) ->
+                 case x1 of wild { Algorithms.Gbacp.GbacpFeatures g1 g2 g3 g4 g5 g6 g7 ->
+                 (GHC.Generics.:*:
+                    @ (GHC.Generics.M1
+                         GHC.Generics.S
+                         ('GHC.Generics.MetaSel
+                            ('GHC.Base.Just "descripiton")
+                            'GHC.Generics.NoSourceUnpackedness
+                            'GHC.Generics.NoSourceStrictness
+                            'GHC.Generics.DecidedLazy)
+                         (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+                       GHC.Generics.:*: (GHC.Generics.M1
+                                           GHC.Generics.S
+                                           ('GHC.Generics.MetaSel
+                                              ('GHC.Base.Just "periodsPerYear")
+                                              'GHC.Generics.NoSourceUnpackedness
+                                              'GHC.Generics.NoSourceStrictness
+                                              'GHC.Generics.DecidedLazy)
+                                           (GHC.Generics.K1 GHC.Generics.R GHC.Types.Int)
+                                         GHC.Generics.:*: GHC.Generics.M1
+                                                            GHC.Generics.S
+                                                            ('GHC.Generics.MetaSel
+                                                               ('GHC.Base.Just "numCourses")
+                                                               'GHC.Generics.NoSourceUnpackedness
+                                                               'GHC.Generics.NoSourceStrictness
+                                                               'GHC.Generics.DecidedLazy)
+                                                            (GHC.Generics.K1
+                                                               GHC.Generics.R GHC.Types.Int)))
+                    @ ((GHC.Generics.M1
+                          GHC.Generics.S
+                          ('GHC.Generics.MetaSel
+                             ('GHC.Base.Just "numCurricula")
+                             'GHC.Generics.NoSourceUnpackedness
+                             'GHC.Generics.NoSourceStrictness
+                             'GHC.Generics.DecidedLazy)
+                          (GHC.Generics.K1 GHC.Generics.R GHC.Types.Int)
+                        GHC.Generics.:*: GHC.Generics.M1
+                                           GHC.Generics.S
+                                           ('GHC.Generics.MetaSel
+                                              ('GHC.Base.Just "courseLoad")
+                                              'GHC.Generics.NoSourceUnpackedness
+                                              'GHC.Generics.NoSourceStrictness
+                                              'GHC.Generics.DecidedLazy)
+                                           (GHC.Generics.K1
+                                              GHC.Generics.R Algorithms.Gbacp.CourseLoad))
+                       GHC.Generics.:*: (GHC.Generics.M1
+                                           GHC.Generics.S
+                                           ('GHC.Generics.MetaSel
+                                              ('GHC.Base.Just "numPrerrequisites")
+                                              'GHC.Generics.NoSourceUnpackedness
+                                              'GHC.Generics.NoSourceStrictness
+                                              'GHC.Generics.DecidedLazy)
+                                           (GHC.Generics.K1
+                                              GHC.Generics.R [Algorithms.Gbacp.Prerrequisites])
+                                         GHC.Generics.:*: GHC.Generics.M1
+                                                            GHC.Generics.S
+                                                            ('GHC.Generics.MetaSel
+                                                               ('GHC.Base.Just
+                                                                  "numUndessiredPeriods")
+                                                               'GHC.Generics.NoSourceUnpackedness
+                                                               'GHC.Generics.NoSourceStrictness
+                                                               'GHC.Generics.DecidedLazy)
+                                                            (GHC.Generics.K1
+                                                               GHC.Generics.R GHC.Types.Int)))
+                    @ x
+                    (GHC.Generics.:*:
+                       @ (GHC.Generics.M1
+                            GHC.Generics.S
+                            ('GHC.Generics.MetaSel
+                               ('GHC.Base.Just "descripiton")
+                               'GHC.Generics.NoSourceUnpackedness
+                               'GHC.Generics.NoSourceStrictness
+                               'GHC.Generics.DecidedLazy)
+                            (GHC.Generics.K1 GHC.Generics.R GHC.Base.String))
+                       @ (GHC.Generics.M1
+                            GHC.Generics.S
+                            ('GHC.Generics.MetaSel
+                               ('GHC.Base.Just "periodsPerYear")
+                               'GHC.Generics.NoSourceUnpackedness
+                               'GHC.Generics.NoSourceStrictness
+                               'GHC.Generics.DecidedLazy)
+                            (GHC.Generics.K1 GHC.Generics.R GHC.Types.Int)
+                          GHC.Generics.:*: GHC.Generics.M1
+                                             GHC.Generics.S
+                                             ('GHC.Generics.MetaSel
+                                                ('GHC.Base.Just "numCourses")
+                                                'GHC.Generics.NoSourceUnpackedness
+                                                'GHC.Generics.NoSourceStrictness
+                                                'GHC.Generics.DecidedLazy)
+                                             (GHC.Generics.K1 GHC.Generics.R GHC.Types.Int))
+                       @ x
+                       g1
+                         `cast`
+                       (Trans
+                            (Sym (GHC.Generics.N:K1[0]
+                                      <GHC.Generics.R>_P <GHC.Base.String>_R <x>_P))
+                            (Sym (GHC.Generics.N:M1[0]
+                                      <GHC.Generics.S>_P
+                                      <'GHC.Generics.MetaSel
+                                         ('GHC.Base.Just "descripiton")
+                                         'GHC.Generics.NoSourceUnpackedness
+                                         'GHC.Generics.NoSourceStrictness
+                                         'GHC.Generics.DecidedLazy>_P
+                                      <GHC.Generics.K1 GHC.Generics.R GHC.Base.String>_R) <x>_N))
+                       (GHC.Generics.:*:
+                          @ (GHC.Generics.M1
+                               GHC.Generics.S
+                               ('GHC.Generics.MetaSel
+                                  ('GHC.Base.Just "periodsPerYear")
+                                  'GHC.Generics.NoSourceUnpackedness
+                                  'GHC.Generics.NoSourceStrictness
+                                  'GHC.Generics.DecidedLazy)
+                               (GHC.Generics.K1 GHC.Generics.R GHC.Types.Int))
+                          @ (GHC.Generics.M1
+                               GHC.Generics.S
+                               ('GHC.Generics.MetaSel
+                                  ('GHC.Base.Just "numCourses")
+                                  'GHC.Generics.NoSourceUnpackedness
+                                  'GHC.Generics.NoSourceStrictness
+                                  'GHC.Generics.DecidedLazy)
+                               (GHC.Generics.K1 GHC.Generics.R GHC.Types.Int))
+                          @ x
+                          g2
+                            `cast`
+                          (Trans
+                               (Sym (GHC.Generics.N:K1[0]
+                                         <GHC.Generics.R>_P <GHC.Types.Int>_R <x>_P))
+                               (Sym (GHC.Generics.N:M1[0]
+                                         <GHC.Generics.S>_P
+                                         <'GHC.Generics.MetaSel
+                                            ('GHC.Base.Just "periodsPerYear")
+                                            'GHC.Generics.NoSourceUnpackedness
+                                            'GHC.Generics.NoSourceStrictness
+                                            'GHC.Generics.DecidedLazy>_P
+                                         <GHC.Generics.K1 GHC.Generics.R GHC.Types.Int>_R) <x>_N))
+                          g3
+                            `cast`
+                          (Trans
+                               (Sym (GHC.Generics.N:K1[0]
+                                         <GHC.Generics.R>_P <GHC.Types.Int>_R <x>_P))
+                               (Sym (GHC.Generics.N:M1[0]
+                                         <GHC.Generics.S>_P
+                                         <'GHC.Generics.MetaSel
+                                            ('GHC.Base.Just "numCourses")
+                                            'GHC.Generics.NoSourceUnpackedness
+                                            'GHC.Generics.NoSourceStrictness
+                                            'GHC.Generics.DecidedLazy>_P
+                                         <GHC.Generics.K1 GHC.Generics.R GHC.Types.Int>_R) <x>_N))))
+                    (GHC.Generics.:*:
+                       @ (GHC.Generics.M1
+                            GHC.Generics.S
+                            ('GHC.Generics.MetaSel
+                               ('GHC.Base.Just "numCurricula")
+                               'GHC.Generics.NoSourceUnpackedness
+                               'GHC.Generics.NoSourceStrictness
+                               'GHC.Generics.DecidedLazy)
+                            (GHC.Generics.K1 GHC.Generics.R GHC.Types.Int)
+                          GHC.Generics.:*: GHC.Generics.M1
+                                             GHC.Generics.S
+                                             ('GHC.Generics.MetaSel
+                                                ('GHC.Base.Just "courseLoad")
+                                                'GHC.Generics.NoSourceUnpackedness
+                                                'GHC.Generics.NoSourceStrictness
+                                                'GHC.Generics.DecidedLazy)
+                                             (GHC.Generics.K1
+                                                GHC.Generics.R Algorithms.Gbacp.CourseLoad))
+                       @ (GHC.Generics.M1
+                            GHC.Generics.S
+                            ('GHC.Generics.MetaSel
+                               ('GHC.Base.Just "numPrerrequisites")
+                               'GHC.Generics.NoSourceUnpackedness
+                               'GHC.Generics.NoSourceStrictness
+                               'GHC.Generics.DecidedLazy)
+                            (GHC.Generics.K1 GHC.Generics.R [Algorithms.Gbacp.Prerrequisites])
+                          GHC.Generics.:*: GHC.Generics.M1
+                                             GHC.Generics.S
+                                             ('GHC.Generics.MetaSel
+                                                ('GHC.Base.Just "numUndessiredPeriods")
+                                                'GHC.Generics.NoSourceUnpackedness
+                                                'GHC.Generics.NoSourceStrictness
+                                                'GHC.Generics.DecidedLazy)
+                                             (GHC.Generics.K1 GHC.Generics.R GHC.Types.Int))
+                       @ x
+                       (GHC.Generics.:*:
+                          @ (GHC.Generics.M1
+                               GHC.Generics.S
+                               ('GHC.Generics.MetaSel
+                                  ('GHC.Base.Just "numCurricula")
+                                  'GHC.Generics.NoSourceUnpackedness
+                                  'GHC.Generics.NoSourceStrictness
+                                  'GHC.Generics.DecidedLazy)
+                               (GHC.Generics.K1 GHC.Generics.R GHC.Types.Int))
+                          @ (GHC.Generics.M1
+                               GHC.Generics.S
+                               ('GHC.Generics.MetaSel
+                                  ('GHC.Base.Just "courseLoad")
+                                  'GHC.Generics.NoSourceUnpackedness
+                                  'GHC.Generics.NoSourceStrictness
+                                  'GHC.Generics.DecidedLazy)
+                               (GHC.Generics.K1 GHC.Generics.R Algorithms.Gbacp.CourseLoad))
+                          @ x
+                          g4
+                            `cast`
+                          (Trans
+                               (Sym (GHC.Generics.N:K1[0]
+                                         <GHC.Generics.R>_P <GHC.Types.Int>_R <x>_P))
+                               (Sym (GHC.Generics.N:M1[0]
+                                         <GHC.Generics.S>_P
+                                         <'GHC.Generics.MetaSel
+                                            ('GHC.Base.Just "numCurricula")
+                                            'GHC.Generics.NoSourceUnpackedness
+                                            'GHC.Generics.NoSourceStrictness
+                                            'GHC.Generics.DecidedLazy>_P
+                                         <GHC.Generics.K1 GHC.Generics.R GHC.Types.Int>_R) <x>_N))
+                          g5
+                            `cast`
+                          (Trans
+                               (Sym (GHC.Generics.N:K1[0]
+                                         <GHC.Generics.R>_P <Algorithms.Gbacp.CourseLoad>_R <x>_P))
+                               (Sym (GHC.Generics.N:M1[0]
+                                         <GHC.Generics.S>_P
+                                         <'GHC.Generics.MetaSel
+                                            ('GHC.Base.Just "courseLoad")
+                                            'GHC.Generics.NoSourceUnpackedness
+                                            'GHC.Generics.NoSourceStrictness
+                                            'GHC.Generics.DecidedLazy>_P
+                                         <GHC.Generics.K1
+                                            GHC.Generics.R Algorithms.Gbacp.CourseLoad>_R) <x>_N)))
+                       (GHC.Generics.:*:
+                          @ (GHC.Generics.M1
+                               GHC.Generics.S
+                               ('GHC.Generics.MetaSel
+                                  ('GHC.Base.Just "numPrerrequisites")
+                                  'GHC.Generics.NoSourceUnpackedness
+                                  'GHC.Generics.NoSourceStrictness
+                                  'GHC.Generics.DecidedLazy)
+                               (GHC.Generics.K1 GHC.Generics.R [Algorithms.Gbacp.Prerrequisites]))
+                          @ (GHC.Generics.M1
+                               GHC.Generics.S
+                               ('GHC.Generics.MetaSel
+                                  ('GHC.Base.Just "numUndessiredPeriods")
+                                  'GHC.Generics.NoSourceUnpackedness
+                                  'GHC.Generics.NoSourceStrictness
+                                  'GHC.Generics.DecidedLazy)
+                               (GHC.Generics.K1 GHC.Generics.R GHC.Types.Int))
+                          @ x
+                          g6
+                            `cast`
+                          (Trans
+                               (Sym (GHC.Generics.N:K1[0]
+                                         <GHC.Generics.R>_P
+                                         <[Algorithms.Gbacp.Prerrequisites]>_R
+                                         <x>_P))
+                               (Sym (GHC.Generics.N:M1[0]
+                                         <GHC.Generics.S>_P
+                                         <'GHC.Generics.MetaSel
+                                            ('GHC.Base.Just "numPrerrequisites")
+                                            'GHC.Generics.NoSourceUnpackedness
+                                            'GHC.Generics.NoSourceStrictness
+                                            'GHC.Generics.DecidedLazy>_P
+                                         <GHC.Generics.K1
+                                            GHC.Generics.R
+                                            [Algorithms.Gbacp.Prerrequisites]>_R) <x>_N))
+                          g7
+                            `cast`
+                          (Trans
+                               (Sym (GHC.Generics.N:K1[0]
+                                         <GHC.Generics.R>_P <GHC.Types.Int>_R <x>_P))
+                               (Sym (GHC.Generics.N:M1[0]
+                                         <GHC.Generics.S>_P
+                                         <'GHC.Generics.MetaSel
+                                            ('GHC.Base.Just "numUndessiredPeriods")
+                                            'GHC.Generics.NoSourceUnpackedness
+                                            'GHC.Generics.NoSourceStrictness
+                                            'GHC.Generics.DecidedLazy>_P
+                                         <GHC.Generics.K1
+                                            GHC.Generics.R GHC.Types.Int>_R) <x>_N)))))
+                   `cast`
+                 (Sym (GHC.Generics.N:M1[0]
+                           <GHC.Generics.C>_P
+                           <'GHC.Generics.MetaCons
+                              "GbacpFeatures" 'GHC.Generics.PrefixI 'GHC.Types.True>_P
+                           <(GHC.Generics.M1
+                               GHC.Generics.S
+                               ('GHC.Generics.MetaSel
+                                  ('GHC.Base.Just "descripiton")
+                                  'GHC.Generics.NoSourceUnpackedness
+                                  'GHC.Generics.NoSourceStrictness
+                                  'GHC.Generics.DecidedLazy)
+                               (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+                             GHC.Generics.:*: (GHC.Generics.M1
+                                                 GHC.Generics.S
+                                                 ('GHC.Generics.MetaSel
+                                                    ('GHC.Base.Just "periodsPerYear")
+                                                    'GHC.Generics.NoSourceUnpackedness
+                                                    'GHC.Generics.NoSourceStrictness
+                                                    'GHC.Generics.DecidedLazy)
+                                                 (GHC.Generics.K1 GHC.Generics.R GHC.Types.Int)
+                                               GHC.Generics.:*: GHC.Generics.M1
+                                                                  GHC.Generics.S
+                                                                  ('GHC.Generics.MetaSel
+                                                                     ('GHC.Base.Just "numCourses")
+                                                                     'GHC.Generics.NoSourceUnpackedness
+                                                                     'GHC.Generics.NoSourceStrictness
+                                                                     'GHC.Generics.DecidedLazy)
+                                                                  (GHC.Generics.K1
+                                                                     GHC.Generics.R GHC.Types.Int)))
+                            GHC.Generics.:*: ((GHC.Generics.M1
+                                                 GHC.Generics.S
+                                                 ('GHC.Generics.MetaSel
+                                                    ('GHC.Base.Just "numCurricula")
+                                                    'GHC.Generics.NoSourceUnpackedness
+                                                    'GHC.Generics.NoSourceStrictness
+                                                    'GHC.Generics.DecidedLazy)
+                                                 (GHC.Generics.K1 GHC.Generics.R GHC.Types.Int)
+                                               GHC.Generics.:*: GHC.Generics.M1
+                                                                  GHC.Generics.S
+                                                                  ('GHC.Generics.MetaSel
+                                                                     ('GHC.Base.Just "courseLoad")
+                                                                     'GHC.Generics.NoSourceUnpackedness
+                                                                     'GHC.Generics.NoSourceStrictness
+                                                                     'GHC.Generics.DecidedLazy)
+                                                                  (GHC.Generics.K1
+                                                                     GHC.Generics.R
+                                                                     Algorithms.Gbacp.CourseLoad))
+                                              GHC.Generics.:*: (GHC.Generics.M1
+                                                                  GHC.Generics.S
+                                                                  ('GHC.Generics.MetaSel
+                                                                     ('GHC.Base.Just
+                                                                        "numPrerrequisites")
+                                                                     'GHC.Generics.NoSourceUnpackedness
+                                                                     'GHC.Generics.NoSourceStrictness
+                                                                     'GHC.Generics.DecidedLazy)
+                                                                  (GHC.Generics.K1
+                                                                     GHC.Generics.R
+                                                                     [Algorithms.Gbacp.Prerrequisites])
+                                                                GHC.Generics.:*: GHC.Generics.M1
+                                                                                   GHC.Generics.S
+                                                                                   ('GHC.Generics.MetaSel
+                                                                                      ('GHC.Base.Just
+                                                                                         "numUndessiredPeriods")
+                                                                                      'GHC.Generics.NoSourceUnpackedness
+                                                                                      'GHC.Generics.NoSourceStrictness
+                                                                                      'GHC.Generics.DecidedLazy)
+                                                                                   (GHC.Generics.K1
+                                                                                      GHC.Generics.R
+                                                                                      GHC.Types.Int)))>_R) <x>_N) }) -}
+b69140f2dec8c47a749a8f619f4bdb21
+  $fGenericGbacpFeatures_$cfrom ::
+    Algorithms.Gbacp.GbacpFeatures
+    -> GHC.Generics.Rep Algorithms.Gbacp.GbacpFeatures x
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U,U,U,U,U,U)>m,
+     Unfolding: InlineRule (0, True, True)
+                Algorithms.Gbacp.$fGenericGbacpFeatures1
+                  `cast`
+                (forall (x :: <GHC.Types.*>_N).
+                 <Algorithms.Gbacp.GbacpFeatures>_R
+                 ->_R Trans
+                          (Sym (GHC.Generics.N:M1[0]
+                                    <GHC.Generics.D>_P
+                                    <'GHC.Generics.MetaData
+                                       "GbacpFeatures"
+                                       "Algorithms.Gbacp"
+                                       "gbacpFireflyProy-0.1.0.0-480a2L3WuNqH1RkR0tdG1R"
+                                       'GHC.Types.False>_P
+                                    <GHC.Generics.M1
+                                       GHC.Generics.C
+                                       ('GHC.Generics.MetaCons
+                                          "GbacpFeatures" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                                       ((GHC.Generics.M1
+                                           GHC.Generics.S
+                                           ('GHC.Generics.MetaSel
+                                              ('GHC.Base.Just "descripiton")
+                                              'GHC.Generics.NoSourceUnpackedness
+                                              'GHC.Generics.NoSourceStrictness
+                                              'GHC.Generics.DecidedLazy)
+                                           (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+                                         GHC.Generics.:*: (GHC.Generics.M1
+                                                             GHC.Generics.S
+                                                             ('GHC.Generics.MetaSel
+                                                                ('GHC.Base.Just "periodsPerYear")
+                                                                'GHC.Generics.NoSourceUnpackedness
+                                                                'GHC.Generics.NoSourceStrictness
+                                                                'GHC.Generics.DecidedLazy)
+                                                             (GHC.Generics.K1
+                                                                GHC.Generics.R GHC.Types.Int)
+                                                           GHC.Generics.:*: GHC.Generics.M1
+                                                                              GHC.Generics.S
+                                                                              ('GHC.Generics.MetaSel
+                                                                                 ('GHC.Base.Just
+                                                                                    "numCourses")
+                                                                                 'GHC.Generics.NoSourceUnpackedness
+                                                                                 'GHC.Generics.NoSourceStrictness
+                                                                                 'GHC.Generics.DecidedLazy)
+                                                                              (GHC.Generics.K1
+                                                                                 GHC.Generics.R
+                                                                                 GHC.Types.Int)))
+                                        GHC.Generics.:*: ((GHC.Generics.M1
+                                                             GHC.Generics.S
+                                                             ('GHC.Generics.MetaSel
+                                                                ('GHC.Base.Just "numCurricula")
+                                                                'GHC.Generics.NoSourceUnpackedness
+                                                                'GHC.Generics.NoSourceStrictness
+                                                                'GHC.Generics.DecidedLazy)
+                                                             (GHC.Generics.K1
+                                                                GHC.Generics.R GHC.Types.Int)
+                                                           GHC.Generics.:*: GHC.Generics.M1
+                                                                              GHC.Generics.S
+                                                                              ('GHC.Generics.MetaSel
+                                                                                 ('GHC.Base.Just
+                                                                                    "courseLoad")
+                                                                                 'GHC.Generics.NoSourceUnpackedness
+                                                                                 'GHC.Generics.NoSourceStrictness
+                                                                                 'GHC.Generics.DecidedLazy)
+                                                                              (GHC.Generics.K1
+                                                                                 GHC.Generics.R
+                                                                                 Algorithms.Gbacp.CourseLoad))
+                                                          GHC.Generics.:*: (GHC.Generics.M1
+                                                                              GHC.Generics.S
+                                                                              ('GHC.Generics.MetaSel
+                                                                                 ('GHC.Base.Just
+                                                                                    "numPrerrequisites")
+                                                                                 'GHC.Generics.NoSourceUnpackedness
+                                                                                 'GHC.Generics.NoSourceStrictness
+                                                                                 'GHC.Generics.DecidedLazy)
+                                                                              (GHC.Generics.K1
+                                                                                 GHC.Generics.R
+                                                                                 [Algorithms.Gbacp.Prerrequisites])
+                                                                            GHC.Generics.:*: GHC.Generics.M1
+                                                                                               GHC.Generics.S
+                                                                                               ('GHC.Generics.MetaSel
+                                                                                                  ('GHC.Base.Just
+                                                                                                     "numUndessiredPeriods")
+                                                                                                  'GHC.Generics.NoSourceUnpackedness
+                                                                                                  'GHC.Generics.NoSourceStrictness
+                                                                                                  'GHC.Generics.DecidedLazy)
+                                                                                               (GHC.Generics.K1
+                                                                                                  GHC.Generics.R
+                                                                                                  GHC.Types.Int))))>_R))
+                          (Sub (Sym (Algorithms.Gbacp.Rep_GbacpFeatures[0]))) <x>_N) -}
+b69140f2dec8c47a749a8f619f4bdb21
+  $fGenericGbacpFeatures_$cto ::
+    GHC.Generics.Rep Algorithms.Gbacp.GbacpFeatures x
+    -> Algorithms.Gbacp.GbacpFeatures
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(S(LS)S(SS)),1*U(1*U(U,1*U(U,U)),1*U(1*U(U,U),1*U(U,U)))>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ x (ds :: GHC.Generics.Rep Algorithms.Gbacp.GbacpFeatures x) ->
+                 case ds
+                        `cast`
+                      (Trans
+                           (Sub (Algorithms.Gbacp.Rep_GbacpFeatures[0]))
+                           (Trans
+                                (GHC.Generics.N:M1[0]
+                                     <GHC.Generics.D>_P
+                                     <'GHC.Generics.MetaData
+                                        "GbacpFeatures"
+                                        "Algorithms.Gbacp"
+                                        "gbacpFireflyProy-0.1.0.0-480a2L3WuNqH1RkR0tdG1R"
+                                        'GHC.Types.False>_P
+                                     <GHC.Generics.M1
+                                        GHC.Generics.C
+                                        ('GHC.Generics.MetaCons
+                                           "GbacpFeatures" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                                        ((GHC.Generics.M1
+                                            GHC.Generics.S
+                                            ('GHC.Generics.MetaSel
+                                               ('GHC.Base.Just "descripiton")
+                                               'GHC.Generics.NoSourceUnpackedness
+                                               'GHC.Generics.NoSourceStrictness
+                                               'GHC.Generics.DecidedLazy)
+                                            (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+                                          GHC.Generics.:*: (GHC.Generics.M1
+                                                              GHC.Generics.S
+                                                              ('GHC.Generics.MetaSel
+                                                                 ('GHC.Base.Just "periodsPerYear")
+                                                                 'GHC.Generics.NoSourceUnpackedness
+                                                                 'GHC.Generics.NoSourceStrictness
+                                                                 'GHC.Generics.DecidedLazy)
+                                                              (GHC.Generics.K1
+                                                                 GHC.Generics.R GHC.Types.Int)
+                                                            GHC.Generics.:*: GHC.Generics.M1
+                                                                               GHC.Generics.S
+                                                                               ('GHC.Generics.MetaSel
+                                                                                  ('GHC.Base.Just
+                                                                                     "numCourses")
+                                                                                  'GHC.Generics.NoSourceUnpackedness
+                                                                                  'GHC.Generics.NoSourceStrictness
+                                                                                  'GHC.Generics.DecidedLazy)
+                                                                               (GHC.Generics.K1
+                                                                                  GHC.Generics.R
+                                                                                  GHC.Types.Int)))
+                                         GHC.Generics.:*: ((GHC.Generics.M1
+                                                              GHC.Generics.S
+                                                              ('GHC.Generics.MetaSel
+                                                                 ('GHC.Base.Just "numCurricula")
+                                                                 'GHC.Generics.NoSourceUnpackedness
+                                                                 'GHC.Generics.NoSourceStrictness
+                                                                 'GHC.Generics.DecidedLazy)
+                                                              (GHC.Generics.K1
+                                                                 GHC.Generics.R GHC.Types.Int)
+                                                            GHC.Generics.:*: GHC.Generics.M1
+                                                                               GHC.Generics.S
+                                                                               ('GHC.Generics.MetaSel
+                                                                                  ('GHC.Base.Just
+                                                                                     "courseLoad")
+                                                                                  'GHC.Generics.NoSourceUnpackedness
+                                                                                  'GHC.Generics.NoSourceStrictness
+                                                                                  'GHC.Generics.DecidedLazy)
+                                                                               (GHC.Generics.K1
+                                                                                  GHC.Generics.R
+                                                                                  Algorithms.Gbacp.CourseLoad))
+                                                           GHC.Generics.:*: (GHC.Generics.M1
+                                                                               GHC.Generics.S
+                                                                               ('GHC.Generics.MetaSel
+                                                                                  ('GHC.Base.Just
+                                                                                     "numPrerrequisites")
+                                                                                  'GHC.Generics.NoSourceUnpackedness
+                                                                                  'GHC.Generics.NoSourceStrictness
+                                                                                  'GHC.Generics.DecidedLazy)
+                                                                               (GHC.Generics.K1
+                                                                                  GHC.Generics.R
+                                                                                  [Algorithms.Gbacp.Prerrequisites])
+                                                                             GHC.Generics.:*: GHC.Generics.M1
+                                                                                                GHC.Generics.S
+                                                                                                ('GHC.Generics.MetaSel
+                                                                                                   ('GHC.Base.Just
+                                                                                                      "numUndessiredPeriods")
+                                                                                                   'GHC.Generics.NoSourceUnpackedness
+                                                                                                   'GHC.Generics.NoSourceStrictness
+                                                                                                   'GHC.Generics.DecidedLazy)
+                                                                                                (GHC.Generics.K1
+                                                                                                   GHC.Generics.R
+                                                                                                   GHC.Types.Int))))>_R)
+                                (GHC.Generics.N:M1[0]
+                                     <GHC.Generics.C>_P
+                                     <'GHC.Generics.MetaCons
+                                        "GbacpFeatures" 'GHC.Generics.PrefixI 'GHC.Types.True>_P
+                                     <(GHC.Generics.M1
+                                         GHC.Generics.S
+                                         ('GHC.Generics.MetaSel
+                                            ('GHC.Base.Just "descripiton")
+                                            'GHC.Generics.NoSourceUnpackedness
+                                            'GHC.Generics.NoSourceStrictness
+                                            'GHC.Generics.DecidedLazy)
+                                         (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+                                       GHC.Generics.:*: (GHC.Generics.M1
+                                                           GHC.Generics.S
+                                                           ('GHC.Generics.MetaSel
+                                                              ('GHC.Base.Just "periodsPerYear")
+                                                              'GHC.Generics.NoSourceUnpackedness
+                                                              'GHC.Generics.NoSourceStrictness
+                                                              'GHC.Generics.DecidedLazy)
+                                                           (GHC.Generics.K1
+                                                              GHC.Generics.R GHC.Types.Int)
+                                                         GHC.Generics.:*: GHC.Generics.M1
+                                                                            GHC.Generics.S
+                                                                            ('GHC.Generics.MetaSel
+                                                                               ('GHC.Base.Just
+                                                                                  "numCourses")
+                                                                               'GHC.Generics.NoSourceUnpackedness
+                                                                               'GHC.Generics.NoSourceStrictness
+                                                                               'GHC.Generics.DecidedLazy)
+                                                                            (GHC.Generics.K1
+                                                                               GHC.Generics.R
+                                                                               GHC.Types.Int)))
+                                      GHC.Generics.:*: ((GHC.Generics.M1
+                                                           GHC.Generics.S
+                                                           ('GHC.Generics.MetaSel
+                                                              ('GHC.Base.Just "numCurricula")
+                                                              'GHC.Generics.NoSourceUnpackedness
+                                                              'GHC.Generics.NoSourceStrictness
+                                                              'GHC.Generics.DecidedLazy)
+                                                           (GHC.Generics.K1
+                                                              GHC.Generics.R GHC.Types.Int)
+                                                         GHC.Generics.:*: GHC.Generics.M1
+                                                                            GHC.Generics.S
+                                                                            ('GHC.Generics.MetaSel
+                                                                               ('GHC.Base.Just
+                                                                                  "courseLoad")
+                                                                               'GHC.Generics.NoSourceUnpackedness
+                                                                               'GHC.Generics.NoSourceStrictness
+                                                                               'GHC.Generics.DecidedLazy)
+                                                                            (GHC.Generics.K1
+                                                                               GHC.Generics.R
+                                                                               Algorithms.Gbacp.CourseLoad))
+                                                        GHC.Generics.:*: (GHC.Generics.M1
+                                                                            GHC.Generics.S
+                                                                            ('GHC.Generics.MetaSel
+                                                                               ('GHC.Base.Just
+                                                                                  "numPrerrequisites")
+                                                                               'GHC.Generics.NoSourceUnpackedness
+                                                                               'GHC.Generics.NoSourceStrictness
+                                                                               'GHC.Generics.DecidedLazy)
+                                                                            (GHC.Generics.K1
+                                                                               GHC.Generics.R
+                                                                               [Algorithms.Gbacp.Prerrequisites])
+                                                                          GHC.Generics.:*: GHC.Generics.M1
+                                                                                             GHC.Generics.S
+                                                                                             ('GHC.Generics.MetaSel
+                                                                                                ('GHC.Base.Just
+                                                                                                   "numUndessiredPeriods")
+                                                                                                'GHC.Generics.NoSourceUnpackedness
+                                                                                                'GHC.Generics.NoSourceStrictness
+                                                                                                'GHC.Generics.DecidedLazy)
+                                                                                             (GHC.Generics.K1
+                                                                                                GHC.Generics.R
+                                                                                                GHC.Types.Int)))>_R)) <x>_N) of wild { GHC.Generics.:*: ds1 ds2 ->
+                 case ds1 of wild1 { GHC.Generics.:*: ds3 ds4 ->
+                 case ds4 of wild2 { GHC.Generics.:*: ds5 ds6 ->
+                 case ds2 of wild3 { GHC.Generics.:*: ds7 ds8 ->
+                 case ds7 of wild4 { GHC.Generics.:*: ds9 ds10 ->
+                 case ds8 of wild5 { GHC.Generics.:*: ds11 ds12 ->
+                 Algorithms.Gbacp.GbacpFeatures
+                   ds3
+                     `cast`
+                   (Trans
+                        (GHC.Generics.N:M1[0]
+                             <GHC.Generics.S>_P
+                             <'GHC.Generics.MetaSel
+                                ('GHC.Base.Just "descripiton")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy>_P
+                             <GHC.Generics.K1 GHC.Generics.R GHC.Base.String>_R <x>_N)
+                        (GHC.Generics.N:K1[0]
+                             <GHC.Generics.R>_P <GHC.Base.String>_R <x>_P))
+                   ds5
+                     `cast`
+                   (Trans
+                        (GHC.Generics.N:M1[0]
+                             <GHC.Generics.S>_P
+                             <'GHC.Generics.MetaSel
+                                ('GHC.Base.Just "periodsPerYear")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy>_P
+                             <GHC.Generics.K1 GHC.Generics.R GHC.Types.Int>_R <x>_N)
+                        (GHC.Generics.N:K1[0] <GHC.Generics.R>_P <GHC.Types.Int>_R <x>_P))
+                   ds6
+                     `cast`
+                   (Trans
+                        (GHC.Generics.N:M1[0]
+                             <GHC.Generics.S>_P
+                             <'GHC.Generics.MetaSel
+                                ('GHC.Base.Just "numCourses")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy>_P
+                             <GHC.Generics.K1 GHC.Generics.R GHC.Types.Int>_R <x>_N)
+                        (GHC.Generics.N:K1[0] <GHC.Generics.R>_P <GHC.Types.Int>_R <x>_P))
+                   ds9
+                     `cast`
+                   (Trans
+                        (GHC.Generics.N:M1[0]
+                             <GHC.Generics.S>_P
+                             <'GHC.Generics.MetaSel
+                                ('GHC.Base.Just "numCurricula")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy>_P
+                             <GHC.Generics.K1 GHC.Generics.R GHC.Types.Int>_R <x>_N)
+                        (GHC.Generics.N:K1[0] <GHC.Generics.R>_P <GHC.Types.Int>_R <x>_P))
+                   ds10
+                     `cast`
+                   (Trans
+                        (GHC.Generics.N:M1[0]
+                             <GHC.Generics.S>_P
+                             <'GHC.Generics.MetaSel
+                                ('GHC.Base.Just "courseLoad")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy>_P
+                             <GHC.Generics.K1
+                                GHC.Generics.R Algorithms.Gbacp.CourseLoad>_R <x>_N)
+                        (GHC.Generics.N:K1[0]
+                             <GHC.Generics.R>_P <Algorithms.Gbacp.CourseLoad>_R <x>_P))
+                   ds11
+                     `cast`
+                   (Trans
+                        (GHC.Generics.N:M1[0]
+                             <GHC.Generics.S>_P
+                             <'GHC.Generics.MetaSel
+                                ('GHC.Base.Just "numPrerrequisites")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy>_P
+                             <GHC.Generics.K1
+                                GHC.Generics.R [Algorithms.Gbacp.Prerrequisites]>_R <x>_N)
+                        (GHC.Generics.N:K1[0]
+                             <GHC.Generics.R>_P <[Algorithms.Gbacp.Prerrequisites]>_R <x>_P))
+                   ds12
+                     `cast`
+                   (Trans
+                        (GHC.Generics.N:M1[0]
+                             <GHC.Generics.S>_P
+                             <'GHC.Generics.MetaSel
+                                ('GHC.Base.Just "numUndessiredPeriods")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy>_P
+                             <GHC.Generics.K1 GHC.Generics.R GHC.Types.Int>_R <x>_N)
+                        (GHC.Generics.N:K1[0]
+                             <GHC.Generics.R>_P <GHC.Types.Int>_R <x>_P)) } } } } } }) -}
+ac0272e130ade1a167d0a28ffafbfac4
+  $fGenericPrerrequisites ::
+    GHC.Generics.Generic Algorithms.Gbacp.Prerrequisites
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Algorithms.Gbacp.Prerrequisites
+                  Algorithms.Gbacp.$fGenericPrerrequisites_$cfrom
+                  Algorithms.Gbacp.$fGenericPrerrequisites_$cto -}
+ac0272e130ade1a167d0a28ffafbfac4
+  $fGenericPrerrequisites1 ::
+    Algorithms.Gbacp.Prerrequisites
+    -> GHC.Generics.M1
+         GHC.Generics.C
+         ('GHC.Generics.MetaCons
+            "Prerrequisites" 'GHC.Generics.PrefixI 'GHC.Types.True)
+         (GHC.Generics.M1
+            GHC.Generics.S
+            ('GHC.Generics.MetaSel
+               ('GHC.Base.Just "preRequisite")
+               'GHC.Generics.NoSourceUnpackedness
+               'GHC.Generics.NoSourceStrictness
+               'GHC.Generics.DecidedLazy)
+            (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+          GHC.Generics.:*: GHC.Generics.M1
+                             GHC.Generics.S
+                             ('GHC.Generics.MetaSel
+                                ('GHC.Base.Just "courseRef")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy)
+                             (GHC.Generics.K1 GHC.Generics.R GHC.Base.String))
+         x
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ x (x1 :: Algorithms.Gbacp.Prerrequisites) ->
+                 case x1 of wild { Algorithms.Gbacp.Prerrequisites g1 g2 ->
+                 (GHC.Generics.:*:
+                    @ (GHC.Generics.M1
+                         GHC.Generics.S
+                         ('GHC.Generics.MetaSel
+                            ('GHC.Base.Just "preRequisite")
+                            'GHC.Generics.NoSourceUnpackedness
+                            'GHC.Generics.NoSourceStrictness
+                            'GHC.Generics.DecidedLazy)
+                         (GHC.Generics.K1 GHC.Generics.R GHC.Base.String))
+                    @ (GHC.Generics.M1
+                         GHC.Generics.S
+                         ('GHC.Generics.MetaSel
+                            ('GHC.Base.Just "courseRef")
+                            'GHC.Generics.NoSourceUnpackedness
+                            'GHC.Generics.NoSourceStrictness
+                            'GHC.Generics.DecidedLazy)
+                         (GHC.Generics.K1 GHC.Generics.R GHC.Base.String))
+                    @ x
+                    g1
+                      `cast`
+                    (Trans
+                         (Sym (GHC.Generics.N:K1[0]
+                                   <GHC.Generics.R>_P <GHC.Base.String>_R <x>_P))
+                         (Sym (GHC.Generics.N:M1[0]
+                                   <GHC.Generics.S>_P
+                                   <'GHC.Generics.MetaSel
+                                      ('GHC.Base.Just "preRequisite")
+                                      'GHC.Generics.NoSourceUnpackedness
+                                      'GHC.Generics.NoSourceStrictness
+                                      'GHC.Generics.DecidedLazy>_P
+                                   <GHC.Generics.K1 GHC.Generics.R GHC.Base.String>_R) <x>_N))
+                    g2
+                      `cast`
+                    (Trans
+                         (Sym (GHC.Generics.N:K1[0]
+                                   <GHC.Generics.R>_P <GHC.Base.String>_R <x>_P))
+                         (Sym (GHC.Generics.N:M1[0]
+                                   <GHC.Generics.S>_P
+                                   <'GHC.Generics.MetaSel
+                                      ('GHC.Base.Just "courseRef")
+                                      'GHC.Generics.NoSourceUnpackedness
+                                      'GHC.Generics.NoSourceStrictness
+                                      'GHC.Generics.DecidedLazy>_P
+                                   <GHC.Generics.K1 GHC.Generics.R GHC.Base.String>_R) <x>_N)))
+                   `cast`
+                 (Sym (GHC.Generics.N:M1[0]
+                           <GHC.Generics.C>_P
+                           <'GHC.Generics.MetaCons
+                              "Prerrequisites" 'GHC.Generics.PrefixI 'GHC.Types.True>_P
+                           <GHC.Generics.M1
+                              GHC.Generics.S
+                              ('GHC.Generics.MetaSel
+                                 ('GHC.Base.Just "preRequisite")
+                                 'GHC.Generics.NoSourceUnpackedness
+                                 'GHC.Generics.NoSourceStrictness
+                                 'GHC.Generics.DecidedLazy)
+                              (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+                            GHC.Generics.:*: GHC.Generics.M1
+                                               GHC.Generics.S
+                                               ('GHC.Generics.MetaSel
+                                                  ('GHC.Base.Just "courseRef")
+                                                  'GHC.Generics.NoSourceUnpackedness
+                                                  'GHC.Generics.NoSourceStrictness
+                                                  'GHC.Generics.DecidedLazy)
+                                               (GHC.Generics.K1
+                                                  GHC.Generics.R GHC.Base.String)>_R) <x>_N) }) -}
+ac0272e130ade1a167d0a28ffafbfac4
+  $fGenericPrerrequisites_$cfrom ::
+    Algorithms.Gbacp.Prerrequisites
+    -> GHC.Generics.Rep Algorithms.Gbacp.Prerrequisites x
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U)>m,
+     Unfolding: InlineRule (0, True, True)
+                Algorithms.Gbacp.$fGenericPrerrequisites1
+                  `cast`
+                (forall (x :: <GHC.Types.*>_N).
+                 <Algorithms.Gbacp.Prerrequisites>_R
+                 ->_R Trans
+                          (Sym (GHC.Generics.N:M1[0]
+                                    <GHC.Generics.D>_P
+                                    <'GHC.Generics.MetaData
+                                       "Prerrequisites"
+                                       "Algorithms.Gbacp"
+                                       "gbacpFireflyProy-0.1.0.0-480a2L3WuNqH1RkR0tdG1R"
+                                       'GHC.Types.False>_P
+                                    <GHC.Generics.M1
+                                       GHC.Generics.C
+                                       ('GHC.Generics.MetaCons
+                                          "Prerrequisites" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                                       (GHC.Generics.M1
+                                          GHC.Generics.S
+                                          ('GHC.Generics.MetaSel
+                                             ('GHC.Base.Just "preRequisite")
+                                             'GHC.Generics.NoSourceUnpackedness
+                                             'GHC.Generics.NoSourceStrictness
+                                             'GHC.Generics.DecidedLazy)
+                                          (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+                                        GHC.Generics.:*: GHC.Generics.M1
+                                                           GHC.Generics.S
+                                                           ('GHC.Generics.MetaSel
+                                                              ('GHC.Base.Just "courseRef")
+                                                              'GHC.Generics.NoSourceUnpackedness
+                                                              'GHC.Generics.NoSourceStrictness
+                                                              'GHC.Generics.DecidedLazy)
+                                                           (GHC.Generics.K1
+                                                              GHC.Generics.R GHC.Base.String))>_R))
+                          (Sub (Sym (Algorithms.Gbacp.Rep_Prerrequisites[0]))) <x>_N) -}
+ac0272e130ade1a167d0a28ffafbfac4
+  $fGenericPrerrequisites_$cto ::
+    GHC.Generics.Rep Algorithms.Gbacp.Prerrequisites x
+    -> Algorithms.Gbacp.Prerrequisites
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ x
+                   (ds :: GHC.Generics.Rep Algorithms.Gbacp.Prerrequisites x) ->
+                 case ds
+                        `cast`
+                      (Trans
+                           (Sub (Algorithms.Gbacp.Rep_Prerrequisites[0]))
+                           (Trans
+                                (GHC.Generics.N:M1[0]
+                                     <GHC.Generics.D>_P
+                                     <'GHC.Generics.MetaData
+                                        "Prerrequisites"
+                                        "Algorithms.Gbacp"
+                                        "gbacpFireflyProy-0.1.0.0-480a2L3WuNqH1RkR0tdG1R"
+                                        'GHC.Types.False>_P
+                                     <GHC.Generics.M1
+                                        GHC.Generics.C
+                                        ('GHC.Generics.MetaCons
+                                           "Prerrequisites" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                                        (GHC.Generics.M1
+                                           GHC.Generics.S
+                                           ('GHC.Generics.MetaSel
+                                              ('GHC.Base.Just "preRequisite")
+                                              'GHC.Generics.NoSourceUnpackedness
+                                              'GHC.Generics.NoSourceStrictness
+                                              'GHC.Generics.DecidedLazy)
+                                           (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+                                         GHC.Generics.:*: GHC.Generics.M1
+                                                            GHC.Generics.S
+                                                            ('GHC.Generics.MetaSel
+                                                               ('GHC.Base.Just "courseRef")
+                                                               'GHC.Generics.NoSourceUnpackedness
+                                                               'GHC.Generics.NoSourceStrictness
+                                                               'GHC.Generics.DecidedLazy)
+                                                            (GHC.Generics.K1
+                                                               GHC.Generics.R GHC.Base.String))>_R)
+                                (GHC.Generics.N:M1[0]
+                                     <GHC.Generics.C>_P
+                                     <'GHC.Generics.MetaCons
+                                        "Prerrequisites" 'GHC.Generics.PrefixI 'GHC.Types.True>_P
+                                     <GHC.Generics.M1
+                                        GHC.Generics.S
+                                        ('GHC.Generics.MetaSel
+                                           ('GHC.Base.Just "preRequisite")
+                                           'GHC.Generics.NoSourceUnpackedness
+                                           'GHC.Generics.NoSourceStrictness
+                                           'GHC.Generics.DecidedLazy)
+                                        (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+                                      GHC.Generics.:*: GHC.Generics.M1
+                                                         GHC.Generics.S
+                                                         ('GHC.Generics.MetaSel
+                                                            ('GHC.Base.Just "courseRef")
+                                                            'GHC.Generics.NoSourceUnpackedness
+                                                            'GHC.Generics.NoSourceStrictness
+                                                            'GHC.Generics.DecidedLazy)
+                                                         (GHC.Generics.K1
+                                                            GHC.Generics.R
+                                                            GHC.Base.String)>_R)) <x>_N) of wild { GHC.Generics.:*: ds1 ds2 ->
+                 Algorithms.Gbacp.Prerrequisites
+                   ds1
+                     `cast`
+                   (Trans
+                        (GHC.Generics.N:M1[0]
+                             <GHC.Generics.S>_P
+                             <'GHC.Generics.MetaSel
+                                ('GHC.Base.Just "preRequisite")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy>_P
+                             <GHC.Generics.K1 GHC.Generics.R GHC.Base.String>_R <x>_N)
+                        (GHC.Generics.N:K1[0]
+                             <GHC.Generics.R>_P <GHC.Base.String>_R <x>_P))
+                   ds2
+                     `cast`
+                   (Trans
+                        (GHC.Generics.N:M1[0]
+                             <GHC.Generics.S>_P
+                             <'GHC.Generics.MetaSel
+                                ('GHC.Base.Just "courseRef")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy>_P
+                             <GHC.Generics.K1 GHC.Generics.R GHC.Base.String>_R <x>_N)
+                        (GHC.Generics.N:K1[0]
+                             <GHC.Generics.R>_P <GHC.Base.String>_R <x>_P)) }) -}
+b69140f2dec8c47a749a8f619f4bdb21
+  $fShowCourseLoad :: GHC.Show.Show Algorithms.Gbacp.CourseLoad
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Algorithms.Gbacp.CourseLoad
+                  Algorithms.Gbacp.$fShowCourseLoad_$cshowsPrec
+                  Algorithms.Gbacp.$fShowCourseLoad_$cshow
+                  Algorithms.Gbacp.$fShowCourseLoad_$cshowList -}
+b69140f2dec8c47a749a8f619f4bdb21
+  $fShowCourseLoad1 :: Algorithms.Gbacp.CourseLoad -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (\ (w :: Algorithms.Gbacp.CourseLoad)
+                   (w1 :: GHC.Base.String) ->
+                 case w of ww { Algorithms.Gbacp.CourseLoad ww1 ww2 ->
+                 Algorithms.Gbacp.$w$cshowsPrec 0# ww1 ww2 w1 }) -}
+1ac581a5b76ba6801074688d893c5832
+  $fShowCourseLoad2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "CourseLoad {"#) -}
+7eff305c9fdc8e34feec2b2980ab35bb
+  $fShowCourseLoad3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "}"#) -}
+11546077781a24f6c2224dac8c0cedb8
+  $fShowCourseLoad4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "maxcourse = "#) -}
+318a79cdcacf60dbbfb04f2c6513f28c
+  $fShowCourseLoad5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# ", "#) -}
+3c4bb7f2e82b58e3bf9cf73f1939b2be
+  $fShowCourseLoad6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "mincourse = "#) -}
+b69140f2dec8c47a749a8f619f4bdb21
+  $fShowCourseLoad_$cshow ::
+    Algorithms.Gbacp.CourseLoad -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U(1*U(U),1*U(U))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: Algorithms.Gbacp.CourseLoad) ->
+                 Algorithms.Gbacp.$fShowCourseLoad_$cshowsPrec
+                   GHC.Show.shows22
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+b69140f2dec8c47a749a8f619f4bdb21
+  $fShowCourseLoad_$cshowList ::
+    [Algorithms.Gbacp.CourseLoad] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Algorithms.Gbacp.CourseLoad
+                   Algorithms.Gbacp.$fShowCourseLoad1) -}
+b69140f2dec8c47a749a8f619f4bdb21
+  $fShowCourseLoad_$cshowsPrec ::
+    GHC.Types.Int -> Algorithms.Gbacp.CourseLoad -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <S(S),1*U(U)><S,1*U(1*U(U),1*U(U))><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: Algorithms.Gbacp.CourseLoad)
+                   (w2 :: GHC.Base.String) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { Algorithms.Gbacp.CourseLoad ww3 ww4 ->
+                 Algorithms.Gbacp.$w$cshowsPrec ww1 ww3 ww4 w2 } }) -}
+b69140f2dec8c47a749a8f619f4bdb21
+  $fShowGbacpFeatures :: GHC.Show.Show Algorithms.Gbacp.GbacpFeatures
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Algorithms.Gbacp.GbacpFeatures
+                  Algorithms.Gbacp.$fShowGbacpFeatures_$cshowsPrec
+                  Algorithms.Gbacp.$fShowGbacpFeatures_$cshow
+                  Algorithms.Gbacp.$fShowGbacpFeatures_$cshowList -}
+b69140f2dec8c47a749a8f619f4bdb21
+  $fShowGbacpFeatures1 ::
+    Algorithms.Gbacp.GbacpFeatures -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (\ (w :: Algorithms.Gbacp.GbacpFeatures)
+                   (w1 :: GHC.Base.String) ->
+                 case w of ww { Algorithms.Gbacp.GbacpFeatures ww1 ww2 ww3 ww4 ww5 ww6 ww7 ->
+                 Algorithms.Gbacp.$w$cshowsPrec1
+                   0#
+                   ww1
+                   ww2
+                   ww3
+                   ww4
+                   ww5
+                   ww6
+                   ww7
+                   w1 }) -}
+b69140f2dec8c47a749a8f619f4bdb21
+  $fShowGbacpFeatures_$cshow ::
+    Algorithms.Gbacp.GbacpFeatures -> GHC.Base.String
+  {- Arity: 1,
+     Strictness: <S,1*U(1*U,1*U(U),1*U(U),1*U(U),1*U(1*U(U),1*U(U)),1*U,1*U(U))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: Algorithms.Gbacp.GbacpFeatures) ->
+                 Algorithms.Gbacp.$fShowGbacpFeatures_$cshowsPrec
+                   GHC.Show.shows22
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+b69140f2dec8c47a749a8f619f4bdb21
+  $fShowGbacpFeatures_$cshowList ::
+    [Algorithms.Gbacp.GbacpFeatures] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Algorithms.Gbacp.GbacpFeatures
+                   Algorithms.Gbacp.$fShowGbacpFeatures1) -}
+b69140f2dec8c47a749a8f619f4bdb21
+  $fShowGbacpFeatures_$cshowsPrec ::
+    GHC.Types.Int -> Algorithms.Gbacp.GbacpFeatures -> GHC.Show.ShowS
+  {- Arity: 3,
+     Strictness: <S(S),1*U(U)><S,1*U(1*U,1*U(U),1*U(U),1*U(U),1*U(1*U(U),1*U(U)),1*U,1*U(U))><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: Algorithms.Gbacp.GbacpFeatures)
+                   (w2 :: GHC.Base.String) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { Algorithms.Gbacp.GbacpFeatures ww3 ww4 ww5 ww6 ww7 ww8 ww9 ->
+                 Algorithms.Gbacp.$w$cshowsPrec1
+                   ww1
+                   ww3
+                   ww4
+                   ww5
+                   ww6
+                   ww7
+                   ww8
+                   ww9
+                   w2 } }) -}
+ac0272e130ade1a167d0a28ffafbfac4
+  $fShowPrerrequisites ::
+    GHC.Show.Show Algorithms.Gbacp.Prerrequisites
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Algorithms.Gbacp.Prerrequisites
+                  Algorithms.Gbacp.$fShowPrerrequisites_$cshowsPrec
+                  Algorithms.Gbacp.$fShowPrerrequisites_$cshow
+                  Algorithms.Gbacp.$fShowPrerrequisites_$cshowList -}
+ac0272e130ade1a167d0a28ffafbfac4
+  $fShowPrerrequisites1 ::
+    Algorithms.Gbacp.Prerrequisites -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (\ (w :: Algorithms.Gbacp.Prerrequisites)
+                   (w1 :: GHC.Base.String) ->
+                 case w of ww { Algorithms.Gbacp.Prerrequisites ww1 ww2 ->
+                 Algorithms.Gbacp.$w$cshowsPrec2 0# ww1 ww2 w1 }) -}
+f730b3631720eb5d1bb31857c1c8c2a6
+  $fShowPrerrequisites2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "courseRef = "#) -}
+e14b6295b21e3bdf6a36d981641ae4fb
+  $fShowPrerrequisites3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "preRequisite = "#) -}
+e4829400583e10e9caead3f62a6295ce
+  $fShowPrerrequisites4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Prerrequisites {"#) -}
+ac0272e130ade1a167d0a28ffafbfac4
+  $fShowPrerrequisites_$cshow ::
+    Algorithms.Gbacp.Prerrequisites -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U(1*U,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: Algorithms.Gbacp.Prerrequisites) ->
+                 Algorithms.Gbacp.$fShowPrerrequisites_$cshowsPrec
+                   GHC.Show.shows22
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+ac0272e130ade1a167d0a28ffafbfac4
+  $fShowPrerrequisites_$cshowList ::
+    [Algorithms.Gbacp.Prerrequisites] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Algorithms.Gbacp.Prerrequisites
+                   Algorithms.Gbacp.$fShowPrerrequisites1) -}
+ac0272e130ade1a167d0a28ffafbfac4
+  $fShowPrerrequisites_$cshowsPrec ::
+    GHC.Types.Int -> Algorithms.Gbacp.Prerrequisites -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <S(S),1*U(U)><S,1*U(1*U,1*U)><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: Algorithms.Gbacp.Prerrequisites)
+                   (w2 :: GHC.Base.String) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { Algorithms.Gbacp.Prerrequisites ww3 ww4 ->
+                 Algorithms.Gbacp.$w$cshowsPrec2 ww1 ww3 ww4 w2 } }) -}
+a06f54e5fbd7eb0fcc7651a8b12f4c49
+  $tc'CourseLoad :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   16832887305866679494##
+                   6883122103318530573##
+                   Algorithms.Gbacp.$trModule
+                   Algorithms.Gbacp.$tc'CourseLoad1) -}
+f3f6bdcdb4edf80bef80891961bbe67b
+  $tc'CourseLoad1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'CourseLoad"#) -}
+3bf04de566a02a03000cbf52a9dcbba9
+  $tc'GbacpFeatures :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   954784645303072172##
+                   8922999619757409831##
+                   Algorithms.Gbacp.$trModule
+                   Algorithms.Gbacp.$tc'GbacpFeatures1) -}
+33daca1969b2d615cc18a626876d1a83
+  $tc'GbacpFeatures1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'GbacpFeatures"#) -}
+a6d97d727b753905f34586bbb0b92777
+  $tc'Prerrequisites :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   9462957200161918562##
+                   14302710814997722843##
+                   Algorithms.Gbacp.$trModule
+                   Algorithms.Gbacp.$tc'Prerrequisites1) -}
+514d6d627ed16a7276e7b3b7773e7d2e
+  $tc'Prerrequisites1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'Prerrequisites"#) -}
+abb4a71d34414c2fa0373c0b2904add9
+  $tcCourseLoad :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   9431132173098992798##
+                   15655765137072841937##
+                   Algorithms.Gbacp.$trModule
+                   Algorithms.Gbacp.$tcCourseLoad1) -}
+8a461201ad2890c230da06dcbee03730
+  $tcCourseLoad1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "CourseLoad"#) -}
+08a4addd318c9fd822183587869f101f
+  $tcGbacpFeatures :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   14505946099110186155##
+                   7048371355039300542##
+                   Algorithms.Gbacp.$trModule
+                   Algorithms.Gbacp.$tcGbacpFeatures1) -}
+b21eee83cfeab93727ee9de6ae805ee9
+  $tcGbacpFeatures1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "GbacpFeatures"#) -}
+92ea103920401a467e76632b0d04255b
+  $tcPrerrequisites :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   1040299870384551439##
+                   11246462578133065001##
+                   Algorithms.Gbacp.$trModule
+                   Algorithms.Gbacp.$tcPrerrequisites1) -}
+743dc85f5038ce14a2d32f3f51545ed3
+  $tcPrerrequisites1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Prerrequisites"#) -}
+a8b0b45e6a6d25b79d2878f2df39ab55
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    Algorithms.Gbacp.$trModule2
                    Algorithms.Gbacp.$trModule1) -}
-a26640782392afe90d754497dd679745
+656748e59aaafab0c91935142aa0f9ec
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "Algorithms.Gbacp"#) -}
-54bdebc16d598e2a8415b3486ebb1352
+aeef43e491f64945f037084216107871
   $trModule2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
-                   "gbacpFireflyProy-0.1.0.0-FA6gtHkCdITCMgGgfyRuCP"#) -}
-aeef298fe19bae9021c9757c57305eec
-  $wgetCustomAudience ::
-    GHC.Prim.ByteArray#
-    -> GHC.Prim.Int#
-    -> GHC.Prim.Int#
-    -> GHC.Base.Maybe
-         (Data.Text.Internal.Text, Data.Text.Internal.Text)
-  {- Arity: 3, Strictness: <L,U><L,U><S,U>, Inline: [0] -}
-b8a87363b2635553e23ac448a95d4e1c
-  getCustomAudience ::
-    Data.Text.Internal.Text
-    -> GHC.Base.Maybe
-         (Data.Text.Internal.Text, Data.Text.Internal.Text)
-  {- Arity: 1, Strictness: <S(LLS),1*U(U,U,U)>, Inline: INLINE[0],
+                   "gbacpFireflyProy-0.1.0.0-480a2L3WuNqH1RkR0tdG1R"#) -}
+b7c8acdb4b8acbf51761cab053dc2f0d
+  $w$cshowsPrec ::
+    GHC.Prim.Int#
+    -> GHC.Types.Int
+    -> GHC.Types.Int
+    -> GHC.Base.String
+    -> GHC.Base.String
+  {- Arity: 4, Strictness: <S,U><L,1*U(U)><L,1*U(U)><L,U>,
+     Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (ww1 :: GHC.Types.Int)
+                   (ww2 :: GHC.Types.Int)
+                   (w :: GHC.Base.String) ->
+                 let {
+                   g :: GHC.Base.String -> GHC.Base.String
+                     {- Arity: 1, Strictness: <L,1*U> -}
+                   = \ (x :: GHC.Base.String)[OneShot] ->
+                     GHC.Base.++
+                       @ GHC.Types.Char
+                       Algorithms.Gbacp.$fShowCourseLoad6
+                       (case ww1 of ww3 { GHC.Types.I# ww4 ->
+                        case GHC.Show.$wshowSignedInt
+                               0#
+                               ww4
+                               (GHC.Base.++
+                                  @ GHC.Types.Char
+                                  Algorithms.Gbacp.$fShowCourseLoad5
+                                  (GHC.Base.++
+                                     @ GHC.Types.Char
+                                     Algorithms.Gbacp.$fShowCourseLoad4
+                                     (case ww2 of ww5 { GHC.Types.I# ww6 ->
+                                      case GHC.Show.$wshowSignedInt
+                                             0#
+                                             ww6
+                                             (GHC.Base.++
+                                                @ GHC.Types.Char
+                                                Algorithms.Gbacp.$fShowCourseLoad3
+                                                x) of ww7 { (#,#) ww8 ww9 ->
+                                      GHC.Types.:
+                                        @ GHC.Types.Char
+                                        ww8
+                                        ww9 } }))) of ww5 { (#,#) ww6 ww7 ->
+                        GHC.Types.: @ GHC.Types.Char ww6 ww7 } })
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 11#) of wild {
+                   GHC.Types.False
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        Algorithms.Gbacp.$fShowCourseLoad2
+                        (g w)
+                   GHC.Types.True
+                   -> GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.shows7
+                        (GHC.Base.++
+                           @ GHC.Types.Char
+                           Algorithms.Gbacp.$fShowCourseLoad2
+                           (g (GHC.Types.: @ GHC.Types.Char GHC.Show.shows4 w))) }) -}
+b69140f2dec8c47a749a8f619f4bdb21
+  $w$cshowsPrec1 ::
+    GHC.Prim.Int#
+    -> GHC.Base.String
+    -> GHC.Types.Int
+    -> GHC.Types.Int
+    -> GHC.Types.Int
+    -> Algorithms.Gbacp.CourseLoad
+    -> [Algorithms.Gbacp.Prerrequisites]
+    -> GHC.Types.Int
+    -> GHC.Base.String
+    -> GHC.Base.String
+  {- Arity: 9,
+     Strictness: <S,U><L,1*U><L,1*U(U)><L,1*U(U)><L,1*U(U)><L,1*U(1*U(U),1*U(U))><L,1*U><L,1*U(U)><L,U>,
+     Inline: [0] -}
+15bf4a29341c70d97b870244d3d245c0
+  $w$cshowsPrec2 ::
+    GHC.Prim.Int#
+    -> GHC.Base.String
+    -> GHC.Base.String
+    -> GHC.Base.String
+    -> GHC.Base.String
+  {- Arity: 4, Strictness: <S,U><L,1*U><L,1*U><L,U>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (ww1 :: GHC.Base.String)
+                   (ww2 :: GHC.Base.String)
+                   (w :: GHC.Base.String) ->
+                 let {
+                   p :: GHC.Show.ShowS {- Arity: 1, Strictness: <L,1*U> -}
+                   = \ (x :: GHC.Base.String)[OneShot] ->
+                     GHC.Base.++
+                       @ GHC.Types.Char
+                       Algorithms.Gbacp.$fShowPrerrequisites4
+                       (GHC.Base.++
+                          @ GHC.Types.Char
+                          Algorithms.Gbacp.$fShowPrerrequisites3
+                          (GHC.Types.:
+                             @ GHC.Types.Char
+                             GHC.Show.shows6
+                             (GHC.Show.showLitString
+                                ww1
+                                (GHC.Types.:
+                                   @ GHC.Types.Char
+                                   GHC.Show.shows6
+                                   (GHC.Base.++
+                                      @ GHC.Types.Char
+                                      Algorithms.Gbacp.$fShowCourseLoad5
+                                      (GHC.Base.++
+                                         @ GHC.Types.Char
+                                         Algorithms.Gbacp.$fShowPrerrequisites2
+                                         (GHC.Types.:
+                                            @ GHC.Types.Char
+                                            GHC.Show.shows6
+                                            (GHC.Show.showLitString
+                                               ww2
+                                               (GHC.Types.:
+                                                  @ GHC.Types.Char
+                                                  GHC.Show.shows6
+                                                  (GHC.Base.++
+                                                     @ GHC.Types.Char
+                                                     Algorithms.Gbacp.$fShowCourseLoad3
+                                                     x))))))))))
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 11#) of wild {
+                   GHC.Types.False -> p w
+                   GHC.Types.True
+                   -> GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.shows7
+                        (p (GHC.Types.: @ GHC.Types.Char GHC.Show.shows4 w)) }) -}
+b69140f2dec8c47a749a8f619f4bdb21
+  data CourseLoad
+    = CourseLoad {mincourse :: GHC.Types.Int,
+                  maxcourse :: GHC.Types.Int}
+b69140f2dec8c47a749a8f619f4bdb21
+  data GbacpFeatures
+    = GbacpFeatures {descripiton :: GHC.Base.String,
+                     periodsPerYear :: GHC.Types.Int,
+                     numCourses :: GHC.Types.Int,
+                     numCurricula :: GHC.Types.Int,
+                     courseLoad :: Algorithms.Gbacp.CourseLoad,
+                     numPrerrequisites :: [Algorithms.Gbacp.Prerrequisites],
+                     numUndessiredPeriods :: GHC.Types.Int}
+ac0272e130ade1a167d0a28ffafbfac4
+  data Prerrequisites
+    = Prerrequisites {preRequisite :: GHC.Base.String,
+                      courseRef :: GHC.Base.String}
+b69140f2dec8c47a749a8f619f4bdb21
+  axiom Rep_CourseLoad::
+      GHC.Generics.Rep Algorithms.Gbacp.CourseLoad
+        = GHC.Generics.D1
+            ('GHC.Generics.MetaData
+               "CourseLoad"
+               "Algorithms.Gbacp"
+               "gbacpFireflyProy-0.1.0.0-480a2L3WuNqH1RkR0tdG1R"
+               'GHC.Types.False)
+            (GHC.Generics.C1
+               ('GHC.Generics.MetaCons
+                  "CourseLoad" 'GHC.Generics.PrefixI 'GHC.Types.True)
+               (GHC.Generics.S1
+                  ('GHC.Generics.MetaSel
+                     ('GHC.Base.Just "mincourse")
+                     'GHC.Generics.NoSourceUnpackedness
+                     'GHC.Generics.NoSourceStrictness
+                     'GHC.Generics.DecidedLazy)
+                  (GHC.Generics.Rec0 GHC.Types.Int)
+                GHC.Generics.:*: GHC.Generics.S1
+                                   ('GHC.Generics.MetaSel
+                                      ('GHC.Base.Just "maxcourse")
+                                      'GHC.Generics.NoSourceUnpackedness
+                                      'GHC.Generics.NoSourceStrictness
+                                      'GHC.Generics.DecidedLazy)
+                                   (GHC.Generics.Rec0 GHC.Types.Int)))
+b69140f2dec8c47a749a8f619f4bdb21
+  axiom Rep_GbacpFeatures::
+      GHC.Generics.Rep Algorithms.Gbacp.GbacpFeatures
+        = GHC.Generics.D1
+            ('GHC.Generics.MetaData
+               "GbacpFeatures"
+               "Algorithms.Gbacp"
+               "gbacpFireflyProy-0.1.0.0-480a2L3WuNqH1RkR0tdG1R"
+               'GHC.Types.False)
+            (GHC.Generics.C1
+               ('GHC.Generics.MetaCons
+                  "GbacpFeatures" 'GHC.Generics.PrefixI 'GHC.Types.True)
+               ((GHC.Generics.S1
+                   ('GHC.Generics.MetaSel
+                      ('GHC.Base.Just "descripiton")
+                      'GHC.Generics.NoSourceUnpackedness
+                      'GHC.Generics.NoSourceStrictness
+                      'GHC.Generics.DecidedLazy)
+                   (GHC.Generics.Rec0 GHC.Base.String)
+                 GHC.Generics.:*: (GHC.Generics.S1
+                                     ('GHC.Generics.MetaSel
+                                        ('GHC.Base.Just "periodsPerYear")
+                                        'GHC.Generics.NoSourceUnpackedness
+                                        'GHC.Generics.NoSourceStrictness
+                                        'GHC.Generics.DecidedLazy)
+                                     (GHC.Generics.Rec0 GHC.Types.Int)
+                                   GHC.Generics.:*: GHC.Generics.S1
+                                                      ('GHC.Generics.MetaSel
+                                                         ('GHC.Base.Just "numCourses")
+                                                         'GHC.Generics.NoSourceUnpackedness
+                                                         'GHC.Generics.NoSourceStrictness
+                                                         'GHC.Generics.DecidedLazy)
+                                                      (GHC.Generics.Rec0 GHC.Types.Int)))
+                GHC.Generics.:*: ((GHC.Generics.S1
+                                     ('GHC.Generics.MetaSel
+                                        ('GHC.Base.Just "numCurricula")
+                                        'GHC.Generics.NoSourceUnpackedness
+                                        'GHC.Generics.NoSourceStrictness
+                                        'GHC.Generics.DecidedLazy)
+                                     (GHC.Generics.Rec0 GHC.Types.Int)
+                                   GHC.Generics.:*: GHC.Generics.S1
+                                                      ('GHC.Generics.MetaSel
+                                                         ('GHC.Base.Just "courseLoad")
+                                                         'GHC.Generics.NoSourceUnpackedness
+                                                         'GHC.Generics.NoSourceStrictness
+                                                         'GHC.Generics.DecidedLazy)
+                                                      (GHC.Generics.Rec0
+                                                         Algorithms.Gbacp.CourseLoad))
+                                  GHC.Generics.:*: (GHC.Generics.S1
+                                                      ('GHC.Generics.MetaSel
+                                                         ('GHC.Base.Just "numPrerrequisites")
+                                                         'GHC.Generics.NoSourceUnpackedness
+                                                         'GHC.Generics.NoSourceStrictness
+                                                         'GHC.Generics.DecidedLazy)
+                                                      (GHC.Generics.Rec0
+                                                         [Algorithms.Gbacp.Prerrequisites])
+                                                    GHC.Generics.:*: GHC.Generics.S1
+                                                                       ('GHC.Generics.MetaSel
+                                                                          ('GHC.Base.Just
+                                                                             "numUndessiredPeriods")
+                                                                          'GHC.Generics.NoSourceUnpackedness
+                                                                          'GHC.Generics.NoSourceStrictness
+                                                                          'GHC.Generics.DecidedLazy)
+                                                                       (GHC.Generics.Rec0
+                                                                          GHC.Types.Int)))))
+ac0272e130ade1a167d0a28ffafbfac4
+  axiom Rep_Prerrequisites::
+      GHC.Generics.Rep Algorithms.Gbacp.Prerrequisites
+        = GHC.Generics.D1
+            ('GHC.Generics.MetaData
+               "Prerrequisites"
+               "Algorithms.Gbacp"
+               "gbacpFireflyProy-0.1.0.0-480a2L3WuNqH1RkR0tdG1R"
+               'GHC.Types.False)
+            (GHC.Generics.C1
+               ('GHC.Generics.MetaCons
+                  "Prerrequisites" 'GHC.Generics.PrefixI 'GHC.Types.True)
+               (GHC.Generics.S1
+                  ('GHC.Generics.MetaSel
+                     ('GHC.Base.Just "preRequisite")
+                     'GHC.Generics.NoSourceUnpackedness
+                     'GHC.Generics.NoSourceStrictness
+                     'GHC.Generics.DecidedLazy)
+                  (GHC.Generics.Rec0 GHC.Base.String)
+                GHC.Generics.:*: GHC.Generics.S1
+                                   ('GHC.Generics.MetaSel
+                                      ('GHC.Base.Just "courseRef")
+                                      'GHC.Generics.NoSourceUnpackedness
+                                      'GHC.Generics.NoSourceStrictness
+                                      'GHC.Generics.DecidedLazy)
+                                   (GHC.Generics.Rec0 GHC.Base.String)))
+7bbfed0b5bdf4de90729ee90f3acb2e8
+  courseLoad ::
+    Algorithms.Gbacp.GbacpFeatures -> Algorithms.Gbacp.CourseLoad
+  RecSel Left Algorithms.Gbacp.GbacpFeatures
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLSLL),1*U(A,A,A,A,1*U(U,U),A,A)>m,
      Unfolding: InlineRule (1, True, False)
-                (\ (w :: Data.Text.Internal.Text) ->
-                 case w of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
-                 Algorithms.Gbacp.$wgetCustomAudience ww1 ww2 ww3 }) -}
-64f6644ef1ce34537996434f98b7053a
+                (\ (ds :: Algorithms.Gbacp.GbacpFeatures) ->
+                 case ds of wild { Algorithms.Gbacp.GbacpFeatures ds1 ds2 ds3 ds4 ds5 ds6 ds7 ->
+                 ds5 }) -}
+b3a89af8bda39819137d0a52a80157e4
+  courseRef :: Algorithms.Gbacp.Prerrequisites -> GHC.Base.String
+  RecSel Left Algorithms.Gbacp.Prerrequisites
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LS),1*U(A,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Algorithms.Gbacp.Prerrequisites) ->
+                 case ds of wild { Algorithms.Gbacp.Prerrequisites ds1 ds2 ->
+                 ds2 }) -}
+fd8221466fb918b62a9a2cbcb9a13611
+  descripiton :: Algorithms.Gbacp.GbacpFeatures -> GHC.Base.String
+  RecSel Left Algorithms.Gbacp.GbacpFeatures
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(SLLLLLL),1*U(1*U,A,A,A,A,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Algorithms.Gbacp.GbacpFeatures) ->
+                 case ds of wild { Algorithms.Gbacp.GbacpFeatures ds1 ds2 ds3 ds4 ds5 ds6 ds7 ->
+                 ds1 }) -}
+224fd264df46bc1264fbd3e6f5f314c3
+  maxcourse :: Algorithms.Gbacp.CourseLoad -> GHC.Types.Int
+  RecSel Left Algorithms.Gbacp.CourseLoad
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LS),1*U(A,1*U(U))>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Algorithms.Gbacp.CourseLoad) ->
+                 case ds of wild { Algorithms.Gbacp.CourseLoad ds1 ds2 -> ds2 }) -}
+005d9326d10e0e4ff8b8dfc5aed4b9ff
+  mincourse :: Algorithms.Gbacp.CourseLoad -> GHC.Types.Int
+  RecSel Left Algorithms.Gbacp.CourseLoad
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(1*U(U),A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Algorithms.Gbacp.CourseLoad) ->
+                 case ds of wild { Algorithms.Gbacp.CourseLoad ds1 ds2 -> ds1 }) -}
+7c217571e46d2c154cd8a78e2c437d41
+  numCourses :: Algorithms.Gbacp.GbacpFeatures -> GHC.Types.Int
+  RecSel Left Algorithms.Gbacp.GbacpFeatures
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLSLLLL),1*U(A,A,1*U(U),A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Algorithms.Gbacp.GbacpFeatures) ->
+                 case ds of wild { Algorithms.Gbacp.GbacpFeatures ds1 ds2 ds3 ds4 ds5 ds6 ds7 ->
+                 ds3 }) -}
+53e8699d3fad393f13825fcf295d6b7c
+  numCurricula :: Algorithms.Gbacp.GbacpFeatures -> GHC.Types.Int
+  RecSel Left Algorithms.Gbacp.GbacpFeatures
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLSLLL),1*U(A,A,A,1*U(U),A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Algorithms.Gbacp.GbacpFeatures) ->
+                 case ds of wild { Algorithms.Gbacp.GbacpFeatures ds1 ds2 ds3 ds4 ds5 ds6 ds7 ->
+                 ds4 }) -}
+335b30295aedaf682ab8191b5b1126b6
+  numPrerrequisites ::
+    Algorithms.Gbacp.GbacpFeatures -> [Algorithms.Gbacp.Prerrequisites]
+  RecSel Left Algorithms.Gbacp.GbacpFeatures
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLSL),1*U(A,A,A,A,A,1*U,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Algorithms.Gbacp.GbacpFeatures) ->
+                 case ds of wild { Algorithms.Gbacp.GbacpFeatures ds1 ds2 ds3 ds4 ds5 ds6 ds7 ->
+                 ds6 }) -}
+a59ec05a84fa518ee0b1b905401f06df
+  numUndessiredPeriods ::
+    Algorithms.Gbacp.GbacpFeatures -> GHC.Types.Int
+  RecSel Left Algorithms.Gbacp.GbacpFeatures
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLS),1*U(A,A,A,A,A,A,1*U(U))>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Algorithms.Gbacp.GbacpFeatures) ->
+                 case ds of wild { Algorithms.Gbacp.GbacpFeatures ds1 ds2 ds3 ds4 ds5 ds6 ds7 ->
+                 ds7 }) -}
+599f5801ed69a58c33f74a17b324b942
+  periodsPerYear :: Algorithms.Gbacp.GbacpFeatures -> GHC.Types.Int
+  RecSel Left Algorithms.Gbacp.GbacpFeatures
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LSLLLLL),1*U(A,1*U(U),A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Algorithms.Gbacp.GbacpFeatures) ->
+                 case ds of wild { Algorithms.Gbacp.GbacpFeatures ds1 ds2 ds3 ds4 ds5 ds6 ds7 ->
+                 ds2 }) -}
+bf49ead99cbdb9266c5bace5f4557f41
+  preRequisite :: Algorithms.Gbacp.Prerrequisites -> GHC.Base.String
+  RecSel Left Algorithms.Gbacp.Prerrequisites
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(1*U,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Algorithms.Gbacp.Prerrequisites) ->
+                 case ds of wild { Algorithms.Gbacp.Prerrequisites ds1 ds2 ->
+                 ds1 }) -}
+9057d14e8d6d801ac771969604d88624
   splitByTwoDots :: [GHC.Types.Char] -> [[GHC.Types.Char]]
   {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
      Unfolding: InlineRule (1, True, False)
@@ -99,11 +2016,29 @@ b8a87363b2635553e23ac448a95d4e1c
                    (GHC.Types.[] @ [GHC.Types.Char])
                    (GHC.Types.[] @ GHC.Types.Char)
                    x) -}
-3da0e08aa146e21d0ab941606418173d
+4db5232cbe7de90f78e1887b7c931d79
   splitHelper ::
     [[GHC.Types.Char]]
     -> [GHC.Types.Char] -> [GHC.Types.Char] -> [[GHC.Types.Char]]
   {- Arity: 3, HasNoCafRefs, Strictness: <S,1*U><L,U><S,1*U> -}
+instance [safe] GHC.Generics.Generic [Algorithms.Gbacp.CourseLoad]
+  = Algorithms.Gbacp.$fGenericCourseLoad
+instance [safe] GHC.Generics.Generic [Algorithms.Gbacp.GbacpFeatures]
+  = Algorithms.Gbacp.$fGenericGbacpFeatures
+instance [safe] GHC.Generics.Generic [Algorithms.Gbacp.Prerrequisites]
+  = Algorithms.Gbacp.$fGenericPrerrequisites
+instance [safe] GHC.Show.Show [Algorithms.Gbacp.CourseLoad]
+  = Algorithms.Gbacp.$fShowCourseLoad
+instance [safe] GHC.Show.Show [Algorithms.Gbacp.GbacpFeatures]
+  = Algorithms.Gbacp.$fShowGbacpFeatures
+instance [safe] GHC.Show.Show [Algorithms.Gbacp.Prerrequisites]
+  = Algorithms.Gbacp.$fShowPrerrequisites
+family instance GHC.Generics.Rep [Algorithms.Gbacp.GbacpFeatures]
+  = Algorithms.Gbacp.Rep_GbacpFeatures
+family instance GHC.Generics.Rep [Algorithms.Gbacp.Prerrequisites]
+  = Algorithms.Gbacp.Rep_Prerrequisites
+family instance GHC.Generics.Rep [Algorithms.Gbacp.CourseLoad]
+  = Algorithms.Gbacp.Rep_CourseLoad
 vectorised variables:
 vectorised tycons:
 vectorised reused tycons:
