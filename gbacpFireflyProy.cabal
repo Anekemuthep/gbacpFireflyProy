@@ -40,6 +40,7 @@ library
                      , bytestring
                      , cairo
                      , colour
+                     , pango
                      , data-default-class
                      , gtk2hs-buildtools
                      , gtk
