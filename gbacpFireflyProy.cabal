@@ -39,6 +39,7 @@ library
                      , mtl
                      , bytestring
                      , cairo
+                     , colour
          --            , map
                      , monad-par
                      , monad-par-extras
