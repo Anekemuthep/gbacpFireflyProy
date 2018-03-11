@@ -38,6 +38,8 @@ library
                      , stm
                      , mtl
                      , bytestring
+                     , cairo
+                     , graphics
          --            , map
                      , monad-par
                      , monad-par-extras
