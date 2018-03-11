@@ -1,5 +1,5 @@
-module Graficos.GraficoTest1 (chart) where
-    
+module Graficos.GraficoTest1 (chart, setLinesBlue) where
+
 import Lib.Prelude    
 
 import Graphics.Rendering.Chart
