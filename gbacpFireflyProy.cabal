@@ -39,7 +39,6 @@ library
                      , mtl
                      , bytestring
                      , cairo
-                     , gtk2
                      , colour
                      , data-default-class
          --            , map
