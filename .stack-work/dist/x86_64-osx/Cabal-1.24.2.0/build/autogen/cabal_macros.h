@@ -105,6 +105,13 @@
   (major1) == 2 && (major2) <  2 || \
   (major1) == 2 && (major2) == 2 && (minor) <= 1)
 
+/* package pango-0.13.4.0 */
+#define VERSION_pango "0.13.4.0"
+#define MIN_VERSION_pango(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  13 || \
+  (major1) == 0 && (major2) == 13 && (minor) <= 4)
+
 /* package parallel-3.2.1.1 */
 #define VERSION_parallel "3.2.1.1"
 #define MIN_VERSION_parallel(major1,major2,minor) (\
@@ -224,7 +231,7 @@
   (major1) == 0 && (major2) <  29 || \
   (major1) == 0 && (major2) == 29 && (minor) <= 2)
 
-#define CURRENT_COMPONENT_ID "gbacpFireflyProy-0.1.0.0-4DRFMQMyFqz615oRZ3PxdP"
+#define CURRENT_COMPONENT_ID "gbacpFireflyProy-0.1.0.0-FVoX8umdvZrAd0q2fhpl4K"
 
-#define CURRENT_PACKAGE_KEY "gbacpFireflyProy-0.1.0.0-4DRFMQMyFqz615oRZ3PxdP"
+#define CURRENT_PACKAGE_KEY "gbacpFireflyProy-0.1.0.0-FVoX8umdvZrAd0q2fhpl4K"
 

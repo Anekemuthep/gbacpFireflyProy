@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2018-03-11 21:44:35.098864 UTC
+2018-03-11 22:24:50.720508 UTC
 
-interface gbacpFireflyProy-0.1.0.0-4DRFMQMyFqz615oRZ3PxdP:Parallels.ControlParallel 8002
-  interface hash: 44f0b2c7f72705697c11762f78452350
-  ABI hash: 5c3a81daaee99c7256f667d226214a40
-  export-list hash: 23ea3b89ab837bf8ac1ce198fb121314
+interface gbacpFireflyProy-0.1.0.0-FVoX8umdvZrAd0q2fhpl4K:Parallels.ControlParallel 8002
+  interface hash: a3007e3d3ebaece66f534e6d476b83aa
+  ABI hash: 83416f3173375dff71b60e523a05babf
+  export-list hash: 9bdc2901cc2b7ce7f3a997792e45c5fb
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: b71dc45b182f92bcd40f4a863bfe396d
   sig of: Nothing
@@ -126,34 +126,34 @@ import  -/  base-4.9.1.0:GHC.Enum 3811281f7b5f26da514529cf3ed44009
 import  -/  base-4.9.1.0:GHC.List ab8c4e523e6c479c549d3bcd5fc4a439
 import  -/  base-4.9.1.0:GHC.Num 00bfaa7b2f9d6084913c0697a8a49ec8
 import  -/  base-4.9.1.0:GHC.Real 82e4e59051a13dba1da63e1e970a69e6
-import  -/  Lib.Prelude 08dc0c3f29f8dad60319591bb6a999d1
-  exports: 3943c67e8f6b688c00c0088d24b99ee1
+import  -/  Lib.Prelude 67f954510a2908e22bc49322d9780967
+  exports: 83a36fbac1e1a864c35c156b887ef2b2
 import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
 import  -/  parallel-3.2.1.1@parallel-3.2.1.1-KQJHWCcq2Ka569Stb10nhx:Control.Parallel f51ba55db4edbaab45613077825ddd90
 import  -/  protolude-0.1.10@protolude-0.1.10-EbWghKT4Ra36YSCOzDFDKT:Protolude 0d67a6d6446145e8dd8f2764f3da7a22
-82813c436b648af09e016820901ab6cb
+82616e0c83fa7eac2bb469ac41a67b74
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    Parallels.ControlParallel.$trModule2
                    Parallels.ControlParallel.$trModule1) -}
-6c143e9977da197707fd923bb0b15bc8
+3144ac333c3e5cbb5cc13d9918f43d86
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "Parallels.ControlParallel"#) -}
-78584b61005ae2e7bb8b2bf8f56e1475
+6837448449dfddf1cbc254b11cb91145
   $trModule2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
-                   "gbacpFireflyProy-0.1.0.0-4DRFMQMyFqz615oRZ3PxdP"#) -}
-2e3c1e798e788dca52d2e212cf992a61
+                   "gbacpFireflyProy-0.1.0.0-FVoX8umdvZrAd0q2fhpl4K"#) -}
+fa6c86a229da45a23cff104c22375696
   main :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Parallels.ControlParallel.main2
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <()>_R)) -}
-8acd5750347a5bcb638c76054da76467
+ea3a15e6c74a81df14cb0ae22d2fec95
   main1 :: GHC.Types.IO ()
   {- Unfolding: (case GHC.Prim.par#
                         @ GHC.Integer.Type.Integer
@@ -161,16 +161,16 @@ import  -/  protolude-0.1.10@protolude-0.1.10-EbWghKT4Ra36YSCOzDFDKT:Protolude 0
                  GHC.Magic.lazy
                    @ (GHC.Types.IO ())
                    Parallels.ControlParallel.main7 }) -}
-61a5d39097f3c086075306f13b5fa618
+cfdccf5e84130276084de25071b3fb66
   main10 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (42) -}
-594cea98dd623f6d4f77d9aa58b9d516
+0db0f51dd6420cc048b80f95545de586
   main11 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (10) -}
-35eec4b59e7ef07369ca147c0dd370b0
+f559bef52f67c595f5957707441f2db8
   main12 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (3) -}
-e0dc7207f0d6992a4378251f3b875677
+97c1a8b90ca777297975dec0f72e1d48
   main13 :: GHC.Base.String -> [GHC.Types.Char]
   {- Arity: 1,
      Unfolding: (\ (w2 :: GHC.Base.String) ->
@@ -179,37 +179,37 @@ e0dc7207f0d6992a4378251f3b875677
                         Parallels.ControlParallel.main1_b
                         w2 of ww2 { (#,#) ww3 ww4 ->
                  GHC.Types.: @ GHC.Types.Char ww3 ww4 }) -}
-ed3a2138b591230221e398015eaa9523
+85b1a387ac3f6bf807f934f7c916159f
   main14 :: [GHC.Types.Char]
   {- HasNoCafRefs,
      Unfolding: (GHC.Types.:
                    @ GHC.Types.Char
                    GHC.Show.shows4
                    (GHC.Types.[] @ GHC.Types.Char)) -}
-22419d46a99a494088be4c830a5f5f82
+27785b22c71d902d69dee4f1d7a25c1a
   main15 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (34) -}
-537b375955e486fcecbeb459407bc99e
+4a841f730293d931bb50cf84f9d5fcde
   main1_a :: GHC.Integer.Type.Integer
   {- Unfolding: (Parallels.ControlParallel.main1_ack
                    Parallels.ControlParallel.main12
                    Parallels.ControlParallel.main11) -}
-358ad073075da93d8f07e10e8c3d5ebe
+7aecacd193532d09eba86a7cb0db986b
   main1_ack ::
     GHC.Integer.Type.Integer
     -> GHC.Integer.Type.Integer -> GHC.Integer.Type.Integer
   {- Arity: 2, Strictness: <S,U><S,U> -}
-8eb431469499321886f377a512c43667
+3578e33da3c5bd5b3237d1073442c086
   main1_b :: GHC.Integer.Type.Integer
   {- Unfolding: (Parallels.ControlParallel.main1_fac
                    Parallels.ControlParallel.main10) -}
-371e8f908a4da0e5e3a8e36f51cedbf1
+974a3d9e1685b65266a64967fce5b040
   main1_fac :: GHC.Integer.Type.Integer -> GHC.Integer.Type.Integer
   {- Arity: 1, Strictness: <S,U> -}
-bcaf1cff14c94f6884cb9f356cf8cd91
+bd963e0004e0c9fcab5403af6a4c2d81
   main1_fib :: GHC.Integer.Type.Integer -> GHC.Integer.Type.Integer
   {- Arity: 1, Strictness: <S,U> -}
-774a3dbb88bb7dbffa264b5caeaad180
+77ecfb5ec8fba90a5f87742c6f2564e3
   main2 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -221,26 +221,26 @@ bcaf1cff14c94f6884cb9f356cf8cd91
                    Parallels.ControlParallel.main3
                    GHC.Types.True
                    eta) -}
-9a0d66736a5e3b8f5d5f36077d9dfb12
+acb693b85ba34189aac2ec72d1d66d59
   main3 :: GHC.Base.String
   {- Unfolding: (case GHC.Show.$w$cshowsPrec1
                         0#
                         Parallels.ControlParallel.main4
                         (GHC.Types.[] @ GHC.Types.Char) of ww2 { (#,#) ww3 ww4 ->
                  GHC.Types.: @ GHC.Types.Char ww3 ww4 }) -}
-642cd8cc9687164d5f277c2a813d845b
+d7e85497ebb104d3b92ce1a91d2ea1e4
   main4 :: GHC.Integer.Type.Integer
   {- Unfolding: (Parallels.ControlParallel.main_$spfold
                    GHC.Integer.Type.plusInteger
                    Parallels.ControlParallel.main5) -}
-5eddea982dfaea599b78b42b11e5beb3
+d53ff1bed114c32061d4ac8c40ca327f
   main5 :: [GHC.Integer.Type.Integer]
   {- Unfolding: (Parallels.ControlParallel.main_go
                    Parallels.ControlParallel.main6) -}
-3e10c12b0632007da121bae1dd1bad0c
+876a0cd1233e0577d1c2a6c2894e6e5a
   main6 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (1) -}
-35681dfe80f85dcf1f2cd81cf85ae442
+7f005259538104df62b5db71e0a87e29
   main7 :: GHC.Types.IO ()
   {- Unfolding: (case GHC.Prim.par#
                         @ GHC.Integer.Type.Integer
@@ -248,7 +248,7 @@ bcaf1cff14c94f6884cb9f356cf8cd91
                  GHC.Magic.lazy
                    @ (GHC.Types.IO ())
                    Parallels.ControlParallel.main8 }) -}
-4767c032d463e02e5c541bc49a428e70
+d63390aae2850b3f57b490cc4daf2786
   main8 :: GHC.Types.IO ()
   {- Unfolding: (case Parallels.ControlParallel.main1_fib
                         Parallels.ControlParallel.main15 of x1 { DEFAULT ->
@@ -298,18 +298,18 @@ bcaf1cff14c94f6884cb9f356cf8cd91
                       eta)
                      `cast`
                    (Sym (GHC.Types.N:IO[0] <()>_R)) }) -}
-f791f62146c23c58eb645e8769385504
+1d052eab0a4ec06a81f4f11dad8c2f39
   main9 :: GHC.Integer.Type.Integer
   {- Unfolding: (GHC.Integer.Type.plusInteger
                    Parallels.ControlParallel.main1_a
                    Parallels.ControlParallel.main1_b) -}
-c6632fc02063f6da323bd5169e9a06e9
+f9424b958d2696390b5a70ada978f43c
   main_$spfold ::
     (GHC.Integer.Type.Integer
      -> GHC.Integer.Type.Integer -> GHC.Integer.Type.Integer)
     -> [GHC.Integer.Type.Integer] -> GHC.Integer.Type.Integer
   {- Arity: 2, HasNoCafRefs, Strictness: <L,C(C1(U))><S,U> -}
-0beb7a977df4d0e1d2be4b1cfe68ca11
+b709cc73372895559bae9c041748b96d
   main_go :: GHC.Integer.Type.Integer -> [GHC.Integer.Type.Integer]
   {- Arity: 1, Strictness: <S,U> -}
 vectorised variables:

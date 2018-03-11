@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2018-03-11 21:44:35.611506 UTC
+2018-03-11 22:24:51.191164 UTC
 
-interface gbacpFireflyProy-0.1.0.0-4DRFMQMyFqz615oRZ3PxdP:Reading.TextRead 8002
-  interface hash: 3400f4c331e8de00ef0c7c313bdd7217
-  ABI hash: 413b2c40496c7094d2e95d123407890d
-  export-list hash: 02147a975941c335c032a2189c35b00a
+interface gbacpFireflyProy-0.1.0.0-FVoX8umdvZrAd0q2fhpl4K:Reading.TextRead 8002
+  interface hash: c561b8f460f44d886f61b76559d72863
+  ABI hash: b99041876b82387d72456922ec479c6e
+  export-list hash: 836121e49aae90258909094146675093
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: f2118610caf08cbf14debf0302cb2c5a
   sig of: Nothing
@@ -127,31 +127,31 @@ import  -/  base-4.9.1.0:GHC.IO.Handle.Types 17aa0e2ab137800e3a31992d780c071f
 import  -/  base-4.9.1.0:GHC.IO.IOMode 2f5782f93b12a0d860d6d661b9fb405c
 import  -/  base-4.9.1.0:GHC.Unicode a175ecf20bf1272d9ae31337e7da43ab
 import  -/  base-4.9.1.0:System.IO c9de64c5f5407c4cf1c52500c4d15200
-import  -/  Lib.Prelude 08dc0c3f29f8dad60319591bb6a999d1
-  exports: 3943c67e8f6b688c00c0088d24b99ee1
+import  -/  Lib.Prelude 67f954510a2908e22bc49322d9780967
+  exports: 83a36fbac1e1a864c35c156b887ef2b2
 import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
 import  -/  protolude-0.1.10@protolude-0.1.10-EbWghKT4Ra36YSCOzDFDKT:Protolude 0d67a6d6446145e8dd8f2764f3da7a22
-2b92e96fdbc07fdd65b3f6bac0d62052
+8b54095db470eff52a6542696b2d491b
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    Reading.TextRead.$trModule2
                    Reading.TextRead.$trModule1) -}
-c726a00ea5d5ae37cae3ba6478c46844
+3c71e1011bfcf088da34ed29d2ac38cf
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "Reading.TextRead"#) -}
-af2352b44a1bd4804733bfbceb3339ae
+517ba69e33e5210c83033f6d50767e31
   $trModule2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
-                   "gbacpFireflyProy-0.1.0.0-4DRFMQMyFqz615oRZ3PxdP"#) -}
-79bdb0ec7202c6cf3c19c550df860389
+                   "gbacpFireflyProy-0.1.0.0-FVoX8umdvZrAd0q2fhpl4K"#) -}
+21bdbef50d1e26e773bc2b0c0fd7c615
   main :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Reading.TextRead.main1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
-d8f4e5f14b000665fa28b7402454dbf4
+6cfb76ac79dc769583047d7fa2a95a66
   main1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -171,18 +171,18 @@ d8f4e5f14b000665fa28b7402454dbf4
                         ipv2 of ds3 { (#,#) ipv4 ipv5 ->
                  case GHC.IO.Handle.hClose1 ipv1 ipv4 of ds4 { (#,#) ipv6 ipv7 ->
                  GHC.IO.Handle.hClose1 ipv3 ipv6 } } } }) -}
-1c168ee0a5066d105a52e07d40e2a416
+e619caf88fc1d40d174b1a1b5dde1958
   main2 ::
     GHC.IO.Handle.Types.Handle
     -> GHC.IO.Handle.Types.Handle
     -> GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
   {- Arity: 3, Strictness: <S,U><L,U><S,U> -}
-dda773fea1022503f92fe0080bc3ec10
+5ada072f73521d97bacbe913d672f59b
   main3 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    "/Users/alfonsobustamante/outputHaskell.txt"#) -}
-92309187e34cde1fcbaea9e6f4077a93
+1a54a9f4158c54652f3ab2d12867ed5f
   main4 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    "/Users/alfonsobustamante/inputHaskell.txt"#) -}
