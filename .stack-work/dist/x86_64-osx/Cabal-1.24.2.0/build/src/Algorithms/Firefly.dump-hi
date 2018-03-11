@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2017-11-21 16:58:23.270571 UTC
+2018-03-11 20:49:54.123814 UTC
 
-interface gbacpFireflyProy-0.1.0.0-480a2L3WuNqH1RkR0tdG1R:Algorithms.Firefly 8002
-  interface hash: 9476d5634a24f5acca7f1017abc89bdc
-  ABI hash: 8e84e1dd97953b552cae2ba58c851b9f
-  export-list hash: 18b56d4c56d8ffd2a3b420e134c9c2b9
+interface gbacpFireflyProy-0.1.0.0-HqV6UJMwJWCAI6HoCLpZQK:Algorithms.Firefly 8002
+  interface hash: 12b2f591e7e851b6568bd31aefa5393a
+  ABI hash: 1abf95f845b43c2eb3c1f64f305b1f91
+  export-list hash: 5e5b7e59f67299d13bd43f51c1679624
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 0d5af76a5aa992bf9c6324432f453bda
   sig of: Nothing
@@ -125,25 +125,25 @@ import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
 import  -/  base-4.9.1.0:GHC.Float 33e2b9ffe427edd6a5c2fd6a3b26703c
 import  -/  base-4.9.1.0:GHC.Num 00bfaa7b2f9d6084913c0697a8a49ec8
 import  -/  base-4.9.1.0:GHC.Real 82e4e59051a13dba1da63e1e970a69e6
-import  -/  Lib.Prelude 1309d9bc2a99cd4089e7eedcf24ef20b
-  exports: 90f18e8a2ae5288b846165f2067ed404
+import  -/  Lib.Prelude c6ae480307a52581e0eaa968c0c8af87
+  exports: 16d857668987a1562280b963e518bbd8
 import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text f7d3d648ffeef1043fe2e522e7e66c1b
-6c1aa696069ff2305b53ee37383509ca
+83583ae5673df05e8ba838681be5ce93
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    Algorithms.Firefly.$trModule2
                    Algorithms.Firefly.$trModule1) -}
-fbf57d9dea5dc71fdd93cd74f05ed2ae
+1dd7061eca947e9e38b6d985c3fc62ee
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "Algorithms.Firefly"#) -}
-0cf44b1e9bc2a0d02259980a3b673afa
+89a694e8fa526e9c6284973a7f69a6c1
   $trModule2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
-                   "gbacpFireflyProy-0.1.0.0-480a2L3WuNqH1RkR0tdG1R"#) -}
-3a1d387e23401c32ec559c3a43468f28
+                   "gbacpFireflyProy-0.1.0.0-HqV6UJMwJWCAI6HoCLpZQK"#) -}
+7fe91fd9bfb24e9186827125510e4d72
   intensity :: GHC.Types.Float -> GHC.Types.Float -> GHC.Types.Float
   {- Arity: 2, HasNoCafRefs, Strictness: <S(S),1*U(U)><S(S),1*U(U)>m,
      Unfolding: InlineRule (2, True, False)
@@ -156,7 +156,7 @@ fbf57d9dea5dc71fdd93cd74f05ed2ae
                       (GHC.Prim.powerFloat#
                          (GHC.Prim.expFloat# 1.0#)
                          (GHC.Prim.timesFloat# 0.2# (GHC.Prim.minusFloat# x y)))) } }) -}
-2ae2b7bc288fd9dc3804fe8b188c19cb
+918833262d660149abe964132902c3ef
   restNum :: [GHC.Types.Char] -> [GHC.Types.Char]
   {- Arity: 1, HasNoCafRefs, Strictness: <S,U>,
      Unfolding: InlineRule (1, True, False)
@@ -168,7 +168,7 @@ fbf57d9dea5dc71fdd93cd74f05ed2ae
                       (n :: b)[OneShot] ->
                     GHC.Base.foldr @ GHC.Types.Char @ b c n xs)
                    xs) -}
-c0e4494d06b3c3a3d2a26e5de9ed589f
+66b82a43821527e37672d5678b8e9e9d
   sumSet :: GHC.Types.Int -> GHC.Types.Int
   {- Arity: 1, HasNoCafRefs, Strictness: <S(S),1*U(U)>m,
      Unfolding: InlineRule (1, True, False)

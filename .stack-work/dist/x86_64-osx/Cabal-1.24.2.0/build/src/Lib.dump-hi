@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2018-03-11 19:05:21.873389 UTC
+2018-03-11 20:49:53.51236 UTC
 
-interface gbacpFireflyProy-0.1.0.0-480a2L3WuNqH1RkR0tdG1R:Lib 8002
-  interface hash: 770b01e508343f2dac5baff39841919f
-  ABI hash: 3ff3b9dcb4235e7597977042be806e78
-  export-list hash: 0f40ef8907be6edf05caac29a95e6b92
+interface gbacpFireflyProy-0.1.0.0-HqV6UJMwJWCAI6HoCLpZQK:Lib 8002
+  interface hash: b350e04d754d9c18b13273c81c94f0d6
+  ABI hash: 7e11f90d7ddaec272fb224b3690e3bb1
+  export-list hash: a4d1d45c94aece62c0c011b072f8b9f3
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: dc06c76a04bc8029ae1f6899229c1ca2
   sig of: Nothing
@@ -118,26 +118,26 @@ family instance modules: adjunctions-4.3@adjunctions-4.3-A5jfd1yrmaY4DRMJuiquBp:
                          vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Storable
                          vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
                          vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed.Base
-import  -/  Lib.Prelude 1309d9bc2a99cd4089e7eedcf24ef20b
-  exports: 90f18e8a2ae5288b846165f2067ed404
-import  -/  Reading.MatrixRead 951123a9a9d1b80b8955c14d9a707752
-  exports: 401632ffc57bbe835d4cb403828ddb79
-  main dfcba6f7ecfe4f79f96f6ea77d721a0b
+import  -/  Lib.Prelude c6ae480307a52581e0eaa968c0c8af87
+  exports: 16d857668987a1562280b963e518bbd8
+import  -/  Reading.MatrixRead 11b9a42de2c8c818a9729db52a0bb44d
+  exports: e911828fb9ad34bb1c1b4ad25ebe58f2
+  main 784f6abc678319e8379b3dad3c0be1fd
 import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
-a494a49c12d8fa1fd6ae47e858117030
+d2018a989683af33f471740b1006ba30
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module Lib.$trModule2 Lib.$trModule1) -}
-0714dd7bf8f66f986efd79dafebd98a2
+7cd1c62470bdc93da92db44246fb45e7
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "Lib"#) -}
-16f029e94a0997790f241060b1a1246a
+454185ebacf5a26dbad2abcaf43fed71
   $trModule2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
-                   "gbacpFireflyProy-0.1.0.0-480a2L3WuNqH1RkR0tdG1R"#) -}
-712f08d9846a9ee184584ebeb15006e0
+                   "gbacpFireflyProy-0.1.0.0-HqV6UJMwJWCAI6HoCLpZQK"#) -}
+70c6942f7952ea05bebef7bf58453072
   someFunc :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)

@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2017-11-21 16:58:21.688419 UTC
+2018-03-11 20:49:52.284562 UTC
 
-interface gbacpFireflyProy-0.1.0.0-480a2L3WuNqH1RkR0tdG1R:Lib.Prelude 8002
-  interface hash: 2d9dbd1c68000908aa078a282543039f
-  ABI hash: 1309d9bc2a99cd4089e7eedcf24ef20b
-  export-list hash: 90f18e8a2ae5288b846165f2067ed404
+interface gbacpFireflyProy-0.1.0.0-HqV6UJMwJWCAI6HoCLpZQK:Lib.Prelude 8002
+  interface hash: b962c40eb35270c8132c83d112ea5e50
+  ABI hash: c6ae480307a52581e0eaa968c0c8af87
+  export-list hash: 16d857668987a1562280b963e518bbd8
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: e951b6a5256cbfbdb576cee0c43d430c
   sig of: Nothing
@@ -883,28 +883,28 @@ import  -/  stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve:Control.Monad.STM 931
 import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy cbb4b05939f62bb9d21b1d5ed2b9d95e
 import  -/  transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Except cf549ed58fbe6804d519833d92803f4c
 import  -/  transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Reader 1b607a084a390ae0e50e8f8dcbf2541a
-b7473a03de0315217e5139760e66581a
+977a89b6ca32fc2929cd4de23d80b190
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    Lib.Prelude.$trModule2
                    Lib.Prelude.$trModule1) -}
-a5b9d3313dee9a6f86876e4146d4939b
+2127a1bfbdc6fc2297951e6d2031e9eb
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "Lib.Prelude"#) -}
-f48708fa8fbd22edd7866efa2aa25440
+293c1c5b0b2f08c276c270f65e3111e9
   $trModule2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
-                   "gbacpFireflyProy-0.1.0.0-480a2L3WuNqH1RkR0tdG1R"#) -}
-91ffae4f2f545f58778ea070f603b03e
+                   "gbacpFireflyProy-0.1.0.0-HqV6UJMwJWCAI6HoCLpZQK"#) -}
+d91c0e72c5f8e1f92d207f0fd5f5c3a3
   type RTask env e a =
     Control.Monad.Trans.Reader.ReaderT
       env (Control.Monad.Trans.Except.ExceptT e GHC.Types.IO) a
-644c723d91140faef766f5bac1a13b21
+65a5b7bc2bf7e3dc4eacbd119fc908e6
   type Task e a = Control.Monad.Trans.Except.ExceptT e GHC.Types.IO a
-a1931c9136421051673c880ec2842efe
+07b07cc972c1640614edb66605300d87
   andThen :: GHC.Base.Monad m => (a -> m b) -> m a -> m b
   {- Arity: 3, HasNoCafRefs,
      Strictness: <S(LC(C(S))LLL),1*U(A,1*C1(C1(U)),A,A,A)><L,U><L,U>,
@@ -916,7 +916,7 @@ a1931c9136421051673c880ec2842efe
                    (f :: a -> m b)
                    (x :: m a) ->
                  GHC.Base.>>= @ m $dMonad @ a @ b x f) -}
-b5f3de6b83574c8f0d308560cc7cd47d
+f71173e8a208f1ded50d6f932c03124d
   mapView ::
     GHC.Base.Functor f => Control.Lens.Type.Lens' a b -> f a -> f b
   {- Arity: 3,

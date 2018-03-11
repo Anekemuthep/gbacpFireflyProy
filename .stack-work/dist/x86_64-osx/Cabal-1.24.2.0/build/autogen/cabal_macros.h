@@ -28,6 +28,13 @@
   (major1) == 0 && (major2) <  10 || \
   (major1) == 0 && (major2) == 10 && (minor) <= 8)
 
+/* package cairo-0.13.4.1 */
+#define VERSION_cairo "0.13.4.1"
+#define MIN_VERSION_cairo(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  13 || \
+  (major1) == 0 && (major2) == 13 && (minor) <= 4)
+
 /* package containers-0.5.7.1 */
 #define VERSION_containers "0.5.7.1"
 #define MIN_VERSION_containers(major1,major2,minor) (\
@@ -105,33 +112,12 @@
   (major1) == 1 && (major2) <  2 || \
   (major1) == 1 && (major2) == 2 && (minor) <= 2)
 
-/* package tasty-0.11.2.5 */
-#define VERSION_tasty "0.11.2.5"
-#define MIN_VERSION_tasty(major1,major2,minor) (\
-  (major1) <  0 || \
-  (major1) == 0 && (major2) <  11 || \
-  (major1) == 0 && (major2) == 11 && (minor) <= 2)
-
-/* package tasty-hunit-0.9.2 */
-#define VERSION_tasty_hunit "0.9.2"
-#define MIN_VERSION_tasty_hunit(major1,major2,minor) (\
-  (major1) <  0 || \
-  (major1) == 0 && (major2) <  9 || \
-  (major1) == 0 && (major2) == 9 && (minor) <= 2)
-
-/* package tasty-quickcheck-0.8.4 */
-#define VERSION_tasty_quickcheck "0.8.4"
-#define MIN_VERSION_tasty_quickcheck(major1,major2,minor) (\
-  (major1) <  0 || \
-  (major1) == 0 && (major2) <  8 || \
-  (major1) == 0 && (major2) == 8 && (minor) <= 4)
-
-/* tool alex-3.2.1 */
-#define TOOL_VERSION_alex "3.2.1"
+/* tool alex-3.2.3 */
+#define TOOL_VERSION_alex "3.2.3"
 #define MIN_TOOL_VERSION_alex(major1,major2,minor) (\
   (major1) <  3 || \
   (major1) == 3 && (major2) <  2 || \
-  (major1) == 3 && (major2) == 2 && (minor) <= 1)
+  (major1) == 3 && (major2) == 2 && (minor) <= 3)
 
 /* tool gcc-4.2.1 */
 #define TOOL_VERSION_gcc "4.2.1"
@@ -161,12 +147,12 @@
   (major1) == 2 && (major2) <  17 || \
   (major1) == 2 && (major2) == 17 && (minor) <= 3)
 
-/* tool happy-1.19.5 */
-#define TOOL_VERSION_happy "1.19.5"
+/* tool happy-1.19.7 */
+#define TOOL_VERSION_happy "1.19.7"
 #define MIN_TOOL_VERSION_happy(major1,major2,minor) (\
   (major1) <  1 || \
   (major1) == 1 && (major2) <  19 || \
-  (major1) == 1 && (major2) == 19 && (minor) <= 5)
+  (major1) == 1 && (major2) == 19 && (minor) <= 7)
 
 /* tool hpc-0.67 */
 #define TOOL_VERSION_hpc "0.67"
@@ -196,7 +182,7 @@
   (major1) == 0 && (major2) <  29 || \
   (major1) == 0 && (major2) == 29 && (minor) <= 2)
 
-#define CURRENT_COMPONENT_ID "gbacpFireflyProy-0.1.0.0-480a2L3WuNqH1RkR0tdG1R"
+#define CURRENT_COMPONENT_ID "gbacpFireflyProy-0.1.0.0-HqV6UJMwJWCAI6HoCLpZQK"
 
-#define CURRENT_PACKAGE_KEY "gbacpFireflyProy-0.1.0.0-480a2L3WuNqH1RkR0tdG1R"
+#define CURRENT_PACKAGE_KEY "gbacpFireflyProy-0.1.0.0-HqV6UJMwJWCAI6HoCLpZQK"
 
