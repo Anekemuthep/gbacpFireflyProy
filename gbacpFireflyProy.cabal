@@ -42,6 +42,7 @@ library
                      , colour
                      , data-default-class
                      , gtk2hs-buildtools
+                     , gtk
          --            , map
                      , monad-par
                      , monad-par-extras
