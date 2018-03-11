@@ -44,7 +44,6 @@ library
                      , data-default-class
                      , gtk2hs-buildtools
                      , gtk
-                     , hscairo
          --            , map
                      , monad-par
                      , monad-par-extras
