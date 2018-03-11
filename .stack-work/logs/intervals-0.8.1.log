@@ -1,0 +1,20 @@
+[1 of 2] Compiling Main             ( /private/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/stack51730/intervals-0.8.1/Setup.lhs, /private/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/stack51730/intervals-0.8.1/.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/setup/Main.o )
+[2 of 2] Compiling StackSetupShim   ( /Users/alfonsobustamante/.stack/setup-exe-src/setup-shim-mPHDZzAJ.hs, /private/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/stack51730/intervals-0.8.1/.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/setup/StackSetupShim.o )
+Linking /private/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/stack51730/intervals-0.8.1/.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/setup/setup ...
+Configuring intervals-0.8.1...
+Building intervals-0.8.1...
+Preprocessing library intervals-0.8.1...
+[1 of 6] Compiling Numeric.Interval.Exception ( src/Numeric/Interval/Exception.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Numeric/Interval/Exception.o )
+[2 of 6] Compiling Numeric.Interval.Internal ( src/Numeric/Interval/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Numeric/Interval/Internal.o )
+[3 of 6] Compiling Numeric.Interval.Kaucher ( src/Numeric/Interval/Kaucher.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Numeric/Interval/Kaucher.o )
+[4 of 6] Compiling Numeric.Interval.NonEmpty.Internal ( src/Numeric/Interval/NonEmpty/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Numeric/Interval/NonEmpty/Internal.o )
+
+src/Numeric/Interval/NonEmpty/Internal.hs:63:1: warning: [-Wunused-imports]
+    The import of ‘Numeric.Interval.Exception’ is redundant
+      except perhaps to import instances from ‘Numeric.Interval.Exception’
+    To import instances alone, use: import Numeric.Interval.Exception()
+[5 of 6] Compiling Numeric.Interval.NonEmpty ( src/Numeric/Interval/NonEmpty.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Numeric/Interval/NonEmpty.o )
+[6 of 6] Compiling Numeric.Interval ( src/Numeric/Interval.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Numeric/Interval.o )
+Installing library in
+/Users/alfonsobustamante/.stack/snapshots/x86_64-osx/lts-9.8/8.0.2/lib/x86_64-osx-ghc-8.0.2/intervals-0.8.1-8N8awHw8q2nEkfDPyZQ0m9
+Registering intervals-0.8.1...
