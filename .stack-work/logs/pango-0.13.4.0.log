@@ -1,6 +1,23 @@
-[1 of 2] Compiling Main             ( /private/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/stack24274/pango-0.13.4.0/Setup.hs, /private/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/stack24274/pango-0.13.4.0/.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/setup/Main.o )
-[2 of 2] Compiling StackSetupShim   ( /Users/alfonsobustamante/.stack/setup-exe-src/setup-shim-mPHDZzAJ.hs, /private/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/stack24274/pango-0.13.4.0/.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/setup/StackSetupShim.o )
-Linking /private/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/stack24274/pango-0.13.4.0/.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/setup/setup ...
+[1 of 2] Compiling Main             ( /private/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/stack27294/pango-0.13.4.0/Setup.hs, /private/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/stack27294/pango-0.13.4.0/.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/setup/Main.o )
+[2 of 2] Compiling StackSetupShim   ( /Users/alfonsobustamante/.stack/setup-exe-src/setup-shim-mPHDZzAJ.hs, /private/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/stack27294/pango-0.13.4.0/.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/setup/StackSetupShim.o )
+Linking /private/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/stack27294/pango-0.13.4.0/.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/setup/setup ...
 Configuring pango-0.13.4.0...
-setup: The pkg-config package 'pangocairo' version >=1.10 is required but it
-could not be found.
+Building pango-0.13.4.0...
+Preprocessing library pango-0.13.4.0...
+[ 1 of 14] Compiling Graphics.Rendering.Pango.Types ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Rendering/Pango/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Rendering/Pango/Types.o )
+[ 2 of 14] Compiling Graphics.Rendering.Pango.BasicTypes ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Rendering/Pango/BasicTypes.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Rendering/Pango/BasicTypes.o )
+[ 3 of 14] Compiling Graphics.Rendering.Pango.Structs ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Rendering/Pango/Structs.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Rendering/Pango/Structs.o )
+[ 4 of 14] Compiling Graphics.Rendering.Pango.Enums ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Rendering/Pango/Enums.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Rendering/Pango/Enums.o )
+[ 5 of 14] Compiling Graphics.Rendering.Pango.Context ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Rendering/Pango/Context.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Rendering/Pango/Context.o )
+[ 6 of 14] Compiling Graphics.Rendering.Pango.Description ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Rendering/Pango/Description.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Rendering/Pango/Description.o )
+[ 7 of 14] Compiling Graphics.Rendering.Pango.Font ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Rendering/Pango/Font.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Rendering/Pango/Font.o )
+[ 8 of 14] Compiling Graphics.Rendering.Pango.GlyphStorage ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Rendering/Pango/GlyphStorage.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Rendering/Pango/GlyphStorage.o )
+[ 9 of 14] Compiling Graphics.Rendering.Pango.Attributes ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Rendering/Pango/Attributes.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Rendering/Pango/Attributes.o )
+[10 of 14] Compiling Graphics.Rendering.Pango.Markup ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Rendering/Pango/Markup.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Rendering/Pango/Markup.o )
+[11 of 14] Compiling Graphics.Rendering.Pango.Rendering ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Rendering/Pango/Rendering.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Rendering/Pango/Rendering.o )
+[12 of 14] Compiling Graphics.Rendering.Pango.Layout ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Rendering/Pango/Layout.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Rendering/Pango/Layout.o )
+[13 of 14] Compiling Graphics.Rendering.Pango.Cairo ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Rendering/Pango/Cairo.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Rendering/Pango/Cairo.o )
+[14 of 14] Compiling Graphics.Rendering.Pango ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Rendering/Pango.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/Rendering/Pango.o )
+Installing library in
+/Users/alfonsobustamante/.stack/snapshots/x86_64-osx/lts-9.8/8.0.2/lib/x86_64-osx-ghc-8.0.2/pango-0.13.4.0-WKXBjq61oY1Y9hP2Bpex6
+Registering pango-0.13.4.0...

@@ -1,0 +1,127 @@
+[1 of 2] Compiling Main             ( /private/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/stack27294/gtk-0.14.7/Setup.hs, /private/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/stack27294/gtk-0.14.7/.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/setup/Main.o )
+[2 of 2] Compiling StackSetupShim   ( /Users/alfonsobustamante/.stack/setup-exe-src/setup-shim-mPHDZzAJ.hs, /private/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/stack27294/gtk-0.14.7/.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/setup/StackSetupShim.o )
+Linking /private/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/stack27294/gtk-0.14.7/.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/setup/setup ...
+Configuring gtk-0.14.7...
+Building gtk-0.14.7...
+Preprocessing library gtk-0.14.7...
+[  1 of 209] Compiling Graphics.UI.Gtk.Printing.PaperSize ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Printing/PaperSize.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Printing/PaperSize.o )
+[  2 of 209] Compiling Graphics.UI.Gtk.ModelView.Sequence ( Graphics/UI/Gtk/ModelView/Sequence.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/ModelView/Sequence.o )
+[  3 of 209] Compiling Graphics.UI.Gtk.General.Threading ( Graphics/UI/Gtk/General/Threading.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/General/Threading.o )
+[  4 of 209] Compiling Graphics.UI.Gtk.Signals ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Signals.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Signals.o )
+[  5 of 209] Compiling Graphics.UI.Gtk.Types ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Types.o )
+[  6 of 209] Compiling Graphics.UI.Gtk.Misc.IMContextSimple ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Misc/IMContextSimple.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Misc/IMContextSimple.o )
+[  7 of 209] Compiling Graphics.UI.Gtk.Misc.IMMulticontext ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Misc/IMMulticontext.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Misc/IMMulticontext.o )
+[  8 of 209] Compiling Graphics.UI.Gtk.Misc.SizeGroup ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Misc/SizeGroup.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Misc/SizeGroup.o )
+[  9 of 209] Compiling Graphics.UI.Gtk.ModelView.Types ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/ModelView/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/ModelView/Types.o )
+[ 10 of 209] Compiling Graphics.UI.Gtk.ModelView.TreeRowReference ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/ModelView/TreeRowReference.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/ModelView/TreeRowReference.o )
+[ 11 of 209] Compiling Graphics.UI.Gtk.Multiline.TextMark ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Multiline/TextMark.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Multiline/TextMark.o )
+[ 12 of 209] Compiling Graphics.UI.Gtk.Multiline.TextTagTable ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Multiline/TextTagTable.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Multiline/TextTagTable.o )
+[ 13 of 209] Compiling Graphics.UI.Gtk.Printing.PrintContext ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Printing/PrintContext.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Printing/PrintContext.o )
+[ 14 of 209] Compiling Graphics.UI.Gtk.Printing.PrintOperation ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Printing/PrintOperation.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Printing/PrintOperation.o )
+[ 15 of 209] Compiling Graphics.UI.Gtk.Printing.PrintSettings ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Printing/PrintSettings.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Printing/PrintSettings.o )
+[ 16 of 209] Compiling Graphics.UI.Gtk.Printing.PageSetup ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Printing/PageSetup.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Printing/PageSetup.o )
+[ 17 of 209] Compiling Graphics.UI.Gtk.Recent.RecentInfo ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Recent/RecentInfo.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Recent/RecentInfo.o )
+[ 18 of 209] Compiling Graphics.UI.Gtk.Recent.RecentManager ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Recent/RecentManager.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Recent/RecentManager.o )
+[ 19 of 209] Compiling Graphics.UI.Gtk.Windows.WindowGroup ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Windows/WindowGroup.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Windows/WindowGroup.o )
+[ 20 of 209] Compiling Graphics.UI.Gtk.General.Settings ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/General/Settings.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/General/Settings.o )
+[ 21 of 209] Compiling Graphics.UI.Gtk.General.RcStyle ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/General/RcStyle.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/General/RcStyle.o )
+[ 22 of 209] Compiling Graphics.UI.Gtk.General.DNDTypes ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/General/DNDTypes.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/General/DNDTypes.o )
+[ 23 of 209] Compiling Graphics.UI.Gtk.ModelView.CustomStore ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/ModelView/CustomStore.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/ModelView/CustomStore.o )
+[ 24 of 209] Compiling Graphics.UI.Gtk.ModelView.TreeModel ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/ModelView/TreeModel.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/ModelView/TreeModel.o )
+[ 25 of 209] Compiling Graphics.UI.Gtk.ModelView.CellLayout ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/ModelView/CellLayout.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/ModelView/CellLayout.o )
+[ 26 of 209] Compiling Graphics.UI.Gtk.ModelView.TreeModelFilter ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/ModelView/TreeModelFilter.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/ModelView/TreeModelFilter.o )
+[ 27 of 209] Compiling Graphics.UI.Gtk.ModelView.TreeModelSort ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/ModelView/TreeModelSort.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/ModelView/TreeModelSort.o )
+[ 28 of 209] Compiling Graphics.UI.Gtk.ModelView.TreeDrag ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/ModelView/TreeDrag.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/ModelView/TreeDrag.o )
+[ 29 of 209] Compiling Graphics.UI.Gtk.ModelView.ListStore ( Graphics/UI/Gtk/ModelView/ListStore.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/ModelView/ListStore.o )
+[ 30 of 209] Compiling Graphics.UI.Gtk.ModelView.TreeStore ( Graphics/UI/Gtk/ModelView/TreeStore.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/ModelView/TreeStore.o )
+[ 31 of 209] Compiling Graphics.UI.Gtk.Gdk.Pixmap ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Gdk/Pixmap.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Gdk/Pixmap.o )
+[ 32 of 209] Compiling Graphics.UI.Gtk.Gdk.PixbufData ( Graphics/UI/Gtk/Gdk/PixbufData.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Gdk/PixbufData.o )
+[ 33 of 209] Compiling Graphics.UI.Gtk.Gdk.PixbufAnimation ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Gdk/PixbufAnimation.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Gdk/PixbufAnimation.o )
+[ 34 of 209] Compiling Graphics.UI.Gtk.Gdk.Keys ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Gdk/Keys.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Gdk/Keys.o )
+[ 35 of 209] Compiling Graphics.UI.Gtk.Gdk.Enums ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Gdk/Enums.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Gdk/Enums.o )
+[ 36 of 209] Compiling Graphics.UI.Gtk.General.Enums ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/General/Enums.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/General/Enums.o )
+[ 37 of 209] Compiling Graphics.UI.Gtk.MenuComboToolbar.MenuShell ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/MenuComboToolbar/MenuShell.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/MenuComboToolbar/MenuShell.o )
+[ 38 of 209] Compiling Graphics.UI.Gtk.Special.Ruler ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Special/Ruler.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Special/Ruler.o )
+[ 39 of 209] Compiling Graphics.UI.Gtk.Gdk.DisplayManager ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Gdk/DisplayManager.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Gdk/DisplayManager.o )
+[ 40 of 209] Compiling Graphics.UI.Gtk.Entry.EntryBuffer ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Entry/EntryBuffer.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Entry/EntryBuffer.o )
+[ 41 of 209] Compiling Graphics.UI.Gtk.Entry.Editable ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Entry/Editable.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Entry/Editable.o )
+[ 42 of 209] Compiling Graphics.UI.Gtk.Embedding.Types ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Embedding/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Embedding/Types.o )
+[ 43 of 209] Compiling Graphics.UI.Gtk.Embedding.Embedding ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Embedding/Embedding.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Embedding/Embedding.o )
+[ 44 of 209] Compiling Graphics.UI.Gtk.Builder ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Builder.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Builder.o )
+[ 45 of 209] Compiling Graphics.UI.Gtk.ActionMenuToolbar.RecentAction ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/ActionMenuToolbar/RecentAction.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/ActionMenuToolbar/RecentAction.o )
+[ 46 of 209] Compiling Graphics.UI.Gtk.Abstract.Separator ( Graphics/UI/Gtk/Abstract/Separator.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Abstract/Separator.o )
+[ 47 of 209] Compiling Graphics.UI.Gtk.Abstract.Scrollbar ( Graphics/UI/Gtk/Abstract/Scrollbar.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Abstract/Scrollbar.o )
+[ 48 of 209] Compiling Graphics.UI.Gtk.Abstract.Scale ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Abstract/Scale.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Abstract/Scale.o )
+[ 49 of 209] Compiling Graphics.UI.Gtk.Abstract.Object ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Abstract/Object.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Abstract/Object.o )
+[ 50 of 209] Compiling Graphics.UI.Gtk.ActionMenuToolbar.UIManager ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/ActionMenuToolbar/UIManager.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/ActionMenuToolbar/UIManager.o )
+[ 51 of 209] Compiling Graphics.UI.Gtk.Buttons.CheckButton ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Buttons/CheckButton.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Buttons/CheckButton.o )
+[ 52 of 209] Compiling Graphics.UI.Gtk.Buttons.LinkButton ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Buttons/LinkButton.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Buttons/LinkButton.o )
+[ 53 of 209] Compiling Graphics.UI.Gtk.Buttons.RadioButton ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Buttons/RadioButton.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Buttons/RadioButton.o )
+[ 54 of 209] Compiling Graphics.UI.Gtk.Buttons.ToggleButton ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Buttons/ToggleButton.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Buttons/ToggleButton.o )
+[ 55 of 209] Compiling Graphics.UI.Gtk.Buttons.VolumeButton ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Buttons/VolumeButton.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Buttons/VolumeButton.o )
+[ 56 of 209] Compiling Graphics.UI.Gtk.Display.AccelLabel ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Display/AccelLabel.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Display/AccelLabel.o )
+[ 57 of 209] Compiling Graphics.UI.Gtk.Display.Label ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Display/Label.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Display/Label.o )
+[ 58 of 209] Compiling Graphics.UI.Gtk.Display.ProgressBar ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Display/ProgressBar.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Display/ProgressBar.o )
+[ 59 of 209] Compiling Graphics.UI.Gtk.Display.Spinner ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Display/Spinner.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Display/Spinner.o )
+[ 60 of 209] Compiling Graphics.UI.Gtk.Display.Statusbar ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Display/Statusbar.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Display/Statusbar.o )
+[ 61 of 209] Compiling Graphics.UI.Gtk.Entry.EntryCompletion ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Entry/EntryCompletion.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Entry/EntryCompletion.o )
+[ 62 of 209] Compiling Graphics.UI.Gtk.Entry.HScale ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Entry/HScale.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Entry/HScale.o )
+[ 63 of 209] Compiling Graphics.UI.Gtk.Entry.VScale ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Entry/VScale.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Entry/VScale.o )
+[ 64 of 209] Compiling Graphics.UI.Gtk.General.Structs ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/General/Structs.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/General/Structs.o )
+[ 65 of 209] Compiling Graphics.UI.Gtk.Abstract.Range ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Abstract/Range.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Abstract/Range.o )
+[ 66 of 209] Compiling Graphics.UI.Gtk.Buttons.ScaleButton ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Buttons/ScaleButton.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Buttons/ScaleButton.o )
+[ 67 of 209] Compiling Graphics.UI.Gtk.Embedding.Plug ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Embedding/Plug.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Graphics/UI/Gtk/Embedding/Plug.o )
+
+Graphics/UI/Gtk/Embedding/Plug.chs:120:6: error:
+    • Couldn't match expected type ‘Ptr ()’
+                  with actual type ‘Maybe DrawWindow’
+    • In the first argument of ‘gtk_plug_new’, namely
+        ‘(fromNativeWindowId (fromMaybe nativeWindowIdNone socketId))’
+      In the second argument of ‘($)’, namely
+        ‘gtk_plug_new
+           (fromNativeWindowId (fromMaybe nativeWindowIdNone socketId))’
+      In the second argument of ‘($)’, namely
+        ‘liftM (castPtr :: Ptr Widget -> Ptr Plug)
+         $ gtk_plug_new
+             (fromNativeWindowId (fromMaybe nativeWindowIdNone socketId))’
+
+Graphics/UI/Gtk/Embedding/Plug.chs:137:6: error:
+    • Couldn't match expected type ‘Ptr ()’
+                  with actual type ‘Maybe DrawWindow’
+    • In the second argument of ‘\ (Display arg1) arg2
+                                   -> withForeignPtr arg1
+                                      $ \ argPtr1 -> gtk_plug_new_for_display argPtr1 arg2’, namely
+        ‘(fromNativeWindowId (fromMaybe nativeWindowIdNone socketId))’
+      In the second argument of ‘($)’, namely
+        ‘(\ (Display arg1) arg2
+            -> withForeignPtr arg1
+               $ \ argPtr1 -> gtk_plug_new_for_display argPtr1 arg2)
+           display
+           (fromNativeWindowId (fromMaybe nativeWindowIdNone socketId))’
+      In the second argument of ‘($)’, namely
+        ‘liftM (castPtr :: Ptr Widget -> Ptr Plug)
+         $ (\ (Display arg1) arg2
+              -> withForeignPtr arg1
+                 $ \ argPtr1 -> gtk_plug_new_for_display argPtr1 arg2)
+             display
+             (fromNativeWindowId (fromMaybe nativeWindowIdNone socketId))’
+
+Graphics/UI/Gtk/Embedding/Plug.chs:151:3: error:
+    • Couldn't match type ‘Ptr ()’ with ‘Maybe DrawWindow’
+      Expected type: IO (Maybe DrawWindow)
+        Actual type: IO (Ptr ())
+    • In the second argument of ‘($)’, namely
+        ‘(\ (Plug arg1)
+            -> withForeignPtr arg1 $ \ argPtr1 -> gtk_plug_get_id argPtr1)
+           (toPlug self)’
+      In the expression:
+        liftM toNativeWindowId
+        $ (\ (Plug arg1)
+             -> withForeignPtr arg1 $ \ argPtr1 -> gtk_plug_get_id argPtr1)
+            (toPlug self)
+      In an equation for ‘plugGetId’:
+          plugGetId self
+            = liftM toNativeWindowId
+              $ (\ (Plug arg1)
+                   -> withForeignPtr arg1 $ \ argPtr1 -> gtk_plug_get_id argPtr1)
+                  (toPlug self)
