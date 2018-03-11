@@ -35,6 +35,13 @@
   (major1) == 0 && (major2) <  13 || \
   (major1) == 0 && (major2) == 13 && (minor) <= 4)
 
+/* package colour-2.3.3 */
+#define VERSION_colour "2.3.3"
+#define MIN_VERSION_colour(major1,major2,minor) (\
+  (major1) <  2 || \
+  (major1) == 2 && (major2) <  3 || \
+  (major1) == 2 && (major2) == 3 && (minor) <= 3)
+
 /* package containers-0.5.7.1 */
 #define VERSION_containers "0.5.7.1"
 #define MIN_VERSION_containers(major1,major2,minor) (\
@@ -182,7 +189,7 @@
   (major1) == 0 && (major2) <  29 || \
   (major1) == 0 && (major2) == 29 && (minor) <= 2)
 
-#define CURRENT_COMPONENT_ID "gbacpFireflyProy-0.1.0.0-HqV6UJMwJWCAI6HoCLpZQK"
+#define CURRENT_COMPONENT_ID "gbacpFireflyProy-0.1.0.0-4hI8TWJnCJF1BqyFNgRTIY"
 
-#define CURRENT_PACKAGE_KEY "gbacpFireflyProy-0.1.0.0-HqV6UJMwJWCAI6HoCLpZQK"
+#define CURRENT_PACKAGE_KEY "gbacpFireflyProy-0.1.0.0-4hI8TWJnCJF1BqyFNgRTIY"
 
