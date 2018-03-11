@@ -1,4 +1,6 @@
 module Graficos.GraficoTest1 (chart) where
+    
+import Lib.Prelude    
 
 import Graphics.Rendering.Chart
 import Data.Colour
