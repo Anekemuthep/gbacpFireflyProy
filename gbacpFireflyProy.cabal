@@ -41,6 +41,7 @@ library
                      , cairo
                      , colour
                      , data-default-class
+                     , gtk2hs-buildtools
          --            , map
                      , monad-par
                      , monad-par-extras
