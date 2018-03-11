@@ -21,6 +21,7 @@ library
   other-modules:       Lib.Prelude
                      , Algorithms.Firefly 
                      , Algorithms.Gbacp
+                     , Graficos.GraficoTest1
                      , Parallels.ControlParallel
                      , Parallels.ControlStrategies
                      , Reading.MatrixRead
