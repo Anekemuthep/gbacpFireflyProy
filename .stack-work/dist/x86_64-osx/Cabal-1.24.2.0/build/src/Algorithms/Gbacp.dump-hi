@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2018-03-11 20:55:35.624436 UTC
+2018-03-11 21:03:41.502834 UTC
 
-interface gbacpFireflyProy-0.1.0.0-4hI8TWJnCJF1BqyFNgRTIY:Algorithms.Gbacp [family instance module] 8002
-  interface hash: 3cf731415750e6c5084041bd8eba009f
-  ABI hash: 9e9c85616bb02fbf57046a3df19ca3ee
-  export-list hash: dd1a6c9f7b35f88311fd867840b6f31c
+interface gbacpFireflyProy-0.1.0.0-D96YuX7lwIu6kqTZz9evQz:Algorithms.Gbacp [family instance module] 8002
+  interface hash: 7489918d2aded4264fa88432096b0679
+  ABI hash: 6e0fb49bdd069f345b194440cb1ee47c
+  export-list hash: eef3d689d2e6b9391e537d1df6088239
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 7adacbd3a7a8720a05b175a017a0a2e6
   sig of: Nothing
@@ -124,12 +124,12 @@ import  -/  base-4.9.1.0:GHC.Generics 1dbec2bc7dd1c5bd8c89ed857eaed19b
 import  -/  base-4.9.1.0:GHC.Num 00bfaa7b2f9d6084913c0697a8a49ec8
 import  -/  base-4.9.1.0:GHC.Show a027f5ac24879eaba752f44aa90fe511
 import  -/  containers-0.5.7.1@containers-0.5.7.1:Data.Set 3ed2324fd1e757464a8ac2b636a64e5a
-import  -/  Lib.Prelude 237acf78aa48d26507da6f09ad585aec
-  exports: 95662812e7b7956cd0f6ed98c12bc467
+import  -/  Lib.Prelude 19848434481d80a30e8f90b8db9f65fe
+  exports: 969f177f7c294f4e69e5b0024f9d5dcf
 import  -/  ghc-prim-0.5.0.0:GHC.Classes 0bdf3d057a415ec1b84a7b1994efbe47
 import  -/  integer-gmp-1.0.0.1:GHC.Integer.Type 318df275d77dcdb18e0006d8d7870c2a
 import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text f7d3d648ffeef1043fe2e522e7e66c1b
-78f739adc2e26ebf1793bee52a042464
+0544c17cff63171b8826b6021fa5b2dc
   $fGenericCourseLoad ::
     GHC.Generics.Generic Algorithms.Gbacp.CourseLoad
   DFunId
@@ -138,7 +138,7 @@ import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text f7d3d648f
                   @ Algorithms.Gbacp.CourseLoad
                   Algorithms.Gbacp.$fGenericCourseLoad_$cfrom
                   Algorithms.Gbacp.$fGenericCourseLoad_$cto -}
-78f739adc2e26ebf1793bee52a042464
+0544c17cff63171b8826b6021fa5b2dc
   $fGenericCourseLoad1 ::
     Algorithms.Gbacp.CourseLoad
     -> GHC.Generics.M1
@@ -232,7 +232,7 @@ import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text f7d3d648f
                                                   'GHC.Generics.DecidedLazy)
                                                (GHC.Generics.K1
                                                   GHC.Generics.R GHC.Types.Int)>_R) <x>_N) }) -}
-78f739adc2e26ebf1793bee52a042464
+0544c17cff63171b8826b6021fa5b2dc
   $fGenericCourseLoad_$cfrom ::
     Algorithms.Gbacp.CourseLoad
     -> GHC.Generics.Rep Algorithms.Gbacp.CourseLoad x
@@ -248,7 +248,7 @@ import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text f7d3d648f
                                     <'GHC.Generics.MetaData
                                        "CourseLoad"
                                        "Algorithms.Gbacp"
-                                       "gbacpFireflyProy-0.1.0.0-4hI8TWJnCJF1BqyFNgRTIY"
+                                       "gbacpFireflyProy-0.1.0.0-D96YuX7lwIu6kqTZz9evQz"
                                        'GHC.Types.False>_P
                                     <GHC.Generics.M1
                                        GHC.Generics.C
@@ -272,7 +272,7 @@ import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text f7d3d648f
                                                            (GHC.Generics.K1
                                                               GHC.Generics.R GHC.Types.Int))>_R))
                           (Sub (Sym (Algorithms.Gbacp.Rep_CourseLoad[0]))) <x>_N) -}
-78f739adc2e26ebf1793bee52a042464
+0544c17cff63171b8826b6021fa5b2dc
   $fGenericCourseLoad_$cto ::
     GHC.Generics.Rep Algorithms.Gbacp.CourseLoad x
     -> Algorithms.Gbacp.CourseLoad
@@ -289,7 +289,7 @@ import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text f7d3d648f
                                      <'GHC.Generics.MetaData
                                         "CourseLoad"
                                         "Algorithms.Gbacp"
-                                        "gbacpFireflyProy-0.1.0.0-4hI8TWJnCJF1BqyFNgRTIY"
+                                        "gbacpFireflyProy-0.1.0.0-D96YuX7lwIu6kqTZz9evQz"
                                         'GHC.Types.False>_P
                                      <GHC.Generics.M1
                                         GHC.Generics.C
@@ -360,7 +360,7 @@ import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text f7d3d648f
                              <GHC.Generics.K1 GHC.Generics.R GHC.Types.Int>_R <x>_N)
                         (GHC.Generics.N:K1[0]
                              <GHC.Generics.R>_P <GHC.Types.Int>_R <x>_P)) }) -}
-78f739adc2e26ebf1793bee52a042464
+0544c17cff63171b8826b6021fa5b2dc
   $fGenericGbacpFeatures ::
     GHC.Generics.Generic Algorithms.Gbacp.GbacpFeatures
   DFunId
@@ -369,7 +369,7 @@ import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text f7d3d648f
                   @ Algorithms.Gbacp.GbacpFeatures
                   Algorithms.Gbacp.$fGenericGbacpFeatures_$cfrom
                   Algorithms.Gbacp.$fGenericGbacpFeatures_$cto -}
-78f739adc2e26ebf1793bee52a042464
+0544c17cff63171b8826b6021fa5b2dc
   $fGenericGbacpFeatures1 ::
     Algorithms.Gbacp.GbacpFeatures
     -> GHC.Generics.M1
@@ -786,7 +786,7 @@ import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text f7d3d648f
                                                                                    (GHC.Generics.K1
                                                                                       GHC.Generics.R
                                                                                       GHC.Types.Int)))>_R) <x>_N) }) -}
-78f739adc2e26ebf1793bee52a042464
+0544c17cff63171b8826b6021fa5b2dc
   $fGenericGbacpFeatures_$cfrom ::
     Algorithms.Gbacp.GbacpFeatures
     -> GHC.Generics.Rep Algorithms.Gbacp.GbacpFeatures x
@@ -802,7 +802,7 @@ import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text f7d3d648f
                                     <'GHC.Generics.MetaData
                                        "GbacpFeatures"
                                        "Algorithms.Gbacp"
-                                       "gbacpFireflyProy-0.1.0.0-4hI8TWJnCJF1BqyFNgRTIY"
+                                       "gbacpFireflyProy-0.1.0.0-D96YuX7lwIu6kqTZz9evQz"
                                        'GHC.Types.False>_P
                                     <GHC.Generics.M1
                                        GHC.Generics.C
@@ -879,7 +879,7 @@ import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text f7d3d648f
                                                                                                   GHC.Generics.R
                                                                                                   GHC.Types.Int))))>_R))
                           (Sub (Sym (Algorithms.Gbacp.Rep_GbacpFeatures[0]))) <x>_N) -}
-78f739adc2e26ebf1793bee52a042464
+0544c17cff63171b8826b6021fa5b2dc
   $fGenericGbacpFeatures_$cto ::
     GHC.Generics.Rep Algorithms.Gbacp.GbacpFeatures x
     -> Algorithms.Gbacp.GbacpFeatures
@@ -897,7 +897,7 @@ import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text f7d3d648f
                                      <'GHC.Generics.MetaData
                                         "GbacpFeatures"
                                         "Algorithms.Gbacp"
-                                        "gbacpFireflyProy-0.1.0.0-4hI8TWJnCJF1BqyFNgRTIY"
+                                        "gbacpFireflyProy-0.1.0.0-D96YuX7lwIu6kqTZz9evQz"
                                         'GHC.Types.False>_P
                                      <GHC.Generics.M1
                                         GHC.Generics.C
@@ -1143,7 +1143,7 @@ import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text f7d3d648f
                              <GHC.Generics.K1 GHC.Generics.R GHC.Types.Int>_R <x>_N)
                         (GHC.Generics.N:K1[0]
                              <GHC.Generics.R>_P <GHC.Types.Int>_R <x>_P)) } } } } } }) -}
-d5e4400ceececb538a3199c819180272
+d0290ed4c31b3cb58ab617fc46317696
   $fGenericPrerrequisites ::
     GHC.Generics.Generic Algorithms.Gbacp.Prerrequisites
   DFunId
@@ -1152,7 +1152,7 @@ d5e4400ceececb538a3199c819180272
                   @ Algorithms.Gbacp.Prerrequisites
                   Algorithms.Gbacp.$fGenericPrerrequisites_$cfrom
                   Algorithms.Gbacp.$fGenericPrerrequisites_$cto -}
-d5e4400ceececb538a3199c819180272
+d0290ed4c31b3cb58ab617fc46317696
   $fGenericPrerrequisites1 ::
     Algorithms.Gbacp.Prerrequisites
     -> GHC.Generics.M1
@@ -1246,7 +1246,7 @@ d5e4400ceececb538a3199c819180272
                                                   'GHC.Generics.DecidedLazy)
                                                (GHC.Generics.K1
                                                   GHC.Generics.R GHC.Base.String)>_R) <x>_N) }) -}
-d5e4400ceececb538a3199c819180272
+d0290ed4c31b3cb58ab617fc46317696
   $fGenericPrerrequisites_$cfrom ::
     Algorithms.Gbacp.Prerrequisites
     -> GHC.Generics.Rep Algorithms.Gbacp.Prerrequisites x
@@ -1262,7 +1262,7 @@ d5e4400ceececb538a3199c819180272
                                     <'GHC.Generics.MetaData
                                        "Prerrequisites"
                                        "Algorithms.Gbacp"
-                                       "gbacpFireflyProy-0.1.0.0-4hI8TWJnCJF1BqyFNgRTIY"
+                                       "gbacpFireflyProy-0.1.0.0-D96YuX7lwIu6kqTZz9evQz"
                                        'GHC.Types.False>_P
                                     <GHC.Generics.M1
                                        GHC.Generics.C
@@ -1286,7 +1286,7 @@ d5e4400ceececb538a3199c819180272
                                                            (GHC.Generics.K1
                                                               GHC.Generics.R GHC.Base.String))>_R))
                           (Sub (Sym (Algorithms.Gbacp.Rep_Prerrequisites[0]))) <x>_N) -}
-d5e4400ceececb538a3199c819180272
+d0290ed4c31b3cb58ab617fc46317696
   $fGenericPrerrequisites_$cto ::
     GHC.Generics.Rep Algorithms.Gbacp.Prerrequisites x
     -> Algorithms.Gbacp.Prerrequisites
@@ -1304,7 +1304,7 @@ d5e4400ceececb538a3199c819180272
                                      <'GHC.Generics.MetaData
                                         "Prerrequisites"
                                         "Algorithms.Gbacp"
-                                        "gbacpFireflyProy-0.1.0.0-4hI8TWJnCJF1BqyFNgRTIY"
+                                        "gbacpFireflyProy-0.1.0.0-D96YuX7lwIu6kqTZz9evQz"
                                         'GHC.Types.False>_P
                                      <GHC.Generics.M1
                                         GHC.Generics.C
@@ -1376,7 +1376,7 @@ d5e4400ceececb538a3199c819180272
                              <GHC.Generics.K1 GHC.Generics.R GHC.Base.String>_R <x>_N)
                         (GHC.Generics.N:K1[0]
                              <GHC.Generics.R>_P <GHC.Base.String>_R <x>_P)) }) -}
-78f739adc2e26ebf1793bee52a042464
+0544c17cff63171b8826b6021fa5b2dc
   $fShowCourseLoad :: GHC.Show.Show Algorithms.Gbacp.CourseLoad
   DFunId
   {- Strictness: m, Inline: [ALWAYS] CONLIKE,
@@ -1385,29 +1385,29 @@ d5e4400ceececb538a3199c819180272
                   Algorithms.Gbacp.$fShowCourseLoad_$cshowsPrec
                   Algorithms.Gbacp.$fShowCourseLoad_$cshow
                   Algorithms.Gbacp.$fShowCourseLoad_$cshowList -}
-78f739adc2e26ebf1793bee52a042464
+0544c17cff63171b8826b6021fa5b2dc
   $fShowCourseLoad1 :: Algorithms.Gbacp.CourseLoad -> GHC.Show.ShowS
   {- Arity: 2,
      Unfolding: (\ (w :: Algorithms.Gbacp.CourseLoad)
                    (w1 :: GHC.Base.String) ->
                  case w of ww { Algorithms.Gbacp.CourseLoad ww1 ww2 ->
                  Algorithms.Gbacp.$w$cshowsPrec 0# ww1 ww2 w1 }) -}
-4b776c917f4935a7c251a8ba2d619634
+e0b273a0182ec4db6297d55c534a5f60
   $fShowCourseLoad2 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "CourseLoad {"#) -}
-7d08b2e5a6266c41814832977455d22e
+3b5db8dbaf6cbefdfacd78a7bad2b728
   $fShowCourseLoad3 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "}"#) -}
-9f2422bc5a64045fb08b1a44f9e5eddf
+2772dbb42789ee6c0ec7cb4cc52259d5
   $fShowCourseLoad4 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "maxcourse = "#) -}
-4c00b6c3750ae0fc86dcea3ebf03a689
+95f5ff50a61f89b547590e89196336b1
   $fShowCourseLoad5 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# ", "#) -}
-65aeaef2abaa5765de69a743c506fdfc
+10761fdc59851325f53cf98c0f15533e
   $fShowCourseLoad6 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "mincourse = "#) -}
-78f739adc2e26ebf1793bee52a042464
+0544c17cff63171b8826b6021fa5b2dc
   $fShowCourseLoad_$cshow ::
     Algorithms.Gbacp.CourseLoad -> GHC.Base.String
   {- Arity: 1, Strictness: <S,1*U(1*U(U),1*U(U))>,
@@ -1417,14 +1417,14 @@ d5e4400ceececb538a3199c819180272
                    GHC.Show.shows22
                    x
                    (GHC.Types.[] @ GHC.Types.Char)) -}
-78f739adc2e26ebf1793bee52a042464
+0544c17cff63171b8826b6021fa5b2dc
   $fShowCourseLoad_$cshowList ::
     [Algorithms.Gbacp.CourseLoad] -> GHC.Show.ShowS
   {- Arity: 2,
      Unfolding: (GHC.Show.showList__
                    @ Algorithms.Gbacp.CourseLoad
                    Algorithms.Gbacp.$fShowCourseLoad1) -}
-78f739adc2e26ebf1793bee52a042464
+0544c17cff63171b8826b6021fa5b2dc
   $fShowCourseLoad_$cshowsPrec ::
     GHC.Types.Int -> Algorithms.Gbacp.CourseLoad -> GHC.Show.ShowS
   {- Arity: 3, Strictness: <S(S),1*U(U)><S,1*U(1*U(U),1*U(U))><L,U>,
@@ -1436,7 +1436,7 @@ d5e4400ceececb538a3199c819180272
                  case w of ww { GHC.Types.I# ww1 ->
                  case w1 of ww2 { Algorithms.Gbacp.CourseLoad ww3 ww4 ->
                  Algorithms.Gbacp.$w$cshowsPrec ww1 ww3 ww4 w2 } }) -}
-78f739adc2e26ebf1793bee52a042464
+0544c17cff63171b8826b6021fa5b2dc
   $fShowGbacpFeatures :: GHC.Show.Show Algorithms.Gbacp.GbacpFeatures
   DFunId
   {- Strictness: m, Inline: [ALWAYS] CONLIKE,
@@ -1445,7 +1445,7 @@ d5e4400ceececb538a3199c819180272
                   Algorithms.Gbacp.$fShowGbacpFeatures_$cshowsPrec
                   Algorithms.Gbacp.$fShowGbacpFeatures_$cshow
                   Algorithms.Gbacp.$fShowGbacpFeatures_$cshowList -}
-78f739adc2e26ebf1793bee52a042464
+0544c17cff63171b8826b6021fa5b2dc
   $fShowGbacpFeatures1 ::
     Algorithms.Gbacp.GbacpFeatures -> GHC.Show.ShowS
   {- Arity: 2,
@@ -1462,7 +1462,7 @@ d5e4400ceececb538a3199c819180272
                    ww6
                    ww7
                    w1 }) -}
-78f739adc2e26ebf1793bee52a042464
+0544c17cff63171b8826b6021fa5b2dc
   $fShowGbacpFeatures_$cshow ::
     Algorithms.Gbacp.GbacpFeatures -> GHC.Base.String
   {- Arity: 1,
@@ -1473,14 +1473,14 @@ d5e4400ceececb538a3199c819180272
                    GHC.Show.shows22
                    x
                    (GHC.Types.[] @ GHC.Types.Char)) -}
-78f739adc2e26ebf1793bee52a042464
+0544c17cff63171b8826b6021fa5b2dc
   $fShowGbacpFeatures_$cshowList ::
     [Algorithms.Gbacp.GbacpFeatures] -> GHC.Show.ShowS
   {- Arity: 2,
      Unfolding: (GHC.Show.showList__
                    @ Algorithms.Gbacp.GbacpFeatures
                    Algorithms.Gbacp.$fShowGbacpFeatures1) -}
-78f739adc2e26ebf1793bee52a042464
+0544c17cff63171b8826b6021fa5b2dc
   $fShowGbacpFeatures_$cshowsPrec ::
     GHC.Types.Int -> Algorithms.Gbacp.GbacpFeatures -> GHC.Show.ShowS
   {- Arity: 3,
@@ -1502,7 +1502,7 @@ d5e4400ceececb538a3199c819180272
                    ww8
                    ww9
                    w2 } }) -}
-d5e4400ceececb538a3199c819180272
+d0290ed4c31b3cb58ab617fc46317696
   $fShowPrerrequisites ::
     GHC.Show.Show Algorithms.Gbacp.Prerrequisites
   DFunId
@@ -1512,7 +1512,7 @@ d5e4400ceececb538a3199c819180272
                   Algorithms.Gbacp.$fShowPrerrequisites_$cshowsPrec
                   Algorithms.Gbacp.$fShowPrerrequisites_$cshow
                   Algorithms.Gbacp.$fShowPrerrequisites_$cshowList -}
-d5e4400ceececb538a3199c819180272
+d0290ed4c31b3cb58ab617fc46317696
   $fShowPrerrequisites1 ::
     Algorithms.Gbacp.Prerrequisites -> GHC.Show.ShowS
   {- Arity: 2,
@@ -1520,16 +1520,16 @@ d5e4400ceececb538a3199c819180272
                    (w1 :: GHC.Base.String) ->
                  case w of ww { Algorithms.Gbacp.Prerrequisites ww1 ww2 ->
                  Algorithms.Gbacp.$w$cshowsPrec2 0# ww1 ww2 w1 }) -}
-e9cc30e0cb428293aae895c0b5d457d3
+8766b2c0a704a070dd70d99ca89a2b2a
   $fShowPrerrequisites2 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "courseRef = "#) -}
-519abee71728561b7df0841eb2dffaf5
+f3fe60187873a2170727572161d52086
   $fShowPrerrequisites3 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "preRequisite = "#) -}
-995cc3da287118ed3fcb4b7a6c53ee29
+b87fcd812dd03f51b1299ebd68fdf194
   $fShowPrerrequisites4 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "Prerrequisites {"#) -}
-d5e4400ceececb538a3199c819180272
+d0290ed4c31b3cb58ab617fc46317696
   $fShowPrerrequisites_$cshow ::
     Algorithms.Gbacp.Prerrequisites -> GHC.Base.String
   {- Arity: 1, Strictness: <S,1*U(1*U,1*U)>,
@@ -1539,14 +1539,14 @@ d5e4400ceececb538a3199c819180272
                    GHC.Show.shows22
                    x
                    (GHC.Types.[] @ GHC.Types.Char)) -}
-d5e4400ceececb538a3199c819180272
+d0290ed4c31b3cb58ab617fc46317696
   $fShowPrerrequisites_$cshowList ::
     [Algorithms.Gbacp.Prerrequisites] -> GHC.Show.ShowS
   {- Arity: 2,
      Unfolding: (GHC.Show.showList__
                    @ Algorithms.Gbacp.Prerrequisites
                    Algorithms.Gbacp.$fShowPrerrequisites1) -}
-d5e4400ceececb538a3199c819180272
+d0290ed4c31b3cb58ab617fc46317696
   $fShowPrerrequisites_$cshowsPrec ::
     GHC.Types.Int -> Algorithms.Gbacp.Prerrequisites -> GHC.Show.ShowS
   {- Arity: 3, Strictness: <S(S),1*U(U)><S,1*U(1*U,1*U)><L,U>,
@@ -1558,94 +1558,94 @@ d5e4400ceececb538a3199c819180272
                  case w of ww { GHC.Types.I# ww1 ->
                  case w1 of ww2 { Algorithms.Gbacp.Prerrequisites ww3 ww4 ->
                  Algorithms.Gbacp.$w$cshowsPrec2 ww1 ww3 ww4 w2 } }) -}
-bf2d23fb7d03eb9344202dbc676b111a
+e513025c5010d0cdf1186462fbd1c0e1
   $tc'CourseLoad :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   6424795557096406703##
-                   334977518943824748##
+                   14082721405926384856##
+                   2105392936492311115##
                    Algorithms.Gbacp.$trModule
                    Algorithms.Gbacp.$tc'CourseLoad1) -}
-81b6d2872ba1b4f4c360ad72fdd1f9de
+694068b11d259e3eb00273bc4bfd0c37
   $tc'CourseLoad1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "'CourseLoad"#) -}
-579aa78a2863f0125ea78c58d0cd14d9
+01e52f356c0b9601c14a0ff4215743c1
   $tc'GbacpFeatures :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   9536905777647482773##
-                   15535665786721325321##
+                   1104316007309290024##
+                   6357913192748226524##
                    Algorithms.Gbacp.$trModule
                    Algorithms.Gbacp.$tc'GbacpFeatures1) -}
-c66f6ae83a822ee22977fdbda8670bec
+9052fee836099efdde33a713a661cad5
   $tc'GbacpFeatures1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "'GbacpFeatures"#) -}
-97f1f11e0179ac44616be40b178e9c06
+7f4524235f491a09c25834841cdb02aa
   $tc'Prerrequisites :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   7745621775906146657##
-                   3233332958340124240##
+                   8325249128486980880##
+                   630975355320754814##
                    Algorithms.Gbacp.$trModule
                    Algorithms.Gbacp.$tc'Prerrequisites1) -}
-aaf1a3f1d22bbefbf602417cfa8be623
+1d56277cef485a4a67f72cc048e36c36
   $tc'Prerrequisites1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "'Prerrequisites"#) -}
-0996ae8df29fa83e870c8a69a3493eb1
+62efeed8a869f6b2410fb8e9d39d0a84
   $tcCourseLoad :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   4331165584215178536##
-                   18000040598737842157##
+                   10497449381396503704##
+                   7941228127662092743##
                    Algorithms.Gbacp.$trModule
                    Algorithms.Gbacp.$tcCourseLoad1) -}
-03ccf0dcb81794fc449f472a0d80b511
+e52d0a51087c272fbae96f143e3fbc79
   $tcCourseLoad1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "CourseLoad"#) -}
-2de3c9291f9ad0dea02def985aabfe7e
+3d9aebd1c22d96ad678d74e4deb28286
   $tcGbacpFeatures :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   3335201620275340000##
-                   13975687088985548149##
+                   2840484527299874998##
+                   5799259074724957415##
                    Algorithms.Gbacp.$trModule
                    Algorithms.Gbacp.$tcGbacpFeatures1) -}
-d49c982561fdbd71fdb38bfdeefd1447
+f58a6f0c693550c5bc39168f8e4e80ea
   $tcGbacpFeatures1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "GbacpFeatures"#) -}
-76efe2ac997240f9f0fa614848c7b602
+ab3ec2358be90aaabbf35818a2a05e8b
   $tcPrerrequisites :: GHC.Types.TyCon
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.TyCon
-                   4106061261261118274##
-                   12015344385650629397##
+                   14810769411377009901##
+                   9776641946586367505##
                    Algorithms.Gbacp.$trModule
                    Algorithms.Gbacp.$tcPrerrequisites1) -}
-7c92c55de46688c5004410c517d29baa
+6459772851dc98b4a4a0ece51959e0e8
   $tcPrerrequisites1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "Prerrequisites"#) -}
-30de49d6b4cea0260d0fc7eff29a1b22
+3cbbfcfd59fa9f87d0d247dccb9ff84f
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    Algorithms.Gbacp.$trModule2
                    Algorithms.Gbacp.$trModule1) -}
-a7a0e5e0fbc287ea8a4b4fcce79a4740
+04bdfd871051cbbff4580f51d27363f4
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "Algorithms.Gbacp"#) -}
-994d8e825f1bcb3f1dfb8f1ede5dab81
+a91cc819556ac057f3b4d1fbc9639c43
   $trModule2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
-                   "gbacpFireflyProy-0.1.0.0-4hI8TWJnCJF1BqyFNgRTIY"#) -}
-7d1f9c34a4e2dec793935e59b2762da0
+                   "gbacpFireflyProy-0.1.0.0-D96YuX7lwIu6kqTZz9evQz"#) -}
+dd75d3544c33aa25894fbcf48c5238f1
   $w$cshowsPrec ::
     GHC.Prim.Int#
     -> GHC.Types.Int
@@ -1705,7 +1705,7 @@ a7a0e5e0fbc287ea8a4b4fcce79a4740
                            @ GHC.Types.Char
                            Algorithms.Gbacp.$fShowCourseLoad2
                            (g (GHC.Types.: @ GHC.Types.Char GHC.Show.shows4 w))) }) -}
-78f739adc2e26ebf1793bee52a042464
+0544c17cff63171b8826b6021fa5b2dc
   $w$cshowsPrec1 ::
     GHC.Prim.Int#
     -> GHC.Base.String
@@ -1720,7 +1720,7 @@ a7a0e5e0fbc287ea8a4b4fcce79a4740
   {- Arity: 9,
      Strictness: <S,U><L,1*U><L,1*U(U)><L,1*U(U)><L,1*U(U)><L,1*U(1*U(U),1*U(U))><L,1*U><L,1*U(U)><L,U>,
      Inline: [0] -}
-c505149da84a903edeea67255c87b5b1
+c9483a695ecc9b1e66a42972f7e88a7b
   $w$cshowsPrec2 ::
     GHC.Prim.Int#
     -> GHC.Base.String
@@ -1777,11 +1777,11 @@ c505149da84a903edeea67255c87b5b1
                         @ GHC.Types.Char
                         GHC.Show.shows7
                         (p (GHC.Types.: @ GHC.Types.Char GHC.Show.shows4 w)) }) -}
-78f739adc2e26ebf1793bee52a042464
+0544c17cff63171b8826b6021fa5b2dc
   data CourseLoad
     = CourseLoad {mincourse :: GHC.Types.Int,
                   maxcourse :: GHC.Types.Int}
-78f739adc2e26ebf1793bee52a042464
+0544c17cff63171b8826b6021fa5b2dc
   data GbacpFeatures
     = GbacpFeatures {descripiton :: GHC.Base.String,
                      periodsPerYear :: GHC.Types.Int,
@@ -1790,18 +1790,18 @@ c505149da84a903edeea67255c87b5b1
                      courseLoad :: Algorithms.Gbacp.CourseLoad,
                      numPrerrequisites :: [Algorithms.Gbacp.Prerrequisites],
                      numUndessiredPeriods :: GHC.Types.Int}
-d5e4400ceececb538a3199c819180272
+d0290ed4c31b3cb58ab617fc46317696
   data Prerrequisites
     = Prerrequisites {preRequisite :: GHC.Base.String,
                       courseRef :: GHC.Base.String}
-78f739adc2e26ebf1793bee52a042464
+0544c17cff63171b8826b6021fa5b2dc
   axiom Rep_CourseLoad::
       GHC.Generics.Rep Algorithms.Gbacp.CourseLoad
         = GHC.Generics.D1
             ('GHC.Generics.MetaData
                "CourseLoad"
                "Algorithms.Gbacp"
-               "gbacpFireflyProy-0.1.0.0-4hI8TWJnCJF1BqyFNgRTIY"
+               "gbacpFireflyProy-0.1.0.0-D96YuX7lwIu6kqTZz9evQz"
                'GHC.Types.False)
             (GHC.Generics.C1
                ('GHC.Generics.MetaCons
@@ -1820,14 +1820,14 @@ d5e4400ceececb538a3199c819180272
                                       'GHC.Generics.NoSourceStrictness
                                       'GHC.Generics.DecidedLazy)
                                    (GHC.Generics.Rec0 GHC.Types.Int)))
-78f739adc2e26ebf1793bee52a042464
+0544c17cff63171b8826b6021fa5b2dc
   axiom Rep_GbacpFeatures::
       GHC.Generics.Rep Algorithms.Gbacp.GbacpFeatures
         = GHC.Generics.D1
             ('GHC.Generics.MetaData
                "GbacpFeatures"
                "Algorithms.Gbacp"
-               "gbacpFireflyProy-0.1.0.0-4hI8TWJnCJF1BqyFNgRTIY"
+               "gbacpFireflyProy-0.1.0.0-D96YuX7lwIu6kqTZz9evQz"
                'GHC.Types.False)
             (GHC.Generics.C1
                ('GHC.Generics.MetaCons
@@ -1885,14 +1885,14 @@ d5e4400ceececb538a3199c819180272
                                                                           'GHC.Generics.DecidedLazy)
                                                                        (GHC.Generics.Rec0
                                                                           GHC.Types.Int)))))
-d5e4400ceececb538a3199c819180272
+d0290ed4c31b3cb58ab617fc46317696
   axiom Rep_Prerrequisites::
       GHC.Generics.Rep Algorithms.Gbacp.Prerrequisites
         = GHC.Generics.D1
             ('GHC.Generics.MetaData
                "Prerrequisites"
                "Algorithms.Gbacp"
-               "gbacpFireflyProy-0.1.0.0-4hI8TWJnCJF1BqyFNgRTIY"
+               "gbacpFireflyProy-0.1.0.0-D96YuX7lwIu6kqTZz9evQz"
                'GHC.Types.False)
             (GHC.Generics.C1
                ('GHC.Generics.MetaCons
@@ -1911,7 +1911,7 @@ d5e4400ceececb538a3199c819180272
                                       'GHC.Generics.NoSourceStrictness
                                       'GHC.Generics.DecidedLazy)
                                    (GHC.Generics.Rec0 GHC.Base.String)))
-2cc6772c2d466108c36cfcc2a7203ad5
+a876b9b3c34f042053c85e575047b3f6
   courseLoad ::
     Algorithms.Gbacp.GbacpFeatures -> Algorithms.Gbacp.CourseLoad
   RecSel Left Algorithms.Gbacp.GbacpFeatures
@@ -1921,7 +1921,7 @@ d5e4400ceececb538a3199c819180272
                 (\ (ds :: Algorithms.Gbacp.GbacpFeatures) ->
                  case ds of wild { Algorithms.Gbacp.GbacpFeatures ds1 ds2 ds3 ds4 ds5 ds6 ds7 ->
                  ds5 }) -}
-ace4e1237befe5a36b917b1e5e9c5aae
+c5ee465e3b1586e229b5f5cb29c968a5
   courseRef :: Algorithms.Gbacp.Prerrequisites -> GHC.Base.String
   RecSel Left Algorithms.Gbacp.Prerrequisites
   {- Arity: 1, HasNoCafRefs, Strictness: <S(LS),1*U(A,1*U)>,
@@ -1929,7 +1929,7 @@ ace4e1237befe5a36b917b1e5e9c5aae
                 (\ (ds :: Algorithms.Gbacp.Prerrequisites) ->
                  case ds of wild { Algorithms.Gbacp.Prerrequisites ds1 ds2 ->
                  ds2 }) -}
-f4661980ce1afda986a9f839cbd0b319
+2858428da9121d3b7cfab37e0ad58e09
   descripiton :: Algorithms.Gbacp.GbacpFeatures -> GHC.Base.String
   RecSel Left Algorithms.Gbacp.GbacpFeatures
   {- Arity: 1, HasNoCafRefs,
@@ -1938,21 +1938,21 @@ f4661980ce1afda986a9f839cbd0b319
                 (\ (ds :: Algorithms.Gbacp.GbacpFeatures) ->
                  case ds of wild { Algorithms.Gbacp.GbacpFeatures ds1 ds2 ds3 ds4 ds5 ds6 ds7 ->
                  ds1 }) -}
-64670b31c9d5efa60bd194cdfb392e4a
+4379ced97a42e0dada92b40f81e88c40
   maxcourse :: Algorithms.Gbacp.CourseLoad -> GHC.Types.Int
   RecSel Left Algorithms.Gbacp.CourseLoad
   {- Arity: 1, HasNoCafRefs, Strictness: <S(LS),1*U(A,1*U(U))>m,
      Unfolding: InlineRule (1, True, False)
                 (\ (ds :: Algorithms.Gbacp.CourseLoad) ->
                  case ds of wild { Algorithms.Gbacp.CourseLoad ds1 ds2 -> ds2 }) -}
-046e3cf40c4cc7e43f67474323a5d32d
+c7ed2b79b411c03125ef7f070e5f0a69
   mincourse :: Algorithms.Gbacp.CourseLoad -> GHC.Types.Int
   RecSel Left Algorithms.Gbacp.CourseLoad
   {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(1*U(U),A)>m,
      Unfolding: InlineRule (1, True, False)
                 (\ (ds :: Algorithms.Gbacp.CourseLoad) ->
                  case ds of wild { Algorithms.Gbacp.CourseLoad ds1 ds2 -> ds1 }) -}
-0ea82296dce85b3e5745afb1031f6e67
+cee7ff6811b9cab3a31b136055ad7e38
   numCourses :: Algorithms.Gbacp.GbacpFeatures -> GHC.Types.Int
   RecSel Left Algorithms.Gbacp.GbacpFeatures
   {- Arity: 1, HasNoCafRefs,
@@ -1961,7 +1961,7 @@ f4661980ce1afda986a9f839cbd0b319
                 (\ (ds :: Algorithms.Gbacp.GbacpFeatures) ->
                  case ds of wild { Algorithms.Gbacp.GbacpFeatures ds1 ds2 ds3 ds4 ds5 ds6 ds7 ->
                  ds3 }) -}
-ed9930e6d7f045bbb60319029f3921b1
+4b67ef20e4f3fe56a7c155fa62ecb96f
   numCurricula :: Algorithms.Gbacp.GbacpFeatures -> GHC.Types.Int
   RecSel Left Algorithms.Gbacp.GbacpFeatures
   {- Arity: 1, HasNoCafRefs,
@@ -1970,7 +1970,7 @@ ed9930e6d7f045bbb60319029f3921b1
                 (\ (ds :: Algorithms.Gbacp.GbacpFeatures) ->
                  case ds of wild { Algorithms.Gbacp.GbacpFeatures ds1 ds2 ds3 ds4 ds5 ds6 ds7 ->
                  ds4 }) -}
-1e1c926c68058db8f6467d2d9fe29c1b
+b8257cc21be86a96f2fb42f5587f2e74
   numPrerrequisites ::
     Algorithms.Gbacp.GbacpFeatures -> [Algorithms.Gbacp.Prerrequisites]
   RecSel Left Algorithms.Gbacp.GbacpFeatures
@@ -1980,7 +1980,7 @@ ed9930e6d7f045bbb60319029f3921b1
                 (\ (ds :: Algorithms.Gbacp.GbacpFeatures) ->
                  case ds of wild { Algorithms.Gbacp.GbacpFeatures ds1 ds2 ds3 ds4 ds5 ds6 ds7 ->
                  ds6 }) -}
-8a4c45a75af9b17dbe0714c89dd7e5bb
+90f54790ef10bc0e759838beb4fb6a22
   numUndessiredPeriods ::
     Algorithms.Gbacp.GbacpFeatures -> GHC.Types.Int
   RecSel Left Algorithms.Gbacp.GbacpFeatures
@@ -1990,7 +1990,7 @@ ed9930e6d7f045bbb60319029f3921b1
                 (\ (ds :: Algorithms.Gbacp.GbacpFeatures) ->
                  case ds of wild { Algorithms.Gbacp.GbacpFeatures ds1 ds2 ds3 ds4 ds5 ds6 ds7 ->
                  ds7 }) -}
-01d0fbcba56da8cbefffbba3324c996e
+40114e14b58fa73c771fdf3cc8199482
   periodsPerYear :: Algorithms.Gbacp.GbacpFeatures -> GHC.Types.Int
   RecSel Left Algorithms.Gbacp.GbacpFeatures
   {- Arity: 1, HasNoCafRefs,
@@ -1999,7 +1999,7 @@ ed9930e6d7f045bbb60319029f3921b1
                 (\ (ds :: Algorithms.Gbacp.GbacpFeatures) ->
                  case ds of wild { Algorithms.Gbacp.GbacpFeatures ds1 ds2 ds3 ds4 ds5 ds6 ds7 ->
                  ds2 }) -}
-cbd1d6513f9993ae74a3a50b45250181
+58af83054a8e001312ca228548f46ee8
   preRequisite :: Algorithms.Gbacp.Prerrequisites -> GHC.Base.String
   RecSel Left Algorithms.Gbacp.Prerrequisites
   {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(1*U,A)>,
@@ -2007,7 +2007,7 @@ cbd1d6513f9993ae74a3a50b45250181
                 (\ (ds :: Algorithms.Gbacp.Prerrequisites) ->
                  case ds of wild { Algorithms.Gbacp.Prerrequisites ds1 ds2 ->
                  ds1 }) -}
-13e50e157f970bd3182f1d4e1b4eace4
+4fe6293fba263b720f896e0ae41df899
   splitByTwoDots :: [GHC.Types.Char] -> [[GHC.Types.Char]]
   {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
      Unfolding: InlineRule (1, True, False)
@@ -2016,7 +2016,7 @@ cbd1d6513f9993ae74a3a50b45250181
                    (GHC.Types.[] @ [GHC.Types.Char])
                    (GHC.Types.[] @ GHC.Types.Char)
                    x) -}
-a1c4d6fbf5ca92baaa96aea9ce7b31e3
+41faee60a38cfe8303a5483a686055e5
   splitHelper ::
     [[GHC.Types.Char]]
     -> [GHC.Types.Char] -> [GHC.Types.Char] -> [[GHC.Types.Char]]

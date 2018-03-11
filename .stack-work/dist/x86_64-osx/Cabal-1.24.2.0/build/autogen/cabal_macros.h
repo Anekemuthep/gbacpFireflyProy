@@ -49,6 +49,13 @@
   (major1) == 0 && (major2) <  5 || \
   (major1) == 0 && (major2) == 5 && (minor) <= 7)
 
+/* package data-default-0.7.1.1 */
+#define VERSION_data_default "0.7.1.1"
+#define MIN_VERSION_data_default(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  7 || \
+  (major1) == 0 && (major2) == 7 && (minor) <= 1)
+
 /* package exceptions-0.8.3 */
 #define VERSION_exceptions "0.8.3"
 #define MIN_VERSION_exceptions(major1,major2,minor) (\
@@ -118,27 +125,6 @@
   (major1) <  1 || \
   (major1) == 1 && (major2) <  2 || \
   (major1) == 1 && (major2) == 2 && (minor) <= 2)
-
-/* package tasty-0.11.2.5 */
-#define VERSION_tasty "0.11.2.5"
-#define MIN_VERSION_tasty(major1,major2,minor) (\
-  (major1) <  0 || \
-  (major1) == 0 && (major2) <  11 || \
-  (major1) == 0 && (major2) == 11 && (minor) <= 2)
-
-/* package tasty-hunit-0.9.2 */
-#define VERSION_tasty_hunit "0.9.2"
-#define MIN_VERSION_tasty_hunit(major1,major2,minor) (\
-  (major1) <  0 || \
-  (major1) == 0 && (major2) <  9 || \
-  (major1) == 0 && (major2) == 9 && (minor) <= 2)
-
-/* package tasty-quickcheck-0.8.4 */
-#define VERSION_tasty_quickcheck "0.8.4"
-#define MIN_VERSION_tasty_quickcheck(major1,major2,minor) (\
-  (major1) <  0 || \
-  (major1) == 0 && (major2) <  8 || \
-  (major1) == 0 && (major2) == 8 && (minor) <= 4)
 
 /* tool alex-3.2.3 */
 #define TOOL_VERSION_alex "3.2.3"
@@ -210,7 +196,7 @@
   (major1) == 0 && (major2) <  29 || \
   (major1) == 0 && (major2) == 29 && (minor) <= 2)
 
-#define CURRENT_COMPONENT_ID "gbacpFireflyProy-0.1.0.0-4hI8TWJnCJF1BqyFNgRTIY"
+#define CURRENT_COMPONENT_ID "gbacpFireflyProy-0.1.0.0-D96YuX7lwIu6kqTZz9evQz"
 
-#define CURRENT_PACKAGE_KEY "gbacpFireflyProy-0.1.0.0-4hI8TWJnCJF1BqyFNgRTIY"
+#define CURRENT_PACKAGE_KEY "gbacpFireflyProy-0.1.0.0-D96YuX7lwIu6kqTZz9evQz"
 
