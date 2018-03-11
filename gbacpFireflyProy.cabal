@@ -38,7 +38,7 @@ library
                      , stm
                      , mtl
                      , bytestring
-                     , gtk2
+                     , cairo-gtk2
          --            , map
                      , monad-par
                      , monad-par-extras
