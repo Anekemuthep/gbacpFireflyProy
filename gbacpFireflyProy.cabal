@@ -42,7 +42,7 @@ library
                      , colour
                      , data-default-class
                      , gtk2hs-buildtools
-                     , libtk
+                     , gtk2
 --                     , gtk
          --            , map
                      , monad-par
