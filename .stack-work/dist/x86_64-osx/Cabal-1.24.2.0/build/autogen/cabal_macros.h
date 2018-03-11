@@ -70,6 +70,13 @@
   (major1) == 1 && (major2) <  0 || \
   (major1) == 1 && (major2) == 0 && (minor) <= 9)
 
+/* package gtk2hs-buildtools-0.13.3.0 */
+#define VERSION_gtk2hs_buildtools "0.13.3.0"
+#define MIN_VERSION_gtk2hs_buildtools(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  13 || \
+  (major1) == 0 && (major2) == 13 && (minor) <= 3)
+
 /* package lens-4.15.4 */
 #define VERSION_lens "4.15.4"
 #define MIN_VERSION_lens(major1,major2,minor) (\
@@ -217,7 +224,7 @@
   (major1) == 0 && (major2) <  29 || \
   (major1) == 0 && (major2) == 29 && (minor) <= 2)
 
-#define CURRENT_COMPONENT_ID "gbacpFireflyProy-0.1.0.0-1KaIhimym0EK8ggYHar05g"
+#define CURRENT_COMPONENT_ID "gbacpFireflyProy-0.1.0.0-4DRFMQMyFqz615oRZ3PxdP"
 
-#define CURRENT_PACKAGE_KEY "gbacpFireflyProy-0.1.0.0-1KaIhimym0EK8ggYHar05g"
+#define CURRENT_PACKAGE_KEY "gbacpFireflyProy-0.1.0.0-4DRFMQMyFqz615oRZ3PxdP"
 

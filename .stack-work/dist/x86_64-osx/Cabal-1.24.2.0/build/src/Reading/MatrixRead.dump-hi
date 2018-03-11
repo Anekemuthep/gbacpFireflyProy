@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2018-03-11 21:06:35.741411 UTC
+2018-03-11 21:44:35.383945 UTC
 
-interface gbacpFireflyProy-0.1.0.0-1KaIhimym0EK8ggYHar05g:Reading.MatrixRead 8002
-  interface hash: 1ed8f7ace4bd099996133bc1dcb222c3
-  ABI hash: 8b6f38f754109624faf76e49eb86d437
-  export-list hash: 2ed8c3b4d20f52b5009012e55adba3c6
+interface gbacpFireflyProy-0.1.0.0-4DRFMQMyFqz615oRZ3PxdP:Reading.MatrixRead 8002
+  interface hash: 4212b45e765c405a66afcb67c667fc83
+  ABI hash: 3f50b6d7624ee8a26c6a537c74bc77c4
+  export-list hash: 2433a21b167115323cd6173978f241ad
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: f2118610caf08cbf14debf0302cb2c5a
   sig of: Nothing
@@ -121,32 +121,32 @@ family instance modules: adjunctions-4.3@adjunctions-4.3-A5jfd1yrmaY4DRMJuiquBp:
 import  -/  base-4.9.1.0:Data.OldList 27987919d8da2f92e3f472ca81f730f8
 import  -/  base-4.9.1.0:GHC.List ab8c4e523e6c479c549d3bcd5fc4a439
 import  -/  base-4.9.1.0:GHC.Num 00bfaa7b2f9d6084913c0697a8a49ec8
-import  -/  Lib.Prelude 3ecc62b9ef290d37c6eeef8e2dc5a32c
-  exports: c6264c8af9034535f84e35b4fc81739b
+import  -/  Lib.Prelude 08dc0c3f29f8dad60319591bb6a999d1
+  exports: 3943c67e8f6b688c00c0088d24b99ee1
 import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
 import  -/  protolude-0.1.10@protolude-0.1.10-EbWghKT4Ra36YSCOzDFDKT:List a3c0569bab32add6c0e188ef1a6bee7a
 import  -/  protolude-0.1.10@protolude-0.1.10-EbWghKT4Ra36YSCOzDFDKT:Protolude 0d67a6d6446145e8dd8f2764f3da7a22
-95ba8b36b70dfcb209b302dc93685509
+cec45ca4493cac2cd687adf567d50695
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    Reading.MatrixRead.$trModule2
                    Reading.MatrixRead.$trModule1) -}
-8b259fae8b52d55c2e10db90c2a74267
+277640c9efe25a78d723c42664c50bf4
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "Reading.MatrixRead"#) -}
-a091a53580291b9a1062329750086a79
+4390144ac3e9d520a9bc749bb5f3f656
   $trModule2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
-                   "gbacpFireflyProy-0.1.0.0-1KaIhimym0EK8ggYHar05g"#) -}
-81f15d5bb39c89c78ceec220ad2f739f
+                   "gbacpFireflyProy-0.1.0.0-4DRFMQMyFqz615oRZ3PxdP"#) -}
+044b85c53ee834e30e0f883c60a0a3de
   main :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Reading.MatrixRead.main1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
-1937e9c14171c95bf990ca54603743ea
+960af7c75a6c6301617fb71547cab256
   main1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -158,206 +158,206 @@ a091a53580291b9a1062329750086a79
                    Reading.MatrixRead.main2
                    GHC.Types.True
                    eta) -}
-7f3eb5f010fa93c597db71edcced6376
+112bc657e614d0e63b27962c9b35436f
   main10 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (3) -}
-8c467a7970a7124ef62cf3e540a9cd15
+affc4860ebcc228006e9e8e7742d8ba5
   main11 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (1) -}
-412ed48ed809e4e50ff65ee531e6ea90
+918a47a08d99e73fe29da8f67a581baf
   main12 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Reading.MatrixRead.main17
                    Reading.MatrixRead.main13) -}
-4dc508b7f75e9e40797002f0187fcb88
+2f4d8b8e9a08f23522f08a044acbd700
   main13 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Reading.MatrixRead.main17
                    Reading.MatrixRead.main14) -}
-83f04449e4440555b7af2483184f495e
+dda930f1dec8eca28eb105b31e3f7d9f
   main14 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Reading.MatrixRead.main16
                    Reading.MatrixRead.main15) -}
-57c71716b50b215fbc5618e897934139
+9390e9e5beb5c41254d32005e72643aa
   main15 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Reading.MatrixRead.main16
                    (GHC.Types.[] @ GHC.Integer.Type.Integer)) -}
-db77ba66b320c5b9c590d762f95358c0
+ea52ef045f8a569dc19c42e41025dd8d
   main16 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (2) -}
-570badd929587e2144cbe81c4ee763aa
+3a42df4e9c06157f58f5d5ffe632e4f9
   main17 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (5) -}
-9b643e22e78b8ea63f58325e60d2d197
+8510907093bf83c4682b9ee1236da4ba
   main18 :: [[GHC.Integer.Type.Integer]]
   {- Unfolding: (Reading.MatrixRead.main_$smmult
                    Reading.MatrixRead.main30
                    Reading.MatrixRead.main19) -}
-67e5f74c6b9ca3ee4c8fb23bfd649bbc
+6b4932292d653d78e9ab184a57f647cf
   main19 :: [[GHC.Integer.Type.Integer]]
   {- HasNoCafRefs,
      Unfolding: (GHC.Types.:
                    @ [GHC.Integer.Type.Integer]
                    Reading.MatrixRead.main27
                    Reading.MatrixRead.main20) -}
-c7e69e5bee7f2d702bd1e706010dc4ab
+0e48e9c4aac9b03080cfe5f9c2bbf56f
   main2 :: GHC.Base.String
   {- Unfolding: (GHC.Show.showList__
                    @ [GHC.Integer.Type.Integer]
                    GHC.Show.$fShowInteger_$cshowList
                    Reading.MatrixRead.main3
                    (GHC.Types.[] @ GHC.Types.Char)) -}
-108755d7e1c7ae55d80fa86a7dff51ea
+30cbd6dc8fb18c34501759ab234a3ee6
   main20 :: [[GHC.Integer.Type.Integer]]
   {- HasNoCafRefs,
      Unfolding: (GHC.Types.:
                    @ [GHC.Integer.Type.Integer]
                    Reading.MatrixRead.main21
                    (GHC.Types.[] @ [GHC.Integer.Type.Integer])) -}
-304031743fafa0fa7bf8c1764be9acf8
+943a908d4a02c5085e5ed8577b00d694
   main21 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Reading.MatrixRead.main10
                    Reading.MatrixRead.main22) -}
-514851a0ca9a28da4cfa073c58896143
+249dac4ee36e15c473c7c7db31cb2a57
   main22 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Reading.MatrixRead.main26
                    Reading.MatrixRead.main23) -}
-5b814441cc6f5117102a0e148f2be3ae
+901109efac5b1bd911f5971cc0967c43
   main23 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Reading.MatrixRead.main17
                    Reading.MatrixRead.main24) -}
-f18adc71f5f80c472df84a243e0a13be
+0deb305904c0a88ddd0d9f3201b35cba
   main24 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Reading.MatrixRead.main25
                    (GHC.Types.[] @ GHC.Integer.Type.Integer)) -}
-f037fdaf1fc9e51788057d51ec0accc4
+47d8c661d6ff3ea53e0f40096531cec6
   main25 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (6) -}
-2e73a85cbe1e9cd62335612218aaca98
+a5a86eadad322e595e4fe1c795b2d9f0
   main26 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (4) -}
-9d5fd27bec51d63dfeb6956db1822308
+4b3eaaad510ba7832ae0ce745336669e
   main27 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Reading.MatrixRead.main26
                    Reading.MatrixRead.main28) -}
-fecc6cbeb32b1f79f8b8f1450be51f2d
+c8b44e56dc641c07a18908cb9870539d
   main28 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Reading.MatrixRead.main17
                    Reading.MatrixRead.main29) -}
-895b0b8343d0909c8e6f3b635b081b9f
+5053d969b6b4a937645837f18db62d88
   main29 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Reading.MatrixRead.main25
                    Reading.MatrixRead.main24) -}
-c9f8f6fde4a7b4cb99662da6ae31978c
+ac6903a8dc6fd7b2adc697fcc4dd4dda
   main3 :: [[GHC.Integer.Type.Integer]]
   {- Unfolding: (Reading.MatrixRead.main_$smmult
                    Reading.MatrixRead.main18
                    Reading.MatrixRead.main4) -}
-77c64a2ccc3e4dbe9ac741d731eeaaa9
+633bfaccbd597bdc95d1edc7413b9331
   main30 :: [[GHC.Integer.Type.Integer]]
   {- HasNoCafRefs,
      Unfolding: (GHC.Types.:
                    @ [GHC.Integer.Type.Integer]
                    Reading.MatrixRead.main32
                    Reading.MatrixRead.main31) -}
-600f6fa3ac6c964840f31e3d31e5bc2d
+041cbb53f1842502c7da810ec9b272c1
   main31 :: [[GHC.Integer.Type.Integer]]
   {- HasNoCafRefs,
      Unfolding: (GHC.Types.:
                    @ [GHC.Integer.Type.Integer]
                    Reading.MatrixRead.main22
                    (GHC.Types.[] @ [GHC.Integer.Type.Integer])) -}
-f7ac2db07d9a6746a0961079dd2fffb0
+33eb193a988a271f7d56423416019a0b
   main32 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Reading.MatrixRead.main11
                    Reading.MatrixRead.main33) -}
-6cdd746b603fd562f0bad26988f0486c
+9ca9b3577c2ccff26316e9cdfadb0985
   main33 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Reading.MatrixRead.main16
                    Reading.MatrixRead.main9) -}
-b04e715b955883b45cd5b94cd23e530f
+9aeff13e00d9b5afe387e331a557b2c1
   main34 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (0) -}
-3c59afa62bec5fc7699078a6aaed1305
+7ec84a91d392f96ce9b4c1a3d6ab300c
   main4 :: [[GHC.Integer.Type.Integer]]
   {- HasNoCafRefs,
      Unfolding: (GHC.Types.:
                    @ [GHC.Integer.Type.Integer]
                    Reading.MatrixRead.main12
                    Reading.MatrixRead.main5) -}
-c143bc7fdfa9787fac35b563c8c350ac
+e65e299ae517bd85282f761090a819cf
   main5 :: [[GHC.Integer.Type.Integer]]
   {- HasNoCafRefs,
      Unfolding: (GHC.Types.:
                    @ [GHC.Integer.Type.Integer]
                    Reading.MatrixRead.main6
                    (GHC.Types.[] @ [GHC.Integer.Type.Integer])) -}
-c205a5be5fc728f571794229a135547d
+88ac14ef7828a245938d6cb6ecfb5d2f
   main6 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Reading.MatrixRead.main11
                    Reading.MatrixRead.main7) -}
-0081737963b3a27f30d4851d802c84b4
+7a67c4788cb0935a02135d14690d9f55
   main7 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Reading.MatrixRead.main11
                    Reading.MatrixRead.main8) -}
-35342c0df2a06c0c141714d7ef4634ab
+7fe0d3823026e6e142467c01c3e14648
   main8 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Reading.MatrixRead.main10
                    Reading.MatrixRead.main9) -}
-71e5cbacddf6fd7987a3600ceba3a075
+e887c5264a8afa6f98c59c49f755f1eb
   main9 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Reading.MatrixRead.main10
                    (GHC.Types.[] @ GHC.Integer.Type.Integer)) -}
-7eac7cdf4a8e001870eff18a439dafe2
+34052103c79dd8d5b7e6091d2c05a36a
   main_$smmult ::
     [[GHC.Integer.Type.Integer]]
     -> [[GHC.Integer.Type.Integer]] -> [[GHC.Integer.Type.Integer]]
@@ -393,7 +393,7 @@ c205a5be5fc728f571794229a135547d
                             (go ys) }
                  } in
                  go a) -}
-9085b048c478f2d40aff7c5940e941db
+e04938929dc9460e568026426d8e1338
   main_go ::
     [GHC.Integer.Type.Integer]
     -> [GHC.Integer.Type.Integer]
