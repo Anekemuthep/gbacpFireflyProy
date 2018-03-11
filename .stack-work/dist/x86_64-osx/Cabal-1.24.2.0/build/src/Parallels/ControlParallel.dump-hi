@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2018-03-11 21:03:40.54715 UTC
+2018-03-11 21:06:35.440177 UTC
 
-interface gbacpFireflyProy-0.1.0.0-D96YuX7lwIu6kqTZz9evQz:Parallels.ControlParallel 8002
-  interface hash: 5e2ff29de2208becdfffe3033a8bb736
-  ABI hash: 1c91dd5fe4cba10ccc7722006cebfc8b
-  export-list hash: a301c24bdbd8fe909e30fdf88d8a7faf
+interface gbacpFireflyProy-0.1.0.0-1KaIhimym0EK8ggYHar05g:Parallels.ControlParallel 8002
+  interface hash: 4068c1405aaaf1f6ad44c1dbbe3e0fe1
+  ABI hash: 2e78e8660879d9f6022193d80bb1a012
+  export-list hash: e793fcadd72ca5464b7b687029646c13
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: b71dc45b182f92bcd40f4a863bfe396d
   sig of: Nothing
@@ -126,34 +126,34 @@ import  -/  base-4.9.1.0:GHC.Enum 3811281f7b5f26da514529cf3ed44009
 import  -/  base-4.9.1.0:GHC.List ab8c4e523e6c479c549d3bcd5fc4a439
 import  -/  base-4.9.1.0:GHC.Num 00bfaa7b2f9d6084913c0697a8a49ec8
 import  -/  base-4.9.1.0:GHC.Real 82e4e59051a13dba1da63e1e970a69e6
-import  -/  Lib.Prelude 19848434481d80a30e8f90b8db9f65fe
-  exports: 969f177f7c294f4e69e5b0024f9d5dcf
+import  -/  Lib.Prelude 3ecc62b9ef290d37c6eeef8e2dc5a32c
+  exports: c6264c8af9034535f84e35b4fc81739b
 import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
 import  -/  parallel-3.2.1.1@parallel-3.2.1.1-KQJHWCcq2Ka569Stb10nhx:Control.Parallel f51ba55db4edbaab45613077825ddd90
 import  -/  protolude-0.1.10@protolude-0.1.10-EbWghKT4Ra36YSCOzDFDKT:Protolude 0d67a6d6446145e8dd8f2764f3da7a22
-716b086ebbd9765c51cae0fe83c0b6cb
+69ac7f3acd111c2ae9e57159edcecc32
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    Parallels.ControlParallel.$trModule2
                    Parallels.ControlParallel.$trModule1) -}
-e779473d2ed7cc15e0a48bc403468d83
+bc8a1ce61a8a3e4a29a8355a3ab43850
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "Parallels.ControlParallel"#) -}
-f4169b54bc85367ed73af4dd6a3f11a8
+62694fa348c8dc90c200849866fc7804
   $trModule2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
-                   "gbacpFireflyProy-0.1.0.0-D96YuX7lwIu6kqTZz9evQz"#) -}
-8969a228a22c340491c03a4af9e1e74b
+                   "gbacpFireflyProy-0.1.0.0-1KaIhimym0EK8ggYHar05g"#) -}
+73d2237b61bc26edea60b3f61f249101
   main :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Parallels.ControlParallel.main2
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <()>_R)) -}
-5959967ab0872748f811ec9662c21b35
+270f488717ee7a9ad0da13c50ed2380a
   main1 :: GHC.Types.IO ()
   {- Unfolding: (case GHC.Prim.par#
                         @ GHC.Integer.Type.Integer
@@ -161,16 +161,16 @@ f4169b54bc85367ed73af4dd6a3f11a8
                  GHC.Magic.lazy
                    @ (GHC.Types.IO ())
                    Parallels.ControlParallel.main7 }) -}
-9a6ff57f2f3f6cd561ca41fe268174f4
+994df5036c31eedc868ea12046edeb38
   main10 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (42) -}
-fe1901441ac7f2a7506f9bcae8abdb2b
+c069969425a8f58c70ad0e8c5ad93541
   main11 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (10) -}
-6a5b6f954cc1e5dec28c081b2f9a0567
+39d7996f7b8fd91d561f93742ef420d6
   main12 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (3) -}
-fb29d0dd113a58c1e60e43deec10782d
+02d0312e0537fa4bf591763a0a7e6ae3
   main13 :: GHC.Base.String -> [GHC.Types.Char]
   {- Arity: 1,
      Unfolding: (\ (w2 :: GHC.Base.String) ->
@@ -179,37 +179,37 @@ fb29d0dd113a58c1e60e43deec10782d
                         Parallels.ControlParallel.main1_b
                         w2 of ww2 { (#,#) ww3 ww4 ->
                  GHC.Types.: @ GHC.Types.Char ww3 ww4 }) -}
-2d96a096c7b5f5c4758a0ee22739e12c
+3d745b6f6d66e5967d27f6ccd387c51a
   main14 :: [GHC.Types.Char]
   {- HasNoCafRefs,
      Unfolding: (GHC.Types.:
                    @ GHC.Types.Char
                    GHC.Show.shows4
                    (GHC.Types.[] @ GHC.Types.Char)) -}
-765bf9070f2427e07aec8ec7f1952ef0
+d4c9c6d0ff8d83dc14aad31855c83d72
   main15 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (34) -}
-981ec86e1bbdb38cfdc6dc8783e72dcd
+9ca257571a20fd70b93a86121d3fd3d8
   main1_a :: GHC.Integer.Type.Integer
   {- Unfolding: (Parallels.ControlParallel.main1_ack
                    Parallels.ControlParallel.main12
                    Parallels.ControlParallel.main11) -}
-f173a3da07efeb3dddc7c2c68a1fe68c
+773801b476f00438f3fb6ee0aaeacc51
   main1_ack ::
     GHC.Integer.Type.Integer
     -> GHC.Integer.Type.Integer -> GHC.Integer.Type.Integer
   {- Arity: 2, Strictness: <S,U><S,U> -}
-066f38892f9d1474ae1d0a96f4357f5e
+46b66266af5584be824619f6a3c8ef70
   main1_b :: GHC.Integer.Type.Integer
   {- Unfolding: (Parallels.ControlParallel.main1_fac
                    Parallels.ControlParallel.main10) -}
-fa6ad92e4a0c520c7753507c2886b89c
+4f07149cbe2cea5a31777d7bb337d157
   main1_fac :: GHC.Integer.Type.Integer -> GHC.Integer.Type.Integer
   {- Arity: 1, Strictness: <S,U> -}
-cff395ec8f68c78c62dde93da3795c96
+70b4f24c81ca8c6f3e9bc9396c467ba7
   main1_fib :: GHC.Integer.Type.Integer -> GHC.Integer.Type.Integer
   {- Arity: 1, Strictness: <S,U> -}
-45309182e3491d1bca7085fa137b1be4
+38eca2f13e4241ef3d8797d8ac60c08e
   main2 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -221,26 +221,26 @@ cff395ec8f68c78c62dde93da3795c96
                    Parallels.ControlParallel.main3
                    GHC.Types.True
                    eta) -}
-c51007ff9aab75303960abdacffe0119
+708711d98f4cbba16cae289a0ed67884
   main3 :: GHC.Base.String
   {- Unfolding: (case GHC.Show.$w$cshowsPrec1
                         0#
                         Parallels.ControlParallel.main4
                         (GHC.Types.[] @ GHC.Types.Char) of ww2 { (#,#) ww3 ww4 ->
                  GHC.Types.: @ GHC.Types.Char ww3 ww4 }) -}
-f3a75c526e9570714adb730bc424cb50
+fa33976dcccbb51edde4eeef046b164d
   main4 :: GHC.Integer.Type.Integer
   {- Unfolding: (Parallels.ControlParallel.main_$spfold
                    GHC.Integer.Type.plusInteger
                    Parallels.ControlParallel.main5) -}
-ccb5675c5fe28c2aadd8b33a8d87f50a
+47c8b335dbddfc27f08e8d296faf7fe5
   main5 :: [GHC.Integer.Type.Integer]
   {- Unfolding: (Parallels.ControlParallel.main_go
                    Parallels.ControlParallel.main6) -}
-cef2890b0e8b4f09248cedd3a7914bca
+1c4f172b8382bc004ad1ef6c1a4f3e4d
   main6 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (1) -}
-49b6175ebacc480fb0651a85e1c78421
+0806a9217efecea9b2169e8496864f0a
   main7 :: GHC.Types.IO ()
   {- Unfolding: (case GHC.Prim.par#
                         @ GHC.Integer.Type.Integer
@@ -248,7 +248,7 @@ cef2890b0e8b4f09248cedd3a7914bca
                  GHC.Magic.lazy
                    @ (GHC.Types.IO ())
                    Parallels.ControlParallel.main8 }) -}
-fc5293668af5109e61e3705603e4b09d
+2f1fc1e10d26b29e93f44f6ea36100b3
   main8 :: GHC.Types.IO ()
   {- Unfolding: (case Parallels.ControlParallel.main1_fib
                         Parallels.ControlParallel.main15 of x1 { DEFAULT ->
@@ -298,18 +298,18 @@ fc5293668af5109e61e3705603e4b09d
                       eta)
                      `cast`
                    (Sym (GHC.Types.N:IO[0] <()>_R)) }) -}
-e280d0dc72352c847ab47dc2847bb445
+0f18f8c2d94db26dfbecfe3ebcb19465
   main9 :: GHC.Integer.Type.Integer
   {- Unfolding: (GHC.Integer.Type.plusInteger
                    Parallels.ControlParallel.main1_a
                    Parallels.ControlParallel.main1_b) -}
-a26e7dcbf574be95ad4e1cba7b88e4ae
+67c0bd58b19a533b78786a6e1ab8356c
   main_$spfold ::
     (GHC.Integer.Type.Integer
      -> GHC.Integer.Type.Integer -> GHC.Integer.Type.Integer)
     -> [GHC.Integer.Type.Integer] -> GHC.Integer.Type.Integer
   {- Arity: 2, HasNoCafRefs, Strictness: <L,C(C1(U))><S,U> -}
-8a1fbc5f9807f503f23f2a69fc246626
+80f195820f580d31697b67fb6760a458
   main_go :: GHC.Integer.Type.Integer -> [GHC.Integer.Type.Integer]
   {- Arity: 1, Strictness: <S,U> -}
 vectorised variables:

@@ -39,6 +39,7 @@ library
                      , mtl
                      , bytestring
                      , cairo
+                     , chart-cairo
                      , colour
                      , data-default-class
          --            , map

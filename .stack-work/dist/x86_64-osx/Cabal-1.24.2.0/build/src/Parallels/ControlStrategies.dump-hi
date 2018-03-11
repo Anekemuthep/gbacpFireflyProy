@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2018-03-11 21:03:40.75192 UTC
+2018-03-11 21:06:35.612927 UTC
 
-interface gbacpFireflyProy-0.1.0.0-D96YuX7lwIu6kqTZz9evQz:Parallels.ControlStrategies 8002
-  interface hash: 11fe83f81e1fed28aeb28e20c50879e9
-  ABI hash: 362c23a673f921c7c624f7f40b40bc77
+interface gbacpFireflyProy-0.1.0.0-1KaIhimym0EK8ggYHar05g:Parallels.ControlStrategies 8002
+  interface hash: cc3039ce9a545148151dd68a9bc259b0
+  ABI hash: 920d50cf9f84506357d45d916b011fd8
   export-list hash: 24fd1a410f20e8bfa1c1448e40c01391
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 556e28cf72593721ce5f44b73e8788bc
@@ -118,24 +118,24 @@ family instance modules: adjunctions-4.3@adjunctions-4.3-A5jfd1yrmaY4DRMJuiquBp:
                          vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Storable
                          vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
                          vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed.Base
-import  -/  Lib.Prelude 19848434481d80a30e8f90b8db9f65fe
-  exports: 969f177f7c294f4e69e5b0024f9d5dcf
+import  -/  Lib.Prelude 3ecc62b9ef290d37c6eeef8e2dc5a32c
+  exports: c6264c8af9034535f84e35b4fc81739b
 import  -/  parallel-3.2.1.1@parallel-3.2.1.1-KQJHWCcq2Ka569Stb10nhx:Control.Parallel.Strategies ffa4d4b96dba666866c04e5ec97b9754
-96ac028aeab605d767d4f00131dfbabe
+0959a0a6797dc85bcd4c3fa5d371e6ae
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    Parallels.ControlStrategies.$trModule2
                    Parallels.ControlStrategies.$trModule1) -}
-a712904fbb02f58e50b094b03845c89b
+0ca6dd141b1a7256732601426ed6d731
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "Parallels.ControlStrategies"#) -}
-b5148e7ea91cd1420546932f186fd3ba
+84af57f8de7d11ded9b6c6760919081c
   $trModule2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
-                   "gbacpFireflyProy-0.1.0.0-D96YuX7lwIu6kqTZz9evQz"#) -}
+                   "gbacpFireflyProy-0.1.0.0-1KaIhimym0EK8ggYHar05g"#) -}
 vectorised variables:
 vectorised tycons:
 vectorised reused tycons:
