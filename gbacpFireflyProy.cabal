@@ -38,7 +38,7 @@ library
                      , stm
                      , mtl
                      , bytestring
-                     , cairo
+                     , chart-cairo
                      , colour
                      , pango
                      , data-default-class
