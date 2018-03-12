@@ -1,5 +1,5 @@
-module Diagrams.DiagramTest (main) where
-    
+module Diagramas.DiagramTest (main) where
+
 import Lib.Prelude
 
 import Graphics.Rendering.Chart
