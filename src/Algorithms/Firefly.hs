@@ -16,7 +16,7 @@ intensity x1 x2 =
     let dist = x1 - x2
     in  exp(-1*dist)
 
-mov :: Float -> Float -> Float -> Float -> Float
+mov :: Float -> Float -> Float -> Float
 mov x1 x2 aleat = (intensity x1 x2)*(x1-x2) + x1 + 1*(aleat-0.5)
 
 -- | The sigmoid function:  1 / (1 + exp (-x))
