@@ -35,6 +35,13 @@
   (major1) == 0 && (major2) <  1 || \
   (major1) == 0 && (major2) == 1 && (minor) <= 2)
 
+/* package diagrams-1.4 */
+#define VERSION_diagrams "1.4"
+#define MIN_VERSION_diagrams(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  4 || \
+  (major1) == 1 && (major2) == 4 && (minor) <= 0)
+
 /* package lens-4.15.4 */
 #define VERSION_lens "4.15.4"
 #define MIN_VERSION_lens(major1,major2,minor) (\
@@ -154,7 +161,7 @@
   (major1) == 0 && (major2) <  29 || \
   (major1) == 0 && (major2) == 29 && (minor) <= 2)
 
-#define CURRENT_COMPONENT_ID "gbacpFireflyProy-0.1.0.0-LSBCvYO55c93GGH3MwVluT"
+#define CURRENT_COMPONENT_ID "gbacpFireflyProy-0.1.0.0-CHq3Tn7dr8PHomrWDG0oE9"
 
-#define CURRENT_PACKAGE_KEY "gbacpFireflyProy-0.1.0.0-LSBCvYO55c93GGH3MwVluT"
+#define CURRENT_PACKAGE_KEY "gbacpFireflyProy-0.1.0.0-CHq3Tn7dr8PHomrWDG0oE9"
 
