@@ -3,12 +3,12 @@ module Diagramas.DiagramTest (main) where
 import Lib.Prelude
 
 import Graphics.Rendering.Chart.Easy
-import Graphics.Rendering.Chart.Backend.Cairo
+import Graphics.Rendering.Chart.Backend.Diagrams(toFile)
 
 signal :: [Double] -> [(Double,Double)]
 signal xs = [ (x,(sin (x*3.14159/45) + 1) / 2 * (sin (x*3.14159/5))) | x <- xs ]
 
-main = toFile def "example4_big.png" $ do
+main = toFile def "mychart.svg" $ do
     layout_title .= "Amplitude Modulation"
     setColors [opaque blue, opaque red]
     plot (line "am" [signal [0,(0.5)..400]])
