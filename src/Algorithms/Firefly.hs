@@ -14,7 +14,7 @@ restNum xs = xs ++ xs
 intensity :: Float -> Float -> Float
 intensity x1 x2 =
     let dist = x2 - x1
-    in 1*(exp(-1*dist))*dist
+    in 1*(exp(1*dist))*dist
 
 mov :: Float -> Float -> Float -> Float
 mov x1 x2 aleat = intensity x1 x2 + x1 + 0.5*(aleat-0.5)
