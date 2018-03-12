@@ -45,7 +45,7 @@ library
                      , gtk2hs-buildtools
                      , diagrams
                      , gtk
-                     , map
+           --          , map
                      , monad-par
                      , monad-par-extras
   default-language:    Haskell2010
