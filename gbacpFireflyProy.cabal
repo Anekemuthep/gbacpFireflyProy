@@ -44,7 +44,7 @@ test-suite gbacpFireflyProy-test
   build-depends:       base
                      , colour
                      , data-default-class
-                     , lens
+          --           , lens
                      , gbacpFireflyProy
                      , tasty
                      , tasty-hunit
