@@ -13,9 +13,8 @@ restNum xs = xs ++ xs
 
 intensity :: Float -> Float -> Float
 intensity x1 x2 =
-    let e = exp 1
-        dist = x1 - x2
-    in 1.2 * (e ** (0.2 * dist))
+    let dist = x2 - x1
+    in 1*(exp(-1*dist)*dist
 
 -- | The sigmoid function:  1 / (1 + exp (-x))
 sigmoid :: Floating a => a -> a
