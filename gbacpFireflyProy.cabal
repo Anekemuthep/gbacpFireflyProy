@@ -44,7 +44,7 @@ library
                      , data-default-class
                      , gtk2hs-buildtools
                      , diagrams
-                     , gtk
+                     , gtk+
            --          , map
                      , monad-par
                      , monad-par-extras
