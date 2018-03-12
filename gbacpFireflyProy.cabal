@@ -25,6 +25,7 @@ library
                      , protolude >= 0.1.6 && < 0.2
                      , text
                      , colour
+                     , Chart-diagrams
                      , pango
                      , cairo
                      , diagrams
