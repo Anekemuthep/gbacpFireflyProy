@@ -19,7 +19,7 @@ intensity x1 x2 =
 
 -- | The sigmoid function:  1 / (1 + exp (-x))
 sigmoid :: Floating a => a -> a
-sigmoid !x = 1 / (1 + exp (-x))
+sigmoid x = 1 / (1 + exp (-x))
 {-# INLINE sigmoid #-}
 
 -- | Derivative of the sigmoid function: sigmoid x * (1 - sigmoid x)
