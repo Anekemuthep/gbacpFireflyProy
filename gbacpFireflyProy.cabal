@@ -19,6 +19,7 @@ library
   exposed-modules:     Lib
                      , Algorithms.Firefly 
                      , Algorithms.Gbacp
+                     , Diagramas.DiagramTest
   other-modules:       Lib.Prelude
   build-depends:       base >= 4.7 && < 5
                      , protolude >= 0.1.6 && < 0.2
