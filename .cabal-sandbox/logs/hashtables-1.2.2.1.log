@@ -1,0 +1,229 @@
+cabal: Entering directory '/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/cabal-tmp-64020/hashtables-1.2.2.1'
+Configuring hashtables-1.2.2.1...
+Building hashtables-1.2.2.1...
+Preprocessing library hashtables-1.2.2.1...
+[ 1 of 12] Compiling Data.HashTable.Internal.UnsafeTricks ( src/Data/HashTable/Internal/UnsafeTricks.hs, dist/dist-sandbox-65148ee2/build/Data/HashTable/Internal/UnsafeTricks.o )
+[ 2 of 12] Compiling Data.HashTable.Internal.IntArray ( src/Data/HashTable/Internal/IntArray.hs, dist/dist-sandbox-65148ee2/build/Data/HashTable/Internal/IntArray.o )
+[ 3 of 12] Compiling Data.HashTable.Internal.Utils ( src/Data/HashTable/Internal/Utils.hs, dist/dist-sandbox-65148ee2/build/Data/HashTable/Internal/Utils.o )
+[ 4 of 12] Compiling Data.HashTable.Internal.CheapPseudoRandomBitStream ( src/Data/HashTable/Internal/CheapPseudoRandomBitStream.hs, dist/dist-sandbox-65148ee2/build/Data/HashTable/Internal/CheapPseudoRandomBitStream.o )
+[ 5 of 12] Compiling Data.HashTable.Internal.CacheLine ( src/Data/HashTable/Internal/CacheLine.hs, dist/dist-sandbox-65148ee2/build/Data/HashTable/Internal/CacheLine.o )
+[ 6 of 12] Compiling Data.HashTable.Internal.Array ( src/Data/HashTable/Internal/Array.hs, dist/dist-sandbox-65148ee2/build/Data/HashTable/Internal/Array.o )
+[ 7 of 12] Compiling Data.HashTable.Internal.Linear.Bucket ( src/Data/HashTable/Internal/Linear/Bucket.hs, dist/dist-sandbox-65148ee2/build/Data/HashTable/Internal/Linear/Bucket.o )
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65986_0/ghc_19.hscpp:506:21: warning: [-Wunused-matches]
+    Defined but not used: ‘sz’
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65986_0/ghc_19.hscpp:518:19: warning: [-Wunused-matches]
+    Defined but not used: ‘v’
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65986_0/ghc_19.hscpp:521:19: warning: [-Wunused-matches]
+    Defined but not used: ‘v’
+[ 8 of 12] Compiling Data.HashTable.Class ( src/Data/HashTable/Class.hs, dist/dist-sandbox-65148ee2/build/Data/HashTable/Class.o )
+[ 9 of 12] Compiling Data.HashTable.ST.Basic ( src/Data/HashTable/ST/Basic.hs, dist/dist-sandbox-65148ee2/build/Data/HashTable/ST/Basic.o )
+[10 of 12] Compiling Data.HashTable.ST.Cuckoo ( src/Data/HashTable/ST/Cuckoo.hs, dist/dist-sandbox-65148ee2/build/Data/HashTable/ST/Cuckoo.o )
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65986_0/ghc_5.hscpp:588:22: warning: [-Wunused-matches]
+    Defined but not used: ‘hashCode’
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65986_0/ghc_5.hscpp:591:15: warning: [-Wunused-matches]
+    Defined but not used: ‘v’
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65986_0/ghc_5.hscpp:594:15: warning: [-Wunused-matches]
+    Defined but not used: ‘v’
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65986_0/ghc_5.hscpp:641:26: warning: [-Wunused-matches]
+    Defined but not used: ‘k'’
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65986_0/ghc_5.hscpp:641:30: warning: [-Wunused-matches]
+    Defined but not used: ‘v'’
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65986_0/ghc_5.hscpp:653:16: warning: [-Wunused-matches]
+    Defined but not used: ‘ht’
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65986_0/ghc_5.hscpp:668:16: warning: [-Wunused-matches]
+    Defined but not used: ‘ht’
+[11 of 12] Compiling Data.HashTable.ST.Linear ( src/Data/HashTable/ST/Linear.hs, dist/dist-sandbox-65148ee2/build/Data/HashTable/ST/Linear.o )
+[12 of 12] Compiling Data.HashTable.IO ( src/Data/HashTable/IO.hs, dist/dist-sandbox-65148ee2/build/Data/HashTable/IO.o )
+[ 1 of 12] Compiling Data.HashTable.Internal.UnsafeTricks ( src/Data/HashTable/Internal/UnsafeTricks.hs, dist/dist-sandbox-65148ee2/build/Data/HashTable/Internal/UnsafeTricks.p_o )
+[ 2 of 12] Compiling Data.HashTable.Internal.IntArray ( src/Data/HashTable/Internal/IntArray.hs, dist/dist-sandbox-65148ee2/build/Data/HashTable/Internal/IntArray.p_o )
+[ 3 of 12] Compiling Data.HashTable.Internal.Utils ( src/Data/HashTable/Internal/Utils.hs, dist/dist-sandbox-65148ee2/build/Data/HashTable/Internal/Utils.p_o )
+[ 4 of 12] Compiling Data.HashTable.Internal.CheapPseudoRandomBitStream ( src/Data/HashTable/Internal/CheapPseudoRandomBitStream.hs, dist/dist-sandbox-65148ee2/build/Data/HashTable/Internal/CheapPseudoRandomBitStream.p_o )
+[ 5 of 12] Compiling Data.HashTable.Internal.CacheLine ( src/Data/HashTable/Internal/CacheLine.hs, dist/dist-sandbox-65148ee2/build/Data/HashTable/Internal/CacheLine.p_o )
+[ 6 of 12] Compiling Data.HashTable.Internal.Array ( src/Data/HashTable/Internal/Array.hs, dist/dist-sandbox-65148ee2/build/Data/HashTable/Internal/Array.p_o )
+[ 7 of 12] Compiling Data.HashTable.Internal.Linear.Bucket ( src/Data/HashTable/Internal/Linear/Bucket.hs, dist/dist-sandbox-65148ee2/build/Data/HashTable/Internal/Linear/Bucket.p_o )
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66074_0/ghc_19.hscpp:506:21: warning: [-Wunused-matches]
+    Defined but not used: ‘sz’
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66074_0/ghc_19.hscpp:518:19: warning: [-Wunused-matches]
+    Defined but not used: ‘v’
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66074_0/ghc_19.hscpp:521:19: warning: [-Wunused-matches]
+    Defined but not used: ‘v’
+[ 8 of 12] Compiling Data.HashTable.Class ( src/Data/HashTable/Class.hs, dist/dist-sandbox-65148ee2/build/Data/HashTable/Class.p_o )
+[ 9 of 12] Compiling Data.HashTable.ST.Basic ( src/Data/HashTable/ST/Basic.hs, dist/dist-sandbox-65148ee2/build/Data/HashTable/ST/Basic.p_o )
+[10 of 12] Compiling Data.HashTable.ST.Cuckoo ( src/Data/HashTable/ST/Cuckoo.hs, dist/dist-sandbox-65148ee2/build/Data/HashTable/ST/Cuckoo.p_o )
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66074_0/ghc_5.hscpp:588:22: warning: [-Wunused-matches]
+    Defined but not used: ‘hashCode’
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66074_0/ghc_5.hscpp:591:15: warning: [-Wunused-matches]
+    Defined but not used: ‘v’
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66074_0/ghc_5.hscpp:594:15: warning: [-Wunused-matches]
+    Defined but not used: ‘v’
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66074_0/ghc_5.hscpp:641:26: warning: [-Wunused-matches]
+    Defined but not used: ‘k'’
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66074_0/ghc_5.hscpp:641:30: warning: [-Wunused-matches]
+    Defined but not used: ‘v'’
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66074_0/ghc_5.hscpp:653:16: warning: [-Wunused-matches]
+    Defined but not used: ‘ht’
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66074_0/ghc_5.hscpp:668:16: warning: [-Wunused-matches]
+    Defined but not used: ‘ht’
+[11 of 12] Compiling Data.HashTable.ST.Linear ( src/Data/HashTable/ST/Linear.hs, dist/dist-sandbox-65148ee2/build/Data/HashTable/ST/Linear.p_o )
+[12 of 12] Compiling Data.HashTable.IO ( src/Data/HashTable/IO.hs, dist/dist-sandbox-65148ee2/build/Data/HashTable/IO.p_o )
+Running Haddock for hashtables-1.2.2.1...
+Preprocessing library hashtables-1.2.2.1...
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_19.hscpp:506:21: warning: [-Wunused-matches]
+    Defined but not used: ‘sz’
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_19.hscpp:518:19: warning: [-Wunused-matches]
+    Defined but not used: ‘v’
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_19.hscpp:521:19: warning: [-Wunused-matches]
+    Defined but not used: ‘v’
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_5.hscpp:588:22: warning: [-Wunused-matches]
+    Defined but not used: ‘hashCode’
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_5.hscpp:591:15: warning: [-Wunused-matches]
+    Defined but not used: ‘v’
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_5.hscpp:594:15: warning: [-Wunused-matches]
+    Defined but not used: ‘v’
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_5.hscpp:641:26: warning: [-Wunused-matches]
+    Defined but not used: ‘k'’
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_5.hscpp:641:30: warning: [-Wunused-matches]
+    Defined but not used: ‘v'’
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_5.hscpp:653:16: warning: [-Wunused-matches]
+    Defined but not used: ‘ht’
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_5.hscpp:668:16: warning: [-Wunused-matches]
+    Defined but not used: ‘ht’
+Haddock coverage:
+   0% (  0 / 10) in 'Data.HashTable.Internal.UnsafeTricks'
+  Missing documentation for:
+    Module header
+    Key (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_15.hscpp:206)
+    toKey (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_15.hscpp:225)
+    fromKey (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_15.hscpp:226)
+    emptyRecord (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_15.hscpp:218)
+    deletedRecord (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_15.hscpp:219)
+    keyIsEmpty (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_15.hscpp:220)
+    keyIsDeleted (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_15.hscpp:221)
+    writeDeletedElement (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_15.hscpp:223)
+    makeEmptyVector (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_15.hscpp:222)
+   0% (  0 / 12) in 'Data.HashTable.Internal.IntArray'
+  Missing documentation for:
+    Module header
+    IntArray (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_11.hscpp:202)
+    Elem (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_11.hscpp:203)
+    elemMask (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_11.hscpp:223)
+    primWordToElem (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_11.hscpp:207)
+    elemToInt (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_11.hscpp:212)
+    elemToInt# (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_11.hscpp:218)
+    newArray (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_11.hscpp:239)
+    readArray (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_11.hscpp:248)
+    writeArray (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_11.hscpp:255)
+    length (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_11.hscpp:262)
+    toPtr (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_11.hscpp:267)
+   6% (  1 / 18) in 'Data.HashTable.Internal.Utils'
+  Missing documentation for:
+    Module header
+    whichBucket (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_17.hscpp:239)
+    nextBestPrime (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_17.hscpp:406)
+    bumpSize (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_17.hscpp:415)
+    shiftL (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_17.hscpp:420)
+    shiftRL (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_17.hscpp:421)
+    iShiftL (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_17.hscpp:422)
+    iShiftRL (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_17.hscpp:423)
+    nextHighestPowerOf2 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_17.hscpp:454)
+    log2 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_17.hscpp:459)
+    highestBitMask (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_17.hscpp:468)
+    wordSize (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_17.hscpp:211)
+    cacheLineSize (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_17.hscpp:215)
+    numElemsInCacheLine (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_17.hscpp:219)
+    cacheLineIntBits (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_17.hscpp:233)
+    forceSameType (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_17.hscpp:478)
+    unsafeIOToST
+   0% (  0 /  5) in 'Data.HashTable.Internal.CheapPseudoRandomBitStream'
+  Missing documentation for:
+    Module header
+    BitStream (src/Data/HashTable/Internal/CheapPseudoRandomBitStream.hs:77)
+    newBitStream (src/Data/HashTable/Internal/CheapPseudoRandomBitStream.hs:85)
+    getNextBit (src/Data/HashTable/Internal/CheapPseudoRandomBitStream.hs:94)
+    getNBits (src/Data/HashTable/Internal/CheapPseudoRandomBitStream.hs:99)
+  47% (  7 / 15) in 'Data.HashTable.Internal.CacheLine'
+  Missing documentation for:
+    Module header
+    forwardSearch2 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_13.hscpp:260)
+    forwardSearch3 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_13.hscpp:268)
+    isCacheLineAligned (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_13.hscpp:316)
+    advanceByCacheLineSize (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_13.hscpp:301)
+    prefetchRead (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_13.hscpp:218)
+    prefetchWrite (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_13.hscpp:219)
+    maskw# (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_13.hscpp:371)
+  20% (  1 /  5) in 'Data.HashTable.Internal.Array'
+  Missing documentation for:
+    Module header
+    newArray (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_9.hscpp:191)
+    readArray (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_9.hscpp:194)
+    writeArray (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_9.hscpp:197)
+   0% (  0 / 21) in 'Data.HashTable.Internal.Linear.Bucket'
+  Missing documentation for:
+    Module header
+    Bucket (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_19.hscpp:216)
+    newBucketArray (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_19.hscpp:232)
+    newBucketSize (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_19.hscpp:264)
+    emptyWithSize (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_19.hscpp:254)
+    growBucketTo (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_19.hscpp:297)
+    snoc (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_19.hscpp:319)
+    size (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_19.hscpp:378)
+    lookup (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_19.hscpp:385)
+    lookupIndex (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_19.hscpp:405)
+    elemAt (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_19.hscpp:422)
+    delete (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_19.hscpp:463)
+    mutate (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_19.hscpp:492)
+    toList (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_19.hscpp:437)
+    fromList (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_19.hscpp:455)
+    mapM_ (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_19.hscpp:539)
+    foldM (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_19.hscpp:561)
+    expandBucketArray (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_19.hscpp:289)
+    expandArray (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_19.hscpp:269)
+    nelemsAndOverheadInWords (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_19.hscpp:236)
+    bucketSplitSize (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_19.hscpp:227)
+ 100% (  5 /  5) in 'Data.HashTable.Class'
+ 100% ( 11 / 11) in 'Data.HashTable.ST.Basic'
+  92% ( 11 / 12) in 'Data.HashTable.ST.Cuckoo'
+  Missing documentation for:
+    mutate (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_5.hscpp:340)
+  91% ( 10 / 11) in 'Data.HashTable.ST.Linear'
+  Missing documentation for:
+    mutate (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc66261_0/ghc_7.hscpp:394)
+ 100% ( 19 / 19) in 'Data.HashTable.IO'
+Documentation created:
+dist/dist-sandbox-65148ee2/doc/html/hashtables/index.html
+Creating package registration file:
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/pkgConf-hashtables-1.2.25305119672110010672.1
+Installing library in
+/Users/alfonsobustamante/Documents/GitHub/gbacpFireflyProy/.cabal-sandbox/lib/x86_64-osx-ghc-8.0.2/hashtables-1.2.2.1-3FmZVxKSB4nL2Zk5tBbQTu
+Registering hashtables-1.2.2.1...
+cabal: Leaving directory '/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/cabal-tmp-64020/hashtables-1.2.2.1'

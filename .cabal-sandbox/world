@@ -1,0 +1,3 @@
+poppler -any
+gtk -any
+gtk2hs-buildtools -any

@@ -1,0 +1,128 @@
+cabal: Entering directory '/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/cabal-tmp-70590/gtk-0.14.7'
+[1 of 1] Compiling Main             ( /var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/cabal-tmp-70590/gtk-0.14.7/dist/dist-sandbox-65148ee2/setup/setup.hs, /var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/cabal-tmp-70590/gtk-0.14.7/dist/dist-sandbox-65148ee2/setup/Main.o )
+Linking /var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/cabal-tmp-70590/gtk-0.14.7/dist/dist-sandbox-65148ee2/setup/setup ...
+Configuring gtk-0.14.7...
+Building gtk-0.14.7...
+Preprocessing library gtk-0.14.7...
+[  1 of 209] Compiling Graphics.UI.Gtk.Printing.PaperSize ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Printing/PaperSize.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Printing/PaperSize.o )
+[  2 of 209] Compiling Graphics.UI.Gtk.ModelView.Sequence ( Graphics/UI/Gtk/ModelView/Sequence.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/ModelView/Sequence.o )
+[  3 of 209] Compiling Graphics.UI.Gtk.General.Threading ( Graphics/UI/Gtk/General/Threading.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/General/Threading.o )
+[  4 of 209] Compiling Graphics.UI.Gtk.Signals ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Signals.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Signals.o )
+[  5 of 209] Compiling Graphics.UI.Gtk.Types ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Types.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Types.o )
+[  6 of 209] Compiling Graphics.UI.Gtk.Misc.IMContextSimple ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Misc/IMContextSimple.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Misc/IMContextSimple.o )
+[  7 of 209] Compiling Graphics.UI.Gtk.Misc.IMMulticontext ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Misc/IMMulticontext.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Misc/IMMulticontext.o )
+[  8 of 209] Compiling Graphics.UI.Gtk.Misc.SizeGroup ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Misc/SizeGroup.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Misc/SizeGroup.o )
+[  9 of 209] Compiling Graphics.UI.Gtk.ModelView.Types ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/ModelView/Types.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/ModelView/Types.o )
+[ 10 of 209] Compiling Graphics.UI.Gtk.ModelView.TreeRowReference ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/ModelView/TreeRowReference.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/ModelView/TreeRowReference.o )
+[ 11 of 209] Compiling Graphics.UI.Gtk.Multiline.TextMark ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Multiline/TextMark.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Multiline/TextMark.o )
+[ 12 of 209] Compiling Graphics.UI.Gtk.Multiline.TextTagTable ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Multiline/TextTagTable.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Multiline/TextTagTable.o )
+[ 13 of 209] Compiling Graphics.UI.Gtk.Printing.PrintContext ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Printing/PrintContext.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Printing/PrintContext.o )
+[ 14 of 209] Compiling Graphics.UI.Gtk.Printing.PrintOperation ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Printing/PrintOperation.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Printing/PrintOperation.o )
+[ 15 of 209] Compiling Graphics.UI.Gtk.Printing.PrintSettings ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Printing/PrintSettings.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Printing/PrintSettings.o )
+[ 16 of 209] Compiling Graphics.UI.Gtk.Printing.PageSetup ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Printing/PageSetup.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Printing/PageSetup.o )
+[ 17 of 209] Compiling Graphics.UI.Gtk.Recent.RecentInfo ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Recent/RecentInfo.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Recent/RecentInfo.o )
+[ 18 of 209] Compiling Graphics.UI.Gtk.Recent.RecentManager ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Recent/RecentManager.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Recent/RecentManager.o )
+[ 19 of 209] Compiling Graphics.UI.Gtk.Windows.WindowGroup ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Windows/WindowGroup.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Windows/WindowGroup.o )
+[ 20 of 209] Compiling Graphics.UI.Gtk.General.Settings ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/General/Settings.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/General/Settings.o )
+[ 21 of 209] Compiling Graphics.UI.Gtk.General.RcStyle ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/General/RcStyle.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/General/RcStyle.o )
+[ 22 of 209] Compiling Graphics.UI.Gtk.General.DNDTypes ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/General/DNDTypes.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/General/DNDTypes.o )
+[ 23 of 209] Compiling Graphics.UI.Gtk.ModelView.CustomStore ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/ModelView/CustomStore.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/ModelView/CustomStore.o )
+[ 24 of 209] Compiling Graphics.UI.Gtk.ModelView.TreeModel ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/ModelView/TreeModel.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/ModelView/TreeModel.o )
+[ 25 of 209] Compiling Graphics.UI.Gtk.ModelView.CellLayout ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/ModelView/CellLayout.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/ModelView/CellLayout.o )
+[ 26 of 209] Compiling Graphics.UI.Gtk.ModelView.TreeModelFilter ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/ModelView/TreeModelFilter.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/ModelView/TreeModelFilter.o )
+[ 27 of 209] Compiling Graphics.UI.Gtk.ModelView.TreeModelSort ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/ModelView/TreeModelSort.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/ModelView/TreeModelSort.o )
+[ 28 of 209] Compiling Graphics.UI.Gtk.ModelView.TreeDrag ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/ModelView/TreeDrag.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/ModelView/TreeDrag.o )
+[ 29 of 209] Compiling Graphics.UI.Gtk.ModelView.ListStore ( Graphics/UI/Gtk/ModelView/ListStore.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/ModelView/ListStore.o )
+[ 30 of 209] Compiling Graphics.UI.Gtk.ModelView.TreeStore ( Graphics/UI/Gtk/ModelView/TreeStore.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/ModelView/TreeStore.o )
+[ 31 of 209] Compiling Graphics.UI.Gtk.Gdk.Pixmap ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Gdk/Pixmap.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Gdk/Pixmap.o )
+[ 32 of 209] Compiling Graphics.UI.Gtk.Gdk.PixbufData ( Graphics/UI/Gtk/Gdk/PixbufData.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Gdk/PixbufData.o )
+[ 33 of 209] Compiling Graphics.UI.Gtk.Gdk.PixbufAnimation ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Gdk/PixbufAnimation.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Gdk/PixbufAnimation.o )
+[ 34 of 209] Compiling Graphics.UI.Gtk.Gdk.Keys ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Gdk/Keys.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Gdk/Keys.o )
+[ 35 of 209] Compiling Graphics.UI.Gtk.Gdk.Enums ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Gdk/Enums.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Gdk/Enums.o )
+[ 36 of 209] Compiling Graphics.UI.Gtk.General.Enums ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/General/Enums.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/General/Enums.o )
+[ 37 of 209] Compiling Graphics.UI.Gtk.MenuComboToolbar.MenuShell ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/MenuComboToolbar/MenuShell.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/MenuComboToolbar/MenuShell.o )
+[ 38 of 209] Compiling Graphics.UI.Gtk.Special.Ruler ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Special/Ruler.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Special/Ruler.o )
+[ 39 of 209] Compiling Graphics.UI.Gtk.Gdk.DisplayManager ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Gdk/DisplayManager.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Gdk/DisplayManager.o )
+[ 40 of 209] Compiling Graphics.UI.Gtk.Entry.EntryBuffer ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Entry/EntryBuffer.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Entry/EntryBuffer.o )
+[ 41 of 209] Compiling Graphics.UI.Gtk.Entry.Editable ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Entry/Editable.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Entry/Editable.o )
+[ 42 of 209] Compiling Graphics.UI.Gtk.Embedding.Types ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Embedding/Types.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Embedding/Types.o )
+[ 43 of 209] Compiling Graphics.UI.Gtk.Embedding.Embedding ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Embedding/Embedding.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Embedding/Embedding.o )
+[ 44 of 209] Compiling Graphics.UI.Gtk.Builder ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Builder.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Builder.o )
+[ 45 of 209] Compiling Graphics.UI.Gtk.ActionMenuToolbar.RecentAction ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/ActionMenuToolbar/RecentAction.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/ActionMenuToolbar/RecentAction.o )
+[ 46 of 209] Compiling Graphics.UI.Gtk.Abstract.Separator ( Graphics/UI/Gtk/Abstract/Separator.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Abstract/Separator.o )
+[ 47 of 209] Compiling Graphics.UI.Gtk.Abstract.Scrollbar ( Graphics/UI/Gtk/Abstract/Scrollbar.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Abstract/Scrollbar.o )
+[ 48 of 209] Compiling Graphics.UI.Gtk.Abstract.Scale ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Abstract/Scale.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Abstract/Scale.o )
+[ 49 of 209] Compiling Graphics.UI.Gtk.Abstract.Object ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Abstract/Object.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Abstract/Object.o )
+[ 50 of 209] Compiling Graphics.UI.Gtk.ActionMenuToolbar.UIManager ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/ActionMenuToolbar/UIManager.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/ActionMenuToolbar/UIManager.o )
+[ 51 of 209] Compiling Graphics.UI.Gtk.Buttons.CheckButton ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Buttons/CheckButton.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Buttons/CheckButton.o )
+[ 52 of 209] Compiling Graphics.UI.Gtk.Buttons.LinkButton ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Buttons/LinkButton.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Buttons/LinkButton.o )
+[ 53 of 209] Compiling Graphics.UI.Gtk.Buttons.RadioButton ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Buttons/RadioButton.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Buttons/RadioButton.o )
+[ 54 of 209] Compiling Graphics.UI.Gtk.Buttons.ToggleButton ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Buttons/ToggleButton.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Buttons/ToggleButton.o )
+[ 55 of 209] Compiling Graphics.UI.Gtk.Buttons.VolumeButton ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Buttons/VolumeButton.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Buttons/VolumeButton.o )
+[ 56 of 209] Compiling Graphics.UI.Gtk.Display.AccelLabel ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Display/AccelLabel.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Display/AccelLabel.o )
+[ 57 of 209] Compiling Graphics.UI.Gtk.Display.Label ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Display/Label.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Display/Label.o )
+[ 58 of 209] Compiling Graphics.UI.Gtk.Display.ProgressBar ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Display/ProgressBar.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Display/ProgressBar.o )
+[ 59 of 209] Compiling Graphics.UI.Gtk.Display.Spinner ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Display/Spinner.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Display/Spinner.o )
+[ 60 of 209] Compiling Graphics.UI.Gtk.Display.Statusbar ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Display/Statusbar.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Display/Statusbar.o )
+[ 61 of 209] Compiling Graphics.UI.Gtk.Entry.EntryCompletion ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Entry/EntryCompletion.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Entry/EntryCompletion.o )
+[ 62 of 209] Compiling Graphics.UI.Gtk.Entry.HScale ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Entry/HScale.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Entry/HScale.o )
+[ 63 of 209] Compiling Graphics.UI.Gtk.Entry.VScale ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Entry/VScale.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Entry/VScale.o )
+[ 64 of 209] Compiling Graphics.UI.Gtk.General.Structs ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/General/Structs.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/General/Structs.o )
+[ 65 of 209] Compiling Graphics.UI.Gtk.Abstract.Range ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Abstract/Range.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Abstract/Range.o )
+[ 66 of 209] Compiling Graphics.UI.Gtk.Buttons.ScaleButton ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Buttons/ScaleButton.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Buttons/ScaleButton.o )
+[ 67 of 209] Compiling Graphics.UI.Gtk.Embedding.Plug ( dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Embedding/Plug.hs, dist/dist-sandbox-65148ee2/build/Graphics/UI/Gtk/Embedding/Plug.o )
+
+Graphics/UI/Gtk/Embedding/Plug.chs:120:6: error:
+    • Couldn't match expected type ‘Ptr ()’
+                  with actual type ‘Maybe DrawWindow’
+    • In the first argument of ‘gtk_plug_new’, namely
+        ‘(fromNativeWindowId (fromMaybe nativeWindowIdNone socketId))’
+      In the second argument of ‘($)’, namely
+        ‘gtk_plug_new
+           (fromNativeWindowId (fromMaybe nativeWindowIdNone socketId))’
+      In the second argument of ‘($)’, namely
+        ‘liftM (castPtr :: Ptr Widget -> Ptr Plug)
+         $ gtk_plug_new
+             (fromNativeWindowId (fromMaybe nativeWindowIdNone socketId))’
+
+Graphics/UI/Gtk/Embedding/Plug.chs:137:6: error:
+    • Couldn't match expected type ‘Ptr ()’
+                  with actual type ‘Maybe DrawWindow’
+    • In the second argument of ‘\ (Display arg1) arg2
+                                   -> withForeignPtr arg1
+                                      $ \ argPtr1 -> gtk_plug_new_for_display argPtr1 arg2’, namely
+        ‘(fromNativeWindowId (fromMaybe nativeWindowIdNone socketId))’
+      In the second argument of ‘($)’, namely
+        ‘(\ (Display arg1) arg2
+            -> withForeignPtr arg1
+               $ \ argPtr1 -> gtk_plug_new_for_display argPtr1 arg2)
+           display
+           (fromNativeWindowId (fromMaybe nativeWindowIdNone socketId))’
+      In the second argument of ‘($)’, namely
+        ‘liftM (castPtr :: Ptr Widget -> Ptr Plug)
+         $ (\ (Display arg1) arg2
+              -> withForeignPtr arg1
+                 $ \ argPtr1 -> gtk_plug_new_for_display argPtr1 arg2)
+             display
+             (fromNativeWindowId (fromMaybe nativeWindowIdNone socketId))’
+
+Graphics/UI/Gtk/Embedding/Plug.chs:151:3: error:
+    • Couldn't match type ‘Ptr ()’ with ‘Maybe DrawWindow’
+      Expected type: IO (Maybe DrawWindow)
+        Actual type: IO (Ptr ())
+    • In the second argument of ‘($)’, namely
+        ‘(\ (Plug arg1)
+            -> withForeignPtr arg1 $ \ argPtr1 -> gtk_plug_get_id argPtr1)
+           (toPlug self)’
+      In the expression:
+        liftM toNativeWindowId
+        $ (\ (Plug arg1)
+             -> withForeignPtr arg1 $ \ argPtr1 -> gtk_plug_get_id argPtr1)
+            (toPlug self)
+      In an equation for ‘plugGetId’:
+          plugGetId self
+            = liftM toNativeWindowId
+              $ (\ (Plug arg1)
+                   -> withForeignPtr arg1 $ \ argPtr1 -> gtk_plug_get_id argPtr1)
+                  (toPlug self)
+cabal: Leaving directory '/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/cabal-tmp-70590/gtk-0.14.7'

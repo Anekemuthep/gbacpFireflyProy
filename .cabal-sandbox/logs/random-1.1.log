@@ -1,0 +1,30 @@
+cabal: Entering directory '/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/cabal-tmp-64020/random-1.1'
+Configuring random-1.1...
+Building random-1.1...
+Preprocessing library random-1.1...
+[1 of 1] Compiling System.Random    ( System/Random.hs, dist/dist-sandbox-65148ee2/build/System/Random.o )
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64095_0/ghc_1.hscpp:724:1: warning: [-Wtabs]
+    Tab character found here, and in 74 further locations.
+    Please use spaces instead.
+[1 of 1] Compiling System.Random    ( System/Random.hs, dist/dist-sandbox-65148ee2/build/System/Random.p_o )
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64336_0/ghc_1.hscpp:724:1: warning: [-Wtabs]
+    Tab character found here, and in 74 further locations.
+    Please use spaces instead.
+Running Haddock for random-1.1...
+Preprocessing library random-1.1...
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64455_0/ghc_1.hscpp:724:1: warning: [-Wtabs]
+    Tab character found here, and in 74 further locations.
+    Please use spaces instead.
+Haddock coverage:
+Cannot find documentation for: $intro
+ 100% ( 16 / 16) in 'System.Random'
+Documentation created: dist/dist-sandbox-65148ee2/doc/html/random/index.html
+Creating package registration file:
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/pkgConf-random-18965443031474833169.1
+Installing library in
+/Users/alfonsobustamante/Documents/GitHub/gbacpFireflyProy/.cabal-sandbox/lib/x86_64-osx-ghc-8.0.2/random-1.1-9tceXaeYIMZ4JrKq20Egog
+Registering random-1.1...
+cabal: Leaving directory '/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/cabal-tmp-64020/random-1.1'

@@ -1,0 +1,190 @@
+cabal: Entering directory '/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/cabal-tmp-64021/primitive-0.6.3.0'
+Configuring primitive-0.6.3.0...
+Building primitive-0.6.3.0...
+Preprocessing library primitive-0.6.3.0...
+[ 1 of 12] Compiling Data.Primitive.MachDeps ( Data/Primitive/MachDeps.hs, dist/dist-sandbox-65148ee2/build/Data/Primitive/MachDeps.o )
+[ 2 of 12] Compiling Data.Primitive.Internal.Operations ( Data/Primitive/Internal/Operations.hs, dist/dist-sandbox-65148ee2/build/Data/Primitive/Internal/Operations.o )
+[ 3 of 12] Compiling Data.Primitive.Internal.Compat ( Data/Primitive/Internal/Compat.hs, dist/dist-sandbox-65148ee2/build/Data/Primitive/Internal/Compat.o )
+[ 4 of 12] Compiling Control.Monad.Primitive ( Control/Monad/Primitive.hs, dist/dist-sandbox-65148ee2/build/Control/Monad/Primitive.o )
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64136_0/ghc_1.hscpp:190:1: warning: [-Wdeprecations]
+    Module ‘Control.Monad.Trans.Error’ is deprecated:
+      Use Control.Monad.Trans.Except instead
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64136_0/ghc_1.hscpp:261:11: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘Error’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64136_0/ghc_1.hscpp:261:47: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64136_0/ghc_1.hscpp:262:19: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+[ 5 of 12] Compiling Data.Primitive.Array ( Data/Primitive/Array.hs, dist/dist-sandbox-65148ee2/build/Data/Primitive/Array.o )
+[ 6 of 12] Compiling Data.Primitive.MutVar ( Data/Primitive/MutVar.hs, dist/dist-sandbox-65148ee2/build/Data/Primitive/MutVar.o )
+[ 7 of 12] Compiling Data.Primitive.SmallArray ( Data/Primitive/SmallArray.hs, dist/dist-sandbox-65148ee2/build/Data/Primitive/SmallArray.o )
+[ 8 of 12] Compiling Data.Primitive.Types ( Data/Primitive/Types.hs, dist/dist-sandbox-65148ee2/build/Data/Primitive/Types.o )
+[ 9 of 12] Compiling Data.Primitive.Addr ( Data/Primitive/Addr.hs, dist/dist-sandbox-65148ee2/build/Data/Primitive/Addr.o )
+[10 of 12] Compiling Data.Primitive.ByteArray ( Data/Primitive/ByteArray.hs, dist/dist-sandbox-65148ee2/build/Data/Primitive/ByteArray.o )
+[11 of 12] Compiling Data.Primitive   ( Data/Primitive.hs, dist/dist-sandbox-65148ee2/build/Data/Primitive.o )
+[12 of 12] Compiling Data.Primitive.UnliftedArray ( Data/Primitive/UnliftedArray.hs, dist/dist-sandbox-65148ee2/build/Data/Primitive/UnliftedArray.o )
+[ 1 of 12] Compiling Data.Primitive.MachDeps ( Data/Primitive/MachDeps.hs, dist/dist-sandbox-65148ee2/build/Data/Primitive/MachDeps.p_o )
+[ 2 of 12] Compiling Data.Primitive.Internal.Operations ( Data/Primitive/Internal/Operations.hs, dist/dist-sandbox-65148ee2/build/Data/Primitive/Internal/Operations.p_o )
+[ 3 of 12] Compiling Data.Primitive.Internal.Compat ( Data/Primitive/Internal/Compat.hs, dist/dist-sandbox-65148ee2/build/Data/Primitive/Internal/Compat.p_o )
+[ 4 of 12] Compiling Control.Monad.Primitive ( Control/Monad/Primitive.hs, dist/dist-sandbox-65148ee2/build/Control/Monad/Primitive.p_o )
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64386_0/ghc_1.hscpp:190:1: warning: [-Wdeprecations]
+    Module ‘Control.Monad.Trans.Error’ is deprecated:
+      Use Control.Monad.Trans.Except instead
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64386_0/ghc_1.hscpp:261:11: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘Error’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64386_0/ghc_1.hscpp:261:47: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64386_0/ghc_1.hscpp:262:19: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+[ 5 of 12] Compiling Data.Primitive.Array ( Data/Primitive/Array.hs, dist/dist-sandbox-65148ee2/build/Data/Primitive/Array.p_o )
+[ 6 of 12] Compiling Data.Primitive.MutVar ( Data/Primitive/MutVar.hs, dist/dist-sandbox-65148ee2/build/Data/Primitive/MutVar.p_o )
+[ 7 of 12] Compiling Data.Primitive.SmallArray ( Data/Primitive/SmallArray.hs, dist/dist-sandbox-65148ee2/build/Data/Primitive/SmallArray.p_o )
+[ 8 of 12] Compiling Data.Primitive.Types ( Data/Primitive/Types.hs, dist/dist-sandbox-65148ee2/build/Data/Primitive/Types.p_o )
+[ 9 of 12] Compiling Data.Primitive.Addr ( Data/Primitive/Addr.hs, dist/dist-sandbox-65148ee2/build/Data/Primitive/Addr.p_o )
+[10 of 12] Compiling Data.Primitive.ByteArray ( Data/Primitive/ByteArray.hs, dist/dist-sandbox-65148ee2/build/Data/Primitive/ByteArray.p_o )
+[11 of 12] Compiling Data.Primitive   ( Data/Primitive.hs, dist/dist-sandbox-65148ee2/build/Data/Primitive.p_o )
+[12 of 12] Compiling Data.Primitive.UnliftedArray ( Data/Primitive/UnliftedArray.hs, dist/dist-sandbox-65148ee2/build/Data/Primitive/UnliftedArray.p_o )
+Running Haddock for primitive-0.6.3.0...
+Preprocessing library primitive-0.6.3.0...
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_1.hscpp:190:1: warning: [-Wdeprecations]
+    Module ‘Control.Monad.Trans.Error’ is deprecated:
+      Use Control.Monad.Trans.Except instead
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_1.hscpp:261:11: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘Error’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_1.hscpp:261:47: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_1.hscpp:262:19: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+Haddock coverage:
+   3% (  1 / 35) in 'Data.Primitive.MachDeps'
+  Missing documentation for:
+    sIZEOF_CHAR (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:713)
+    aLIGNMENT_CHAR (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:713)
+    sIZEOF_INT (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:713)
+    aLIGNMENT_INT (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:713)
+    sIZEOF_WORD (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:713)
+    aLIGNMENT_WORD (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:713)
+    sIZEOF_DOUBLE (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:713)
+    aLIGNMENT_DOUBLE (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:713)
+    sIZEOF_FLOAT (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:713)
+    aLIGNMENT_FLOAT (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:713)
+    sIZEOF_PTR (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:713)
+    aLIGNMENT_PTR (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:713)
+    sIZEOF_FUNPTR (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:713)
+    aLIGNMENT_FUNPTR (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:713)
+    sIZEOF_STABLEPTR (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:713)
+    aLIGNMENT_STABLEPTR (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:713)
+    sIZEOF_INT8 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:713)
+    aLIGNMENT_INT8 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:713)
+    sIZEOF_WORD8 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:713)
+    aLIGNMENT_WORD8 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:713)
+    sIZEOF_INT16 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:713)
+    aLIGNMENT_INT16 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:713)
+    sIZEOF_WORD16 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:713)
+    aLIGNMENT_WORD16 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:713)
+    sIZEOF_INT32 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:713)
+    aLIGNMENT_INT32 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:713)
+    sIZEOF_WORD32 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:713)
+    aLIGNMENT_WORD32 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:713)
+    sIZEOF_INT64 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:713)
+    aLIGNMENT_INT64 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:713)
+    sIZEOF_WORD64 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:713)
+    aLIGNMENT_WORD64 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:713)
+    Word64_# (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:814)
+    Int64_# (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_3.hscpp:815)
+   3% (  1 / 29) in 'Data.Primitive.Internal.Operations'
+  Missing documentation for:
+    setWord8Array# (Data/Primitive/Internal/Operations.hs:33)
+    setWord16Array# (Data/Primitive/Internal/Operations.hs:35)
+    setWord32Array# (Data/Primitive/Internal/Operations.hs:37)
+    setWord64Array# (Data/Primitive/Internal/Operations.hs:39)
+    setWordArray# (Data/Primitive/Internal/Operations.hs:41)
+    setInt8Array# (Data/Primitive/Internal/Operations.hs:43)
+    setInt16Array# (Data/Primitive/Internal/Operations.hs:45)
+    setInt32Array# (Data/Primitive/Internal/Operations.hs:47)
+    setInt64Array# (Data/Primitive/Internal/Operations.hs:49)
+    setIntArray# (Data/Primitive/Internal/Operations.hs:51)
+    setAddrArray# (Data/Primitive/Internal/Operations.hs:53)
+    setFloatArray# (Data/Primitive/Internal/Operations.hs:55)
+    setDoubleArray# (Data/Primitive/Internal/Operations.hs:57)
+    setWideCharArray# (Data/Primitive/Internal/Operations.hs:59)
+    setWord8OffAddr# (Data/Primitive/Internal/Operations.hs:62)
+    setWord16OffAddr# (Data/Primitive/Internal/Operations.hs:64)
+    setWord32OffAddr# (Data/Primitive/Internal/Operations.hs:66)
+    setWord64OffAddr# (Data/Primitive/Internal/Operations.hs:68)
+    setWordOffAddr# (Data/Primitive/Internal/Operations.hs:70)
+    setInt8OffAddr# (Data/Primitive/Internal/Operations.hs:72)
+    setInt16OffAddr# (Data/Primitive/Internal/Operations.hs:74)
+    setInt32OffAddr# (Data/Primitive/Internal/Operations.hs:76)
+    setInt64OffAddr# (Data/Primitive/Internal/Operations.hs:78)
+    setIntOffAddr# (Data/Primitive/Internal/Operations.hs:80)
+    setAddrOffAddr# (Data/Primitive/Internal/Operations.hs:82)
+    setFloatOffAddr# (Data/Primitive/Internal/Operations.hs:84)
+    setDoubleOffAddr# (Data/Primitive/Internal/Operations.hs:86)
+    setWideCharOffAddr# (Data/Primitive/Internal/Operations.hs:88)
+ 100% (  3 /  3) in 'Data.Primitive.Internal.Compat'
+  81% ( 17 / 21) in 'Control.Monad.Primitive'
+  Missing documentation for:
+    unsafeInlinePrim (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_1.hscpp:374)
+    unsafeInlineIO (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_1.hscpp:378)
+    unsafeInlineST (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_1.hscpp:382)
+    touch (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_1.hscpp:386)
+  90% ( 19 / 21) in 'Data.Primitive.Array'
+  Missing documentation for:
+    sizeofArray (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_7.hscpp:223)
+    sizeofMutableArray (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_7.hscpp:227)
+ 100% (  9 /  9) in 'Data.Primitive.MutVar'
+  78% ( 14 / 18) in 'Data.Primitive.SmallArray'
+  Missing documentation for:
+    SmallArray (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_11.hscpp:235)
+    SmallMutableArray (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_11.hscpp:240)
+    sizeofSmallArray (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_11.hscpp:478)
+    sizeofSmallMutableArray (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64623_0/ghc_11.hscpp:486)
+ 100% (  5 /  5) in 'Data.Primitive.Types'
+ 100% ( 16 / 16) in 'Data.Primitive.Addr'
+  94% ( 29 / 31) in 'Data.Primitive.ByteArray'
+  Missing documentation for:
+    ByteArray#
+    MutableByteArray#
+ 100% (  7 /  7) in 'Data.Primitive'
+ 100% ( 21 / 21) in 'Data.Primitive.UnliftedArray'
+Warning: Control.Monad.Primitive: could not find link destinations for:
+    ~
+Documentation created:
+dist/dist-sandbox-65148ee2/doc/html/primitive/index.html
+Creating package registration file:
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/pkgConf-primitive-0.6.312648177091998097157.0
+Installing library in
+/Users/alfonsobustamante/Documents/GitHub/gbacpFireflyProy/.cabal-sandbox/lib/x86_64-osx-ghc-8.0.2/primitive-0.6.3.0-DDbGPxwrqwD2WNEhrcurbN
+Registering primitive-0.6.3.0...
+cabal: Leaving directory '/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/cabal-tmp-64021/primitive-0.6.3.0'

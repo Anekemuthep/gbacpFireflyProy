@@ -1,0 +1,376 @@
+cabal: Entering directory '/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/cabal-tmp-64020/vector-0.12.0.1'
+Configuring vector-0.12.0.1...
+Building vector-0.12.0.1...
+Preprocessing library vector-0.12.0.1...
+[ 1 of 21] Compiling Data.Vector.Storable.Internal ( Data/Vector/Storable/Internal.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Storable/Internal.o )
+
+Data/Vector/Storable/Internal.hs:17:1: warning: [-Wunused-imports]
+    The import of ‘Foreign.ForeignPtr’ is redundant
+      except perhaps to import instances from ‘Foreign.ForeignPtr’
+    To import instances alone, use: import Foreign.ForeignPtr()
+
+Data/Vector/Storable/Internal.hs:18:1: warning: [-Wunused-imports]
+    The import of ‘Foreign.Ptr’ is redundant
+      except perhaps to import instances from ‘Foreign.Ptr’
+    To import instances alone, use: import Foreign.Ptr()
+[ 2 of 21] Compiling Data.Vector.Internal.Check ( Data/Vector/Internal/Check.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Internal/Check.o )
+[ 3 of 21] Compiling Data.Vector.Generic.Mutable.Base ( Data/Vector/Generic/Mutable/Base.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Generic/Mutable/Base.o )
+[ 4 of 21] Compiling Data.Vector.Generic.Base ( Data/Vector/Generic/Base.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Generic/Base.o )
+[ 5 of 21] Compiling Data.Vector.Fusion.Util ( Data/Vector/Fusion/Util.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Fusion/Util.o )
+[ 6 of 21] Compiling Data.Vector.Fusion.Stream.Monadic ( Data/Vector/Fusion/Stream/Monadic.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Fusion/Stream/Monadic.o )
+[ 7 of 21] Compiling Data.Vector.Fusion.Bundle.Size ( Data/Vector/Fusion/Bundle/Size.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Fusion/Bundle/Size.o )
+[ 8 of 21] Compiling Data.Vector.Fusion.Bundle.Monadic ( Data/Vector/Fusion/Bundle/Monadic.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Fusion/Bundle/Monadic.o )
+[ 9 of 21] Compiling Data.Vector.Fusion.Bundle ( Data/Vector/Fusion/Bundle.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Fusion/Bundle.o )
+[10 of 21] Compiling Data.Vector.Generic.Mutable ( Data/Vector/Generic/Mutable.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Generic/Mutable.o )
+[11 of 21] Compiling Data.Vector.Mutable ( Data/Vector/Mutable.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Mutable.o )
+[12 of 21] Compiling Data.Vector.Primitive.Mutable ( Data/Vector/Primitive/Mutable.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Primitive/Mutable.o )
+[13 of 21] Compiling Data.Vector.Storable.Mutable ( Data/Vector/Storable/Mutable.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Storable/Mutable.o )
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc64685_0/ghc_23.hscpp:232:1: warning: [-Wunused-imports]
+    The import of ‘Foreign.Ptr’ is redundant
+      except perhaps to import instances from ‘Foreign.Ptr’
+    To import instances alone, use: import Foreign.Ptr()
+[14 of 21] Compiling Data.Vector.Generic.New ( Data/Vector/Generic/New.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Generic/New.o )
+[15 of 21] Compiling Data.Vector.Generic ( Data/Vector/Generic.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Generic.o )
+[16 of 21] Compiling Data.Vector.Primitive ( Data/Vector/Primitive.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Primitive.o )
+[17 of 21] Compiling Data.Vector.Unboxed.Base ( Data/Vector/Unboxed/Base.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Unboxed/Base.o )
+[18 of 21] Compiling Data.Vector.Unboxed.Mutable ( Data/Vector/Unboxed/Mutable.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Unboxed/Mutable.o )
+[19 of 21] Compiling Data.Vector.Storable ( Data/Vector/Storable.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Storable.o )
+[20 of 21] Compiling Data.Vector.Unboxed ( Data/Vector/Unboxed.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Unboxed.o )
+[21 of 21] Compiling Data.Vector      ( Data/Vector.hs, dist/dist-sandbox-65148ee2/build/Data/Vector.o )
+[ 1 of 21] Compiling Data.Vector.Storable.Internal ( Data/Vector/Storable/Internal.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Storable/Internal.p_o )
+
+Data/Vector/Storable/Internal.hs:17:1: warning: [-Wunused-imports]
+    The import of ‘Foreign.ForeignPtr’ is redundant
+      except perhaps to import instances from ‘Foreign.ForeignPtr’
+    To import instances alone, use: import Foreign.ForeignPtr()
+
+Data/Vector/Storable/Internal.hs:18:1: warning: [-Wunused-imports]
+    The import of ‘Foreign.Ptr’ is redundant
+      except perhaps to import instances from ‘Foreign.Ptr’
+    To import instances alone, use: import Foreign.Ptr()
+[ 2 of 21] Compiling Data.Vector.Internal.Check ( Data/Vector/Internal/Check.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Internal/Check.p_o )
+[ 3 of 21] Compiling Data.Vector.Generic.Mutable.Base ( Data/Vector/Generic/Mutable/Base.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Generic/Mutable/Base.p_o )
+[ 4 of 21] Compiling Data.Vector.Generic.Base ( Data/Vector/Generic/Base.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Generic/Base.p_o )
+[ 5 of 21] Compiling Data.Vector.Fusion.Util ( Data/Vector/Fusion/Util.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Fusion/Util.p_o )
+[ 6 of 21] Compiling Data.Vector.Fusion.Stream.Monadic ( Data/Vector/Fusion/Stream/Monadic.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Fusion/Stream/Monadic.p_o )
+[ 7 of 21] Compiling Data.Vector.Fusion.Bundle.Size ( Data/Vector/Fusion/Bundle/Size.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Fusion/Bundle/Size.p_o )
+[ 8 of 21] Compiling Data.Vector.Fusion.Bundle.Monadic ( Data/Vector/Fusion/Bundle/Monadic.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Fusion/Bundle/Monadic.p_o )
+[ 9 of 21] Compiling Data.Vector.Fusion.Bundle ( Data/Vector/Fusion/Bundle.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Fusion/Bundle.p_o )
+[10 of 21] Compiling Data.Vector.Generic.Mutable ( Data/Vector/Generic/Mutable.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Generic/Mutable.p_o )
+[11 of 21] Compiling Data.Vector.Mutable ( Data/Vector/Mutable.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Mutable.p_o )
+[12 of 21] Compiling Data.Vector.Primitive.Mutable ( Data/Vector/Primitive/Mutable.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Primitive/Mutable.p_o )
+[13 of 21] Compiling Data.Vector.Storable.Mutable ( Data/Vector/Storable/Mutable.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Storable/Mutable.p_o )
+
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65316_0/ghc_23.hscpp:232:1: warning: [-Wunused-imports]
+    The import of ‘Foreign.Ptr’ is redundant
+      except perhaps to import instances from ‘Foreign.Ptr’
+    To import instances alone, use: import Foreign.Ptr()
+[14 of 21] Compiling Data.Vector.Generic.New ( Data/Vector/Generic/New.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Generic/New.p_o )
+[15 of 21] Compiling Data.Vector.Generic ( Data/Vector/Generic.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Generic.p_o )
+[16 of 21] Compiling Data.Vector.Primitive ( Data/Vector/Primitive.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Primitive.p_o )
+[17 of 21] Compiling Data.Vector.Unboxed.Base ( Data/Vector/Unboxed/Base.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Unboxed/Base.p_o )
+[18 of 21] Compiling Data.Vector.Unboxed.Mutable ( Data/Vector/Unboxed/Mutable.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Unboxed/Mutable.p_o )
+[19 of 21] Compiling Data.Vector.Storable ( Data/Vector/Storable.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Storable.p_o )
+[20 of 21] Compiling Data.Vector.Unboxed ( Data/Vector/Unboxed.hs, dist/dist-sandbox-65148ee2/build/Data/Vector/Unboxed.p_o )
+[21 of 21] Compiling Data.Vector      ( Data/Vector.hs, dist/dist-sandbox-65148ee2/build/Data/Vector.p_o )
+Running Haddock for vector-0.12.0.1...
+Preprocessing library vector-0.12.0.1...
+
+Data/Vector/Storable/Internal.hs:17:1: warning: [-Wunused-imports]
+    The import of ‘Foreign.ForeignPtr’ is redundant
+      except perhaps to import instances from ‘Foreign.ForeignPtr’
+    To import instances alone, use: import Foreign.ForeignPtr()
+
+Data/Vector/Storable/Internal.hs:18:1: warning: [-Wunused-imports]
+    The import of ‘Foreign.Ptr’ is redundant
+      except perhaps to import instances from ‘Foreign.Ptr’
+    To import instances alone, use: import Foreign.Ptr()
+Haddock coverage:
+  25% (  1 /  4) in 'Data.Vector.Storable.Internal'
+  Missing documentation for:
+    getPtr (Data/Vector/Storable/Internal.hs:22)
+    setPtr (Data/Vector/Storable/Internal.hs:26)
+    updPtr (Data/Vector/Storable/Internal.hs:30)
+  11% (  1 /  9) in 'Data.Vector.Internal.Check'
+  Missing documentation for:
+    Checks (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_1.hscpp:206)
+    doChecks (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_1.hscpp:230)
+    error (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_1.hscpp:239)
+    internalError (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_1.hscpp:244)
+    check (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_1.hscpp:260)
+    checkIndex (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_1.hscpp:274)
+    checkLength (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_1.hscpp:288)
+    checkSlice (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_1.hscpp:302)
+ 100% (  2 /  2) in 'Data.Vector.Generic.Mutable.Base'
+ 100% (  3 /  3) in 'Data.Vector.Generic.Base'
+ 100% (  5 /  5) in 'Data.Vector.Fusion.Util'
+  82% (104 /127) in 'Data.Vector.Fusion.Stream.Monadic'
+  Missing documentation for:
+    generate (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_5.hscpp:917)
+    unbox (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_5.hscpp:1169)
+    concatMap (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_5.hscpp:1762)
+    zipWithM_ (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_5.hscpp:1245)
+    zipWith3M (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_5.hscpp:1249)
+    zipWith4M (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_5.hscpp:1277)
+    zipWith5M (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_5.hscpp:1284)
+    zipWith6M (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_5.hscpp:1291)
+    zipWith (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_5.hscpp:1299)
+    zipWith3 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_5.hscpp:1303)
+    zipWith4 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_5.hscpp:1308)
+    zipWith5 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_5.hscpp:1314)
+    zipWith6 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_5.hscpp:1320)
+    zip (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_5.hscpp:1326)
+    zip3 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_5.hscpp:1330)
+    zip4 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_5.hscpp:1334)
+    zip5 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_5.hscpp:1339)
+    zip6 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_5.hscpp:1344)
+    mapMaybe (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_5.hscpp:1416)
+    and (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_5.hscpp:1736)
+    or (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_5.hscpp:1749)
+    concatMapM (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_5.hscpp:1766)
+    unfoldrN (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_5.hscpp:1828)
+ 100% (  8 /  8) in 'Data.Vector.Fusion.Bundle.Size'
+  79% (106 /135) in 'Data.Vector.Fusion.Bundle.Monadic'
+  Missing documentation for:
+    Chunk (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_7.hscpp:843)
+    generate (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_7.hscpp:923)
+    unbox (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_7.hscpp:1034)
+    concatMap (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_7.hscpp:1328)
+    zipWithM_ (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_7.hscpp:1065)
+    zipWith3M (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_7.hscpp:1069)
+    zipWith4M (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_7.hscpp:1076)
+    zipWith5M (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_7.hscpp:1083)
+    zipWith6M (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_7.hscpp:1090)
+    zipWith (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_7.hscpp:1098)
+    zipWith3 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_7.hscpp:1102)
+    zipWith4 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_7.hscpp:1107)
+    zipWith5 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_7.hscpp:1113)
+    zipWith6 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_7.hscpp:1119)
+    zip (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_7.hscpp:1125)
+    zip3 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_7.hscpp:1129)
+    zip4 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_7.hscpp:1133)
+    zip5 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_7.hscpp:1138)
+    zip6 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_7.hscpp:1143)
+    and (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_7.hscpp:1320)
+    or (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_7.hscpp:1324)
+    concatMapM (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_7.hscpp:1332)
+    fromVector (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_7.hscpp:1742)
+    reVector (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_7.hscpp:1818)
+    fromVectors (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_7.hscpp:1761)
+    concatVectors (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_7.hscpp:1787)
+    fromStream (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_7.hscpp:852)
+    chunks (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_7.hscpp:859)
+    elements (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_7.hscpp:863)
+  79% ( 88 /111) in 'Data.Vector.Fusion.Bundle'
+  Missing documentation for:
+    Chunk (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_7.hscpp:843)
+    inplace (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_9.hscpp:291)
+    concatMap (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_9.hscpp:443)
+    unbox (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_9.hscpp:439)
+    zipWith4 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_9.hscpp:471)
+    zipWith5 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_9.hscpp:477)
+    zipWith6 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_9.hscpp:483)
+    zip (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_9.hscpp:489)
+    zip3 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_9.hscpp:493)
+    zip4 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_9.hscpp:497)
+    zip5 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_9.hscpp:502)
+    zip6 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_9.hscpp:507)
+    and (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_9.hscpp:593)
+    or (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_9.hscpp:597)
+    unsafeFromList (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_9.hscpp:805)
+    fromVector (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_9.hscpp:809)
+    reVector (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_9.hscpp:813)
+    fromVectors (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_9.hscpp:817)
+    concatVectors (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_9.hscpp:821)
+    zipWithM (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_9.hscpp:716)
+    zipWithM_ (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/g
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_23.hscpp:232:1: warning: [-Wunused-imports]
+    The import of ‘Foreign.Ptr’ is redundant
+      except perhaps to import instances from ‘Foreign.Ptr’
+    To import instances alone, use: import Foreign.Ptr()
+hc65899_0/ghc_9.hscpp:720)
+    eqBy (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_9.hscpp:671)
+    cmpBy (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_9.hscpp:680)
+  66% ( 49 / 74) in 'Data.Vector.Generic.Mutable'
+  Missing documentation for:
+    init (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_13.hscpp:711)
+    tail (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_13.hscpp:715)
+    take (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_13.hscpp:690)
+    drop (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_13.hscpp:694)
+    splitAt (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_13.hscpp:702)
+    unsafeInit (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_13.hscpp:729)
+    unsafeTail (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_13.hscpp:733)
+    unsafeTake (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_13.hscpp:737)
+    unsafeDrop (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_13.hscpp:741)
+    growFront (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_13.hscpp:801)
+    unsafeGrowFront (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_13.hscpp:840)
+    mstream (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_13.hscpp:419)
+    mstreamR (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_13.hscpp:449)
+    transform (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_13.hscpp:443)
+    transformR (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_13.hscpp:478)
+    fill (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_13.hscpp:430)
+    fillR (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_13.hscpp:462)
+    unsafeAccum (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_13.hscpp:1024)
+    accum (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_13.hscpp:1000)
+    unsafeUpdate (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_13.hscpp:1037)
+    update (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_13.hscpp:1013)
+    reverse (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_13.hscpp:1048)
+    unstablePartition (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_13.hscpp:1057)
+    unstablePartitionBundle (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_13.hscpp:1086)
+    partitionBundle (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_13.hscpp:1114)
+  79% ( 41 / 52) in 'Data.Vector.Mutable'
+  Missing documentation for:
+    IOVector (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_33.hscpp:245)
+    STVector (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_33.hscpp:246)
+    init (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_33.hscpp:397)
+    tail (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_33.hscpp:401)
+    take (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_33.hscpp:385)
+    drop (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_33.hscpp:389)
+    splitAt (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_33.hscpp:394)
+    unsafeInit (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_33.hscpp:422)
+    unsafeTail (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_33.hscpp:426)
+    unsafeTake (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_33.hscpp:414)
+    unsafeDrop (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_33.hscpp:418)
+  79% ( 42 / 53) in 'Data.Vector.Primitive.Mutable'
+  Missing documentation for:
+    IOVector (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_19.hscpp:251)
+    STVector (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_19.hscpp:252)
+    init (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_19.hscpp:339)
+    tail (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_19.hscpp:343)
+    take (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_19.hscpp:327)
+    drop (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_19.hscpp:331)
+    splitAt (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_19.hscpp:335)
+    unsafeInit (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_19.hscpp:365)
+    unsafeTail (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_19.hscpp:369)
+    unsafeTake (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_19.hscpp:357)
+    unsafeDrop (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_19.hscpp:361)
+  82% ( 49 / 60) in 'Data.Vector.Storable.Mutable'
+  Missing documentation for:
+    IOVector (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_23.hscpp:275)
+    STVector (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_23.hscpp:276)
+    init (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_23.hscpp:424)
+    tail (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_23.hscpp:428)
+    take (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_23.hscpp:412)
+    drop (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_23.hscpp:416)
+    splitAt (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_23.hscpp:420)
+    unsafeInit (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_23.hscpp:450)
+    unsafeTail (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_23.hscpp:454)
+    unsafeTake (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_23.hscpp:442)
+    unsafeDrop (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_23.hscpp:446)
+   5% (  1 / 20) in 'Data.Vector.Generic.New'
+  Missing documentation for:
+    New (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_15.hscpp:214)
+    create (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_15.hscpp:216)
+    run (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_15.hscpp:220)
+    runPrim (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_15.hscpp:224)
+    apply (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_15.hscpp:228)
+    modify (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_15.hscpp:232)
+    modifyWithBundle (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_15.hscpp:236)
+    unstream (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_15.hscpp:241)
+    transform (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_15.hscpp:245)
+    unstreamR (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_15.hscpp:267)
+    transformR (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_15.hscpp:271)
+    slice (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_15.hscpp:293)
+    init (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_15.hscpp:297)
+    tail (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_15.hscpp:301)
+    take (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_15.hscpp:305)
+    drop (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_15.hscpp:309)
+    unsafeSlice (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_15.hscpp:313)
+    unsafeInit (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_15.hscpp:317)
+    unsafeTail (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_15.hscpp:321)
+  93% (238 /256) in 'Data.Vector.Generic'
+  Missing documentation for:
+    zipWith4 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_17.hscpp:1285)
+    zipWith5 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_17.hscpp:1294)
+    zipWith6 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_17.hscpp:1306)
+    izipWith3 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_17.hscpp:1328)
+    izipWith4 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_17.hscpp:1336)
+    izipWith5 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_17.hscpp:1345)
+    izipWith6 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_17.hscpp:1357)
+    zip3 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_17.hscpp:1375)
+    zip4 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_17.hscpp:1380)
+    zip5 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_17.hscpp:1385)
+    zip6 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_17.hscpp:1391)
+    unzip3 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_17.hscpp:1441)
+    unzip4 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_17.hscpp:1448)
+    unzip5 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_17.hscpp:1457)
+    unzip6 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_17.hscpp:1467)
+    liftShowsPrec (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_17.hscpp:2341)
+    dataCast (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_17.hscpp:2374)
+    mkType (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_17.hscpp:2369)
+  97% (192 /198) in 'Data.Vector.Primitive'
+  Missing documentation for:
+    zipWith4 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_21.hscpp:997)
+    zipWith5 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_21.hscpp:1003)
+    zipWith6 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_21.hscpp:1011)
+    izipWith4 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_21.hscpp:1033)
+    izipWith5 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_21.hscpp:1039)
+    izipWith6 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_21.hscpp:1047)
+  17% (  1 /  6) in 'Data.Vector.Unboxed.Base'
+  Missing documentation for:
+    MVector (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_27.hscpp:229)
+    IOVector (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_27.hscpp:232)
+    STVector (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_27.hscpp:233)
+    Vector (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_27.hscpp:230)
+    Unbox (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_27.hscpp:237)
+  80% ( 51 / 64) in 'Data.Vector.Unboxed.Mutable'
+  Missing documentation for:
+    MVector (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_27.hscpp:229)
+    IOVector (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_27.hscpp:232)
+    STVector (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_27.hscpp:233)
+    Unbox (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_27.hscpp:237)
+    init (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_29.hscpp:277)
+    tail (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_29.hscpp:281)
+    take (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_29.hscpp:265)
+    drop (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_29.hscpp:269)
+    splitAt (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_29.hscpp:273)
+    unsafeInit (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_29.hscpp:303)
+    unsafeTail (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_29.hscpp:307)
+    unsafeTake (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_29.hscpp:295)
+    unsafeDrop (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_29.hscpp:299)
+  97% (201 /207) in 'Data.Vector.Storable'
+  Missing documentation for:
+    zipWith4 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_25.hscpp:1026)
+    zipWith5 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_25.hscpp:1032)
+    zipWith6 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_25.hscpp:1040)
+    izipWith4 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_25.hscpp:1062)
+    izipWith5 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_25.hscpp:1068)
+    izipWith6 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_25.hscpp:1076)
+  96% (216 /225) in 'Data.Vector.Unboxed'
+  Missing documentation for:
+    Vector (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_27.hscpp:230)
+    MVector (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_27.hscpp:229)
+    Unbox (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_27.hscpp:237)
+    zipWith4 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_31.hscpp:1063)
+    zipWith5 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_31.hscpp:1069)
+    zipWith6 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_31.hscpp:1076)
+    izipWith4 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_31.hscpp:1097)
+    izipWith5 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_31.hscpp:1103)
+    izipWith6 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_31.hscpp:1110)
+  94% (218 /231) in 'Data.Vector'
+  Missing documentation for:
+    zipWith4 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_35.hscpp:1210)
+    zipWith5 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_35.hscpp:1215)
+    zipWith6 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_35.hscpp:1221)
+    izipWith4 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_35.hscpp:1239)
+    izipWith5 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_35.hscpp:1244)
+    izipWith6 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_35.hscpp:1250)
+    zip4 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_35.hscpp:1266)
+    zip5 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_35.hscpp:1271)
+    zip6 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_35.hscpp:1276)
+    unzip3 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_35.hscpp:1289)
+    unzip4 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_35.hscpp:1293)
+    unzip5 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_35.hscpp:1297)
+    unzip6 (/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/ghc65899_0/ghc_35.hscpp:1302)
+Warning: Data.Vector.Unboxed.Mutable: could not find link destinations for:
+    D:R:MVectorsBool0 MV_Bool D:R:MVectorsChar0 MV_Char D:R:MVectorsDouble0 MV_Double D:R:MVectorsFloat0 MV_Float D:R:MVectorsWord640 MV_Word64 D:R:MVectorsWord320 MV_Word32 D:R:MVectorsWord160 MV_Word16 D:R:MVectorsWord80 MV_Word8 D:R:MVectorsWord0 MV_Word D:R:MVectorsInt640 MV_Int64 D:R:MVectorsInt320 MV_Int32 D:R:MVectorsInt160 MV_Int16 D:R:MVectorsInt80 MV_Int8 D:R:MVectorsInt0 MV_Int D:R:MVectors()0 MV_Unit D:R:MVectorsComplex0 MV_Complex D:R:MVectors(,)0 MV_2 D:R:MVectors(,,)0 MV_3 D:R:MVectors(,,,)0 MV_4 D:R:MVectors(,,,,)0 MV_5 D:R:MVectors(,,,,,)0 MV_6
+Warning: Data.Vector.Unboxed: could not find link destinations for:
+    D:R:VectorBool0 V_Bool D:R:VectorChar0 V_Char D:R:VectorDouble0 V_Double D:R:VectorFloat0 V_Float D:R:VectorInt0 V_Int D:R:VectorInt80 V_Int8 D:R:VectorInt160 V_Int16 D:R:VectorInt320 V_Int32 D:R:VectorInt640 V_Int64 D:R:VectorWord0 V_Word D:R:VectorWord80 V_Word8 D:R:VectorWord160 V_Word16 D:R:VectorWord320 V_Word32 D:R:VectorWord640 V_Word64 D:R:Vector()0 V_Unit D:R:VectorComplex0 V_Complex D:R:Vector(,)0 V_2 D:R:Vector(,,)0 V_3 D:R:Vector(,,,)0 V_4 D:R:Vector(,,,,)0 V_5 D:R:Vector(,,,,,)0 V_6 D:R:MVectorsBool0 MV_Bool D:R:MVectorsChar0 MV_Char D:R:MVectorsDouble0 MV_Double D:R:MVectorsFloat0 MV_Float D:R:MVectorsWord640 MV_Word64 D:R:MVectorsWord320 MV_Word32 D:R:MVectorsWord160 MV_Word16 D:R:MVectorsWord80 MV_Word8 D:R:MVectorsWord0 MV_Word D:R:MVectorsInt640 MV_Int64 D:R:MVectorsInt320 MV_Int32 D:R:MVectorsInt160 MV_Int16 D:R:MVectorsInt80 MV_Int8 D:R:MVectorsInt0 MV_Int D:R:MVectors()0 MV_Unit D:R:MVectorsComplex0 MV_Complex D:R:MVectors(,)0 MV_2 D:R:MVectors(,,)0 MV_3 D:R:MVectors(,,,)0 MV_4 D:R:MVectors(,,,,)0 MV_5 D:R:MVectors(,,,,,)0 MV_6
+Documentation created: dist/dist-sandbox-65148ee2/doc/html/vector/index.html
+Creating package registration file:
+/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/pkgConf-vector-0.12.013585809791624379149.1
+Installing library in
+/Users/alfonsobustamante/Documents/GitHub/gbacpFireflyProy/.cabal-sandbox/lib/x86_64-osx-ghc-8.0.2/vector-0.12.0.1-HOfZwMwyK5HGjuyWNzMDM6
+Registering vector-0.12.0.1...
+cabal: Leaving directory '/var/folders/77/86xr40v14s3061gt8h8y_m6r0000gn/T/cabal-tmp-64020/vector-0.12.0.1'
