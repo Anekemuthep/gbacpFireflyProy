@@ -2,7 +2,7 @@ module Diagramas.DiagramTest (main) where
 
 import Lib.Prelude
 
-import Graphics.Rendering.Cairo
+import Graphics.Rendering.Chart
 import Data.Colour
 import Data.Colour.Names
 import Data.Default.Class
