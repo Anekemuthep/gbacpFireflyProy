@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2018-03-12 01:17:39.005786 UTC
+2018-03-12 03:59:10.416353 UTC
 
-interface gbacpFireflyProy-0.1.0.0-FA6gtHkCdITCMgGgfyRuCP:Algorithms.Gbacp 8002
-  interface hash: fe10aa4406adf24bdfa07e7fef08bf84
-  ABI hash: 6e73149f7913c3cd7f7e5f09ccca426b
-  export-list hash: 14591f7572a3a8c2e5f51f8519dce679
+interface gbacpFireflyProy-0.1.0.0-De45qhfjI9UBygrZNtqfxg:Algorithms.Gbacp 8002
+  interface hash: 3b8e888f5154d25bb10cd8b82c13d07d
+  ABI hash: e3875c80fa63540fa1e273b89b9a1ad3
+  export-list hash: c546bab55527f561f4b5487b4728c267
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 0d5af76a5aa992bf9c6324432f453bda
   sig of: Nothing
@@ -52,27 +52,27 @@ family instance modules: base-4.9.1.0:Control.Applicative
                          text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
 import  -/  base-4.9.1.0:Data.Char 01433d23661edb6e5ef1536ef1e6774c
 import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
-import  -/  Lib.Prelude 0d07ccb4f2f1924b2e5084cb8992ad6e
+import  -/  Lib.Prelude 893c9c1b08f463d1684723fd8c9fedb8
   exports: 7f97854b2cbe78cf55994970281b4148
 import  -/  ghc-prim-0.5.0.0:GHC.Classes 0bdf3d057a415ec1b84a7b1994efbe47
 import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text f7d3d648ffeef1043fe2e522e7e66c1b
 import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Internal 9bfcbbbe07ecef48f631025a838df7da
-5679f04abf0280c27efaa1f84695149e
+6b7f9697141c59b8fa2202661d71ad83
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    Algorithms.Gbacp.$trModule2
                    Algorithms.Gbacp.$trModule1) -}
-a26640782392afe90d754497dd679745
+1b76ac44e39affb59d9a8d8f5dc8368a
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "Algorithms.Gbacp"#) -}
-54bdebc16d598e2a8415b3486ebb1352
+49da545511460127772bc61d0ad2391f
   $trModule2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
-                   "gbacpFireflyProy-0.1.0.0-FA6gtHkCdITCMgGgfyRuCP"#) -}
-aeef298fe19bae9021c9757c57305eec
+                   "gbacpFireflyProy-0.1.0.0-De45qhfjI9UBygrZNtqfxg"#) -}
+c3ed99b74d8b7f8a2d82feeea1928beb
   $wgetCustomAudience ::
     GHC.Prim.ByteArray#
     -> GHC.Prim.Int#
@@ -80,7 +80,7 @@ aeef298fe19bae9021c9757c57305eec
     -> GHC.Base.Maybe
          (Data.Text.Internal.Text, Data.Text.Internal.Text)
   {- Arity: 3, Strictness: <L,U><L,U><S,U>, Inline: [0] -}
-b8a87363b2635553e23ac448a95d4e1c
+648460adfbd196bb25913086a7aa9bfd
   getCustomAudience ::
     Data.Text.Internal.Text
     -> GHC.Base.Maybe
@@ -90,7 +90,7 @@ b8a87363b2635553e23ac448a95d4e1c
                 (\ (w :: Data.Text.Internal.Text) ->
                  case w of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
                  Algorithms.Gbacp.$wgetCustomAudience ww1 ww2 ww3 }) -}
-64f6644ef1ce34537996434f98b7053a
+19714aa6635d63e4bf3184bd421f0b15
   splitByTwoDots :: [GHC.Types.Char] -> [[GHC.Types.Char]]
   {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
      Unfolding: InlineRule (1, True, False)
@@ -99,7 +99,7 @@ b8a87363b2635553e23ac448a95d4e1c
                    (GHC.Types.[] @ [GHC.Types.Char])
                    (GHC.Types.[] @ GHC.Types.Char)
                    x) -}
-3da0e08aa146e21d0ab941606418173d
+820ea90a36637ca5da9a30cd7d998b10
   splitHelper ::
     [[GHC.Types.Char]]
     -> [GHC.Types.Char] -> [GHC.Types.Char] -> [[GHC.Types.Char]]

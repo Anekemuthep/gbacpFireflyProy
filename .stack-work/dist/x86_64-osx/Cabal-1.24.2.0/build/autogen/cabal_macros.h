@@ -7,6 +7,13 @@
   (major1) == 0 && (major2) <  1 || \
   (major1) == 0 && (major2) == 1 && (minor) <= 0)
 
+/* package Chart-1.8.2 */
+#define VERSION_Chart "1.8.2"
+#define MIN_VERSION_Chart(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  8 || \
+  (major1) == 1 && (major2) == 8 && (minor) <= 2)
+
 /* package Chart-diagrams-1.8.2 */
 #define VERSION_Chart_diagrams "1.8.2"
 #define MIN_VERSION_Chart_diagrams(major1,major2,minor) (\
@@ -168,7 +175,7 @@
   (major1) == 0 && (major2) <  29 || \
   (major1) == 0 && (major2) == 29 && (minor) <= 2)
 
-#define CURRENT_COMPONENT_ID "gbacpFireflyProy-0.1.0.0-B78SIHrE04vGLx7Hs4cfbP"
+#define CURRENT_COMPONENT_ID "gbacpFireflyProy-0.1.0.0-De45qhfjI9UBygrZNtqfxg"
 
-#define CURRENT_PACKAGE_KEY "gbacpFireflyProy-0.1.0.0-B78SIHrE04vGLx7Hs4cfbP"
+#define CURRENT_PACKAGE_KEY "gbacpFireflyProy-0.1.0.0-De45qhfjI9UBygrZNtqfxg"
 

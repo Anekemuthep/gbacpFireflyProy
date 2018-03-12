@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2017-10-15 01:19:23.692752 UTC
+2018-03-12 03:59:11.5436 UTC
 
 interface main@main:Main 8002
-  interface hash: ec3dd0d2663d088525cfc54b4ecd90ca
-  ABI hash: 339bc202212a17282c7cfb63fce6ecbd
-  export-list hash: 60da3740b374733032d3cf4b2f4b019b
+  interface hash: 45cff43ac8e94a7e0771e299904e0c2c
+  ABI hash: b3d0be5f8174f327074d699088d24f47
+  export-list hash: 7329de2c73713bc4bd911f95f105838f
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 359cbbaff041ae59df2b901f1677f602
   sig of: Nothing
@@ -20,7 +20,7 @@ package dependencies: array-0.5.1.1@array-0.5.1.1
                       bytestring-0.10.8.1@bytestring-0.10.8.1
                       containers-0.5.7.1@containers-0.5.7.1
                       deepseq-1.4.2.0@deepseq-1.4.2.0
-                      gbacpFireflyProy-0.1.0.0@gbacpFireflyProy-0.1.0.0-FA6gtHkCdITCMgGgfyRuCP
+                      gbacpFireflyProy-0.1.0.0@gbacpFireflyProy-0.1.0.0-De45qhfjI9UBygrZNtqfxg
                       ghc-prim-0.5.0.0 integer-gmp-1.0.0.1
                       mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6
                       protolude-0.1.10@protolude-0.1.10-EbWghKT4Ra36YSCOzDFDKT*
@@ -51,7 +51,7 @@ family instance modules: base-4.9.1.0:Control.Applicative
                          containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
                          text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
                          text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
-import  -/  gbacpFireflyProy-0.1.0.0@gbacpFireflyProy-0.1.0.0-FA6gtHkCdITCMgGgfyRuCP:Lib 6fda5d30d8f28fd5e4ef48197cbea9af
+import  -/  gbacpFireflyProy-0.1.0.0@gbacpFireflyProy-0.1.0.0-De45qhfjI9UBygrZNtqfxg:Lib 4a2e8cbdac048edf5f2aaab78671d594
 import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
 import  -/  protolude-0.1.10@protolude-0.1.10-EbWghKT4Ra36YSCOzDFDKT:Protolude 0d67a6d6446145e8dd8f2764f3da7a22
 d6831ef04cb9301b090dfae6f7bb7ec7
@@ -66,12 +66,12 @@ d6831ef04cb9301b090dfae6f7bb7ec7
   $trModule2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "main"#) -}
-60edbfe5c02222c47a7ac3a09f5f9e94
+cd7f913715889fb356a00d047c590d22
   main :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Lib.someFunc1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
-f15b0df2f5c7278e597c35e6c32555a7
+8e9f347800c1f3e4a6bb80050c0a7c2d
   main1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
