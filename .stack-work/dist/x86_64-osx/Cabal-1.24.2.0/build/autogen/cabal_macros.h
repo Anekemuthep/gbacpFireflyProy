@@ -14,20 +14,6 @@
   (major1) == 4 && (major2) <  9 || \
   (major1) == 4 && (major2) == 9 && (minor) <= 1)
 
-/* package protolude-0.1.10 */
-#define VERSION_protolude "0.1.10"
-#define MIN_VERSION_protolude(major1,major2,minor) (\
-  (major1) <  0 || \
-  (major1) == 0 && (major2) <  1 || \
-  (major1) == 0 && (major2) == 1 && (minor) <= 10)
-
-/* package text-1.2.2.2 */
-#define VERSION_text "1.2.2.2"
-#define MIN_VERSION_text(major1,major2,minor) (\
-  (major1) <  1 || \
-  (major1) == 1 && (major2) <  2 || \
-  (major1) == 1 && (major2) == 2 && (minor) <= 2)
-
 /* package colour-2.3.3 */
 #define VERSION_colour "2.3.3"
 #define MIN_VERSION_colour(major1,major2,minor) (\
@@ -48,6 +34,20 @@
   (major1) <  4 || \
   (major1) == 4 && (major2) <  15 || \
   (major1) == 4 && (major2) == 15 && (minor) <= 4)
+
+/* package protolude-0.1.10 */
+#define VERSION_protolude "0.1.10"
+#define MIN_VERSION_protolude(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  1 || \
+  (major1) == 0 && (major2) == 1 && (minor) <= 10)
+
+/* package text-1.2.2.2 */
+#define VERSION_text "1.2.2.2"
+#define MIN_VERSION_text(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  2 || \
+  (major1) == 1 && (major2) == 2 && (minor) <= 2)
 
 /* package tasty-0.11.2.5 */
 #define VERSION_tasty "0.11.2.5"
@@ -140,7 +140,7 @@
   (major1) == 0 && (major2) <  29 || \
   (major1) == 0 && (major2) == 29 && (minor) <= 2)
 
-#define CURRENT_COMPONENT_ID "gbacpFireflyProy-0.1.0.0-FA6gtHkCdITCMgGgfyRuCP"
+#define CURRENT_COMPONENT_ID "gbacpFireflyProy-0.1.0.0-KSqM02qLwgKG7C7cddfgMt"
 
-#define CURRENT_PACKAGE_KEY "gbacpFireflyProy-0.1.0.0-FA6gtHkCdITCMgGgfyRuCP"
+#define CURRENT_PACKAGE_KEY "gbacpFireflyProy-0.1.0.0-KSqM02qLwgKG7C7cddfgMt"
 
