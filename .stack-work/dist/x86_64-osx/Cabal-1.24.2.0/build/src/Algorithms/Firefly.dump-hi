@@ -1,9 +1,9 @@
 
 ==================== FINAL INTERFACE ====================
-2017-10-15 18:12:50.811801 UTC
+2018-03-12 01:21:14.647249 UTC
 
 interface gbacpFireflyProy-0.1.0.0-FA6gtHkCdITCMgGgfyRuCP:Algorithms.Firefly 8002
-  interface hash: 4eb50aed9ee615ad1b1e2858f727f8ea
+  interface hash: a8bc452bcfb0a368d7f13aff0efa8b2e
   ABI hash: 7981fef73d3cf0e71484881e22a360bf
   export-list hash: 85a444a88208277c9a39a76b25945a94
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
@@ -55,6 +55,7 @@ import  -/  base-4.9.1.0:Data.Char 01433d23661edb6e5ef1536ef1e6774c
 import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
 import  -/  base-4.9.1.0:GHC.Float 33e2b9ffe427edd6a5c2fd6a3b26703c
 import  -/  base-4.9.1.0:GHC.Num 00bfaa7b2f9d6084913c0697a8a49ec8
+import  -/  base-4.9.1.0:GHC.Real 82e4e59051a13dba1da63e1e970a69e6
 import  -/  Lib.Prelude 0d07ccb4f2f1924b2e5084cb8992ad6e
   exports: 7f97854b2cbe78cf55994970281b4148
 import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text f7d3d648ffeef1043fe2e522e7e66c1b
