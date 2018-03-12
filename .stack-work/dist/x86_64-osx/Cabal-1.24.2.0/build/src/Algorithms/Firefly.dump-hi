@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2018-03-12 03:59:10.619222 UTC
+2018-03-12 16:10:11.90931 UTC
 
 interface gbacpFireflyProy-0.1.0.0-De45qhfjI9UBygrZNtqfxg:Algorithms.Firefly 8002
-  interface hash: 874ff97ee3140e4d06bcf8aa51c930be
-  ABI hash: 3b807d996bcf62a7f637759cadf5900d
+  interface hash: d7124a8961c7972da618f13f93658f2e
+  ABI hash: b737f8ebd24bfe434416cc71b4e3da49
   export-list hash: 0ba59025e17d8bd6f6ce33687bb75232
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 0d5af76a5aa992bf9c6324432f453bda
@@ -74,19 +74,20 @@ cf6bdc377a5650cf01565e070509ae0c
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    "gbacpFireflyProy-0.1.0.0-De45qhfjI9UBygrZNtqfxg"#) -}
-b7bd757d7b3783b2b87819a1484559a3
+482154d8c5cf29a97c46d24a73876323
   intensity :: GHC.Types.Float -> GHC.Types.Float -> GHC.Types.Float
   {- Arity: 2, HasNoCafRefs, Strictness: <S(S),1*U(U)><S(S),1*U(U)>m,
      Unfolding: InlineRule (2, True, False)
                 (\ (x1 :: GHC.Types.Float) (x2 :: GHC.Types.Float) ->
-                 case x1 of wild { GHC.Types.F# x ->
-                 case x2 of wild1 { GHC.Types.F# y ->
+                 case x2 of wild { GHC.Types.F# x ->
+                 case x1 of wild1 { GHC.Types.F# y ->
+                 let {
+                   y1 :: GHC.Prim.Float# = GHC.Prim.minusFloat# x y
+                 } in
                  GHC.Types.F#
                    (GHC.Prim.timesFloat#
-                      1.2#
-                      (GHC.Prim.powerFloat#
-                         (GHC.Prim.expFloat# 1.0#)
-                         (GHC.Prim.timesFloat# 0.2# (GHC.Prim.minusFloat# x y)))) } }) -}
+                      (GHC.Prim.expFloat# (GHC.Prim.negateFloat# y1))
+                      y1) } }) -}
 bc6612b3f8521abac7f7366e71706647
   restNum :: [GHC.Types.Char] -> [GHC.Types.Char]
   {- Arity: 1, HasNoCafRefs, Strictness: <S,U>,
