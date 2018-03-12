@@ -28,6 +28,27 @@
   (major1) == 1 && (major2) <  2 || \
   (major1) == 1 && (major2) == 2 && (minor) <= 2)
 
+/* package colour-2.3.3 */
+#define VERSION_colour "2.3.3"
+#define MIN_VERSION_colour(major1,major2,minor) (\
+  (major1) <  2 || \
+  (major1) == 2 && (major2) <  3 || \
+  (major1) == 2 && (major2) == 3 && (minor) <= 3)
+
+/* package data-default-class-0.1.2.0 */
+#define VERSION_data_default_class "0.1.2.0"
+#define MIN_VERSION_data_default_class(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  1 || \
+  (major1) == 0 && (major2) == 1 && (minor) <= 2)
+
+/* package lens-4.15.4 */
+#define VERSION_lens "4.15.4"
+#define MIN_VERSION_lens(major1,major2,minor) (\
+  (major1) <  4 || \
+  (major1) == 4 && (major2) <  15 || \
+  (major1) == 4 && (major2) == 15 && (minor) <= 4)
+
 /* package tasty-0.11.2.5 */
 #define VERSION_tasty "0.11.2.5"
 #define MIN_VERSION_tasty(major1,major2,minor) (\
