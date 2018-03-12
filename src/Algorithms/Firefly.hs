@@ -23,6 +23,6 @@ sigmoid !x = 1 / (1 + exp (-x))
 {-# INLINE sigmoid #-}
 
 -- | Derivative of the sigmoid function: sigmoid x * (1 - sigmoid x)
-sigmoid' :: Floating a => a -> a
-sigmoid' !x = case sigmoid x of
-  s -> s * (1 - s)
+--sigmoid' :: Floating a => a -> a
+--sigmoid' !x = case sigmoid x of
+--  s -> s * (1 - s)
