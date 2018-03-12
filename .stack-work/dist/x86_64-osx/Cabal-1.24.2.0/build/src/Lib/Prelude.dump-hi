@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2018-03-12 03:26:16.947954 UTC
+2018-03-12 03:27:56.536838 UTC
 
-interface gbacpFireflyProy-0.1.0.0-KSqM02qLwgKG7C7cddfgMt:Lib.Prelude 8002
-  interface hash: dc17e58f885552a9b5373c54f871cd1d
-  ABI hash: 2107b3ccbc574c1e3399996e4dda50c7
+interface gbacpFireflyProy-0.1.0.0-LSBCvYO55c93GGH3MwVluT:Lib.Prelude 8002
+  interface hash: 680e07e191bbd9b462769fa05deee43a
+  ABI hash: 92cbedc83b29844491725237449c809e
   export-list hash: 7f97854b2cbe78cf55994970281b4148
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 34e0259223350bf5f1697800087a5b5c
@@ -784,21 +784,21 @@ import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
 import  -/  protolude-0.1.10@protolude-0.1.10-EbWghKT4Ra36YSCOzDFDKT:Protolude 0d67a6d6446145e8dd8f2764f3da7a22
 import  -/  stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve:Control.Monad.STM 931284146485cb8c64459c4077f33566
 import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy cbb4b05939f62bb9d21b1d5ed2b9d95e
-0b3e5c47030e97de7fa346479ce62222
+23cae3088b6e7d88ed6fa0a6f9d16342
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    Lib.Prelude.$trModule2
                    Lib.Prelude.$trModule1) -}
-83a079e2196c4577f4562d6e00079a5c
+ea798704efd091bb6ec38013ae685685
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "Lib.Prelude"#) -}
-8bc861b2e87bb72dd4821a1f2dd810e1
+b69742269791f0d6e7a1093ea72e6da7
   $trModule2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
-                   "gbacpFireflyProy-0.1.0.0-KSqM02qLwgKG7C7cddfgMt"#) -}
+                   "gbacpFireflyProy-0.1.0.0-LSBCvYO55c93GGH3MwVluT"#) -}
 vectorised variables:
 vectorised tycons:
 vectorised reused tycons:

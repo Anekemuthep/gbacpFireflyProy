@@ -14,6 +14,13 @@
   (major1) == 4 && (major2) <  9 || \
   (major1) == 4 && (major2) == 9 && (minor) <= 1)
 
+/* package cairo-0.13.4.1 */
+#define VERSION_cairo "0.13.4.1"
+#define MIN_VERSION_cairo(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  13 || \
+  (major1) == 0 && (major2) == 13 && (minor) <= 4)
+
 /* package colour-2.3.3 */
 #define VERSION_colour "2.3.3"
 #define MIN_VERSION_colour(major1,major2,minor) (\
@@ -34,6 +41,13 @@
   (major1) <  4 || \
   (major1) == 4 && (major2) <  15 || \
   (major1) == 4 && (major2) == 15 && (minor) <= 4)
+
+/* package pango-0.13.4.0 */
+#define VERSION_pango "0.13.4.0"
+#define MIN_VERSION_pango(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  13 || \
+  (major1) == 0 && (major2) == 13 && (minor) <= 4)
 
 /* package protolude-0.1.10 */
 #define VERSION_protolude "0.1.10"
@@ -140,7 +154,7 @@
   (major1) == 0 && (major2) <  29 || \
   (major1) == 0 && (major2) == 29 && (minor) <= 2)
 
-#define CURRENT_COMPONENT_ID "gbacpFireflyProy-0.1.0.0-KSqM02qLwgKG7C7cddfgMt"
+#define CURRENT_COMPONENT_ID "gbacpFireflyProy-0.1.0.0-LSBCvYO55c93GGH3MwVluT"
 
-#define CURRENT_PACKAGE_KEY "gbacpFireflyProy-0.1.0.0-KSqM02qLwgKG7C7cddfgMt"
+#define CURRENT_PACKAGE_KEY "gbacpFireflyProy-0.1.0.0-LSBCvYO55c93GGH3MwVluT"
 
