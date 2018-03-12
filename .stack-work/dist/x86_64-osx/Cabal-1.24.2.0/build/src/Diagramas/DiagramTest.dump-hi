@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2018-03-12 04:11:16.492616 UTC
+2018-03-12 04:18:01.874349 UTC
 
 interface gbacpFireflyProy-0.1.0.0-De45qhfjI9UBygrZNtqfxg:Diagramas.DiagramTest 8002
-  interface hash: 5ae4b5171cc999f65b4cd706972401ae
-  ABI hash: b087cd2e451d4c9fef7976e81f4770d7
+  interface hash: 46d1047b5b8e9c5eef764f81369955f7
+  ABI hash: 8942ad5215983a3016b71cae4c627a56
   export-list hash: 0ea10bc23ba3438ea069e476509befbc
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 28db02f17d97f5c2ae6e915d354e7647
@@ -427,14 +427,14 @@ import  -/  lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Setter 2
                                    GHC.Types.Double GHC.Types.Double),
                                 Graphics.Rendering.Chart.State.CState)>_R) of wild1 { (,) a1 s' ->
                     s' } #)) -}
-d1a49f3d4a80aa59a1b401474807a959
+6e68b8e08def7e32972b885d1ce36cf5
   main :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Diagramas.DiagramTest.main1
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <()>_R)) -}
-e04112be2a04a54d2e5121df759feb49
+5cb3c9ef4430aa7be2e045b7e352454e
   main1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -491,10 +491,10 @@ ac3d3a9db440399daed7ace767b8153b
 6f523fb5641c99aaa63eddcbd3c6a17a
   main18 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "am points"#) -}
-1b19eccb247a102f6dff50624decc66c
+32fc43b33131f2e99beec755a05f4d33
   main2 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
-                   "/Users/alfonsobustamante/mychart.png"#) -}
+                   "/Users/alfonsobustamante/mychart.svg"#) -}
 bab889e820d55a3099d43df26c0afc40
   main3 ::
     Graphics.Rendering.Chart.Backend.Impl.BackendProgram
