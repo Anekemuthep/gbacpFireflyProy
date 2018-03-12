@@ -42,6 +42,9 @@ test-suite gbacpFireflyProy-test
   hs-source-dirs:      test
   main-is:             Spec.hs
   build-depends:       base
+                     , colour
+                     , data-default-class
+                     , lens
                      , gbacpFireflyProy
                      , tasty
                      , tasty-hunit
