@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2018-03-13 10:04:19.031664 UTC
+2018-03-13 10:06:06.768922 UTC
 
 interface gbacpFireflyProy-0.1.0.0-De45qhfjI9UBygrZNtqfxg:Diagramas.DiagramIntensity 8002
-  interface hash: bf6528702bbdc549b337f97bdcf8496f
-  ABI hash: 02c1b1cdcdcbe7d38a1c8ee74a56ed87
+  interface hash: ed080b84b467e88ebc52003673975c6e
+  ABI hash: 156d301b2effebcc2ce1b7edf674c57d
   export-list hash: 691b8fe0dc66994273f8c099fb3ae957
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 28db02f17d97f5c2ae6e915d354e7647
@@ -263,7 +263,7 @@ b76737e57ff0a1a8cfbfe3bf8855bea3
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    "gbacpFireflyProy-0.1.0.0-De45qhfjI9UBygrZNtqfxg"#) -}
-84a38f4719a28823469980ad95acfe7b
+8e2df922e37fbf5a3209df85a0226fe6
   $wmain ::
     Graphics.Rendering.Chart.Layout.Layout
       GHC.Types.Double GHC.Types.Double
@@ -290,7 +290,7 @@ b76737e57ff0a1a8cfbfe3bf8855bea3
                             @ GHC.Types.Double
                             @ (Graphics.Rendering.Chart.Layout.Layout
                                  GHC.Types.Double GHC.Types.Double)
-                            Diagramas.DiagramIntensity.main19
+                            Diagramas.DiagramIntensity.main21
                             Diagramas.DiagramIntensity.main18
                             (case w of wild { Graphics.Rendering.Chart.Layout.Layout x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 ->
                              Graphics.Rendering.Chart.Layout.Layout
@@ -473,14 +473,14 @@ b76737e57ff0a1a8cfbfe3bf8855bea3
                          ret_ty Graphics.Rendering.Chart.State.CState
                          of {}
                       : c cs -> Graphics.Rendering.Chart.State.CState cs x2 } } } #)) -}
-9a6c185a83f24d2bb284a5bb77302c88
+55f7cce2862ee17da69786e6356cd945
   main :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Diagramas.DiagramIntensity.main1
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <()>_R)) -}
-fadb5d3437586d719925f9376e1c9b32
+7532961b39d5e208975fbe9a386d172a
   main1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -534,19 +534,31 @@ d0ebe72fb41036c8e1701f18d8df713c
   main17 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    "intensity with FFA definition"#) -}
-3556c6a52ab3002c81edd36dc26e76c2
+9e0ae247e73d20af8495a53aad81e2d0
   main18 :: [(GHC.Types.Double, GHC.Types.Double)]
   {- Unfolding: (Diagramas.DiagramIntensity.main_go2
-                   Diagramas.DiagramIntensity.main9) -}
-40b4c4810a7d7d9d6dd8446896e5299f
-  main19 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString#
-                   "intensity with -alpha"#) -}
+                   Diagramas.DiagramIntensity.main19) -}
+d5a7f5ca018e7a0ed77ecefdbd3c6dd5
+  main19 :: [GHC.Types.Double]
+  {- Unfolding: (GHC.Real.numericEnumFromThenTo
+                   @ GHC.Types.Double
+                   GHC.Classes.$fOrdDouble
+                   GHC.Float.$fFractionalDouble
+                   Diagramas.DiagramIntensity.main12
+                   Diagramas.DiagramIntensity.main20
+                   Diagramas.DiagramIntensity.main10) -}
 cf2a65dab65658646be19bedf5348123
   main2 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    "/Users/alfonsobustamante/mychart.svg"#) -}
-292d173fd476cb1fe512dbaef72dbc93
+ebf92d9a08ea4b19ca23258b80c2fea0
+  main20 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# -0.9##) -}
+93c4162ec65aa415baa521734560f5dc
+  main21 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "intensity with -alpha"#) -}
+3289b23a5cf47d64df5c291909ee3bb2
   main3 ::
     Graphics.Rendering.Chart.Backend.Impl.BackendProgram
       (Graphics.Rendering.Chart.Renderable.PickFn ())
@@ -558,7 +570,7 @@ cf2a65dab65658646be19bedf5348123
                         Diagramas.DiagramIntensity.main4 of ww { (#,#) ww1 ww2 ->
                  ww2
                    Graphics.Rendering.Chart.Backend.Diagrams.$fDefaultFileOptions12 }) -}
-dc80893af0f5f1e3692c73bb3dee53b9
+19c0e97f83a41ac33c5d0619e8175012
   main4 ::
     Graphics.Rendering.Chart.Layout.Layout
       GHC.Types.Double GHC.Types.Double
