@@ -19,4 +19,4 @@ main = toFile def "/Users/alfonsobustamante/mychart.svg" $ do
     setColors [opaque blue, opaque red, opaque green]
     plot (line "intensity with FFA definition" [signal1 [(-1),(-0.09)..1]])
     plot (points "intensity with -alpha" (signal2 [(-1),(-0.09)..1]))
-    plot (line "intensity with Binary FFA definition" (signal3 [(-1),(-0.09)..1]))
+    plot (line "intensity with Binary FFA definition" [signal3 [(-1),(-0.09)..1]])
