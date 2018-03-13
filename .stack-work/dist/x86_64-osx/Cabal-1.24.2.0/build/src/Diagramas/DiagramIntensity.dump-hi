@@ -1,0 +1,596 @@
+
+==================== FINAL INTERFACE ====================
+2018-03-13 09:20:45.131338 UTC
+
+interface gbacpFireflyProy-0.1.0.0-De45qhfjI9UBygrZNtqfxg:Diagramas.DiagramIntensity 8002
+  interface hash: 176b971323f9f6ce15a95c959ef3a36e
+  ABI hash: f6f763475ec010061373f65b4f5d71f6
+  export-list hash: 691b8fe0dc66994273f8c099fb3ae957
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 28db02f17d97f5c2ae6e915d354e7647
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Diagramas.DiagramIntensity.main
+module dependencies: Lib.Prelude
+package dependencies: Chart-1.8.2@Chart-1.8.2-F3UxuTEvHspCzmWJPoQYDF
+                      Chart-diagrams-1.8.2@Chart-diagrams-1.8.2-4YGXdsg8NHjGsJKmuNItdq
+                      JuicyPixels-3.2.8.3@JuicyPixels-3.2.8.3-5IOlo1rE8WxAfqhWPTAe4N
+                      OneTuple-0.2.1@OneTuple-0.2.1-7xFCZYYP3bD3K0JO3QlNLg
+                      SVGFonts-1.6.0.3@SVGFonts-1.6.0.3-5GZsCNKPjKx6ED0a8qrRt4
+                      StateVar-1.1.0.4@StateVar-1.1.0.4-5dJbnTVECtEAhfJXPZKdbO
+                      active-0.2.0.13@active-0.2.0.13-4jaB5mF8Cnf9ur1EQ17cQD
+                      adjunctions-4.3@adjunctions-4.3-A5jfd1yrmaY4DRMJuiquBp
+                      array-0.5.1.1@array-0.5.1.1
+                      async-2.1.1.1@async-2.1.1.1-8yywY4inVGRLJSCg60gBXj
+                      attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ
+                      base-4.9.1.0
+                      base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu
+                      base64-bytestring-1.0.0.1@base64-bytestring-1.0.0.1-4O9TExPPz6eI82Yj7L4SIj
+                      bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw
+                      binary-0.8.3.0@binary-0.8.3.0
+                      blaze-builder-0.4.0.2@blaze-builder-0.4.0.2-LxClHUTiKUUAxWtvJ5Oeoy
+                      blaze-markup-0.8.0.0@blaze-markup-0.8.0.0-GsxkVbRgODkgUQDmmDVob
+                      blaze-svg-0.3.6.1@blaze-svg-0.3.6.1-E6CYGgfBIFH476loEvWeGj
+                      bytes-0.15.3@bytes-0.15.3-JnJk9rvpCHsKPq5vbMmKHS
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      call-stack-0.1.0@call-stack-0.1.0-FYVrCPXGP9EGAuTW32963O
+                      cereal-0.5.4.0@cereal-0.5.4.0-BsAGxfp8yAs3CiRo2E875e
+                      cereal-vector-0.2.0.1@cereal-vector-0.2.0.1-BD6cDz1yYfU5sPXHP8Qjm3
+                      colour-2.3.3@colour-2.3.3-7zspnmhVLMd3uThUzy60rY
+                      comonad-5.0.2@comonad-5.0.2-Fq9Xy9jdx6uIyJZn00E6Yc
+                      containers-0.5.7.1@containers-0.5.7.1
+                      contravariant-1.4@contravariant-1.4-29zF0Im431177ovfbHYCGv
+                      data-default-class-0.1.2.0@data-default-class-0.1.2.0-GsXqKN6o1X9jr0fF5qCVD
+                      deepseq-1.4.2.0@deepseq-1.4.2.0
+                      diagrams-core-1.4.0.1@diagrams-core-1.4.0.1-ajeex2hLbqKqJVgNmTG6n
+                      diagrams-lib-1.4.1.2@diagrams-lib-1.4.1.2-GARwtHlmOx8KytVBv1uvKs
+                      diagrams-postscript-1.4@diagrams-postscript-1.4-Kx0kKgS4eqJBH5FWXJZhLG
+                      diagrams-solve-0.1.1@diagrams-solve-0.1.1-IGiRlgYvVdgDj0oP5Mgxv0
+                      diagrams-svg-1.4.1.1@diagrams-svg-1.4.1.1-EHCYgKcu3M59x0HHkyS6LN
+                      directory-1.3.0.0@directory-1.3.0.0
+                      distributive-0.5.3@distributive-0.5.3-IX4kyVcHAyoH4uFYrsjY1R
+                      dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk
+                      dual-tree-0.2.1@dual-tree-0.2.1-9lOzARtqWyw4yXalh2zLPH
+                      exceptions-0.8.3@exceptions-0.8.3-ADEDRATtUrMK1JW4zMQ9U
+                      filepath-1.4.1.1@filepath-1.4.1.1
+                      fingertree-0.1.2.1@fingertree-0.1.2.1-GSL5Ug8Brx92D1GgQTQ6Mf
+                      free-4.12.4@free-4.12.4-C2gBQV0m8J42HxqSLTFyVx
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol
+                      integer-gmp-1.0.0.1
+                      integer-logarithms-1.0.2@integer-logarithms-1.0.2-92lMiWV9mmYAwfMEYgfQ0D
+                      intervals-0.8.1@intervals-0.8.1-8N8awHw8q2nEkfDPyZQ0m9
+                      kan-extensions-5.0.2@kan-extensions-5.0.2-8LTJJ1zQJWB7SfewWXUuqX
+                      lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW
+                      linear-1.20.7@linear-1.20.7-Hm7B9kQS5iJ4TZVBdSCC2p
+                      monoid-extras-0.4.2@monoid-extras-0.4.2-3CYdhnBgj4bD1LpXCOOXq4
+                      mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6
+                      newtype-generics-0.5.1@newtype-generics-0.5.1-JNUifO9pZvW31MVj2qFeLE
+                      operational-0.2.3.5@operational-0.2.3.5-HshVNYBkUHSElS4TqxYs8c
+                      prelude-extras-0.4.0.3@prelude-extras-0.4.0.3-BhL9U5k7NtGJn1itwIHt2Y
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh
+                      process-1.4.3.0@process-1.4.3.0
+                      profunctors-5.2.1@profunctors-5.2.1-Ga89Nyw0d7LBEIoX4AZ6gT
+                      protolude-0.1.10@protolude-0.1.10-EbWghKT4Ra36YSCOzDFDKT
+                      reflection-2.1.2@reflection-2.1.2-Bem12O1xFGSHr4C2Hyu1c4
+                      safe-0.3.15@safe-0.3.15-2Yd45VWFfdcKqKyispOifY
+                      scientific-0.3.5.2@scientific-0.3.5.2-FM2NdrNTcdbCDq9wuNnhIA
+                      semigroupoids-5.2.1@semigroupoids-5.2.1-Db8txM8kTsI6Y49CY6g5Jn
+                      split-0.2.3.2@split-0.2.3.2-CJl40zTyCIV16Pr60nb7CT
+                      statestack-0.2.0.5@statestack-0.2.0.5-DUUgIpif05SkammwiZ5ef
+                      stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve
+                      svg-builder-0.1.0.2@svg-builder-0.1.0.2-KweztDz0lg38JuWRSdI52Z
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      template-haskell-2.11.1.0
+                      text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00
+                      th-abstraction-0.2.6.0@th-abstraction-0.2.6.0-HRFJgpoqs5HJ5LgHnjmMhQ
+                      time-1.6.0.1@time-1.6.0.1 transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-compat-0.5.1.4@transformers-compat-0.5.1.4-IuFogs8HAVUJBWVNMhtssu
+                      tuple-0.3.0.2@tuple-0.3.0.2-fw19c2mVE4S4kTOAA0LW
+                      unix-2.7.2.1@unix-2.7.2.1
+                      unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC
+                      vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ
+                      xml-1.3.14@xml-1.3.14-AKug8Ud7K0VEhc87tBwsGy
+                      zlib-0.6.1.2@zlib-0.6.1.2-7negTfm2ujt1gW4wr40MUp
+orphans: Chart-1.8.2@Chart-1.8.2-F3UxuTEvHspCzmWJPoQYDF:Graphics.Rendering.Chart.Axis.Floating
+         Chart-1.8.2@Chart-1.8.2-F3UxuTEvHspCzmWJPoQYDF:Graphics.Rendering.Chart.Axis.Int
+         Chart-1.8.2@Chart-1.8.2-F3UxuTEvHspCzmWJPoQYDF:Graphics.Rendering.Chart.Axis.LocalTime
+         Chart-1.8.2@Chart-1.8.2-F3UxuTEvHspCzmWJPoQYDF:Graphics.Rendering.Chart.Axis.Unit
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Text.Internal
+         base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu:Data.Orphans
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         cereal-vector-0.2.0.1@cereal-vector-0.2.0.1-BD6cDz1yYfU5sPXHP8Qjm3:Data.Vector.Serialize
+         colour-2.3.3@colour-2.3.3-7zspnmhVLMd3uThUzy60rY:Data.Colour
+         diagrams-core-1.4.0.1@diagrams-core-1.4.0.1-ajeex2hLbqKqJVgNmTG6n:Diagrams.Core.Points
+         diagrams-core-1.4.0.1@diagrams-core-1.4.0.1-ajeex2hLbqKqJVgNmTG6n:Diagrams.Core.Types
+         diagrams-lib-1.4.1.2@diagrams-lib-1.4.1.2-GARwtHlmOx8KytVBv1uvKs:Diagrams.Animation.Active
+         diagrams-lib-1.4.1.2@diagrams-lib-1.4.1.2-GARwtHlmOx8KytVBv1uvKs:Diagrams.ThreeD.Types
+         diagrams-lib-1.4.1.2@diagrams-lib-1.4.1.2-GARwtHlmOx8KytVBv1uvKs:Diagrams.Trail
+         diagrams-lib-1.4.1.2@diagrams-lib-1.4.1.2-GARwtHlmOx8KytVBv1uvKs:Diagrams.TwoD.Path
+         diagrams-lib-1.4.1.2@diagrams-lib-1.4.1.2-GARwtHlmOx8KytVBv1uvKs:Diagrams.TwoD.Segment
+         diagrams-lib-1.4.1.2@diagrams-lib-1.4.1.2-GARwtHlmOx8KytVBv1uvKs:Diagrams.TwoD.Types
+         hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable.Generic
+         linear-1.20.7@linear-1.20.7-Hm7B9kQS5iJ4TZVBdSCC2p:Linear.Instances
+         monoid-extras-0.4.2@monoid-extras-0.4.2-3CYdhnBgj4bD1LpXCOOXq4:Data.Monoid.MList
+         reflection-2.1.2@reflection-2.1.2-Bem12O1xFGSHr4C2Hyu1c4:Data.Reflection
+         stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve:Control.Monad.STM
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Show
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Fusion.Bundle
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+family instance modules: JuicyPixels-3.2.8.3@JuicyPixels-3.2.8.3-5IOlo1rE8WxAfqhWPTAe4N:Codec.Picture.Tga
+                         JuicyPixels-3.2.8.3@JuicyPixels-3.2.8.3-5IOlo1rE8WxAfqhWPTAe4N:Codec.Picture.Tiff
+                         JuicyPixels-3.2.8.3@JuicyPixels-3.2.8.3-5IOlo1rE8WxAfqhWPTAe4N:Codec.Picture.Types
+                         SVGFonts-1.6.0.3@SVGFonts-1.6.0.3-5GZsCNKPjKx6ED0a8qrRt4:Graphics.SVGFonts.ReadFont
+                         active-0.2.0.13@active-0.2.0.13-4jaB5mF8Cnf9ur1EQ17cQD:Data.Active
+                         adjunctions-4.3@adjunctions-4.3-A5jfd1yrmaY4DRMJuiquBp:Data.Functor.Rep
+                         attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Internal.Types
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Compose
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Biff
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Clown
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Fix
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Flip
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Join
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Joker
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Product
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Sum
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Tannen
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Wrapped
+                         bytes-0.15.3@bytes-0.15.3-JnJk9rvpCHsKPq5vbMmKHS:Data.Bytes.Get
+                         bytes-0.15.3@bytes-0.15.3-JnJk9rvpCHsKPq5vbMmKHS:Data.Bytes.Signed
+                         bytes-0.15.3@bytes-0.15.3-JnJk9rvpCHsKPq5vbMmKHS:Data.Bytes.VarInt
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         diagrams-core-1.4.0.1@diagrams-core-1.4.0.1-ajeex2hLbqKqJVgNmTG6n:Diagrams.Core.Envelope
+                         diagrams-core-1.4.0.1@diagrams-core-1.4.0.1-ajeex2hLbqKqJVgNmTG6n:Diagrams.Core.Measure
+                         diagrams-core-1.4.0.1@diagrams-core-1.4.0.1-ajeex2hLbqKqJVgNmTG6n:Diagrams.Core.Names
+                         diagrams-core-1.4.0.1@diagrams-core-1.4.0.1-ajeex2hLbqKqJVgNmTG6n:Diagrams.Core.Points
+                         diagrams-core-1.4.0.1@diagrams-core-1.4.0.1-ajeex2hLbqKqJVgNmTG6n:Diagrams.Core.Query
+                         diagrams-core-1.4.0.1@diagrams-core-1.4.0.1-ajeex2hLbqKqJVgNmTG6n:Diagrams.Core.Style
+                         diagrams-core-1.4.0.1@diagrams-core-1.4.0.1-ajeex2hLbqKqJVgNmTG6n:Diagrams.Core.Trace
+                         diagrams-core-1.4.0.1@diagrams-core-1.4.0.1-ajeex2hLbqKqJVgNmTG6n:Diagrams.Core.Transform
+                         diagrams-core-1.4.0.1@diagrams-core-1.4.0.1-ajeex2hLbqKqJVgNmTG6n:Diagrams.Core.Types
+                         diagrams-core-1.4.0.1@diagrams-core-1.4.0.1-ajeex2hLbqKqJVgNmTG6n:Diagrams.Core.V
+                         diagrams-lib-1.4.1.2@diagrams-lib-1.4.1.2-GARwtHlmOx8KytVBv1uvKs:Diagrams.Angle
+                         diagrams-lib-1.4.1.2@diagrams-lib-1.4.1.2-GARwtHlmOx8KytVBv1uvKs:Diagrams.Animation.Active
+                         diagrams-lib-1.4.1.2@diagrams-lib-1.4.1.2-GARwtHlmOx8KytVBv1uvKs:Diagrams.BoundingBox
+                         diagrams-lib-1.4.1.2@diagrams-lib-1.4.1.2-GARwtHlmOx8KytVBv1uvKs:Diagrams.Coordinates
+                         diagrams-lib-1.4.1.2@diagrams-lib-1.4.1.2-GARwtHlmOx8KytVBv1uvKs:Diagrams.Direction
+                         diagrams-lib-1.4.1.2@diagrams-lib-1.4.1.2-GARwtHlmOx8KytVBv1uvKs:Diagrams.Located
+                         diagrams-lib-1.4.1.2@diagrams-lib-1.4.1.2-GARwtHlmOx8KytVBv1uvKs:Diagrams.Path
+                         diagrams-lib-1.4.1.2@diagrams-lib-1.4.1.2-GARwtHlmOx8KytVBv1uvKs:Diagrams.Segment
+                         diagrams-lib-1.4.1.2@diagrams-lib-1.4.1.2-GARwtHlmOx8KytVBv1uvKs:Diagrams.Size
+                         diagrams-lib-1.4.1.2@diagrams-lib-1.4.1.2-GARwtHlmOx8KytVBv1uvKs:Diagrams.Tangent
+                         diagrams-lib-1.4.1.2@diagrams-lib-1.4.1.2-GARwtHlmOx8KytVBv1uvKs:Diagrams.ThreeD.Camera
+                         diagrams-lib-1.4.1.2@diagrams-lib-1.4.1.2-GARwtHlmOx8KytVBv1uvKs:Diagrams.ThreeD.Light
+                         diagrams-lib-1.4.1.2@diagrams-lib-1.4.1.2-GARwtHlmOx8KytVBv1uvKs:Diagrams.ThreeD.Shapes
+                         diagrams-lib-1.4.1.2@diagrams-lib-1.4.1.2-GARwtHlmOx8KytVBv1uvKs:Diagrams.ThreeD.Types
+                         diagrams-lib-1.4.1.2@diagrams-lib-1.4.1.2-GARwtHlmOx8KytVBv1uvKs:Diagrams.Trail
+                         diagrams-lib-1.4.1.2@diagrams-lib-1.4.1.2-GARwtHlmOx8KytVBv1uvKs:Diagrams.TwoD.Attributes
+                         diagrams-lib-1.4.1.2@diagrams-lib-1.4.1.2-GARwtHlmOx8KytVBv1uvKs:Diagrams.TwoD.Image
+                         diagrams-lib-1.4.1.2@diagrams-lib-1.4.1.2-GARwtHlmOx8KytVBv1uvKs:Diagrams.TwoD.Path
+                         diagrams-lib-1.4.1.2@diagrams-lib-1.4.1.2-GARwtHlmOx8KytVBv1uvKs:Diagrams.TwoD.Segment.Bernstein
+                         diagrams-lib-1.4.1.2@diagrams-lib-1.4.1.2-GARwtHlmOx8KytVBv1uvKs:Diagrams.TwoD.Text
+                         diagrams-lib-1.4.1.2@diagrams-lib-1.4.1.2-GARwtHlmOx8KytVBv1uvKs:Diagrams.TwoD.Types
+                         diagrams-postscript-1.4@diagrams-postscript-1.4-Kx0kKgS4eqJBH5FWXJZhLG:Diagrams.Backend.Postscript
+                         diagrams-svg-1.4.1.1@diagrams-svg-1.4.1.1-EHCYgKcu3M59x0HHkyS6LN:Diagrams.Backend.SVG
+                         dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk:Data.DList
+                         dual-tree-0.2.1@dual-tree-0.2.1-9lOzARtqWyw4yXalh2zLPH:Data.Tree.DUAL.Internal
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         intervals-0.8.1@intervals-0.8.1-8N8awHw8q2nEkfDPyZQ0m9:Numeric.Interval.Kaucher
+                         kan-extensions-5.0.2@kan-extensions-5.0.2-8LTJJ1zQJWB7SfewWXUuqX:Data.Functor.Day
+                         kan-extensions-5.0.2@kan-extensions-5.0.2-8LTJJ1zQJWB7SfewWXUuqX:Data.Functor.Yoneda
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.At
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Internal.Indexed
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Reified
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Tuple
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Wrapped
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Zoom
+                         linear-1.20.7@linear-1.20.7-Hm7B9kQS5iJ4TZVBdSCC2p:Linear.Affine
+                         linear-1.20.7@linear-1.20.7-Hm7B9kQS5iJ4TZVBdSCC2p:Linear.Plucker
+                         linear-1.20.7@linear-1.20.7-Hm7B9kQS5iJ4TZVBdSCC2p:Linear.Quaternion
+                         linear-1.20.7@linear-1.20.7-Hm7B9kQS5iJ4TZVBdSCC2p:Linear.V
+                         linear-1.20.7@linear-1.20.7-Hm7B9kQS5iJ4TZVBdSCC2p:Linear.V0
+                         linear-1.20.7@linear-1.20.7-Hm7B9kQS5iJ4TZVBdSCC2p:Linear.V1
+                         linear-1.20.7@linear-1.20.7-Hm7B9kQS5iJ4TZVBdSCC2p:Linear.V2
+                         linear-1.20.7@linear-1.20.7-Hm7B9kQS5iJ4TZVBdSCC2p:Linear.V3
+                         linear-1.20.7@linear-1.20.7-Hm7B9kQS5iJ4TZVBdSCC2p:Linear.V4
+                         newtype-generics-0.5.1@newtype-generics-0.5.1-JNUifO9pZvW31MVj2qFeLE:Control.Newtype
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Control.Monad.Primitive
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Data.Primitive.Array
+                         profunctors-5.2.1@profunctors-5.2.1-Ga89Nyw0d7LBEIoX4AZ6gT:Data.Profunctor.Rep
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+                         th-abstraction-0.2.6.0@th-abstraction-0.2.6.0-HRFJgpoqs5HJ5LgHnjmMhQ:Language.Haskell.TH.Datatype
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Base
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashSet
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Primitive
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Storable
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed.Base
+                         zlib-0.6.1.2@zlib-0.6.1.2-7negTfm2ujt1gW4wr40MUp:Codec.Compression.Zlib.Stream
+import  -/  Chart-1.8.2@Chart-1.8.2-F3UxuTEvHspCzmWJPoQYDF:Graphics.Rendering.Chart.Easy d87946aa7ce1a14d7013de815ea7b5f2
+import  -/  Chart-1.8.2@Chart-1.8.2-F3UxuTEvHspCzmWJPoQYDF:Graphics.Rendering.Chart.Layout 99c3b5542e51e6d35891ad60069f90f1
+import  -/  Chart-1.8.2@Chart-1.8.2-F3UxuTEvHspCzmWJPoQYDF:Graphics.Rendering.Chart.State b14d755b0a519c09d70065a8c2f9375e
+import  -/  Chart-diagrams-1.8.2@Chart-diagrams-1.8.2-4YGXdsg8NHjGsJKmuNItdq:Graphics.Rendering.Chart.Backend.Diagrams 32ec5051e347f55a1f872be618277562
+import  -/  base-4.9.1.0:GHC.Float 33e2b9ffe427edd6a5c2fd6a3b26703c
+import  -/  base-4.9.1.0:GHC.Num 00bfaa7b2f9d6084913c0697a8a49ec8
+import  -/  base-4.9.1.0:GHC.Real 82e4e59051a13dba1da63e1e970a69e6
+import  -/  colour-2.3.3@colour-2.3.3-7zspnmhVLMd3uThUzy60rY:Data.Colour.Internal 7273ca1df88adba9d426d537f051e35b
+import  -/  colour-2.3.3@colour-2.3.3-7zspnmhVLMd3uThUzy60rY:Data.Colour.Names aecfaa9463088cc731c20ac216329cfb
+import  -/  data-default-class-0.1.2.0@data-default-class-0.1.2.0-GsXqKN6o1X9jr0fF5qCVD:Data.Default.Class 6e6ff0df81cdc438838c4b9b3d4260b1
+import  -/  Lib.Prelude 893c9c1b08f463d1684723fd8c9fedb8
+  exports: 7f97854b2cbe78cf55994970281b4148
+import  -/  lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Setter 2ba84291b39c66d4fb563b9eaed1d93d
+dff5df32b3ff3fe8a5b9d0980fa7d9d1
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Diagramas.DiagramIntensity.$trModule2
+                   Diagramas.DiagramIntensity.$trModule1) -}
+aa79e277388bf52fa77e93990c92f0dc
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Diagramas.DiagramIntensity"#) -}
+b76737e57ff0a1a8cfbfe3bf8855bea3
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "gbacpFireflyProy-0.1.0.0-De45qhfjI9UBygrZNtqfxg"#) -}
+9ced8ee8b73d276e21102bf123efdbfa
+  $wmain ::
+    Graphics.Rendering.Chart.Layout.Layout
+      GHC.Types.Double GHC.Types.Double
+    -> Graphics.Rendering.Chart.State.CState
+    -> (# ((),
+           Graphics.Rendering.Chart.Layout.Layout
+             GHC.Types.Double GHC.Types.Double),
+          Graphics.Rendering.Chart.State.CState #)
+  {- Arity: 2,
+     Strictness: <L,1*U(U,U,A,U,U,U,U,U,U,U,1*U,U,U,U)><L,1*U(A,U)>,
+     Inline: [0],
+     Unfolding: (\ (w :: Graphics.Rendering.Chart.Layout.Layout
+                           GHC.Types.Double GHC.Types.Double)
+                   (w1 :: Graphics.Rendering.Chart.State.CState) ->
+                 let {
+                   ds :: Data.Functor.Identity.Identity
+                           ((Graphics.Rendering.Chart.Plot.Points.PlotPoints
+                               GHC.Types.Double GHC.Types.Double,
+                             Graphics.Rendering.Chart.Layout.Layout
+                               GHC.Types.Double GHC.Types.Double),
+                            Graphics.Rendering.Chart.State.CState)
+                   = case Graphics.Rendering.Chart.Easy.$wpoints
+                            @ GHC.Types.Double
+                            @ GHC.Types.Double
+                            @ (Graphics.Rendering.Chart.Layout.Layout
+                                 GHC.Types.Double GHC.Types.Double)
+                            Diagramas.DiagramIntensity.main18
+                            Diagramas.DiagramIntensity.main15
+                            (case w of wild { Graphics.Rendering.Chart.Layout.Layout x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 ->
+                             Graphics.Rendering.Chart.Layout.Layout
+                               @ GHC.Types.Double
+                               @ GHC.Types.Double
+                               x1
+                               x2
+                               Diagramas.DiagramIntensity.main_b1
+                               x4
+                               x5
+                               x6
+                               x7
+                               x8
+                               x9
+                               x10
+                               (GHC.Base.++
+                                  @ (Graphics.Rendering.Chart.Plot.Types.Plot
+                                       GHC.Types.Double GHC.Types.Double)
+                                  x11
+                                  (GHC.Types.:
+                                     @ (Graphics.Rendering.Chart.Plot.Types.Plot
+                                          GHC.Types.Double GHC.Types.Double)
+                                     (case Graphics.Rendering.Chart.Plot.Lines.$w$ctoPlot
+                                             @ GHC.Types.Double
+                                             @ GHC.Types.Double
+                                             (Graphics.Rendering.Chart.Plot.Lines.PlotLines
+                                                @ GHC.Types.Double
+                                                @ GHC.Types.Double
+                                                Diagramas.DiagramIntensity.main14
+                                                (Graphics.Rendering.Chart.Backend.Types.LineStyle
+                                                   Graphics.Rendering.Chart.Plot.Lines.defaultPlotLineStyle2
+                                                   (case w1 of wild1 { Graphics.Rendering.Chart.State.CState x16 x17 ->
+                                                    case Diagramas.DiagramIntensity.main_xs' of wild2 {
+                                                      []
+                                                      -> case Diagramas.DiagramIntensity.main13
+                                                         ret_ty (Data.Colour.Internal.AlphaColour
+                                                                   GHC.Types.Double)
+                                                         of {}
+                                                      : c cs -> c } })
+                                                   (GHC.Types.[] @ GHC.Types.Double)
+                                                   Graphics.Rendering.Chart.Backend.Types.LineCapRound
+                                                   Graphics.Rendering.Chart.Backend.Types.LineJoinRound)
+                                                Diagramas.DiagramIntensity.main7
+                                                (GHC.Types.[]
+                                                   @ [(Graphics.Rendering.Chart.Geometry.Limit
+                                                         GHC.Types.Double,
+                                                       Graphics.Rendering.Chart.Geometry.Limit
+                                                         GHC.Types.Double)])) of ww { (#,,#) ww1 ww2 ww3 ->
+                                      Graphics.Rendering.Chart.Plot.Types.Plot
+                                        @ GHC.Types.Double
+                                        @ GHC.Types.Double
+                                        ww1
+                                        ww2
+                                        ww3 })
+                                     (GHC.Types.[]
+                                        @ (Graphics.Rendering.Chart.Plot.Types.Plot
+                                             GHC.Types.Double GHC.Types.Double))))
+                               x12
+                               x13
+                               x14 })
+                            (case w1 of wild1 { Graphics.Rendering.Chart.State.CState x1 x2 ->
+                             case Diagramas.DiagramIntensity.main_xs' of wild2 {
+                               []
+                               -> case Diagramas.DiagramIntensity.main13
+                                  ret_ty Graphics.Rendering.Chart.State.CState
+                                  of {}
+                               : c cs
+                               -> Graphics.Rendering.Chart.State.CState
+                                    cs
+                                    x2 } }) of ww { (#,#) ww1 ww2 ->
+                     (ww1, ww2)
+                       `cast`
+                     (Sym (Data.Functor.Identity.N:Identity[0]
+                               <((Graphics.Rendering.Chart.Plot.Points.PlotPoints
+                                    GHC.Types.Double GHC.Types.Double,
+                                  Graphics.Rendering.Chart.Layout.Layout
+                                    GHC.Types.Double GHC.Types.Double),
+                                 Graphics.Rendering.Chart.State.CState)>_R)) }
+                 } in
+                 (# (GHC.Tuple.(),
+                     case ds
+                            `cast`
+                          (Data.Functor.Identity.N:Identity[0]
+                               <((Graphics.Rendering.Chart.Plot.Points.PlotPoints
+                                    GHC.Types.Double GHC.Types.Double,
+                                  Graphics.Rendering.Chart.Layout.Layout
+                                    GHC.Types.Double GHC.Types.Double),
+                                 Graphics.Rendering.Chart.State.CState)>_R) of wild1 { (,) a1 s' ->
+                     case a1 of wild2 { (,) a2 s'1 ->
+                     case s'1 of wild3 { Graphics.Rendering.Chart.Layout.Layout x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 ->
+                     Graphics.Rendering.Chart.Layout.Layout
+                       @ GHC.Types.Double
+                       @ GHC.Types.Double
+                       x1
+                       x2
+                       x3
+                       x4
+                       x5
+                       x6
+                       x7
+                       x8
+                       x9
+                       x10
+                       (GHC.Base.++
+                          @ (Graphics.Rendering.Chart.Plot.Types.Plot
+                               GHC.Types.Double GHC.Types.Double)
+                          x11
+                          (GHC.Types.:
+                             @ (Graphics.Rendering.Chart.Plot.Types.Plot
+                                  GHC.Types.Double GHC.Types.Double)
+                             (case Graphics.Rendering.Chart.Plot.Points.$w$ctoPlot
+                                     @ GHC.Types.Double
+                                     @ GHC.Types.Double
+                                     a2 of ww { (#,,#) ww1 ww2 ww3 ->
+                              Graphics.Rendering.Chart.Plot.Types.Plot
+                                @ GHC.Types.Double
+                                @ GHC.Types.Double
+                                ww1
+                                ww2
+                                ww3 })
+                             (GHC.Types.[]
+                                @ (Graphics.Rendering.Chart.Plot.Types.Plot
+                                     GHC.Types.Double GHC.Types.Double))))
+                       x12
+                       x13
+                       x14 } } }),
+                    case ds
+                           `cast`
+                         (Data.Functor.Identity.N:Identity[0]
+                              <((Graphics.Rendering.Chart.Plot.Points.PlotPoints
+                                   GHC.Types.Double GHC.Types.Double,
+                                 Graphics.Rendering.Chart.Layout.Layout
+                                   GHC.Types.Double GHC.Types.Double),
+                                Graphics.Rendering.Chart.State.CState)>_R) of wild1 { (,) a1 s' ->
+                    s' } #)) -}
+deb4b131f6a923c9554f092c966a7f6c
+  main :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Diagramas.DiagramIntensity.main1
+                  `cast`
+                (Sym (GHC.Types.N:IO[0] <()>_R)) -}
+aebedb8365690d2a3b67211b39359209
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (w5 :: GHC.Prim.State#
+                            GHC.Prim.RealWorld)[OneShot] ->
+                 case Graphics.Rendering.Chart.Backend.Diagrams.$wcBackendToFile
+                        @ (Graphics.Rendering.Chart.Renderable.PickFn ())
+                        Graphics.Rendering.Chart.Backend.Diagrams.$fDefaultFileOptions12
+                        Graphics.Rendering.Chart.Backend.Diagrams.SVG
+                        Graphics.Rendering.Chart.Backend.Diagrams.$fDefaultFileOptions1
+                          `cast`
+                        (Sym (GHC.Types.N:IO[0]
+                                  <Graphics.Rendering.Chart.Backend.Diagrams.FontSelector
+                                     GHC.Types.Double>_R))
+                        Diagramas.DiagramIntensity.main3
+                        Diagramas.DiagramIntensity.main2
+                        w5 of ds1 { (#,#) ipv ipv1 ->
+                 (# ipv, GHC.Tuple.() #) }) -}
+d4bf46825febaeb0f3dac14dd667a012
+  main10 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 400.0##) -}
+636a5498f70391dbf2a42f06b65c115d
+  main11 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 0.5##) -}
+7e2d3c78e82ac8ef1a3207978285e981
+  main12 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 0.0##) -}
+8ef0252728b29a4e35f923d33e645001
+  main13 ::
+    Data.Functor.Identity.Identity
+      (Data.Colour.Internal.AlphaColour GHC.Types.Double,
+       Graphics.Rendering.Chart.State.CState)
+  {- Strictness: x -}
+b89202d21879e3cd15ac5fa92b370b45
+  main14 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "am"#) -}
+f81dc57aaf8bf37b2579273dd142c8f5
+  main15 :: [(GHC.Types.Double, GHC.Types.Double)]
+  {- Unfolding: (Diagramas.DiagramIntensity.main_go1
+                   Diagramas.DiagramIntensity.main16) -}
+d9735c8004b2da503e17edb2bc43379e
+  main16 :: [GHC.Types.Double]
+  {- Unfolding: (GHC.Real.numericEnumFromThenTo
+                   @ GHC.Types.Double
+                   GHC.Classes.$fOrdDouble
+                   GHC.Float.$fFractionalDouble
+                   Diagramas.DiagramIntensity.main12
+                   Diagramas.DiagramIntensity.main17
+                   Diagramas.DiagramIntensity.main10) -}
+d584081b0a0e25a0b7d8b37bc0795775
+  main17 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 7.0##) -}
+89181ad79dd91c29edc56c13ed5f1a34
+  main18 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "am points"#) -}
+cf2a65dab65658646be19bedf5348123
+  main2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "/Users/alfonsobustamante/mychart.svg"#) -}
+84ebb3c975c9fd2a29b2cfd7cf22c8d9
+  main3 ::
+    Graphics.Rendering.Chart.Backend.Impl.BackendProgram
+      (Graphics.Rendering.Chart.Renderable.PickFn ())
+  {- Unfolding: (case Graphics.Rendering.Chart.Layout.$w$ctoRenderable
+                        @ GHC.Types.Double
+                        @ GHC.Types.Double
+                        GHC.Classes.$fOrdDouble
+                        GHC.Classes.$fOrdDouble
+                        Diagramas.DiagramIntensity.main4 of ww { (#,#) ww1 ww2 ->
+                 ww2
+                   Graphics.Rendering.Chart.Backend.Diagrams.$fDefaultFileOptions12 }) -}
+10ed06b1583205e23ebea627aad73b1d
+  main4 ::
+    Graphics.Rendering.Chart.Layout.Layout
+      GHC.Types.Double GHC.Types.Double
+  {- Unfolding: (case Diagramas.DiagramIntensity.$wmain
+                        Diagramas.DiagramIntensity.main5
+                        Graphics.Rendering.Chart.State.$fDefaultCState_$cdef of ww { (#,#) ww1 ww2 ->
+                 case ww1 of wild2 { (,) ds1 s'1 -> s'1 } }) -}
+649eacc289c2f13c483d6d4556970bdc
+  main5 ::
+    Graphics.Rendering.Chart.Layout.Layout
+      GHC.Types.Double GHC.Types.Double
+  {- Unfolding: (Graphics.Rendering.Chart.Layout.Layout
+                   @ GHC.Types.Double
+                   @ GHC.Types.Double
+                   Graphics.Rendering.Chart.Layout.$fDefaultLayout7
+                   (GHC.Base.Nothing
+                      @ Graphics.Rendering.Chart.Backend.Types.FillStyle)
+                   (GHC.Types.[] @ GHC.Types.Char)
+                   Graphics.Rendering.Chart.Layout.$fDefaultLayout5
+                   Diagramas.DiagramIntensity.main6
+                   Graphics.Rendering.Chart.Layout.$fDefaultLayout3
+                   Graphics.Rendering.Chart.Axis.Types.$fDefaultAxisVisibility_$cdef
+                   Diagramas.DiagramIntensity.main6
+                   Graphics.Rendering.Chart.Axis.Types.$fDefaultAxisVisibility_$cdef
+                   Graphics.Rendering.Chart.Layout.$fDefaultLayout3
+                   (GHC.Types.[]
+                      @ (Graphics.Rendering.Chart.Plot.Types.Plot
+                           GHC.Types.Double GHC.Types.Double))
+                   Graphics.Rendering.Chart.Layout.$fDefaultLayout2
+                   Graphics.Rendering.Chart.Layout.$fDefaultLayout1
+                   GHC.Types.False) -}
+5c99a1f3c34f51d0984ff5dfe181130d
+  main6 ::
+    Graphics.Rendering.Chart.Layout.LayoutAxis GHC.Types.Double
+  {- Strictness: m,
+     Unfolding: (Graphics.Rendering.Chart.Layout.LayoutAxis
+                   @ GHC.Types.Double
+                   Graphics.Rendering.Chart.Layout.$fDefaultLayout4
+                   (GHC.Types.[] @ GHC.Types.Char)
+                   Graphics.Rendering.Chart.Axis.Types.$fDefaultAxisStyle_$cdef
+                   Graphics.Rendering.Chart.Axis.Floating.$fPlotValueDouble_$cautoAxis
+                   (GHC.Base.id
+                      @ (Graphics.Rendering.Chart.Axis.Types.AxisData GHC.Types.Double))
+                   GHC.Types.False) -}
+65b99fffdbf38c844206635f234e333d
+  main7 :: [[(GHC.Types.Double, GHC.Types.Double)]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [(GHC.Types.Double, GHC.Types.Double)]
+                   Diagramas.DiagramIntensity.main8
+                   (GHC.Types.[] @ [(GHC.Types.Double, GHC.Types.Double)])) -}
+8070419e52864441fda1f2250da4034b
+  main8 :: [(GHC.Types.Double, GHC.Types.Double)]
+  {- Unfolding: (Diagramas.DiagramIntensity.main_go
+                   Diagramas.DiagramIntensity.main9) -}
+06b198a4f0181c4f1ea7625bbe96d230
+  main9 :: [GHC.Types.Double]
+  {- Unfolding: (GHC.Real.numericEnumFromThenTo
+                   @ GHC.Types.Double
+                   GHC.Classes.$fOrdDouble
+                   GHC.Float.$fFractionalDouble
+                   Diagramas.DiagramIntensity.main12
+                   Diagramas.DiagramIntensity.main11
+                   Diagramas.DiagramIntensity.main10) -}
+2c79c7a2d9a6225c0403c3fdfa936de4
+  main_b1 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "Amplitude Modulation"#) -}
+38c58f8b9a20feed8ec0fd839a9bb3e6
+  main_go ::
+    [GHC.Types.Double] -> [(GHC.Types.Double, GHC.Types.Double)]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U> -}
+ff2ed6986e2286965912ca136510cc27
+  main_go1 ::
+    [GHC.Types.Double] -> [(GHC.Types.Double, GHC.Types.Double)]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U> -}
+ef45979bbfd33439e76c12bb711c938b
+  main_xs' :: [Data.Colour.Internal.AlphaColour GHC.Types.Double]
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+
