@@ -33,7 +33,6 @@ library
                      , Chart
                      , pango
                      , cairo
-                     , list
                      , diagrams
                      , data-default-class
                      , lens
