@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2018-03-12 04:18:01.874349 UTC
+2018-03-15 11:54:05.54299 UTC
 
 interface gbacpFireflyProy-0.1.0.0-De45qhfjI9UBygrZNtqfxg:Diagramas.DiagramTest 8002
-  interface hash: 46d1047b5b8e9c5eef764f81369955f7
-  ABI hash: 8942ad5215983a3016b71cae4c627a56
+  interface hash: 026cf98af86c3cd12e3206179982ab6c
+  ABI hash: 67ee12a189eddf5b6adf5792623de6a0
   export-list hash: 0ea10bc23ba3438ea069e476509befbc
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 28db02f17d97f5c2ae6e915d354e7647
@@ -264,7 +264,7 @@ import  -/  lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Setter 2
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    "gbacpFireflyProy-0.1.0.0-De45qhfjI9UBygrZNtqfxg"#) -}
-964bf039db63bcbdbe94f74fc267271e
+f07dbd2aa45c5f233943222731e169e1
   $wmain ::
     Graphics.Rendering.Chart.Layout.Layout
       GHC.Types.Double GHC.Types.Double
@@ -427,14 +427,14 @@ import  -/  lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Setter 2
                                    GHC.Types.Double GHC.Types.Double),
                                 Graphics.Rendering.Chart.State.CState)>_R) of wild1 { (,) a1 s' ->
                     s' } #)) -}
-6e68b8e08def7e32972b885d1ce36cf5
+d0639fff73e26a7324af69fce9461b41
   main :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Diagramas.DiagramTest.main1
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <()>_R)) -}
-5cb3c9ef4430aa7be2e045b7e352454e
+c56b0ab2c5a797865b8fcdd0658297e9
   main1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -491,11 +491,11 @@ ac3d3a9db440399daed7ace767b8153b
 6f523fb5641c99aaa63eddcbd3c6a17a
   main18 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "am points"#) -}
-32fc43b33131f2e99beec755a05f4d33
+aa19089e9bb308a5a0ee660226930c48
   main2 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
-                   "/Users/alfonsobustamante/mychart.svg"#) -}
-bab889e820d55a3099d43df26c0afc40
+                   "/Users/alfonsobustamante/bacpBFFA.svg"#) -}
+4ebf2376c1597666454938c3fce88532
   main3 ::
     Graphics.Rendering.Chart.Backend.Impl.BackendProgram
       (Graphics.Rendering.Chart.Renderable.PickFn ())
@@ -507,7 +507,7 @@ bab889e820d55a3099d43df26c0afc40
                         Diagramas.DiagramTest.main4 of ww { (#,#) ww1 ww2 ->
                  ww2
                    Graphics.Rendering.Chart.Backend.Diagrams.$fDefaultFileOptions12 }) -}
-ae11da4c2b0c47f6bbc8a9a5e53eb3fb
+b6072e5de0fd6a308bf865277850a9fb
   main4 ::
     Graphics.Rendering.Chart.Layout.Layout
       GHC.Types.Double GHC.Types.Double
@@ -572,10 +572,10 @@ e38dbba61ea2c5a2cfa79cbb54a79229
                    Diagramas.DiagramTest.main12
                    Diagramas.DiagramTest.main11
                    Diagramas.DiagramTest.main10) -}
-7a4e2571e14aa15c9e3b1338f63227d7
+57705580044dbc89aba4afeaa86d6ff1
   main_b1 :: GHC.Base.String
   {- Unfolding: (GHC.CString.unpackCString#
-                   "Amplitude Modulation"#) -}
+                   "Instancias de cursos"#) -}
 ab613281f450d68d9aba17a85afbec57
   main_go ::
     [GHC.Types.Double] -> [(GHC.Types.Double, GHC.Types.Double)]

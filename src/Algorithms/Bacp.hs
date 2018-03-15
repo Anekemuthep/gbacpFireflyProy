@@ -5,6 +5,10 @@ import Lib.Prelude
 import qualified Data.Char as Charq
 import qualified Data.Text as T
 
+transpose2:: (Num a) => [[a]]->[[a]]
+transpose2 ([]:_) = []
+transpose2 x = (map head x) : transpose (map tail x)
+
 row1 n v = map (fromEnum.(==v)) [1..n]
 
 row n v = convIntToNumB (row1 n v)
