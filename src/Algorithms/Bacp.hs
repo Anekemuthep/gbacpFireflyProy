@@ -9,6 +9,16 @@ transpose2:: (Num a) => [[a]]->[[a]]
 transpose2 ([]:_) = []
 transpose2 x = (map head x) : transpose (map tail x)
 
+haddamardProd v1 v2 = [(v1!!i)*(v2!!i) | i <- [0..((length v1)-1)]]
+
+{- Implementacion de producto de haddamard para matrices. Producto componente
+   a componente de dos matrices. Por ejemplo,
+
+   haddamardM [[1,2],[0,3]] [[4,3],[3,3]]==[[4,6],[0,9]]
+-}
+
+haddamardM xss yss = [haddamardProd (xss!!i) (yss!!i) | i <- [0..((length xss)-1)]]
+
 row1 n v = map (fromEnum.(==v)) [1..n]
 
 row n v = convIntToNumB (row1 n v)
