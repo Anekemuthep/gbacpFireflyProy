@@ -18,7 +18,7 @@ library
   ghc-options:         -Wall
   exposed-modules:     Lib
                      , Algorithms.Firefly 
-                     , Algorithms.Gbacp
+                     , Algorithms.Bacp
                      , Diagramas.DiagramTest
                      , Diagramas.DiagramIntensity
                      , Instancias.BACP8

@@ -1,4 +1,4 @@
-module Algorithms.Gbacp (splitByTwoDots, getCustomAudience) where
+module Algorithms.Bacp (splitByTwoDots, getCustomAudience) where
     
 import Lib.Prelude
     
