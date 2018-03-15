@@ -1,0 +1,1995 @@
+
+==================== FINAL INTERFACE ====================
+2018-03-15 11:43:47.114051 UTC
+
+interface gbacpFireflyProy-0.1.0.0-De45qhfjI9UBygrZNtqfxg:Instancias.BACP12 8002
+  interface hash: 30f26f386683d7c091885a8d7c323dca
+  ABI hash: 98e64fc141526dd577da37c7872262cb
+  export-list hash: 876b0d7ff09f649da8da0eb9044e4209
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 1b991b7a5e9ab53e8a810e0c88b6bc8b
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Instancias.BACP12.coursesBACP12
+  Instancias.BACP12.creditBACP12
+  Instancias.BACP12.prereqBACP12
+module dependencies: Lib.Prelude
+package dependencies: array-0.5.1.1@array-0.5.1.1
+                      async-2.1.1.1@async-2.1.1.1-8yywY4inVGRLJSCg60gBXj base-4.9.1.0
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      containers-0.5.7.1@containers-0.5.7.1
+                      deepseq-1.4.2.0@deepseq-1.4.2.0 ghc-prim-0.5.0.0
+                      integer-gmp-1.0.0.1 mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6
+                      protolude-0.1.10@protolude-0.1.10-EbWghKT4Ra36YSCOzDFDKT
+                      safe-0.3.15@safe-0.3.15-2Yd45VWFfdcKqKyispOifY
+                      stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve
+                      text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00
+                      transformers-0.5.2.0@transformers-0.5.2.0
+orphans: base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve:Control.Monad.STM
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Show
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+family instance modules: base-4.9.1.0:Control.Applicative
+                         base-4.9.1.0:Data.Complex base-4.9.1.0:Data.Either
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+import  -/  Lib.Prelude 893c9c1b08f463d1684723fd8c9fedb8
+  exports: 7f97854b2cbe78cf55994970281b4148
+2d77f292592d536069c93ffceb0c74f0
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Instancias.BACP12.$trModule2
+                   Instancias.BACP12.$trModule1) -}
+bcda8a4730253cf2228f8fa1cfb2c2bd
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Instancias.BACP12"#) -}
+50a5235527abb4e5edf2d9474d2cb2b7
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "gbacpFireflyProy-0.1.0.0-De45qhfjI9UBygrZNtqfxg"#) -}
+d82319d15e1196041d766a40417b0155
+  coursesBACP1 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP131
+                   Instancias.BACP12.coursesBACP2) -}
+ddff13ce8d919cd02198006ecea686a5
+  coursesBACP10 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP122
+                   Instancias.BACP12.coursesBACP11) -}
+73adf18b1e61de38d009a58b01b51962
+  coursesBACP100 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ili273"#) -}
+54d0ba9e5a9ea1d358fd222e98a2d92a
+  coursesBACP101 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ili252"#) -}
+2d07efac5c57d445df908b765de19b92
+  coursesBACP102 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ili243"#) -}
+fb3bf187194515f0e814711800a04e1a
+  coursesBACP103 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ili231"#) -}
+c477c2955951b97eead322718816607e
+  coursesBACP104 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "qui104"#) -}
+40daeca5685e867945386f92b37d5bff
+  coursesBACP105 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "iwn170"#) -}
+9bf7206117d9f0368f1f39e6bb54217e
+  coursesBACP106 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ili260"#) -}
+ae1dab5835b4277cc0c915017ffe4848
+  coursesBACP107 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ile260"#) -}
+59590a15b122d094e8967f44c53014df
+  coursesBACP108 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "hxwxx2"#) -}
+aa6370fb1c1da91325b28a48ab435734
+  coursesBACP109 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "fis140"#) -}
+dffb3e2cf2d601f940bc45ada67ef3e9
+  coursesBACP11 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP121
+                   Instancias.BACP12.coursesBACP13) -}
+d884959bc198d2b49cb79c7bc1cd8968
+  coursesBACP110 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "mat124"#) -}
+e0c46422942f2bbecb8c36aeb74ce067
+  coursesBACP111 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "iwm185"#) -}
+146656db981f75c3b39bdebc1bccfd90
+  coursesBACP112 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ili151"#) -}
+e300414a08b2c5ed610838fda9312240
+  coursesBACP113 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ili134"#) -}
+46b99d2aaae6d411e12bf170f7ca3727
+  coursesBACP114 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "fis130"#) -}
+a817e4c72863c43acffcb6cc72a12393
+  coursesBACP115 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "mat123"#) -}
+c42f61891bec97997a71ba7927d711fd
+  coursesBACP116 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "mat113"#) -}
+ea4b4628c1b84b69b4b0fead1f92c99f
+  coursesBACP117 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ili142"#) -}
+04f037f05edea335fa46e90e5ae964d1
+  coursesBACP118 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "hxwxx1"#) -}
+15423d29d54c430459402e717fe14e25
+  coursesBACP119 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "hcw311"#) -}
+7529684d55549fd460a25257d19a45dd
+  coursesBACP12 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP132
+                   Instancias.BACP12.coursesBACP1) -}
+c3704d81d0a4581b4b96484ee7d7ff4c
+  coursesBACP120 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "fis120"#) -}
+729b3b112b325ee98f2333f9885642d9
+  coursesBACP121 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "dewxx0"#) -}
+88dfe3545e6d26ca60873fe451aa14f0
+  coursesBACP122 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "mat122"#) -}
+ac80bb05dbcfaeba7c6a11983761d541
+  coursesBACP123 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "mat112"#) -}
+848fffbf50876f50b55c51db9d887f26
+  coursesBACP124 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "iwi131"#) -}
+66ea81d3f2133a979953842d84c2401f
+  coursesBACP125 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "fis110"#) -}
+afa8b40bed10559760a5f3569b9fdda5
+  coursesBACP126 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "dew101"#) -}
+f4b3f8b186a20b27eaee14cc86615306
+  coursesBACP127 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "mat121"#) -}
+0593686f36a359c8bdf8eb6a66c79ed4
+  coursesBACP128 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "mat111"#) -}
+3ca19f3e0723bb1bc9a6ca1afbfc1815
+  coursesBACP129 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "iwg101"#) -}
+58d75045a20a84659d2175e5e11a97d7
+  coursesBACP13 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP120
+                   Instancias.BACP12.coursesBACP14) -}
+92b34741cb4e61af1b313ec28e35b6d1
+  coursesBACP130 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "hcw310"#) -}
+7b5dbcb34b5ba5b2f2f7c72c9c8436b4
+  coursesBACP131 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "fis100"#) -}
+b2e9d90e1802d41b6db9943afd7d52cf
+  coursesBACP132 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "dew100"#) -}
+efb2d81a47947d162b1be07066fe3ed9
+  coursesBACP14 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP119
+                   Instancias.BACP12.coursesBACP15) -}
+537e3399b8b8882bc9c2c66802433830
+  coursesBACP15 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP118
+                   Instancias.BACP12.coursesBACP16) -}
+34507bc04d1fec8ad174d03e2d807fe8
+  coursesBACP16 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP117
+                   Instancias.BACP12.coursesBACP17) -}
+70a8b0749ac5b5d76239c7901fc6e5aa
+  coursesBACP17 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP116
+                   Instancias.BACP12.coursesBACP18) -}
+0b7d2e31c8764f9b5277392b1ebfe8f1
+  coursesBACP18 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP115
+                   Instancias.BACP12.coursesBACP19) -}
+e3bbf88ca617102b68009fdc2d9c2b2f
+  coursesBACP19 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP114
+                   Instancias.BACP12.coursesBACP20) -}
+2d880905df05abed75e8707d741248ff
+  coursesBACP2 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP130
+                   Instancias.BACP12.coursesBACP3) -}
+678392d79326990544bc37ab55215b05
+  coursesBACP20 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP113
+                   Instancias.BACP12.coursesBACP21) -}
+d77f9df7d49d2e0a2ad78abf7fed009c
+  coursesBACP21 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP112
+                   Instancias.BACP12.coursesBACP22) -}
+85df09a70bb198ab49052e2565146c4b
+  coursesBACP22 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP111
+                   Instancias.BACP12.coursesBACP23) -}
+9f27549764c1f92f6d277ec69155e755
+  coursesBACP23 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP110
+                   Instancias.BACP12.coursesBACP24) -}
+ffb70dc6d802e785cbb968dd0d65377c
+  coursesBACP24 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP109
+                   Instancias.BACP12.coursesBACP25) -}
+54bdf8a5bae8b5b83e656fed277cdde6
+  coursesBACP25 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP108
+                   Instancias.BACP12.coursesBACP26) -}
+ec49c39f36651a4f97f3c00c2637da88
+  coursesBACP26 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP107
+                   Instancias.BACP12.coursesBACP27) -}
+0126b6bddf2b6ce05c8527d91b36a3c0
+  coursesBACP27 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP106
+                   Instancias.BACP12.coursesBACP28) -}
+08dc4e6920c395e65de00172ecf9a197
+  coursesBACP28 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP105
+                   Instancias.BACP12.coursesBACP29) -}
+fa1c8b0ed4421d6d1768dc0cfcdb010f
+  coursesBACP29 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP104
+                   Instancias.BACP12.coursesBACP30) -}
+7bbcd90157c5b22ac292e701626a1fd8
+  coursesBACP3 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP129
+                   Instancias.BACP12.coursesBACP4) -}
+6ee75c94d657aceed3a207cb02faae70
+  coursesBACP30 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP103
+                   Instancias.BACP12.coursesBACP31) -}
+304dc5f77df977ca831136821429cf33
+  coursesBACP31 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP102
+                   Instancias.BACP12.coursesBACP32) -}
+59d9466805d59c35ec1dc6e0d7b08675
+  coursesBACP32 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP101
+                   Instancias.BACP12.coursesBACP33) -}
+75d756562ac4237b236267164c20a991
+  coursesBACP33 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP100
+                   Instancias.BACP12.coursesBACP34) -}
+a50c936c2b72394f02eb67352d41f948
+  coursesBACP34 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP99
+                   Instancias.BACP12.coursesBACP35) -}
+eb25fae4a563b858d500fa5407cdf0c3
+  coursesBACP35 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP98
+                   Instancias.BACP12.coursesBACP36) -}
+1a8f1deea237dc7152d38f3bdd605f7d
+  coursesBACP36 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP97
+                   Instancias.BACP12.coursesBACP37) -}
+2888713fb02358de089417afbd8ff9ea
+  coursesBACP37 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP96
+                   Instancias.BACP12.coursesBACP38) -}
+d2dd06f85e8d74f415a6664dea2618ee
+  coursesBACP38 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP95
+                   Instancias.BACP12.coursesBACP39) -}
+a4a0ebfcea06d5c0f4b0682ef390630c
+  coursesBACP39 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP94
+                   Instancias.BACP12.coursesBACP40) -}
+7fe5cdddee4b45348a16a66ea25c4e73
+  coursesBACP4 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP128
+                   Instancias.BACP12.coursesBACP5) -}
+438ffdcf09f0d724a56013a07f082137
+  coursesBACP40 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP93
+                   Instancias.BACP12.coursesBACP41) -}
+c519d0f6b997f53b71889805784bf5c5
+  coursesBACP41 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP92
+                   Instancias.BACP12.coursesBACP42) -}
+8064074740b7c4cad1329d7d3371486a
+  coursesBACP42 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP91
+                   Instancias.BACP12.coursesBACP43) -}
+4a5e45d91478ac084b736fe27564735c
+  coursesBACP43 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP90
+                   Instancias.BACP12.coursesBACP44) -}
+5edf836e48d0b4f16d154cab6cd2a7a4
+  coursesBACP44 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP89
+                   Instancias.BACP12.coursesBACP45) -}
+0073ff41fb750338087680eee0c04421
+  coursesBACP45 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP88
+                   Instancias.BACP12.coursesBACP46) -}
+5ebac0dd93ac095fc6c1e709e4cde1d1
+  coursesBACP46 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP87
+                   Instancias.BACP12.coursesBACP47) -}
+a4cbf5f947f1aae10bb3e78dd2057077
+  coursesBACP47 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP86
+                   Instancias.BACP12.coursesBACP48) -}
+875866aa2c94450b649e10bbbecc60b0
+  coursesBACP48 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP85
+                   Instancias.BACP12.coursesBACP49) -}
+67824fcfd6fc5bbe697898c6a605219c
+  coursesBACP49 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP84
+                   Instancias.BACP12.coursesBACP50) -}
+6c8356cf24e974ad8670fe7fe33bd78f
+  coursesBACP5 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP127
+                   Instancias.BACP12.coursesBACP6) -}
+dfec04723ac887a53b4c22632f117099
+  coursesBACP50 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP83
+                   Instancias.BACP12.coursesBACP51) -}
+0798096e57ff7ecfb1953d4b3d39f8e2
+  coursesBACP51 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP82
+                   Instancias.BACP12.coursesBACP52) -}
+f4c018a1381737e5ab4e409c13a89344
+  coursesBACP52 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP81
+                   Instancias.BACP12.coursesBACP53) -}
+30eb8e0395379ecf808f80f568ea8716
+  coursesBACP53 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP80
+                   Instancias.BACP12.coursesBACP54) -}
+2a2439a601f799df014974571fca12c7
+  coursesBACP54 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP79
+                   Instancias.BACP12.coursesBACP55) -}
+51523125e593bb027a168338833f857a
+  coursesBACP55 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP78
+                   Instancias.BACP12.coursesBACP56) -}
+cd6401a9780da2ce3cbd381ac838ef48
+  coursesBACP56 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP77
+                   Instancias.BACP12.coursesBACP57) -}
+db8f209d9f3cfa826150968fdaed31c0
+  coursesBACP57 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP76
+                   Instancias.BACP12.coursesBACP58) -}
+a3c9a13b17c7e54cfb037fa602fbad5b
+  coursesBACP58 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP75
+                   Instancias.BACP12.coursesBACP59) -}
+58c595085f71db2cf93c5ee2ba1a9a62
+  coursesBACP59 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP74
+                   Instancias.BACP12.coursesBACP60) -}
+8e3b95c974de1ac7a0f50c24e26c8462
+  coursesBACP6 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP126
+                   Instancias.BACP12.coursesBACP7) -}
+5460cf36b8803c658e8a149a5b7adb77
+  coursesBACP60 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP73
+                   Instancias.BACP12.coursesBACP61) -}
+d055a06118c818daacc4110d86e9b078
+  coursesBACP61 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP72
+                   Instancias.BACP12.coursesBACP62) -}
+c3d2ee584c0b48b7834256c8c3c5e5bf
+  coursesBACP62 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP71
+                   Instancias.BACP12.coursesBACP63) -}
+0bf94900d2c948d661a0a44d2bd72b00
+  coursesBACP63 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP70
+                   Instancias.BACP12.coursesBACP64) -}
+5e7a06806e2635d57c122fb9d896fec4
+  coursesBACP64 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP69
+                   Instancias.BACP12.coursesBACP65) -}
+fd5c95d431762927671426c0d5f8687c
+  coursesBACP65 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP68
+                   Instancias.BACP12.coursesBACP66) -}
+6d8888fe63fdf3297ade573dc0021d9f
+  coursesBACP66 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP67
+                   (GHC.Types.[] @ [GHC.Types.Char])) -}
+79aa95108a7b79892c3ee3757b9fefa2
+  coursesBACP67 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ici367"#) -}
+427a9cc25342fd0eb8559b9b3708ac56
+  coursesBACP68 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ici314"#) -}
+38845083b683aef8d3d790a81beea68c
+  coursesBACP69 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "iwi365"#) -}
+5e6b75a65aa089842348e93d7897becb
+  coursesBACP7 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP125
+                   Instancias.BACP12.coursesBACP8) -}
+e88b7c019b385aab78a8689981ad8db1
+  coursesBACP70 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "icn336"#) -}
+726943cad304c9ceb400e870712fad86
+  coursesBACP71 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ici344"#) -}
+0a0010175a1013d7be4455e61ba5e35d
+  coursesBACP72 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ici332"#) -}
+d1e0b3ac6ae15052df9ec4dc0d6d30f5
+  coursesBACP73 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ici315"#) -}
+3ec43b22bd1edcd0f57644dca8a4a62a
+  coursesBACP74 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ici313"#) -}
+90253ebd6df582f8af0cc8c3bf202b46
+  coursesBACP75 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "iln230"#) -}
+be737d3cf08b6d69aa15a498765903d0
+  coursesBACP76 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ili381"#) -}
+8bc07013167692ca0d8b6b9ae293253d
+  coursesBACP77 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ili362"#) -}
+af8ed69d2afc14504cffabf0e6f38814
+  coursesBACP78 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ili331"#) -}
+41b45c6473c301c929b299637cbad193
+  coursesBACP79 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ici382"#) -}
+c547ef3aea1416d2a041c3a57555284c
+  coursesBACP8 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP124
+                   Instancias.BACP12.coursesBACP9) -}
+62b68d62181df4d44314bb11d7fca412
+  coursesBACP80 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "hrw100"#) -}
+e39f4a14d0a0d71b60bb3cceec6e9329
+  coursesBACP81 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "iwn261"#) -}
+2b93bc17ebb0ed0615beedf8eb417a77
+  coursesBACP82 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ili363"#) -}
+d48d077a3ce45c87acd9e3625b71a2bf
+  coursesBACP83 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ili334"#) -}
+2703a5e43f9bd95218c049c994dded25
+  coursesBACP84 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ili237"#) -}
+52da86df7b92eec0a16cdec6f81f53d7
+  coursesBACP85 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ici393"#) -}
+ac5f06a140a1c48bff8dfdd25bfd5f74
+  coursesBACP86 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "hrw110"#) -}
+96e7f6c81c647f9c51e1218666653d8a
+  coursesBACP87 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ili355"#) -}
+d5fa6e55af19eff449f3b2a48ec5d94f
+  coursesBACP88 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ili275"#) -}
+2a63b552eee2ca935cdfd66d1c9d10c1
+  coursesBACP89 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ili242"#) -}
+b484575063bb5b3607b09b5477891cc4
+  coursesBACP9 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   Instancias.BACP12.coursesBACP123
+                   Instancias.BACP12.coursesBACP10) -}
+fb33fa4335a2f736bcf7ec7e424b719e
+  coursesBACP90 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ili238"#) -}
+2df86992fb11173dc67a71220523c9d9
+  coursesBACP91 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "hrw150"#) -}
+06c57632809766cb1151a61835b077e2
+  coursesBACP92 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "mat270"#) -}
+64b7483557a3b54a879404ec39587daf
+  coursesBACP93 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "iwn270"#) -}
+82d439134066e1ff1845255dbad97d33
+  coursesBACP94 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ili281"#) -}
+a01b19999ee426ab3f8be49da864a9b7
+  coursesBACP95 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ili274"#) -}
+98089dc3385b675cd0393af087c113c0
+  coursesBACP96 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ili221"#) -}
+b25336685cf5b0e3b336804d589ec7ad
+  coursesBACP97 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ild208"#) -}
+2a7a1003d64bd8bc8e00095425da1810
+  coursesBACP98 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "mat260"#) -}
+37768e85ad1cb51d4fc5198bea79e40a
+  coursesBACP99 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "mat210"#) -}
+8145262ec6da078157743c1e9109efb1
+  creditBACP1 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP68
+                   Instancias.BACP12.creditBACP2) -}
+71df81c8783d2c0012522bde43008406
+  creditBACP10 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP69
+                   Instancias.BACP12.creditBACP11) -}
+3d6d0acbf7792c44897a25fbfc7f86eb
+  creditBACP11 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP70
+                   Instancias.BACP12.creditBACP13) -}
+c7a8ddb79b26c02a78ce1698404a7200
+  creditBACP12 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP70
+                   Instancias.BACP12.creditBACP1) -}
+57309dc0928115e4b08ab8e955a98790
+  creditBACP13 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP69
+                   Instancias.BACP12.creditBACP14) -}
+c11c50af652cc393514a3b7f1fe8d394
+  creditBACP14 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP70
+                   Instancias.BACP12.creditBACP15) -}
+3a32f1bb70cffbb91cc08cad1ab3da12
+  creditBACP15 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP70
+                   Instancias.BACP12.creditBACP16) -}
+28507c329a6c874a131f91708be0ac5f
+  creditBACP16 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP69
+                   Instancias.BACP12.creditBACP17) -}
+5795f986debe57d91f7a8c2a2513da0d
+  creditBACP17 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP69
+                   Instancias.BACP12.creditBACP18) -}
+941987421b50bf2e27d0bf13afb2a6b4
+  creditBACP18 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP69
+                   Instancias.BACP12.creditBACP19) -}
+158417c3bfedaadb08281fbb86d60861
+  creditBACP19 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP69
+                   Instancias.BACP12.creditBACP20) -}
+9f01742fa641f107b9a48adfc0d48eb8
+  creditBACP2 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP70
+                   Instancias.BACP12.creditBACP3) -}
+cd93c9c8470670ff87a686499a05d748
+  creditBACP20 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP69
+                   Instancias.BACP12.creditBACP21) -}
+91011ece9acebc6a72002372e6131685
+  creditBACP21 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP68
+                   Instancias.BACP12.creditBACP22) -}
+f00a3c6a09b0199ab7fb532cc312269b
+  creditBACP22 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP68
+                   Instancias.BACP12.creditBACP23) -}
+c6fd2daf02f68463a8ceda4c7358f931
+  creditBACP23 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP69
+                   Instancias.BACP12.creditBACP24) -}
+45d257776390c26a60fc10cb1f2a2738
+  creditBACP24 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP69
+                   Instancias.BACP12.creditBACP25) -}
+a4e45bf683df1d49786a08da30dd80b6
+  creditBACP25 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP70
+                   Instancias.BACP12.creditBACP26) -}
+7e52d13a3b06eb1a3d968f95411b8f9f
+  creditBACP26 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP68
+                   Instancias.BACP12.creditBACP27) -}
+4cab78dcf35984aaf27b18550b290a74
+  creditBACP27 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP68
+                   Instancias.BACP12.creditBACP28) -}
+4243fd8e27eda755bbb6181eed88d7f3
+  creditBACP28 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP68
+                   Instancias.BACP12.creditBACP29) -}
+26bb2734902f79da57274e28506f46ad
+  creditBACP29 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP68
+                   Instancias.BACP12.creditBACP30) -}
+34e243e65b50ece8b0015187cc90638d
+  creditBACP3 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP67
+                   Instancias.BACP12.creditBACP4) -}
+9e7276ca103aa760665cadd8ea0ff832
+  creditBACP30 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP68
+                   Instancias.BACP12.creditBACP31) -}
+7f0a7a5093ea786d5b87ff8309179c15
+  creditBACP31 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP69
+                   Instancias.BACP12.creditBACP32) -}
+25afec6cf9e45ed7f1a0eeb02c38c7e3
+  creditBACP32 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP69
+                   Instancias.BACP12.creditBACP33) -}
+db52476009977e1d66821260df3ae4d2
+  creditBACP33 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP68
+                   Instancias.BACP12.creditBACP34) -}
+6adc658052e35183d4cdfd1aaddb89f7
+  creditBACP34 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP69
+                   Instancias.BACP12.creditBACP35) -}
+51e16fad34189eb918f5dac115160302
+  creditBACP35 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP69
+                   Instancias.BACP12.creditBACP36) -}
+157fa5245bd3d84a9e3df3bd7af66a6a
+  creditBACP36 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP68
+                   Instancias.BACP12.creditBACP37) -}
+652c87a5156f16f26727a39e1cca8702
+  creditBACP37 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP69
+                   Instancias.BACP12.creditBACP38) -}
+e1dc05c644cce176f2874c81a1a2a6ee
+  creditBACP38 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP68
+                   Instancias.BACP12.creditBACP39) -}
+29fa4cd36e2a5c803d739b0e5f3ede55
+  creditBACP39 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP68
+                   Instancias.BACP12.creditBACP40) -}
+a6ec77818accc23eecd8fd0da0133d02
+  creditBACP4 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP69
+                   Instancias.BACP12.creditBACP5) -}
+0b17e7653c5e6f1d8cc668b37699b2cc
+  creditBACP40 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP68
+                   Instancias.BACP12.creditBACP41) -}
+38f344fa22b3f91067879a234c0c69d8
+  creditBACP41 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP69
+                   Instancias.BACP12.creditBACP42) -}
+0bdfb902b40cc7b88b8917ed0504eca2
+  creditBACP42 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP67
+                   Instancias.BACP12.creditBACP43) -}
+e81cdaed93d182ae9874befda2142f45
+  creditBACP43 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP69
+                   Instancias.BACP12.creditBACP44) -}
+23aa6f8f15cc81af4390228f99f7234a
+  creditBACP44 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP68
+                   Instancias.BACP12.creditBACP45) -}
+35fa34a8def42a978fbe97153518f4f2
+  creditBACP45 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP68
+                   Instancias.BACP12.creditBACP46) -}
+510edb19684e0ddcac829ef452e5c7f6
+  creditBACP46 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP69
+                   Instancias.BACP12.creditBACP47) -}
+2a6426d71bc71e913da09e2617a9c116
+  creditBACP47 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP67
+                   Instancias.BACP12.creditBACP48) -}
+2f10007e522576ccd087425d27d71b5a
+  creditBACP48 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP69
+                   Instancias.BACP12.creditBACP49) -}
+f52a36bf1d5e343908238cbe9846bb78
+  creditBACP49 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP69
+                   Instancias.BACP12.creditBACP50) -}
+1e5322985c85a4d742ebe4665e0447a3
+  creditBACP5 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP69
+                   Instancias.BACP12.creditBACP6) -}
+9ffd3e28c5c5249a119517298fd0475c
+  creditBACP50 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP69
+                   Instancias.BACP12.creditBACP51) -}
+e668086fe9216668226bd8e4d641bf9b
+  creditBACP51 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP68
+                   Instancias.BACP12.creditBACP52) -}
+41f750a53d07265202f8648511ca430f
+  creditBACP52 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP68
+                   Instancias.BACP12.creditBACP53) -}
+61da1e31f9f538de8fe934b357f1c316
+  creditBACP53 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP67
+                   Instancias.BACP12.creditBACP54) -}
+d13d55359d2c13a9eb5ae40f9d72cd79
+  creditBACP54 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP69
+                   Instancias.BACP12.creditBACP55) -}
+473d0fb462d7c792a0fc3e64f8b0bbf0
+  creditBACP55 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP69
+                   Instancias.BACP12.creditBACP56) -}
+21d81bab5d71a43ed1c4e40d0a39f748
+  creditBACP56 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP68
+                   Instancias.BACP12.creditBACP57) -}
+81c547345158d545c3104ccf09275925
+  creditBACP57 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP68
+                   Instancias.BACP12.creditBACP58) -}
+3f437752a9d38116e928fda19eaa7140
+  creditBACP58 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP68
+                   Instancias.BACP12.creditBACP59) -}
+f101190cd93c411c18b714db981f2e07
+  creditBACP59 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP67
+                   Instancias.BACP12.creditBACP60) -}
+d58c3176b9954e64923a3302c1b2da4c
+  creditBACP6 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP70
+                   Instancias.BACP12.creditBACP7) -}
+69db9f6aea382dac899187b894f7c6c7
+  creditBACP60 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP67
+                   Instancias.BACP12.creditBACP61) -}
+db30e576d40442571c804704dc01297a
+  creditBACP61 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP68
+                   Instancias.BACP12.creditBACP62) -}
+6b910f5555cd86be60f51f00f64a6d98
+  creditBACP62 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP69
+                   Instancias.BACP12.creditBACP63) -}
+7a48e461fffb707671e6e02270f9cb9c
+  creditBACP63 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP68
+                   Instancias.BACP12.creditBACP64) -}
+8941e363475e8b3dbaf557983d43e783
+  creditBACP64 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP68
+                   Instancias.BACP12.creditBACP65) -}
+587ee1db9aba897b00a0205ef1d4470d
+  creditBACP65 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP67
+                   Instancias.BACP12.creditBACP66) -}
+2d895e5572c5745c5e8e947197fbf0a7
+  creditBACP66 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP67
+                   (GHC.Types.[] @ GHC.Integer.Type.Integer)) -}
+3b47905b8388a3231a360e44935a52f1
+  creditBACP67 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (2) -}
+275e2bc7548f3e30302b81d7e093b2d3
+  creditBACP68 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (3) -}
+db40712cdbb936e7fed5a31b38a21862
+  creditBACP69 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (4) -}
+f09c5c1c63d9be09c3838fcd5597e372
+  creditBACP7 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP71
+                   Instancias.BACP12.creditBACP8) -}
+6933c834e05087013efa9151973c8e4d
+  creditBACP70 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (1) -}
+a4bca743a03e51fff49ced2837a6cbdc
+  creditBACP71 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (5) -}
+1696f1d525f60fb8746653dcb247b34a
+  creditBACP8 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP68
+                   Instancias.BACP12.creditBACP9) -}
+f1cb0ddd206247b9eb7b5ad604065620
+  creditBACP9 :: [GHC.Integer.Type.Integer]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Integer.Type.Integer
+                   Instancias.BACP12.creditBACP69
+                   Instancias.BACP12.creditBACP10) -}
+c5dc88179b91d25726bbebf4d3c601b0
+  prereqBACP1 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP129
+                   Instancias.BACP12.prereqBACP2) -}
+0783f220c38c2b70df6e7546bf3263f7
+  prereqBACP10 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP120
+                   Instancias.BACP12.prereqBACP11) -}
+8c488f10e8db7472244a5a7e771a55c7
+  prereqBACP100 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP98,
+                  Instancias.BACP12.coursesBACP116)) -}
+04e8f432aa4d8bb35a3b26c23f7e4fab
+  prereqBACP101 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP98,
+                  Instancias.BACP12.coursesBACP124)) -}
+e2a4ffe458155b38b74a72d34e111905
+  prereqBACP102 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP99,
+                  Instancias.BACP12.coursesBACP116)) -}
+55da07c7f603c3efad44c0557f83684f
+  prereqBACP103 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP100,
+                  Instancias.BACP12.coursesBACP106)) -}
+832448951853d08bb86dc3954d60114f
+  prereqBACP104 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP101,
+                  Instancias.BACP12.coursesBACP124)) -}
+79fcd81187bbbf4c56b984fd097dd099
+  prereqBACP105 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP103,
+                  Instancias.BACP12.coursesBACP124)) -}
+f2dd5a46c66fb3092871c0282e050d28
+  prereqBACP106 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP107,
+                  Instancias.BACP12.coursesBACP110)) -}
+334f5025b2c0f216cfcf8862a9f4e960
+  prereqBACP107 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP107,
+                  Instancias.BACP12.coursesBACP120)) -}
+2a536cdc9df50a7473478a0ddb30a8b4
+  prereqBACP108 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP109,
+                  Instancias.BACP12.coursesBACP114)) -}
+4c3848b641c01196102aab370d7d1efb
+  prereqBACP109 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP109,
+                  Instancias.BACP12.coursesBACP120)) -}
+24200b0a1f4a889002bba7df85785ed0
+  prereqBACP11 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP119
+                   Instancias.BACP12.prereqBACP13) -}
+8447ee1a41668428ddb7f8e0a1b894c9
+  prereqBACP110 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP110,
+                  Instancias.BACP12.coursesBACP115)) -}
+002298597f89fa9c18f1e5d66b89dbfa
+  prereqBACP111 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP110,
+                  Instancias.BACP12.coursesBACP116)) -}
+af2c41b9aeb5c6813979f3f83af4a485
+  prereqBACP112 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP112,
+                  Instancias.BACP12.coursesBACP123)) -}
+ef5db9bfce1c2c9f69827d2051db0e55
+  prereqBACP113 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP113,
+                  Instancias.BACP12.coursesBACP124)) -}
+f053049e1529cbbd014feef2b4884d2f
+  prereqBACP114 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP114,
+                  Instancias.BACP12.coursesBACP122)) -}
+c59aae6ba1739d89702457bb06f34874
+  prereqBACP115 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP114,
+                  Instancias.BACP12.coursesBACP125)) -}
+6a0dfb08ca6815afbfd7023a9bbddcad
+  prereqBACP116 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP115,
+                  Instancias.BACP12.coursesBACP122)) -}
+78224360d3c5bee81402d955b78a17cb
+  prereqBACP117 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP115,
+                  Instancias.BACP12.coursesBACP123)) -}
+49d34194525081e8b2747ce37fe19dcb
+  prereqBACP118 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP116,
+                  Instancias.BACP12.coursesBACP122)) -}
+894dafc37672869d5d7713f52a44ef83
+  prereqBACP119 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP116,
+                  Instancias.BACP12.coursesBACP123)) -}
+78a009976ec86dd24f8291c8168db38a
+  prereqBACP12 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP130
+                   Instancias.BACP12.prereqBACP1) -}
+e42dc1f8320b16963474c4f874d1cc8a
+  prereqBACP120 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP117,
+                  Instancias.BACP12.coursesBACP124)) -}
+c05e51fa96ae031a51a0cd955172012e
+  prereqBACP121 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP119,
+                  Instancias.BACP12.coursesBACP130)) -}
+2c74d7e963eeefa248c585c5c515ce1c
+  prereqBACP122 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP120,
+                  Instancias.BACP12.coursesBACP122)) -}
+6eb8fd8e4b0f3f777eb77460fb10ff72
+  prereqBACP123 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP120,
+                  Instancias.BACP12.coursesBACP125)) -}
+6f8c707ca20905fa327a4778e86b4439
+  prereqBACP124 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP121,
+                  Instancias.BACP12.coursesBACP126)) -}
+2817ad14f455dbe1e2c4b048b5fbb675
+  prereqBACP125 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP122,
+                  Instancias.BACP12.coursesBACP127)) -}
+81e5e9a5f4701fa32a487383c8d9adc3
+  prereqBACP126 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP122,
+                  Instancias.BACP12.coursesBACP128)) -}
+bab526b070b83cb0176c0d912ffd5416
+  prereqBACP127 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP123,
+                  Instancias.BACP12.coursesBACP128)) -}
+23f3ca823721232b05d36422ae4dcc6a
+  prereqBACP128 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP125,
+                  Instancias.BACP12.coursesBACP127)) -}
+eff9fe81b9529ecde3d1af97a0f0c300
+  prereqBACP129 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP125,
+                  Instancias.BACP12.coursesBACP131)) -}
+0dfc54cfd49e8da124e5ded604f2dc27
+  prereqBACP13 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP118
+                   Instancias.BACP12.prereqBACP14) -}
+da741383e4f449f7b001f6777a2f54a4
+  prereqBACP130 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP126,
+                  Instancias.BACP12.coursesBACP132)) -}
+13d9696167c46eb089ae4c8cf26321f4
+  prereqBACP14 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP117
+                   Instancias.BACP12.prereqBACP15) -}
+f7b88507dd1d02a4c598504ddd2c30ea
+  prereqBACP15 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP116
+                   Instancias.BACP12.prereqBACP16) -}
+bdd996259d086fb26d5878b64c3ddf8f
+  prereqBACP16 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP115
+                   Instancias.BACP12.prereqBACP17) -}
+a97c63e78427ed87c4908ab2e3920a08
+  prereqBACP17 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP114
+                   Instancias.BACP12.prereqBACP18) -}
+d418de3a5f72f56d7c4309f088c7c091
+  prereqBACP18 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP113
+                   Instancias.BACP12.prereqBACP19) -}
+41740be2d7776765754c492209f7e697
+  prereqBACP19 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP112
+                   Instancias.BACP12.prereqBACP20) -}
+2af1846c629733c57a3d0c733b307d64
+  prereqBACP2 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP128
+                   Instancias.BACP12.prereqBACP3) -}
+ac90d07ce85f72487c4cd017fb91b3b0
+  prereqBACP20 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP111
+                   Instancias.BACP12.prereqBACP21) -}
+78a2000b7418ed71d94ffe9bce1182f3
+  prereqBACP21 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP110
+                   Instancias.BACP12.prereqBACP22) -}
+2aec2764349498214c0108e88abbfcd8
+  prereqBACP22 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP109
+                   Instancias.BACP12.prereqBACP23) -}
+c7fa05b262e364f466933ba5abb9af82
+  prereqBACP23 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP108
+                   Instancias.BACP12.prereqBACP24) -}
+32d3131788fe58deea46e7e34be1da35
+  prereqBACP24 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP107
+                   Instancias.BACP12.prereqBACP25) -}
+1a1c223e5886bde2428933ef5e92c976
+  prereqBACP25 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP106
+                   Instancias.BACP12.prereqBACP26) -}
+267536ca366f30b80603f6a904ce7276
+  prereqBACP26 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP105
+                   Instancias.BACP12.prereqBACP27) -}
+ca54e3f241b53c690c780c5a85cd1dcc
+  prereqBACP27 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP104
+                   Instancias.BACP12.prereqBACP28) -}
+415c9966ce7387c2664c42f3930bd528
+  prereqBACP28 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP103
+                   Instancias.BACP12.prereqBACP29) -}
+fe512771d1b35d4324adbdff45e9efe7
+  prereqBACP29 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP102
+                   Instancias.BACP12.prereqBACP30) -}
+51f92f922759894b046a7f69a80c0e61
+  prereqBACP3 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP127
+                   Instancias.BACP12.prereqBACP4) -}
+9d7ea2a7113d603637a234ff538bd067
+  prereqBACP30 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP101
+                   Instancias.BACP12.prereqBACP31) -}
+3e7cfb77aab07ec0a6ff813deba5b34d
+  prereqBACP31 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP100
+                   Instancias.BACP12.prereqBACP32) -}
+8e07c2b109ad0be7bccfebd8f9840a27
+  prereqBACP32 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP99
+                   Instancias.BACP12.prereqBACP33) -}
+2557e4eaa6b4f5f458f004f4400b3487
+  prereqBACP33 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP98
+                   Instancias.BACP12.prereqBACP34) -}
+9bfacfa0c30b75a666d1e5ee558431ad
+  prereqBACP34 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP97
+                   Instancias.BACP12.prereqBACP35) -}
+ba26d5910c387cc64d6521e6dbc0458f
+  prereqBACP35 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP96
+                   Instancias.BACP12.prereqBACP36) -}
+ec1c0df921cc92519ea9dfb075d3f219
+  prereqBACP36 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP95
+                   Instancias.BACP12.prereqBACP37) -}
+46e83a733e2bb4bd208b5d1a3e7081ef
+  prereqBACP37 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP94
+                   Instancias.BACP12.prereqBACP38) -}
+30d34ddbf841988dae6356891b409713
+  prereqBACP38 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP93
+                   Instancias.BACP12.prereqBACP39) -}
+e78cf54280f26c16f789ac8eaab51136
+  prereqBACP39 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP92
+                   Instancias.BACP12.prereqBACP40) -}
+0712357c4230ffd0f53a642a51688ac8
+  prereqBACP4 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP126
+                   Instancias.BACP12.prereqBACP5) -}
+5182c9ae4af06627925630d943d7fbf8
+  prereqBACP40 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP91
+                   Instancias.BACP12.prereqBACP41) -}
+a62d6be774dcd5728574de444e914fc9
+  prereqBACP41 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP90
+                   Instancias.BACP12.prereqBACP42) -}
+1f7257d7fe29c40e5ee607c9431e1306
+  prereqBACP42 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP89
+                   Instancias.BACP12.prereqBACP43) -}
+12dd4f27fbd917b808a9e343fd7ad448
+  prereqBACP43 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP88
+                   Instancias.BACP12.prereqBACP44) -}
+7b07bf3c5d206f5bdb1179a7d1d59a1d
+  prereqBACP44 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP87
+                   Instancias.BACP12.prereqBACP45) -}
+4c6b89b5ac3619b622850a94586db131
+  prereqBACP45 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP86
+                   Instancias.BACP12.prereqBACP46) -}
+c07d79636ab74cc1f7b834b042669f46
+  prereqBACP46 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP85
+                   Instancias.BACP12.prereqBACP47) -}
+b8518bf40f92741fc796d6aa2558f1ba
+  prereqBACP47 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP84
+                   Instancias.BACP12.prereqBACP48) -}
+23d0e984b9a9b89875333f69f85782c3
+  prereqBACP48 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP83
+                   Instancias.BACP12.prereqBACP49) -}
+050361e1d709b693fd9e16f10956c193
+  prereqBACP49 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP82
+                   Instancias.BACP12.prereqBACP50) -}
+736576239a95018321eca933d04a8f1a
+  prereqBACP5 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP125
+                   Instancias.BACP12.prereqBACP6) -}
+397831c2ccbef59c71b1521d8a7fee3c
+  prereqBACP50 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP81
+                   Instancias.BACP12.prereqBACP51) -}
+7072b579e0a4f56fdd128a522a1edf2d
+  prereqBACP51 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP80
+                   Instancias.BACP12.prereqBACP52) -}
+0a5d3ab29811fb12d8190a7d33eee7d9
+  prereqBACP52 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP79
+                   Instancias.BACP12.prereqBACP53) -}
+b798a7552550fe0898559fe97c4267c7
+  prereqBACP53 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP78
+                   Instancias.BACP12.prereqBACP54) -}
+64b22ea0ffb82486f726dc85e64a39cd
+  prereqBACP54 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP77
+                   Instancias.BACP12.prereqBACP55) -}
+46c98846224b4c6a61db36d03fd9c4d7
+  prereqBACP55 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP76
+                   Instancias.BACP12.prereqBACP56) -}
+120487c748cce3ca5e6c11ee2e88ba06
+  prereqBACP56 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP75
+                   Instancias.BACP12.prereqBACP57) -}
+d27b5c5edc4b9a5f99d5fda3ba52e229
+  prereqBACP57 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP74
+                   Instancias.BACP12.prereqBACP58) -}
+63f29fa2c8fa10b8e6b08240bc60eed2
+  prereqBACP58 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP73
+                   Instancias.BACP12.prereqBACP59) -}
+59d3c7daed9d5e1c32fd9b5d390b526c
+  prereqBACP59 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP72
+                   Instancias.BACP12.prereqBACP60) -}
+872d3eae38171c978d556fbabdba20f3
+  prereqBACP6 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP124
+                   Instancias.BACP12.prereqBACP7) -}
+d43cda1fd3fa97fdf23a815dd3dc53cf
+  prereqBACP60 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP71
+                   Instancias.BACP12.prereqBACP61) -}
+9ff1dab458cec2dbf6ad08c132c0347b
+  prereqBACP61 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP70
+                   Instancias.BACP12.prereqBACP62) -}
+b50cdd738aedca26e720bac0543eeedf
+  prereqBACP62 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP69
+                   Instancias.BACP12.prereqBACP63) -}
+b2d1fa2321ba78a40e722099f81c97c3
+  prereqBACP63 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP68
+                   Instancias.BACP12.prereqBACP64) -}
+b862bf12a30bf27ee0cbb8796adb90f0
+  prereqBACP64 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP67
+                   Instancias.BACP12.prereqBACP65) -}
+41f7a22c130c5eeb529e928acd9dc406
+  prereqBACP65 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP66
+                   (GHC.Types.[] @ ([GHC.Types.Char], [GHC.Types.Char]))) -}
+3dc45322ddbb2a520d6ee3437037c94f
+  prereqBACP66 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP68,
+                  Instancias.BACP12.coursesBACP74)) -}
+e36fe6da608a1c7c42e95cc8d967c860
+  prereqBACP67 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP70,
+                  Instancias.BACP12.coursesBACP85)) -}
+8a12dc8011800aa4fc2ddae294dfc42e
+  prereqBACP68 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP71,
+                  Instancias.BACP12.coursesBACP102)) -}
+1c16bcd6ddfb68766a463bc188d311c5
+  prereqBACP69 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP72,
+                  Instancias.BACP12.coursesBACP78)) -}
+75060dca02eab02031d204abb581eb31
+  prereqBACP7 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP123
+                   Instancias.BACP12.prereqBACP8) -}
+41e3c56eaed1195ca0b74ebf43e480ea
+  prereqBACP70 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP72,
+                  Instancias.BACP12.coursesBACP85)) -}
+6d22b9e9544b2c12e647144784788a33
+  prereqBACP71 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP74,
+                  Instancias.BACP12.coursesBACP78)) -}
+013da4a4a3f134fa3be78d21813469f1
+  prereqBACP72 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP75,
+                  Instancias.BACP12.coursesBACP105)) -}
+98525d4f571a17141cd5659d1548ecd6
+  prereqBACP73 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP76,
+                  Instancias.BACP12.coursesBACP99)) -}
+3e116d8a4adb76f1cfa79bbf66253154
+  prereqBACP74 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP76,
+                  Instancias.BACP12.coursesBACP94)) -}
+1c7b62bfb98a6aaeaafd0be03cd860ca
+  prereqBACP75 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP77,
+                  Instancias.BACP12.coursesBACP82)) -}
+dc82957032a131694593ec616f1f78c0
+  prereqBACP76 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP78,
+                  Instancias.BACP12.coursesBACP95)) -}
+05f19fa606700e3dcee31d09d780fcb8
+  prereqBACP77 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP78,
+                  Instancias.BACP12.coursesBACP90)) -}
+a3b422f1d3b97ff372eaea297abfa637
+  prereqBACP78 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP79,
+                  Instancias.BACP12.coursesBACP83)) -}
+869055b0b7c4ea8b1d295131f272e70e
+  prereqBACP79 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP80,
+                  Instancias.BACP12.coursesBACP86)) -}
+d0e0793d8dd16cb709edcd30d765599c
+  prereqBACP8 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP122
+                   Instancias.BACP12.prereqBACP9) -}
+ea5381a41e331826bb8152eab1f84d7a
+  prereqBACP80 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP82,
+                  Instancias.BACP12.coursesBACP100)) -}
+7a9185babf76f8b189dec63787e2b8ad
+  prereqBACP81 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP83,
+                  Instancias.BACP12.coursesBACP90)) -}
+d9411edec479df95fda55ba607bc98c5
+  prereqBACP82 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP84,
+                  Instancias.BACP12.coursesBACP101)) -}
+7b8d6ff858df0cd3763d0e957c2e4ad8
+  prereqBACP83 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP84,
+                  Instancias.BACP12.coursesBACP103)) -}
+1a9a61d19b126e918aab3c1dc6aa21d3
+  prereqBACP84 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP85,
+                  Instancias.BACP12.coursesBACP98)) -}
+92b1b06c264eedcc4ce464acf752eb05
+  prereqBACP85 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP85,
+                  Instancias.BACP12.coursesBACP99)) -}
+07eeb816b1d4067549cd71fccc03aa58
+  prereqBACP86 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP86,
+                  Instancias.BACP12.coursesBACP91)) -}
+ecf66b8c6114126e3a8c7f4484a2647a
+  prereqBACP87 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP87,
+                  Instancias.BACP12.coursesBACP96)) -}
+81c90c68123d12f8e7b690f8aa1f5337
+  prereqBACP88 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP88,
+                  Instancias.BACP12.coursesBACP95)) -}
+2a85881a06be48f3541ad2aab9d4f562
+  prereqBACP89 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP89,
+                  Instancias.BACP12.coursesBACP117)) -}
+cb4911056f27cf62b2abc81e0fca2679
+  prereqBACP9 :: [([GHC.Types.Char], [GHC.Types.Char])]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], [GHC.Types.Char])
+                   Instancias.BACP12.prereqBACP121
+                   Instancias.BACP12.prereqBACP10) -}
+7ea80829e5a7486fa0649e25c9aa9893
+  prereqBACP90 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP90,
+                  Instancias.BACP12.coursesBACP113)) -}
+df848a060b7de1fa2c53034792bdbee1
+  prereqBACP91 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP92,
+                  Instancias.BACP12.coursesBACP115)) -}
+5d3bc0756d45544f99085391cef7d776
+  prereqBACP92 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP92,
+                  Instancias.BACP12.coursesBACP116)) -}
+17a6bdb2e3338d70f26fb66b44a226c8
+  prereqBACP93 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP92,
+                  Instancias.BACP12.coursesBACP124)) -}
+b2b56e2212888fa195556fbdc2256a2d
+  prereqBACP94 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP94,
+                  Instancias.BACP12.coursesBACP98)) -}
+ee5c30f34c277955078d6237e968a005
+  prereqBACP95 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP95,
+                  Instancias.BACP12.coursesBACP100)) -}
+58d4c162febe67d4a1ed837c58f751a4
+  prereqBACP96 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP96,
+                  Instancias.BACP12.coursesBACP98)) -}
+887c37afb9e1c4e59c714e183fd7fe6d
+  prereqBACP97 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP96,
+                  Instancias.BACP12.coursesBACP103)) -}
+7e690d7536016626190da4f977d7dfa8
+  prereqBACP98 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP96,
+                  Instancias.BACP12.coursesBACP113)) -}
+59635bf2c0a202b1ef8ae4c600fcd444
+  prereqBACP99 :: ([GHC.Types.Char], [GHC.Types.Char])
+  {- Strictness: m,
+     Unfolding: ((Instancias.BACP12.coursesBACP98,
+                  Instancias.BACP12.coursesBACP115)) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+
