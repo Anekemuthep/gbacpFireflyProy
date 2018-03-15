@@ -21,6 +21,9 @@ library
                      , Algorithms.Gbacp
                      , Diagramas.DiagramTest
                      , Diagramas.DiagramIntensity
+                     , Instancias.BACP8
+                     , Instancias.BACP10
+                     , Instancias.BACP12
   other-modules:       Lib.Prelude
   build-depends:       base >= 4.7 && < 5
                      , protolude >= 0.1.6 && < 0.2
