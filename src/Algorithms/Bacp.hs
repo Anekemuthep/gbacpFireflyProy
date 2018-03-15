@@ -2,7 +2,7 @@ module Algorithms.Bacp (splitByTwoDots, getCustomAudience) where
     
 import Lib.Prelude
 
-import qualified Data.List
+import Data.List
 import qualified Data.Char as Charq
 import qualified Data.Text as T
 
