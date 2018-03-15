@@ -5,6 +5,84 @@ import Lib.Prelude
 import qualified Data.Char as Charq
 import qualified Data.Text as T
 
+row1 n v = map (fromEnum.(==v)) [1..n]
+
+row n v = convIntToNumB (row1 n v)
+
+--vectSum :: [Integral] -> [Integral] -> [Integral]
+vectSum v1 v2 = [(v1!!i)+(v2!!i) | i <- [0..((length v1)-1)]]
+
+fPB xs n = foldr (.) id [vectSum (row n (xs!!i)) | i <- [0..((length xs)-2)]] (row n (xs!!((length xs)-1)))
+
+vSum xs = foldr (.) id [vectSum (xs!!i) | i <- [0..((length xs)-2)]] (xs!!((length xs)-1))
+
+--vProd xs = foldr (.) id [haddamardProd (xs!!i) | i <- [0..((length xs)-2)]] (xs!!((length xs)-1))
+
+{- funciones para hacer cero a elementos delante de la posicion i, 
+   asi setZeroFrom 2 [3,4,5,6,7,8,9]==[3,4,5,0,0,0,0]-}
+
+zeroFrom p1 px x
+   | px <= p1    = x
+   | otherwise   = 0
+
+setZeroFrom i xs = [zeroFrom i j (xs!!j) | j <- [0..((length xs)-1)]]
+
+-----------------------------------------------
+{- estas funciones permiten que los numeros delante del primer 1
+   de la lista, haga a los demas 0 desde la posicion siguiente
+   en adelante en cada fila de una matriz. Por ejemplo
+   onePerSet [[1,1,0], == [[1,0,0],
+              [1,1,1],     [1,0,0],
+              [0,1,1],     [0,1,0],
+              [0,0,1]]     [0,0,1]]
+                    
+   -}
+
+positionsBoolSet xs = [i | i <- [0..((length xs)-1)], (xs!!i)==1]
+
+correctionEmpty xs
+   | xs == []  = [0]
+   | otherwise = xs
+
+{- esta funcion corrige la funcion de posicion para cuando no hay 1s en
+   el conjunto. Lleva vacio a 0.-}
+
+correctedPosSet xs = correctionEmpty (positionsBoolSet xs)
+
+{- función que transforma matriz binaria en una donde no se repiten elementos por fila 
+   para este caso, que un curso no se repita en mas de un periodo. -}
+
+onePerSet xss = [setZeroFrom (minimum (correctedPosSet (xss!!i))) (xss!!i) 
+                | i <- [0..((length xss)-1)]
+                ]
+
+validMatrix xss
+  | nub (vSum (transpose2 xss)) == [0,1] = True
+  | nub (vSum (transpose2 xss)) == [1,0] = True
+  | nub (vSum (transpose2 xss)) == [1]   = True
+  | otherwise                            = False
+
+svalidMatrix xss
+  | 0  `elem`(vSum xss)  = False
+  | otherwise            = True
+
+max_load xss = maximum (vSum (haddamardM xss traspLoad))
+
+loadOf xss = vSum (haddamardM xss traspLoad)
+
+course_load = [3, 6, 6, 6, 2, 3, 4, 1, 8, 1, 7, 2, 2, 3, 7, 1, 8, 8, 2, 4, 9, 7, 5, 10, 3, 10, 8, 8, 3, 5, 7, 7, 10, 5, 5, 4, 7, 8, 4, 6, 1, 2, 7, 2, 7, 3, 4, 6, 3, 5]
+
+course_load_1 = [4, 4, 3, 3, 3, 2, 3, 3, 2, 2, 5, 5, 5, 1, 5, 3, 4, 4, 1, 4, 4, 4, 4, 5, 1, 2, 1, 5, 2, 2, 1, 1, 2, 2, 2, 4, 4, 3, 1, 1, 2, 5, 2, 1, 4, 5, 1, 2, 3, 5] --5,3,4,3,3,1,5,1,3,2,3,1,2,2,4]
+
+test_load = [5,4,2,3,3,4,3,1,2,2,5,5,5,1,5,3,4,4,1,4,4,4,4,5,1,2,1,5,2,2,1,1,2,2,2,4,4,3,1,1,2,5,2,1,4,5,1,2,3,5,4,5,3,4,3,3,1,5,1,3,2,3,1,2,2,4]
+
+promSetPer p xs = (fromIntegral (sum xs))/p
+
+loadMatrix = [course_load | i <- [1..10]]
+
+traspLoad = transpose2 (loadMatrix)
+
+
 
 splitByTwoDots :: [Char] -> [[Char]]
 splitByTwoDots x =

@@ -8,8 +8,8 @@ import Graphics.Rendering.Chart.Backend.Diagrams(toFile)
 signal :: [Double] -> [(Double,Double)]
 signal xs = [ (x,(sin (x*3.14159/45) + 1) / 2 * (sin (x*3.14159/5))) | x <- xs ]
 
-main = toFile def "/Users/alfonsobustamante/mychart.svg" $ do
-    layout_title .= "Amplitude Modulation"
+main = toFile def "/Users/alfonsobustamante/bacpBFFA.svg" $ do
+    layout_title .= "Instancias de cursos"
     setColors [opaque blue, opaque red]
     plot (line "am" [signal [0,(0.5)..400]])
     plot (points "am points" (signal [0,7..400]))
