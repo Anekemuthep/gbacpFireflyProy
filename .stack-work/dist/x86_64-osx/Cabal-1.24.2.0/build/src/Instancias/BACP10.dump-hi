@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2018-03-15 11:43:47.465544 UTC
+2018-04-28 14:40:50.604495 UTC
 
-interface gbacpFireflyProy-0.1.0.0-De45qhfjI9UBygrZNtqfxg:Instancias.BACP10 8002
-  interface hash: 33df89e99752050556fe6044554860e7
-  ABI hash: 80c5ff8b77f291ec099c766f69287588
-  export-list hash: 7eac443175794e35422150a0cd7a3165
+interface gbacpFireflyProy-0.1.0.0-DHj3Uqw3Jk62NvOqkHGcTW:Instancias.BACP10 8002
+  interface hash: 41f3e4bb62ce1328c9e4d26f8b891095
+  ABI hash: 2eb94e2cfe8d4024df0cc021c0b88cb3
+  export-list hash: 1c3dfc3d615796152e6c4e77976ad98c
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 1b991b7a5e9ab53e8a810e0c88b6bc8b
   sig of: Nothing
@@ -51,1154 +51,1154 @@ family instance modules: base-4.9.1.0:Control.Applicative
                          containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
                          text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
                          text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
-import  -/  Lib.Prelude 893c9c1b08f463d1684723fd8c9fedb8
+import  -/  Lib.Prelude 914eea393e1a17474c1568fd8d9bb619
   exports: 7f97854b2cbe78cf55994970281b4148
-3d7c4d8622318b2efedb9e855c354129
+3d21d796f36028492925aa4b7c372216
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    Instancias.BACP10.$trModule2
                    Instancias.BACP10.$trModule1) -}
-4c37a91e22b68a89c80e50030a3f140b
+1aa0c54352bad2ef6ce6564cf191b84b
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "Instancias.BACP10"#) -}
-b9d2f441b0b772821b81c06fd7a47214
+d2f95817f0f9e141eff694ebc590b531
   $trModule2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
-                   "gbacpFireflyProy-0.1.0.0-De45qhfjI9UBygrZNtqfxg"#) -}
-7c8b0dedfcb0959709d6e316b4c9aafb
+                   "gbacpFireflyProy-0.1.0.0-DHj3Uqw3Jk62NvOqkHGcTW"#) -}
+fdcb3b4c5f2cad35ddd1d330796c1d11
   coursesBACP1 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP83
                    Instancias.BACP10.coursesBACP2) -}
-cfcded99a3427e0eff7403fbe13b3956
+74c0a673b734ef80436a06824b95877e
   coursesBACP10 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP84
                    Instancias.BACP10.coursesBACP1) -}
-7e2401b245506c347d9372d1a2219829
+72c576d9b0702eed15ce6502c70ed0a0
   coursesBACP11 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP74
                    Instancias.BACP10.coursesBACP12) -}
-0387724e94f0c4b974a738ea03964991
+91d90164c0c2dc28752a35a5bfbd65f6
   coursesBACP12 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP73
                    Instancias.BACP10.coursesBACP13) -}
-7299478e54ef2ffbfddf1c896d1ec5e4
+5340780f2074828fa62f7b89986b2313
   coursesBACP13 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP72
                    Instancias.BACP10.coursesBACP14) -}
-c9412af9913c9477d0ddcd9d24a87b89
+287c737befb20a30ebd5c284588c5f8f
   coursesBACP14 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP71
                    Instancias.BACP10.coursesBACP15) -}
-765a0ef0313a2e56f4101ab38abe2d64
+614c6a1499215d2c3f23ee331e3b84f7
   coursesBACP15 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP70
                    Instancias.BACP10.coursesBACP16) -}
-8afeb692c64f4be72062b01c86f8dcf6
+eb67149d61197182b0496fb49825df6e
   coursesBACP16 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP69
                    Instancias.BACP10.coursesBACP17) -}
-9a5808a0287cb9ad68fd204915f107b1
+01db7b0e37898f97d24bc9d0f57d335f
   coursesBACP17 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP68
                    Instancias.BACP10.coursesBACP18) -}
-3d73d8615b6bf1e4779f66e1ab487441
+1ac1bb5f2632493605aaf29f1f545a35
   coursesBACP18 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP67
                    Instancias.BACP10.coursesBACP19) -}
-034bb58a8a724b8fde925565fd1d19ee
+8fdd9bcfa239c392907f44f6550d4eea
   coursesBACP19 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP66
                    Instancias.BACP10.coursesBACP20) -}
-3f988c6ebc153f8488d9f7628157a5e3
+f6c579c79c4bb491848be7374d4fac41
   coursesBACP2 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP82
                    Instancias.BACP10.coursesBACP3) -}
-2b0e15d0ac821d47e191d96b3c5e22f3
+328c54f56c0b4b25dacee6a004fb589a
   coursesBACP20 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP65
                    Instancias.BACP10.coursesBACP21) -}
-5e9826efd42614434d21f084516533ac
+481ca9d0c9197f1ae1f6240b05e36d89
   coursesBACP21 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP64
                    Instancias.BACP10.coursesBACP22) -}
-2eddbd944eec102a6b3b8508c95cce9c
+9dbada81e9a4be084717695858c7ffcc
   coursesBACP22 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP63
                    Instancias.BACP10.coursesBACP23) -}
-caa37c6fb4073d2b3dfd4ce6ce2c4c07
+cf2a279fdd880a01b681870ffe2d8ede
   coursesBACP23 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP62
                    Instancias.BACP10.coursesBACP24) -}
-225918703b9371bab34b8a45ebb65cad
+9c81ea8cc59ec199c5ddec2fc65cdf2c
   coursesBACP24 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP61
                    Instancias.BACP10.coursesBACP25) -}
-a4a5ab6df65f4628c537b320f3c0ff44
+2f2fe9e1d79a06ea33b73e96d9530874
   coursesBACP25 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP60
                    Instancias.BACP10.coursesBACP26) -}
-0f6e894c5954ee7304ffcfd2867ba8b8
+0f4ff76960570b56094511992534359c
   coursesBACP26 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP59
                    Instancias.BACP10.coursesBACP27) -}
-2b0a68d16c132475a9aa8ddd61268fc3
+2b7efe6c995e5b8c39ab40ca8e59aea5
   coursesBACP27 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP58
                    Instancias.BACP10.coursesBACP28) -}
-a50574017c034436bdbba2abfa9e484e
+cb4a5801a8aa4c98ffff7a761bc2343a
   coursesBACP28 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP57
                    Instancias.BACP10.coursesBACP29) -}
-8a4f980725720c921b445d8fb768674d
+b506cbc106bb5fae2a24ea6dac637b57
   coursesBACP29 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP56
                    Instancias.BACP10.coursesBACP30) -}
-3c3836153da8c6c6ca3ec4f82fc7eccd
+a692112918a0823154e6ced50020d16e
   coursesBACP3 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP81
                    Instancias.BACP10.coursesBACP4) -}
-a4846d149c4b918fa0c317a09760718a
+1a0283306c2035bbcf28ccdf832729a8
   coursesBACP30 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP55
                    Instancias.BACP10.coursesBACP31) -}
-482755db8bf1dc3c4cbe753556fa2495
+e67f133c1bd989ad748fd3959e0a795f
   coursesBACP31 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP54
                    Instancias.BACP10.coursesBACP32) -}
-6efab3d58de9921ffba70714a6108940
+f0cf04af4259f859d51b4b4e9be18c0c
   coursesBACP32 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP53
                    Instancias.BACP10.coursesBACP33) -}
-f4051c60f02aa57fce72fc2a52777c37
+8399ebe200d8043fd030c3d2deda3bcd
   coursesBACP33 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP52
                    Instancias.BACP10.coursesBACP34) -}
-21daa6f27146631fb5a5d59ff1d1e6b1
+7b0291bb1438b5674544d98eeb1beeb1
   coursesBACP34 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP51
                    Instancias.BACP10.coursesBACP35) -}
-8d90dfff4405625a5987e7e2d8a663ff
+e530c11abf1922686eb8bafb8e3b2e7a
   coursesBACP35 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP50
                    Instancias.BACP10.coursesBACP36) -}
-1ce1743ed4be346b22967966110a3df2
+8adff26ff3939c42a06a63bdd346bba1
   coursesBACP36 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP49
                    Instancias.BACP10.coursesBACP37) -}
-1907803aea64bdf0af6e3691493bccb4
+cbb565a2d95c41d60150c8fac5636398
   coursesBACP37 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP48
                    Instancias.BACP10.coursesBACP38) -}
-00792544d6165a5d6e3ed898fdd95298
+390176406f413a9c4cca636c04bdcb9b
   coursesBACP38 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP47
                    Instancias.BACP10.coursesBACP39) -}
-6931e9811497bf2fff01b64005dad907
+6e8c617af398187c94ef619efaed28c7
   coursesBACP39 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP46
                    Instancias.BACP10.coursesBACP40) -}
-93fbfc2613a0e6ae29422c6a91063e37
+b4b43b85adaf44e61997153b98f3aa6d
   coursesBACP4 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP80
                    Instancias.BACP10.coursesBACP5) -}
-523c07617bf0b8c562cfb3f5bf778e36
+6c75988474db17d78549cf4c8b653d56
   coursesBACP40 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP45
                    Instancias.BACP10.coursesBACP41) -}
-ee3cb4babc726007a42a27f1064b045b
+6c9ae999864429caa1f2472bd3bfed75
   coursesBACP41 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP44
                    Instancias.BACP10.coursesBACP42) -}
-856e2da4395308b40412d1f4ec21b88a
+2c8428bb893064a2b273a23ba5b6d0cb
   coursesBACP42 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP43
                    (GHC.Types.[] @ [GHC.Types.Char])) -}
-17791771930a2c45735ee5279abdf23a
+8f4b0bf748a799ab798c161068416304
   coursesBACP43 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "icdxx2"#) -}
-db9500c1ef54f31b722fad9f4d23ef74
+7ce188eb4b4b42c720ac76529690e876
   coursesBACP44 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "iwn270"#) -}
-bfeb65ad255d3690386c3c8d9d49b8f1
+d565013520d934873d0a5a53812d26ac
   coursesBACP45 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "ili362"#) -}
-03aa1c5c855753097359b8a496a6e6a3
+a9b024e3ca74f72ba194e58b1033977a
   coursesBACP46 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "icdxx1"#) -}
-ae7699f13a5363bf8cc23d89ade572d1
+be1a822792fd061c09cde0a2528966b7
   coursesBACP47 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "iwn170"#) -}
-3f475dd55c2f9a2039058a0debbb6516
+83ab83591bc9681804f6bb516e46f89e
   coursesBACP48 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "ili355"#) -}
-30057ec747255a22f06542c9a58df1a7
+2c311533dc265ebefe1410987624655b
   coursesBACP49 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "ili332"#) -}
-be003a3d0f6d2908f20b269ad4eb704d
+382f6d9e68e4dd3c9c57ba54c5921620
   coursesBACP5 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP79
                    Instancias.BACP10.coursesBACP6) -}
-764a98c25c81beae0a3615d159c3c8d8
+435d3ba018c74e8b0985fea0194d87fb
   coursesBACP50 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "ili263"#) -}
-b6366b0eb8d7565261909a899ab0c478
+0b8c410a2e8635bd0cfef38e4919f6c4
   coursesBACP51 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "ici344"#) -}
-4c736baeb64aff27f6b504c647c9e9cf
+e6750d6f5bd509d94939a7662287f3e0
   coursesBACP52 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "ili280"#) -}
-018fbce6d977bb1bed843f30b92ddaa8
+55cccf6889ff169f91ec82c0d58ae564
   coursesBACP53 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "ili270"#) -}
-b0b412d3a8636bb1aa99b855b6822745
+94bd0a650abfeeafb80b2ff7f61bc89d
   coursesBACP54 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "ili243"#) -}
-32ecbd1998d9fce451dfeb25a8a3a5cb
+d8618629fd3c809f9ecfc824d06d5da4
   coursesBACP55 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "ili236"#) -}
-94b2cc9f4ee618ed3de007c8b8988756
+18862c9e8bfc8903c6ef689ebe5d8bb7
   coursesBACP56 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "fis140"#) -}
-4c07d51685a7a3983acaf6213451cbac
+bb4e9d9ee1ef1d6903ae935e61a5f18e
   coursesBACP57 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "ili253"#) -}
-b217eb6540d7656553914580c84e4e4b
+f17e41096c6394bb626ab5fd0e879625
   coursesBACP58 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "ili245"#) -}
-e39cc721789c9f1e718eb6df0a2d683a
+e1b72ca11ea511c8717536c969b9bb9a
   coursesBACP59 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "ili239"#) -}
-78b77b205d3cc7b75c0da5387d442959
+802a6725e1f1abe267fc81d7d623b428
   coursesBACP6 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP78
                    Instancias.BACP10.coursesBACP7) -}
-6f85ae486737bce649c0d40dce8fa081
+4de90c80e062a1193b80b0fb16198a2d
   coursesBACP60 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "fis130"#) -}
-59d51509135d36d71eee2ced8f303e13
+f6cbcfbf7cb575bd64afb20024e0559d
   coursesBACP61 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "mat024"#) -}
-dd5146c67bb8e00c9cc2604110a1b8ef
+4cbaa7d059c7d4cd0c1254630e519791
   coursesBACP62 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "iwn261"#) -}
-6036994fbc4bafb62405ccecdd419534
+1b8219a3ac471f3533d144661fda9ccc
   coursesBACP63 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "ili260"#) -}
-af8b9a6a08fdef5d522ec9bc88739de4
+42ae5e8d2a7b83bc3e2e942bc22a0654
   coursesBACP64 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "ili153"#) -}
-7462fb44d80edb98780eb70f7d65dfb6
+bc9ee1b2ae8d596b64b34e997bf98d67
   coursesBACP65 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "ili135"#) -}
-886fbbd9742b28e8777444c8f08f4a19
+e00c36508e5742611693a05d1c23f78f
   coursesBACP66 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "hcw311"#) -}
-b2aba76d2e9e58dc83c286b4d30ae71d
+d215d5b6dd032bb43a9e8efe3553078c
   coursesBACP67 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "mat023"#) -}
-08f06e9a70f264b59f9e074988720fc7
+84672447721da928581dfb90fa448cf8
   coursesBACP68 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "ili151"#) -}
-3504f872ea82ebec4242e58833422a61
+a4e6c7ccdd65f3e6e72ceb670871cae0
   coursesBACP69 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "ili134"#) -}
-69e4eecb5ab3383f254606f511279d9a
+1a7e6186e789b94206e2dc0027f77b74
   coursesBACP7 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP77
                    Instancias.BACP10.coursesBACP8) -}
-7fe8ac68cbbf259daf517bb1b6ab4a5b
+86a12f87e681b261f6bf8cf68f4f2901
   coursesBACP70 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "hrwxx3"#) -}
-945d5cf27791e544c010b88229b8e240
+4697768b10e274bead294815d9ee930d
   coursesBACP71 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "hcw310"#) -}
-b85470b50df037f133ee4a5662852a1c
+695fca24eed7ff7931d947ec741bd317
   coursesBACP72 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "fis120"#) -}
-4e06d3828991d30033721c571fc20e63
+d28d0a812c310e9beead20b9a78b03b4
   coursesBACP73 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "dewxx0"#) -}
-bce8fee405699db3c73ffc457f6dcfb5
+c19d3731a5efdba4b22c64ad8f56aa13
   coursesBACP74 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "mat022"#) -}
-0c070e2124fb13e777f73c24e07f5417
+9210ac01e16e08f61b9b055a858a3b23
   coursesBACP75 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "iwi131"#) -}
-ef5e04d1073b720da0aa3aae6d291a55
+7e0f5ae3a88ea5104e345b0c66232c08
   coursesBACP76 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "hrwxx2"#) -}
-f2f3e7b285500352f32ee3a3f0487112
+d1e6b898dca69ffa07112656ff3aa043
   coursesBACP77 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "fis110"#) -}
-a5727cbd2863559d914e80b43ea19fc4
+20d50f3cba0bd19ba967317c6da7d265
   coursesBACP78 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "dew101"#) -}
-dec2c2f0d75ab546525ecae43e5f6d45
+82ce27d998aedb8d2e78dd59f70832b1
   coursesBACP79 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "qui010"#) -}
-5d73079fca92534fa7d96540046cdbf2
+c18613db0f98b49a87870bb1861b8f0f
   coursesBACP8 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP76
                    Instancias.BACP10.coursesBACP9) -}
-7176d1065cf042e515fbbe6a9bf677e7
+8b6332584fdc18198985e5c77630d5ab
   coursesBACP80 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "mat021"#) -}
-62bb48928e9a9dc0fc9c08338feb3616
+7894816a9ad9dadf7f432110ca1520bd
   coursesBACP81 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "iwg101"#) -}
-d749b567cb7e2eaae35d50b0b01514dc
+eb8a797f8c1d0a6a9150695b89070324
   coursesBACP82 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "hrwxx1"#) -}
-617a66ec1d006c0ff1dd67de4b832546
+74e8c2b784d775aeb93605175f8e75db
   coursesBACP83 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "fis100"#) -}
-bda4b05e8eb475fa78831af60c0b86b4
+76c7475f3d2c19ed39f2175418877f83
   coursesBACP84 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "dew100"#) -}
-3e3bd7b944e424135e7ecbc02a0bf48b
+b86526ee335c3056b2c58b2b638e2e96
   coursesBACP9 :: [[GHC.Types.Char]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [GHC.Types.Char]
                    Instancias.BACP10.coursesBACP75
                    Instancias.BACP10.coursesBACP11) -}
-8dd28667f32afcd512fe7598106d58fe
+16d52d6df75f9204d9184d2665dd505d
   creditBACP1 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP43
                    Instancias.BACP10.creditBACP2) -}
-7398b5772b8a6df07654754951354f4d
+663e45b439227ddea35c5a060493ad22
   creditBACP10 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP45
                    Instancias.BACP10.creditBACP1) -}
-4573bb3eda0ca6f287065be8ae841d90
+7d008be0e20dc026b7d2a676a4011ae8
   creditBACP11 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP47
                    Instancias.BACP10.creditBACP12) -}
-07e7c85080c7292c9f8b9d55d9128813
+5bb94578a4b10ea85ac4170585399592
   creditBACP12 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP45
                    Instancias.BACP10.creditBACP13) -}
-19cbd8b50b0445c7659b1fbc2d684a61
+5847e6bd929aa81ae8916d10c57c894d
   creditBACP13 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP44
                    Instancias.BACP10.creditBACP14) -}
-7abd21472c26a3e2cb634b4acc62ef5c
+35f8567120d5d0af06c1bb94ed7b5b84
   creditBACP14 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP45
                    Instancias.BACP10.creditBACP15) -}
-6d7c2c349d8aee54cadbedf9cd647c36
+1e222f566fc6a574328e4c51760ae397
   creditBACP15 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP46
                    Instancias.BACP10.creditBACP16) -}
-64e0cac8fd1e00549a736b7eb12a11a5
+c2bd4783d2f6eca2fefe4da0e3d65f6c
   creditBACP16 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP44
                    Instancias.BACP10.creditBACP17) -}
-b1f9b52488327553ae5dba8c952e6e61
+77e6ca6437c115cdf16f37c4d2185d45
   creditBACP17 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP43
                    Instancias.BACP10.creditBACP18) -}
-9071bf73f293c4bd9a43d536a7952715
+7ab2cc64e431cbc9b11bc643fdcdb631
   creditBACP18 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP44
                    Instancias.BACP10.creditBACP19) -}
-d24d106fc7495b2b51f14a89f5486c05
+fed3350bb0d5baf58941455ba8977a7b
   creditBACP19 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP45
                    Instancias.BACP10.creditBACP20) -}
-c60b0e60642a088abc5118224c344cc9
+1b115d1eeb20eca92bdd7b0ffe70d2d1
   creditBACP2 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP46
                    Instancias.BACP10.creditBACP3) -}
-4f69a7d5ae53cc9bdf20f76b7e426af3
+f9c19053d96becd3751e15aaae04ef1c
   creditBACP20 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP44
                    Instancias.BACP10.creditBACP21) -}
-0798f94de74dc98c17dfd1db1c482d46
+7c2f5e16f3578d6db100a12d0e6905a8
   creditBACP21 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP43
                    Instancias.BACP10.creditBACP22) -}
-16574270ca6a48480e986612d29a86f9
+b9aba8c9ba8e8f098c8fe534fc098e8a
   creditBACP22 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP43
                    Instancias.BACP10.creditBACP23) -}
-457cdff6ac926f660393db20f7b2af3d
+9e7cbffe5975adaeed3bebcaaa24b5f4
   creditBACP23 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP43
                    Instancias.BACP10.creditBACP24) -}
-a64bc92579e854294aa16762d8fef4b5
+0a278af792ceb62e1c9a0e72adf5c6d3
   creditBACP24 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP44
                    Instancias.BACP10.creditBACP25) -}
-4e872c90ab096e5dbd7d7ea97cf31239
+6444a54790c5822efab9082545b3fa89
   creditBACP25 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP44
                    Instancias.BACP10.creditBACP26) -}
-8bc94ad76261361f77f9726d5884f689
+b6b07f9dce64545ec686fee73496b2ef
   creditBACP26 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP44
                    Instancias.BACP10.creditBACP27) -}
-0e0c1ea1321669bd5d365b9974cbf99a
+ff0a962790e62d04ec2b0c9b06c2b108
   creditBACP27 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP44
                    Instancias.BACP10.creditBACP28) -}
-afa2369051b8427093362fbdbdde0cd3
+d65efd3c6605123b4dc4fe0244d6656b
   creditBACP28 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP44
                    Instancias.BACP10.creditBACP29) -}
-83bcf6e7f13ea878cabb4d6a9db76be3
+c220e1e3182be1bad5ab2a3c9d8c932b
   creditBACP29 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP44
                    Instancias.BACP10.creditBACP30) -}
-1d60a6cddb5e94c13c29f476f58541a8
+4e258bb24a26acb769033cb73c4b819a
   creditBACP3 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP46
                    Instancias.BACP10.creditBACP4) -}
-6ef56f5cfec9bc39c7ee4b1bca7f560e
+a0f1413d06f9dbc7d686ad1135a35feb
   creditBACP30 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP44
                    Instancias.BACP10.creditBACP31) -}
-64b0b350fc8c40a97dee9fb47d20a7ac
+09eaf90dbf72b63fc3c15a8e7617ed50
   creditBACP31 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP44
                    Instancias.BACP10.creditBACP32) -}
-6db51e8cca1b123fc5f85efbd2e652eb
+11f962bf806bc4af93e574c016c80ef7
   creditBACP32 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP43
                    Instancias.BACP10.creditBACP33) -}
-d058b610220cbc6d3a42b8db7c3205a0
+7c846740af6ae64811f2d60360a050de
   creditBACP33 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP44
                    Instancias.BACP10.creditBACP34) -}
-b587a56225b073cf93f04d55a19dc7d8
+294f4c680a3358d5d309ac99f6106fc2
   creditBACP34 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP44
                    Instancias.BACP10.creditBACP35) -}
-d16471da7420b85d06462bb552990517
+dc598d56e032ae120dae92b7c0f313ab
   creditBACP35 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP43
                    Instancias.BACP10.creditBACP36) -}
-bc89b513c6438e4c8c44074bc8f7368f
+5e16ee719a466682a4ed4b8ac3b5eb66
   creditBACP36 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP44
                    Instancias.BACP10.creditBACP37) -}
-634b226a05feaed7a5bb823c2c54f520
+7364e08924c07ac6d43f2f1b7e548221
   creditBACP37 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP44
                    Instancias.BACP10.creditBACP38) -}
-174f587fe1ec746b1e21d418e7c35400
+08badf199c21911ce974eb6918b2d0c6
   creditBACP38 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP43
                    Instancias.BACP10.creditBACP39) -}
-09d09f370e6365de1704415b41c72fee
+fc6dba7a3491b3a848730fc4ca224be5
   creditBACP39 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP43
                    Instancias.BACP10.creditBACP40) -}
-f1314b293789f58efd0479d51f6adc67
+28d5f37831a158a2fdec250319367fd7
   creditBACP4 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP47
                    Instancias.BACP10.creditBACP5) -}
-c4812a07a8f63a75204ac72f34721af6
+ea6405f19f210c691af7ace067190a7f
   creditBACP40 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP43
                    Instancias.BACP10.creditBACP41) -}
-71d86a1416cd8fb00aff3675f448d656
+d64c8b2026731fb32d114436963a5b64
   creditBACP41 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP43
                    Instancias.BACP10.creditBACP42) -}
-ad36d468566e8d8f54de68f5e38a390b
+ba26fabe9dee98f3a6f45eec82ad67ee
   creditBACP42 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP43
                    (GHC.Types.[] @ GHC.Integer.Type.Integer)) -}
-c089cca6786af897b638ac3422cd02a2
+630bfc1edecf5bd895a2c6ce9a8f24ea
   creditBACP43 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (3) -}
-fb219c1b8e82c7905f99c529b8a16a60
+906c8c22938ff0d9b8de6644ba26c8a9
   creditBACP44 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (4) -}
-214c9aad53889d8616ba30daf404697e
+8edc9fbe3f4d5d171923a11fdd143578
   creditBACP45 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (1) -}
-12b3448186cddafe8dfc44f56eb838a1
+ec95935cc8326ebf099cc17ef71ee4e1
   creditBACP46 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (2) -}
-9d8ab0996113d8c6cb58cbe59ba9c42b
+a4632e739b4c73a4d52a32ba204102ce
   creditBACP47 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (5) -}
-a1561e12435fe63a360ad3daf98979c2
+fec14be5c7cb650a885081a360af4b0b
   creditBACP5 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP43
                    Instancias.BACP10.creditBACP6) -}
-9e8289ef27b19346592135c96278e0df
+874f6d74d9e799302c25282ec00d137e
   creditBACP6 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP45
                    Instancias.BACP10.creditBACP7) -}
-7a8fd8741c54b8d4a581bb5b8ca3a574
+d03af539f96f7c4539beefd31ddf6ca8
   creditBACP7 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP47
                    Instancias.BACP10.creditBACP8) -}
-ae9910b46c316ddb0300d972c9ec4656
+55164cb26f360086eeed5621de7ed267
   creditBACP8 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP46
                    Instancias.BACP10.creditBACP9) -}
-8984964ea72472bd74746528096f049d
+7b5c4f2f791b04c304d04c812a4963f9
   creditBACP9 :: [GHC.Integer.Type.Integer]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Integer.Type.Integer
                    Instancias.BACP10.creditBACP43
                    Instancias.BACP10.creditBACP11) -}
-b743cf5d2b46510ccefde07bf41bd28d
+09e1559e4ee767a4fda3ab132c7bb220
   prereqBACP1 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP67
                    Instancias.BACP10.prereqBACP2) -}
-0c3060040fbf212af2b62498960aa88c
+a91f8a325e800821e75197e935478a8e
   prereqBACP10 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP68
                    Instancias.BACP10.prereqBACP1) -}
-2f8e055a6a40a8b129c5792a00a2686e
+5f53287c9f7bbf0a9aec3029e3c16cf5
   prereqBACP11 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP58
                    Instancias.BACP10.prereqBACP12) -}
-7552468e78ae5e398501417dff21af38
+8aa5118a2bfb5df7fa32d05e364e681f
   prereqBACP12 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP57
                    Instancias.BACP10.prereqBACP13) -}
-e6bc6f29bb4eab89338d44d9288c740d
+b5c7ff3ea782a84cd91b05975bfb4062
   prereqBACP13 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP56
                    Instancias.BACP10.prereqBACP14) -}
-a02fe1f1c924cb76f2311211858d5162
+a949e7b83a845cd843564c2c04996ff0
   prereqBACP14 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP55
                    Instancias.BACP10.prereqBACP15) -}
-d62065c655a0f89c7329d26da8ed912e
+efbc73134ad50a7e1050cbda7878257e
   prereqBACP15 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP54
                    Instancias.BACP10.prereqBACP16) -}
-c35edbcf91ae4274faa1b5998ad1711c
+ef5cec13b4b9ade16469874493c56bd7
   prereqBACP16 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP53
                    Instancias.BACP10.prereqBACP17) -}
-6c20502a5338e10cb70307dae71dbfb3
+893a5852e0fbde8500f487dd73e78c5e
   prereqBACP17 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP52
                    Instancias.BACP10.prereqBACP18) -}
-239ce612f6b4c13bf66baa43eae831bb
+7df62e9d54b32af92f5daa7d3792b526
   prereqBACP18 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP51
                    Instancias.BACP10.prereqBACP19) -}
-754c9e6dc7542d256b62f69517235ced
+2760444f45111c50c73649432924d880
   prereqBACP19 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP50
                    Instancias.BACP10.prereqBACP20) -}
-be558276d6ee2676cfb2970221465c2b
+d7125acc39b2df317b4fa1f73c661fc5
   prereqBACP2 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP66
                    Instancias.BACP10.prereqBACP3) -}
-a57d4d056dc09438a43a8417c18812fd
+d49012745c8ed99f839ec224cd11664a
   prereqBACP20 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP49
                    Instancias.BACP10.prereqBACP21) -}
-05827631e11f3070368f1555b76ddec5
+0a572a5325ec63936b472d0fa2f89bc8
   prereqBACP21 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP48
                    Instancias.BACP10.prereqBACP22) -}
-4e60fcf6abee9afb4ea6ad0cb0346d34
+95ea9a431bb9d1dc5d7abedecd2a38c7
   prereqBACP22 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP47
                    Instancias.BACP10.prereqBACP23) -}
-335c2918996d6acc348d1bf7d70ff57d
+70ef45d6091f20b9f46029e55136cefd
   prereqBACP23 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP46
                    Instancias.BACP10.prereqBACP24) -}
-7b24af33a6ffd7bff168953d55f682d4
+7f805fdb93de128e5d3fd8c4d7a61139
   prereqBACP24 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP45
                    Instancias.BACP10.prereqBACP25) -}
-119237c80f4d96cfa3c360baebcbef7c
+c046bca1990c62681bb3a25a90dd06e2
   prereqBACP25 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP44
                    Instancias.BACP10.prereqBACP26) -}
-0c1356535aa961350d75eeacf029d438
+4fbdfadd8c9c0a87591ec0dce3795fa9
   prereqBACP26 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP43
                    Instancias.BACP10.prereqBACP27) -}
-aab89b0b4e889fd9c863c3a0fd32818e
+c3e0f698386356e3891df65c7d835036
   prereqBACP27 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP42
                    Instancias.BACP10.prereqBACP28) -}
-040272a4dee690d2114d3fada9331652
+ca3996748d3fdb5524dd4b0ec743e305
   prereqBACP28 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP41
                    Instancias.BACP10.prereqBACP29) -}
-f2eaaaae2591049de8650189188e7aae
+36a538c0e1d677ad3aa1316fc2237438
   prereqBACP29 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP40
                    Instancias.BACP10.prereqBACP30) -}
-55c71ff5d7ee73a90faf987612893689
+0fbaf4a10cd8618e5f116e429b78e1d1
   prereqBACP3 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP65
                    Instancias.BACP10.prereqBACP4) -}
-6bd5507f39fdef995dd97e3bdd7e252d
+36ff8c7873051dec6a11a3dea927166b
   prereqBACP30 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP39
                    Instancias.BACP10.prereqBACP31) -}
-c3acb72fb8ef6b7efbd29954105488cb
+4190e49c587b3eed10fca16d2636ad3e
   prereqBACP31 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP38
                    Instancias.BACP10.prereqBACP32) -}
-3814dad55bbec412af8e32bd22a36591
+4bf4d99d2dcfd08aa588d389b75b4269
   prereqBACP32 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP37
                    Instancias.BACP10.prereqBACP33) -}
-ac80f699aa22e9b65a1a2851cffd7ec2
+9894bbc7aa51399ab2cae5c721631d37
   prereqBACP33 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP36
                    Instancias.BACP10.prereqBACP34) -}
-4a4eba328d1a16b04445f1f9d137afe0
+e9816f0a9e384464e4be748c0100ec70
   prereqBACP34 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP35
                    (GHC.Types.[] @ ([GHC.Types.Char], [GHC.Types.Char]))) -}
-c11a5c3b63d829ef4e63f80f2dd29fd8
+58cc1a1504b85e3005ccd6b2d364b1b7
   prereqBACP35 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP45,
                   Instancias.BACP10.coursesBACP50)) -}
-b0dece8452dc5cbf065f9feeef0d0468
+826538f37ca4fd045f2e2c44e4e0ba36
   prereqBACP36 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP48,
                   Instancias.BACP10.coursesBACP52)) -}
-aaeeac835e2ddb999cf070fb867e64f6
+7fb2053df4fe785c34919dddc6c74e13
   prereqBACP37 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP48,
                   Instancias.BACP10.coursesBACP64)) -}
-8e925750b0ac5570d1a0c78435a88016
+4367ebede6fd61ce4042f4ebbae2ae2e
   prereqBACP38 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP49,
                   Instancias.BACP10.coursesBACP55)) -}
-4aa5e30d1f037eee772a8eae1d9206fa
+95a598a4741ff3d06032a96e3b8a580b
   prereqBACP39 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP50,
                   Instancias.BACP10.coursesBACP62)) -}
-bdb4876f1e6da4c317a4ecbeb7d83599
+85508e1c1a624e4425ed64a76ae95493
   prereqBACP4 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP64
                    Instancias.BACP10.prereqBACP5) -}
-3bc2f247f7db288c2635c7c335e19b18
+23d625a3942fe51d323e9c2d9ab512f1
   prereqBACP40 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP50,
                   Instancias.BACP10.coursesBACP63)) -}
-d8b808979f70b047d364a68db7d607bf
+253af5efda41e652226d7e570389c9ce
   prereqBACP41 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP51,
                   Instancias.BACP10.coursesBACP54)) -}
-f7c3ff12c7a7998fd2d86fa2181caf5a
+a46aaa25e3333cd9760fa75587dc7ecd
   prereqBACP42 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP52,
                   Instancias.BACP10.coursesBACP61)) -}
-413db2da44759bb3d1a50768b266e67b
+c4aae969dd665d85445554ad24ca7c86
   prereqBACP43 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP53,
                   Instancias.BACP10.coursesBACP62)) -}
-0f9f033a3d6f79da8949cd82178e0316
+7a941e83eb9700b98c3458878cc15b6c
   prereqBACP44 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP53,
                   Instancias.BACP10.coursesBACP63)) -}
-a522564acf63975641611d982bd55a87
+5d65d8baf43e6a9fca4365038601ae27
   prereqBACP45 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP54,
                   Instancias.BACP10.coursesBACP58)) -}
-80387bc56397b7d9224304ad78f6c5af
+0caf6cf29799f8aa24b30a7930b2fa0c
   prereqBACP46 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP55,
                   Instancias.BACP10.coursesBACP59)) -}
-dd0a6cb1f46341a74acd848926df709a
+ca66d1c99f9835bb8e16188bb634aa92
   prereqBACP47 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP56,
                   Instancias.BACP10.coursesBACP60)) -}
-08a96dca2232551f73fd8c20333c9bba
+2202227db325a57138136a7178efbf6a
   prereqBACP48 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP56,
                   Instancias.BACP10.coursesBACP72)) -}
-a5ac6487e644f34f39a4ebda40e9d3c7
+ca2109ac7658f8c526330721c68a74b3
   prereqBACP49 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP57,
                   Instancias.BACP10.coursesBACP64)) -}
-1ee8f79859cba6255db7c00155458307
+9dbc3a7579b3106bf9e6e7dd970026da
   prereqBACP5 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP63
                    Instancias.BACP10.prereqBACP6) -}
-33af4c5a580d1c2c9c95bad9a94df616
+d1dff0b98cb292e571709a48bcffd1b4
   prereqBACP50 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP58,
                   Instancias.BACP10.coursesBACP64)) -}
-501f3b952aba69028478906b5a671883
+03e363a7ca6fd43c204e5f0ce62bea27
   prereqBACP51 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP59,
                   Instancias.BACP10.coursesBACP65)) -}
-baf4b1676aeeac568034c5ca1f381da9
+b50501a36ee84c45017076ecad2bd32d
   prereqBACP52 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP60,
                   Instancias.BACP10.coursesBACP74)) -}
-1701694c315aa5480af5da7748df2697
+1e95e2da8ddd99e3e5eca529d30c3133
   prereqBACP53 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP60,
                   Instancias.BACP10.coursesBACP77)) -}
-06f0374251f8b05ba0172efd2e08c220
+4058fe705f591358fa47b86ba5d25546
   prereqBACP54 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP61,
                   Instancias.BACP10.coursesBACP67)) -}
-05dd0cf7e50b306a96e9ad647f862b2a
+4f45c52b50659e24696c763cf356d4c3
   prereqBACP55 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP64,
                   Instancias.BACP10.coursesBACP68)) -}
-b59dff3fc159a9c8f25eb6ce4af99274
+fce709a7ec5a7d8270c93b21fbf1131c
   prereqBACP56 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP64,
                   Instancias.BACP10.coursesBACP69)) -}
-25a56f73b1c29c24df565c36458361b8
+7576c3772397849af82169629a29573f
   prereqBACP57 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP65,
                   Instancias.BACP10.coursesBACP69)) -}
-39e752f1d7af03cb69558850f5b3bb87
+89d30e4187bddb80fe3c776920603456
   prereqBACP58 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP66,
                   Instancias.BACP10.coursesBACP71)) -}
-faa8899e7a069eadfd11dd302b492d45
+89afcc14fe73199daf223a459670993f
   prereqBACP59 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP67,
                   Instancias.BACP10.coursesBACP74)) -}
-953537cb3f7222a51558c69a147ed0d5
+347648b2130785d4faf2e8928a2148cd
   prereqBACP6 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP62
                    Instancias.BACP10.prereqBACP7) -}
-b78a4bce041c4dd292cf061aee4c9afb
+c6850447e7431422c9f8414047f8dbcf
   prereqBACP60 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP68,
                   Instancias.BACP10.coursesBACP75)) -}
-3cd1907972d78aea0832b1e660da45a5
+5c43f2d68d97843e077f4df2e5914d22
   prereqBACP61 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP69,
                   Instancias.BACP10.coursesBACP75)) -}
-07240c264ff90b8620da80dd3dcdbd6c
+ca04da5770e431b9ae2f73f693dc4100
   prereqBACP62 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP72,
                   Instancias.BACP10.coursesBACP74)) -}
-3f0bde74bd385e56d4119c19b74d16d1
+5eca0b0d88961c4dcf6e5a0e61256180
   prereqBACP63 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP72,
                   Instancias.BACP10.coursesBACP77)) -}
-65a06c8a029bece91b67f0ee25a95e85
+038c890b212457755e26a4fef310ffb0
   prereqBACP64 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP73,
                   Instancias.BACP10.coursesBACP78)) -}
-a12602a0c01359b2781297346954675e
+ad18edd651c9b84d43db505560e0f6b3
   prereqBACP65 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP74,
                   Instancias.BACP10.coursesBACP80)) -}
-55de93a9b2cd4a0e31ce986d6ca7ab43
+015b0f7cce0195e036b80e247698b0a2
   prereqBACP66 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP77,
                   Instancias.BACP10.coursesBACP80)) -}
-63bc391a9c05f2434b2f9c09ca4b1259
+fe80143d5b0b4fb56c92e31883478e47
   prereqBACP67 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP77,
                   Instancias.BACP10.coursesBACP83)) -}
-a533811cf639f28ea6f8c2ebd6bac224
+22337e1eda81c23a613b16213a837fc8
   prereqBACP68 :: ([GHC.Types.Char], [GHC.Types.Char])
   {- Strictness: m,
      Unfolding: ((Instancias.BACP10.coursesBACP78,
                   Instancias.BACP10.coursesBACP84)) -}
-053e27ff094d78d6bc1653f75f86f962
+81f270b1bab82334533660eaf0d021bc
   prereqBACP7 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP61
                    Instancias.BACP10.prereqBACP8) -}
-31a211ccee0a68d1b7ae0985aaa9d56e
+d18c138c250aba3dbf303a7f28b0f132
   prereqBACP8 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], [GHC.Types.Char])
                    Instancias.BACP10.prereqBACP60
                    Instancias.BACP10.prereqBACP9) -}
-b77f91c71493f1f8318c21a81efff46b
+d909a1bffbf568be636817f2a6f9a04a
   prereqBACP9 :: [([GHC.Types.Char], [GHC.Types.Char])]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:

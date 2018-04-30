@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2018-03-13 10:06:06.768922 UTC
+2018-04-28 14:40:51.263546 UTC
 
-interface gbacpFireflyProy-0.1.0.0-De45qhfjI9UBygrZNtqfxg:Diagramas.DiagramIntensity 8002
-  interface hash: ed080b84b467e88ebc52003673975c6e
-  ABI hash: 156d301b2effebcc2ce1b7edf674c57d
-  export-list hash: 691b8fe0dc66994273f8c099fb3ae957
+interface gbacpFireflyProy-0.1.0.0-DHj3Uqw3Jk62NvOqkHGcTW:Diagramas.DiagramIntensity 8002
+  interface hash: 0f3ae0ed7e3648413f7afff4de86aec1
+  ABI hash: d512e938aa0b7f684fcc5e6c1cedca41
+  export-list hash: 66e26a780af1517c3704909939afd936
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 28db02f17d97f5c2ae6e915d354e7647
   sig of: Nothing
@@ -245,25 +245,25 @@ import  -/  base-4.9.1.0:GHC.Num 00bfaa7b2f9d6084913c0697a8a49ec8
 import  -/  colour-2.3.3@colour-2.3.3-7zspnmhVLMd3uThUzy60rY:Data.Colour.Internal 7273ca1df88adba9d426d537f051e35b
 import  -/  colour-2.3.3@colour-2.3.3-7zspnmhVLMd3uThUzy60rY:Data.Colour.Names aecfaa9463088cc731c20ac216329cfb
 import  -/  data-default-class-0.1.2.0@data-default-class-0.1.2.0-GsXqKN6o1X9jr0fF5qCVD:Data.Default.Class 6e6ff0df81cdc438838c4b9b3d4260b1
-import  -/  Lib.Prelude 893c9c1b08f463d1684723fd8c9fedb8
+import  -/  Lib.Prelude 914eea393e1a17474c1568fd8d9bb619
   exports: 7f97854b2cbe78cf55994970281b4148
 import  -/  lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Setter 2ba84291b39c66d4fb563b9eaed1d93d
-dff5df32b3ff3fe8a5b9d0980fa7d9d1
+883ecb8ead0c6986754395172c96161b
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    Diagramas.DiagramIntensity.$trModule2
                    Diagramas.DiagramIntensity.$trModule1) -}
-aa79e277388bf52fa77e93990c92f0dc
+4735ae743580986851fd09068631327c
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "Diagramas.DiagramIntensity"#) -}
-b76737e57ff0a1a8cfbfe3bf8855bea3
+43a28131a311716f8de65a20a244a733
   $trModule2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
-                   "gbacpFireflyProy-0.1.0.0-De45qhfjI9UBygrZNtqfxg"#) -}
-8e2df922e37fbf5a3209df85a0226fe6
+                   "gbacpFireflyProy-0.1.0.0-DHj3Uqw3Jk62NvOqkHGcTW"#) -}
+40003fcb73b17e4191438b2dc421796c
   $wmain ::
     Graphics.Rendering.Chart.Layout.Layout
       GHC.Types.Double GHC.Types.Double
@@ -473,14 +473,14 @@ b76737e57ff0a1a8cfbfe3bf8855bea3
                          ret_ty Graphics.Rendering.Chart.State.CState
                          of {}
                       : c cs -> Graphics.Rendering.Chart.State.CState cs x2 } } } #)) -}
-55f7cce2862ee17da69786e6356cd945
+7239776def66c94f70df276b32a34ff0
   main :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Diagramas.DiagramIntensity.main1
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <()>_R)) -}
-7532961b39d5e208975fbe9a386d172a
+a26bef8fce5ed4188faf3b67f9a5a042
   main1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -500,45 +500,45 @@ b76737e57ff0a1a8cfbfe3bf8855bea3
                         Diagramas.DiagramIntensity.main2
                         w5 of ds1 { (#,#) ipv ipv1 ->
                  (# ipv, GHC.Tuple.() #) }) -}
-702d92b8cc90d2937350bf66017db3a6
+5d7e54eab1636ed724fa6f8593437a2f
   main10 :: GHC.Types.Double
   {- HasNoCafRefs, Unfolding: (GHC.Types.D# 1.0##) -}
-afc8c9c986cfaecd3cfbb45167eb64a4
+746986dfb9bfad43df7e6193eb00d237
   main11 :: GHC.Types.Double
   {- HasNoCafRefs, Unfolding: (GHC.Types.D# -9.0e-2##) -}
-f01ab788ec544f260f0b178d6d249e25
+c06c107d8d509b6c6b71c54b4ecc8d20
   main12 :: GHC.Types.Double
   {- HasNoCafRefs, Unfolding: (GHC.Types.D# -1.0##) -}
-2e3bd29b2a4a12c30b68e7d63e54ea98
+4d8b6497302b6405a6159b2985252cb3
   main13 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    "intensity with Binary FFA definition"#) -}
-9a0077e1d3971bcfdf8ce469e57315f7
+09374da38e3d852770f27fb7e6892f6f
   main14 :: [[(GHC.Types.Double, GHC.Types.Double)]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [(GHC.Types.Double, GHC.Types.Double)]
                    Diagramas.DiagramIntensity.main15
                    (GHC.Types.[] @ [(GHC.Types.Double, GHC.Types.Double)])) -}
-0c03ac9b9c4529312c38e55deb5600bf
+bb30c5d720385c0d283b1221d3cb1dfe
   main15 :: [(GHC.Types.Double, GHC.Types.Double)]
   {- Unfolding: (Diagramas.DiagramIntensity.main_go1
                    Diagramas.DiagramIntensity.main9) -}
-d0ebe72fb41036c8e1701f18d8df713c
+2a3f21f13d28f2aa26f5de544a1e8035
   main16 ::
     Data.Functor.Identity.Identity
       (Data.Colour.Internal.AlphaColour GHC.Types.Double,
        Graphics.Rendering.Chart.State.CState)
   {- Strictness: x -}
-527e4483618e4bcb805a0bba1bebf6aa
+2a2c1bafa75004088bf484e065f92f79
   main17 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    "intensity with FFA definition"#) -}
-9e0ae247e73d20af8495a53aad81e2d0
+f9ea5e760304ddd92cd2b6b2353ddf29
   main18 :: [(GHC.Types.Double, GHC.Types.Double)]
   {- Unfolding: (Diagramas.DiagramIntensity.main_go2
                    Diagramas.DiagramIntensity.main19) -}
-d5a7f5ca018e7a0ed77ecefdbd3c6dd5
+541c89f56d59342d47c9a2728555284e
   main19 :: [GHC.Types.Double]
   {- Unfolding: (GHC.Real.numericEnumFromThenTo
                    @ GHC.Types.Double
@@ -547,18 +547,18 @@ d5a7f5ca018e7a0ed77ecefdbd3c6dd5
                    Diagramas.DiagramIntensity.main12
                    Diagramas.DiagramIntensity.main20
                    Diagramas.DiagramIntensity.main10) -}
-cf2a65dab65658646be19bedf5348123
+fcba532c1d8ff1e1cd1d919cf8e3a022
   main2 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    "/Users/alfonsobustamante/mychart.svg"#) -}
-ebf92d9a08ea4b19ca23258b80c2fea0
+02009997306db157972f658a34cd9dde
   main20 :: GHC.Types.Double
   {- HasNoCafRefs, Unfolding: (GHC.Types.D# -0.9##) -}
-93c4162ec65aa415baa521734560f5dc
+135b5f6978f9d1730c68c69f45cec582
   main21 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    "intensity with -alpha"#) -}
-3289b23a5cf47d64df5c291909ee3bb2
+462fc8f4e78f8c563fe03ddfe2849918
   main3 ::
     Graphics.Rendering.Chart.Backend.Impl.BackendProgram
       (Graphics.Rendering.Chart.Renderable.PickFn ())
@@ -570,7 +570,7 @@ ebf92d9a08ea4b19ca23258b80c2fea0
                         Diagramas.DiagramIntensity.main4 of ww { (#,#) ww1 ww2 ->
                  ww2
                    Graphics.Rendering.Chart.Backend.Diagrams.$fDefaultFileOptions12 }) -}
-19c0e97f83a41ac33c5d0619e8175012
+de6c70f701d6b8567338cd41515629ce
   main4 ::
     Graphics.Rendering.Chart.Layout.Layout
       GHC.Types.Double GHC.Types.Double
@@ -578,7 +578,7 @@ ebf92d9a08ea4b19ca23258b80c2fea0
                         Diagramas.DiagramIntensity.main5
                         Graphics.Rendering.Chart.State.$fDefaultCState_$cdef of ww { (#,#) ww1 ww2 ->
                  case ww1 of wild2 { (,) ds1 s'1 -> s'1 } }) -}
-649eacc289c2f13c483d6d4556970bdc
+2eebaf244674ae51d1acd4e9d3bcea28
   main5 ::
     Graphics.Rendering.Chart.Layout.Layout
       GHC.Types.Double GHC.Types.Double
@@ -602,7 +602,7 @@ ebf92d9a08ea4b19ca23258b80c2fea0
                    Graphics.Rendering.Chart.Layout.$fDefaultLayout2
                    Graphics.Rendering.Chart.Layout.$fDefaultLayout1
                    GHC.Types.False) -}
-5c99a1f3c34f51d0984ff5dfe181130d
+fcbfabd7e152ea02879385f343791c48
   main6 ::
     Graphics.Rendering.Chart.Layout.LayoutAxis GHC.Types.Double
   {- Strictness: m,
@@ -615,18 +615,18 @@ ebf92d9a08ea4b19ca23258b80c2fea0
                    (GHC.Base.id
                       @ (Graphics.Rendering.Chart.Axis.Types.AxisData GHC.Types.Double))
                    GHC.Types.False) -}
-62c53495d8c9b2cfafc512fcc238d151
+817b420881709ca8364797dc7b4aeb1d
   main7 :: [[(GHC.Types.Double, GHC.Types.Double)]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [(GHC.Types.Double, GHC.Types.Double)]
                    Diagramas.DiagramIntensity.main8
                    (GHC.Types.[] @ [(GHC.Types.Double, GHC.Types.Double)])) -}
-d1b3bec4bfe20cd4b9de30f25fe9164d
+1d16d8d52fa5a22822a9278bb55273a2
   main8 :: [(GHC.Types.Double, GHC.Types.Double)]
   {- Unfolding: (Diagramas.DiagramIntensity.main_go
                    Diagramas.DiagramIntensity.main9) -}
-d19b4fb1260f337453cf890b8d6bb017
+77f390a7bb62dea4f23bf458b272e158
   main9 :: [GHC.Types.Double]
   {- Unfolding: (GHC.Real.numericEnumFromThenTo
                    @ GHC.Types.Double
@@ -635,23 +635,23 @@ d19b4fb1260f337453cf890b8d6bb017
                    Diagramas.DiagramIntensity.main12
                    Diagramas.DiagramIntensity.main11
                    Diagramas.DiagramIntensity.main10) -}
-fa68b1cb6ca7753c235247842ecc80ad
+ac76aa2f97b2acc00f49e0afc8a984a9
   main_b1 :: GHC.Base.String
   {- Unfolding: (GHC.CString.unpackCString#
                    "Intensity function with different values of gamma"#) -}
-31ac98923283104753a26c56e8a3cc8d
+5484272d50c33769c29c27613e9d28ee
   main_go ::
     [GHC.Types.Double] -> [(GHC.Types.Double, GHC.Types.Double)]
   {- Arity: 1, Strictness: <S,1*U> -}
-8a1c5480630f7423e691050f80fbf5b8
+1347a91bd330a700e64eb9b28a96a625
   main_go1 ::
     [GHC.Types.Double] -> [(GHC.Types.Double, GHC.Types.Double)]
   {- Arity: 1, Strictness: <S,1*U> -}
-1c673c479445e6e770e1b9701bf15196
+99f8657560c6853eed38e60583ddc0f9
   main_go2 ::
     [GHC.Types.Double] -> [(GHC.Types.Double, GHC.Types.Double)]
   {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U> -}
-ef45979bbfd33439e76c12bb711c938b
+680b087ce916b22bd5ea5c6096edb452
   main_xs' :: [Data.Colour.Internal.AlphaColour GHC.Types.Double]
 vectorised variables:
 vectorised tycons:

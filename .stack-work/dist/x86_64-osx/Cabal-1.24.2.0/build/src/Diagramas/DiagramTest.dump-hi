@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2018-03-15 11:54:05.54299 UTC
+2018-04-28 14:40:50.997818 UTC
 
-interface gbacpFireflyProy-0.1.0.0-De45qhfjI9UBygrZNtqfxg:Diagramas.DiagramTest 8002
-  interface hash: 026cf98af86c3cd12e3206179982ab6c
-  ABI hash: 67ee12a189eddf5b6adf5792623de6a0
-  export-list hash: 0ea10bc23ba3438ea069e476509befbc
+interface gbacpFireflyProy-0.1.0.0-DHj3Uqw3Jk62NvOqkHGcTW:Diagramas.DiagramTest 8002
+  interface hash: 5a481751502f2a0b794f14c285154402
+  ABI hash: 4b812f0c5ba0813e942a31baf0a02cfe
+  export-list hash: 5ffef649094b009eba1933c9970de6c0
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 28db02f17d97f5c2ae6e915d354e7647
   sig of: Nothing
@@ -246,25 +246,25 @@ import  -/  base-4.9.1.0:GHC.Real 82e4e59051a13dba1da63e1e970a69e6
 import  -/  colour-2.3.3@colour-2.3.3-7zspnmhVLMd3uThUzy60rY:Data.Colour.Internal 7273ca1df88adba9d426d537f051e35b
 import  -/  colour-2.3.3@colour-2.3.3-7zspnmhVLMd3uThUzy60rY:Data.Colour.Names aecfaa9463088cc731c20ac216329cfb
 import  -/  data-default-class-0.1.2.0@data-default-class-0.1.2.0-GsXqKN6o1X9jr0fF5qCVD:Data.Default.Class 6e6ff0df81cdc438838c4b9b3d4260b1
-import  -/  Lib.Prelude 893c9c1b08f463d1684723fd8c9fedb8
+import  -/  Lib.Prelude 914eea393e1a17474c1568fd8d9bb619
   exports: 7f97854b2cbe78cf55994970281b4148
 import  -/  lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Setter 2ba84291b39c66d4fb563b9eaed1d93d
-731e3a1ef401888069ac1be8b157dcd0
+52f2ed4762576c879eac33e2aa0f6c9c
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    Diagramas.DiagramTest.$trModule2
                    Diagramas.DiagramTest.$trModule1) -}
-743355d826cf42b5004b324571298458
+daabd57893206d213c377d57436eed62
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "Diagramas.DiagramTest"#) -}
-66dd1288536f318c3fc2cff670c9475f
+d62d7bc539c947370147a2f3af88455d
   $trModule2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
-                   "gbacpFireflyProy-0.1.0.0-De45qhfjI9UBygrZNtqfxg"#) -}
-f07dbd2aa45c5f233943222731e169e1
+                   "gbacpFireflyProy-0.1.0.0-DHj3Uqw3Jk62NvOqkHGcTW"#) -}
+96a13a602de87d083950a532050367a8
   $wmain ::
     Graphics.Rendering.Chart.Layout.Layout
       GHC.Types.Double GHC.Types.Double
@@ -427,14 +427,14 @@ f07dbd2aa45c5f233943222731e169e1
                                    GHC.Types.Double GHC.Types.Double),
                                 Graphics.Rendering.Chart.State.CState)>_R) of wild1 { (,) a1 s' ->
                     s' } #)) -}
-d0639fff73e26a7324af69fce9461b41
+d12bca33df70455ed77bbd9ebe32bacb
   main :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Diagramas.DiagramTest.main1
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <()>_R)) -}
-c56b0ab2c5a797865b8fcdd0658297e9
+4b01415763a8840f0787fc223292d916
   main1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -454,29 +454,29 @@ c56b0ab2c5a797865b8fcdd0658297e9
                         Diagramas.DiagramTest.main2
                         w5 of ds1 { (#,#) ipv ipv1 ->
                  (# ipv, GHC.Tuple.() #) }) -}
-90c2e43090027e07de7a9b2c6c98bc6b
+23f2e1dde1c2856281d2b9630bc03179
   main10 :: GHC.Types.Double
   {- HasNoCafRefs, Unfolding: (GHC.Types.D# 400.0##) -}
-0aa9b8dae89a1176ed4094f266d64cee
+96626ab878cfecc7b382d6a86120af00
   main11 :: GHC.Types.Double
   {- HasNoCafRefs, Unfolding: (GHC.Types.D# 0.5##) -}
-ed927257f9fecfc5967f971bbb21559f
+8018a1070e0b3c348aaa7cf36c8fc2c4
   main12 :: GHC.Types.Double
   {- HasNoCafRefs, Unfolding: (GHC.Types.D# 0.0##) -}
-760d90cb7dba2379d4f7123f0b972d71
+fa164fba1dd6e368e29d1ecc6466ce1a
   main13 ::
     Data.Functor.Identity.Identity
       (Data.Colour.Internal.AlphaColour GHC.Types.Double,
        Graphics.Rendering.Chart.State.CState)
   {- Strictness: x -}
-1d86aa80b4b9f2e58fb563dd987a89d6
+cd15a936c16ece2cd7cbfe37701af5d9
   main14 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "am"#) -}
-ac3d3a9db440399daed7ace767b8153b
+dfab1d9d645909afee062fb31eaa7eb2
   main15 :: [(GHC.Types.Double, GHC.Types.Double)]
   {- Unfolding: (Diagramas.DiagramTest.main_go1
                    Diagramas.DiagramTest.main16) -}
-105ad5317996ca525b08dbf1877d72c9
+f3489034f695a9f641960fb08e01bd16
   main16 :: [GHC.Types.Double]
   {- Unfolding: (GHC.Real.numericEnumFromThenTo
                    @ GHC.Types.Double
@@ -485,17 +485,17 @@ ac3d3a9db440399daed7ace767b8153b
                    Diagramas.DiagramTest.main12
                    Diagramas.DiagramTest.main17
                    Diagramas.DiagramTest.main10) -}
-994f8f852c51f4e141f99c9dbdfb85ef
+98bbd6c92c4e6207a9e13d54401ac2e2
   main17 :: GHC.Types.Double
   {- HasNoCafRefs, Unfolding: (GHC.Types.D# 7.0##) -}
-6f523fb5641c99aaa63eddcbd3c6a17a
+131a36b7a6cc6bc40546027c13883115
   main18 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "am points"#) -}
-aa19089e9bb308a5a0ee660226930c48
+c12be335be86e16e7d25d26d3b1ba7cf
   main2 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    "/Users/alfonsobustamante/bacpBFFA.svg"#) -}
-4ebf2376c1597666454938c3fce88532
+a358cfc00cd24ce4530c58d1dc0962f2
   main3 ::
     Graphics.Rendering.Chart.Backend.Impl.BackendProgram
       (Graphics.Rendering.Chart.Renderable.PickFn ())
@@ -507,7 +507,7 @@ aa19089e9bb308a5a0ee660226930c48
                         Diagramas.DiagramTest.main4 of ww { (#,#) ww1 ww2 ->
                  ww2
                    Graphics.Rendering.Chart.Backend.Diagrams.$fDefaultFileOptions12 }) -}
-b6072e5de0fd6a308bf865277850a9fb
+6f795f841a787d336cfe153f04c4d124
   main4 ::
     Graphics.Rendering.Chart.Layout.Layout
       GHC.Types.Double GHC.Types.Double
@@ -515,7 +515,7 @@ b6072e5de0fd6a308bf865277850a9fb
                         Diagramas.DiagramTest.main5
                         Graphics.Rendering.Chart.State.$fDefaultCState_$cdef of ww { (#,#) ww1 ww2 ->
                  case ww1 of wild2 { (,) ds1 s'1 -> s'1 } }) -}
-e6706bb8b6ec27797ba286121e3a43a3
+c6b93b4d7c446820b7e12e365322adda
   main5 ::
     Graphics.Rendering.Chart.Layout.Layout
       GHC.Types.Double GHC.Types.Double
@@ -539,7 +539,7 @@ e6706bb8b6ec27797ba286121e3a43a3
                    Graphics.Rendering.Chart.Layout.$fDefaultLayout2
                    Graphics.Rendering.Chart.Layout.$fDefaultLayout1
                    GHC.Types.False) -}
-dd083124108e58b39cab02d973ba43e1
+01b170749d798349c74e5b979e9a36e6
   main6 ::
     Graphics.Rendering.Chart.Layout.LayoutAxis GHC.Types.Double
   {- Strictness: m,
@@ -552,18 +552,18 @@ dd083124108e58b39cab02d973ba43e1
                    (GHC.Base.id
                       @ (Graphics.Rendering.Chart.Axis.Types.AxisData GHC.Types.Double))
                    GHC.Types.False) -}
-a9f0c2ae4aa331aa77c39e33fab06b77
+fdf5054ba1bf168663a28f80e82e908c
   main7 :: [[(GHC.Types.Double, GHC.Types.Double)]]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ [(GHC.Types.Double, GHC.Types.Double)]
                    Diagramas.DiagramTest.main8
                    (GHC.Types.[] @ [(GHC.Types.Double, GHC.Types.Double)])) -}
-ee3b1f5a86a019d2023b312e17387b4c
+0f531531b32796eb848d9b7d0720ba35
   main8 :: [(GHC.Types.Double, GHC.Types.Double)]
   {- Unfolding: (Diagramas.DiagramTest.main_go
                    Diagramas.DiagramTest.main9) -}
-e38dbba61ea2c5a2cfa79cbb54a79229
+3845424cf1a0717f8cc936b7b26b5b53
   main9 :: [GHC.Types.Double]
   {- Unfolding: (GHC.Real.numericEnumFromThenTo
                    @ GHC.Types.Double
@@ -572,19 +572,19 @@ e38dbba61ea2c5a2cfa79cbb54a79229
                    Diagramas.DiagramTest.main12
                    Diagramas.DiagramTest.main11
                    Diagramas.DiagramTest.main10) -}
-57705580044dbc89aba4afeaa86d6ff1
+2a2cb1e8da30249cd32b5655b24333bf
   main_b1 :: GHC.Base.String
   {- Unfolding: (GHC.CString.unpackCString#
                    "Instancias de cursos"#) -}
-ab613281f450d68d9aba17a85afbec57
+221a3e0d5120bd81b443cd768284be23
   main_go ::
     [GHC.Types.Double] -> [(GHC.Types.Double, GHC.Types.Double)]
   {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U> -}
-1d29f15a420abd541b4811240cd46d75
+5a0009be99236276dfa9744a4a6e6311
   main_go1 ::
     [GHC.Types.Double] -> [(GHC.Types.Double, GHC.Types.Double)]
   {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U> -}
-fcf7de92e331242aeedf47be7ec0f265
+bd6ddd10b8d45af0c13fb5cd5e15cfea
   main_xs' :: [Data.Colour.Internal.AlphaColour GHC.Types.Double]
 vectorised variables:
 vectorised tycons:
