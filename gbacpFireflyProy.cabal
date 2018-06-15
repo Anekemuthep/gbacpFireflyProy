@@ -41,7 +41,7 @@ executable gbacpFireflyProy-exe
   hs-source-dirs:      scr
   main-is:             Main.hs
   ghc-options:         -Wall -threaded -rtsopts -with-rtsopts=-N
-  build-depends:       base >=4.10 && <4.11
+  build-depends:       base
                      , Spock
                      , http-types
                      , text
