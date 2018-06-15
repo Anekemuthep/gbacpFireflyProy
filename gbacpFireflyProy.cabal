@@ -61,6 +61,8 @@ test-suite gbacpFireflyProy-test
                      , tasty-hunit
                      , tasty-quickcheck
                      , text
+                     , mtl
+                     , Spock
                      , gbacpFireflyProy
                      , protolude >= 0.1.6 && < 0.2
   ghc-options:         -Wall -threaded -rtsopts -with-rtsopts=-N
