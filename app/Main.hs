@@ -1,7 +1,7 @@
 {-# LANGUAGE OverloadedStrings #-}
 module Main where
 
-import Protolude (IO (), Int)
+import Protolude (IO (), Int, $)
 import Lib
     
 import Web.Spock
