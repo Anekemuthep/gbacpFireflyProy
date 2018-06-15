@@ -1,5 +1,3 @@
-module Main where
-
 {-# LANGUAGE OverloadedStrings #-}
 module Main where
 
@@ -28,6 +26,8 @@ app =
            do (DummyAppState ref) <- getState
               visitorNumber <- liftIO $ atomicModifyIORef' ref $ \i -> (i+1, i+1)
               text ("Hello " <> name <> ", you are visitor number " <> T.pack (show visitorNumber))
+
+-- module Main where
 
 --import Protolude
 --import Lib
