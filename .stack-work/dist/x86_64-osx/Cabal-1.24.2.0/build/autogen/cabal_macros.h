@@ -70,6 +70,20 @@
   (major1) == 1 && (major2) <  2 || \
   (major1) == 1 && (major2) == 2 && (minor) <= 2)
 
+/* package Spock-0.12.0.0 */
+#define VERSION_Spock "0.12.0.0"
+#define MIN_VERSION_Spock(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  12 || \
+  (major1) == 0 && (major2) == 12 && (minor) <= 0)
+
+/* package mtl-2.2.1 */
+#define VERSION_mtl "2.2.1"
+#define MIN_VERSION_mtl(major1,major2,minor) (\
+  (major1) <  2 || \
+  (major1) == 2 && (major2) <  2 || \
+  (major1) == 2 && (major2) == 2 && (minor) <= 1)
+
 /* package tasty-0.11.2.5 */
 #define VERSION_tasty "0.11.2.5"
 #define MIN_VERSION_tasty(major1,major2,minor) (\
