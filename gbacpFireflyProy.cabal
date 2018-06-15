@@ -46,6 +46,7 @@ executable gbacpFireflyProy-exe
                      , http-types
                      , text
                      , mtl
+                     , protolude >= 0.1.6 && < 0.2
   default-language:    Haskell2010
   default-extensions:  OverloadedStrings, NoImplicitPrelude
 
