@@ -42,9 +42,10 @@ executable gbacpFireflyProy-exe
   main-is:             Main.hs
   ghc-options:         -Wall -threaded -rtsopts -with-rtsopts=-N
   build-depends:       base
+                     , Spock
+                     , http-types
                      , text
                      , mtl
-                     , Spock
                      , gbacpFireflyProy
                      , protolude >= 0.1.6 && < 0.2
   default-language:    Haskell2010
