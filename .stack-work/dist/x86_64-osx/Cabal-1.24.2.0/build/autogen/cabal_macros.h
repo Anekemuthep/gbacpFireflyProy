@@ -77,6 +77,13 @@
   (major1) == 0 && (major2) <  12 || \
   (major1) == 0 && (major2) == 12 && (minor) <= 0)
 
+/* package http-types-0.9.1 */
+#define VERSION_http_types "0.9.1"
+#define MIN_VERSION_http_types(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  9 || \
+  (major1) == 0 && (major2) == 9 && (minor) <= 1)
+
 /* package mtl-2.2.1 */
 #define VERSION_mtl "2.2.1"
 #define MIN_VERSION_mtl(major1,major2,minor) (\
