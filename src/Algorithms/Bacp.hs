@@ -2,15 +2,14 @@ module Algorithms.Bacp (splitByTwoDots, getCustomAudience) where
     
 import Lib.Prelude
 
-import Data.List.map
-import Data.List.tail
-import Data.List.head
+import qualified Data.List as D
+
 import qualified Data.Char as Charq
 import qualified Data.Text as T
 
 transpose2:: (Num a) => [[a]]->[[a]]
 transpose2 ([]:_) = []
-transpose2 x = (map head x) : transpose (map tail x)
+transpose2 x = (D.map D.head x) : transpose (D.map D.tail x)
 
 --haddamardProd v1 v2 = [(v1!!i)*(v2!!i) | i <- [0..((length v1)-1)]]
 

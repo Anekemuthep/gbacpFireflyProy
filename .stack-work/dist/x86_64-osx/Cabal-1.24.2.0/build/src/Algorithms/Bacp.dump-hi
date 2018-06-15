@@ -1,9 +1,9 @@
 
 ==================== FINAL INTERFACE ====================
-2018-03-15 14:48:57.98201 UTC
+2018-03-16 04:24:08.805486 UTC
 
 interface gbacpFireflyProy-0.1.0.0-De45qhfjI9UBygrZNtqfxg:Algorithms.Bacp 8002
-  interface hash: 3996f28701ec280d4729de7521ae558f
+  interface hash: 8d5ae9592555491509d98c63f60caca6
   ABI hash: ad10fc8b3613fd6cf285aedf4c95fc8f
   export-list hash: f55dcad11facc9a9d1a86227aad13abd
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
@@ -52,7 +52,10 @@ family instance modules: base-4.9.1.0:Control.Applicative
                          text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
 import  -/  base-4.9.1.0:Data.Char 01433d23661edb6e5ef1536ef1e6774c
 import  -/  base-4.9.1.0:Data.List 07ae2acca6538aa0800bd0a993ac6ac1
+import  -/  base-4.9.1.0:Data.OldList 27987919d8da2f92e3f472ca81f730f8
 import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:GHC.List ab8c4e523e6c479c549d3bcd5fc4a439
+import  -/  base-4.9.1.0:GHC.Num 00bfaa7b2f9d6084913c0697a8a49ec8
 import  -/  Lib.Prelude 893c9c1b08f463d1684723fd8c9fedb8
   exports: 7f97854b2cbe78cf55994970281b4148
 import  -/  ghc-prim-0.5.0.0:GHC.Classes 0bdf3d057a415ec1b84a7b1994efbe47
