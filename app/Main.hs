@@ -1,8 +1,8 @@
 {-# LANGUAGE OverloadedStrings #-}
 module Main where
 
-import qualified Protolude as PL
-import Lib
+import Protolude
+--import Lib
     
 import Web.Spock
 import Web.Spock.Config
@@ -13,9 +13,9 @@ import Data.IORef
 import qualified Data.Text as T
 
 data MySession = EmptySession
-data MyAppState = DummyAppState (IORef PL.Int)
+data MyAppState = DummyAppState (IORef Int)
 
-main :: PL.IO ()
+main :: IO ()
 main =
     do ref <- newIORef 0
        spockCfg <- defaultSpockCfg EmptySession PCNoDatabase (DummyAppState ref)
@@ -23,11 +23,11 @@ main =
 
 app :: SpockM () MySession MyAppState ()
 app =
-    do get root PL.$
+    do get root $
            text "Hello World!"
-       get ("hello" <//> var) PL.$ \name ->
+       get ("hello" <//> var) $ \name ->
            do (DummyAppState ref) <- getState
-              visitorNumber <- liftIO PL.$ atomicModifyIORef' ref PL.$ \i -> (i+1, i+1)
+              visitorNumber <- liftIO $ atomicModifyIORef' ref $ \i -> (i+1, i+1)
               text ("Hello " <> name <> ", you are visitor number " <> T.pack (show visitorNumber))
 
 -- module Main where
