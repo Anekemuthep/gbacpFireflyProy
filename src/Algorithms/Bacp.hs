@@ -1,15 +1,25 @@
+{-# LANGUAGE DeriveGeneric #-}
+
 module Algorithms.Bacp (splitByTwoDots, getCustomAudience) where
     
 import Lib.Prelude
 
+<<<<<<< HEAD
 import qualified Data.List as D
 
+=======
+import qualified Data.List as L
+>>>>>>> 417e6491402be7e1c60d14060c5682f2a74113d8
 import qualified Data.Char as Charq
 import qualified Data.Text as T
 
-transpose2:: (Num a) => [[a]]->[[a]]
+--transpose2:: (forall a, Num a) => [[a]] -> [[a]]
 transpose2 ([]:_) = []
+<<<<<<< HEAD
 transpose2 x = (D.map D.head x) : transpose (D.map D.tail x)
+=======
+transpose2 x = (L.map L.head x) : transpose (L.map L.tail x)
+>>>>>>> 417e6491402be7e1c60d14060c5682f2a74113d8
 
 --haddamardProd v1 v2 = [(v1!!i)*(v2!!i) | i <- [0..((length v1)-1)]]
 

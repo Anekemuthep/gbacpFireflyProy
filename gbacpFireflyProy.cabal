@@ -31,8 +31,6 @@ library
                      , colour
                      , Chart-diagrams
                      , Chart
-                     , pango
-                     , cairo
                      , diagrams
                      , data-default-class
                      , lens

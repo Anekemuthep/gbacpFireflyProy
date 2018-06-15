@@ -1,0 +1,18 @@
+Warning: newtype-generics.cabal: Unknown fields: build-tool-depends (line 47)
+Fields allowed in this section:
+type, main-is, test-module, buildable, build-tools, build-depends,
+cpp-options, cc-options, ld-options, pkgconfig-depends, frameworks,
+extra-framework-dirs, c-sources, js-sources, default-language,
+other-languages, default-extensions, other-extensions, extensions,
+extra-libraries, extra-ghci-libraries, extra-lib-dirs, includes,
+install-includes, include-dirs, hs-source-dirs, other-modules,
+ghc-prof-options, ghcjs-prof-options, ghc-shared-options,
+ghcjs-shared-options, ghc-options, ghcjs-options, jhc-options,
+hugs-options, nhc98-options
+Configuring newtype-generics-0.5.1...
+Building newtype-generics-0.5.1...
+Preprocessing library newtype-generics-0.5.1...
+[1 of 1] Compiling Control.Newtype  ( Control/Newtype.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Control/Newtype.o )
+Installing library in
+/Users/alfonsobustamante/.stack/snapshots/x86_64-osx/lts-9.8/8.0.2/lib/x86_64-osx-ghc-8.0.2/newtype-generics-0.5.1-JNUifO9pZvW31MVj2qFeLE
+Registering newtype-generics-0.5.1...

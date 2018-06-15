@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2018-03-12 03:59:09.38314 UTC
+2018-04-28 14:40:50.166914 UTC
 
-interface gbacpFireflyProy-0.1.0.0-De45qhfjI9UBygrZNtqfxg:Lib 8002
-  interface hash: 487b12323d73ac14f597f0f03eb75452
-  ABI hash: 4a2e8cbdac048edf5f2aaab78671d594
-  export-list hash: 5e1c8fa036c2e89e04062a7d06a58895
+interface gbacpFireflyProy-0.1.0.0-DHj3Uqw3Jk62NvOqkHGcTW:Lib 8002
+  interface hash: 0022bcb4f51ba3757fd90f937131aa7b
+  ABI hash: 3b45a62ec8ba54270fc4fa99a01cc9e1
+  export-list hash: 08d0aa8058f043f53d74ee182a5cf6e5
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: dc06c76a04bc8029ae1f6899229c1ca2
   sig of: Nothing
@@ -49,30 +49,30 @@ family instance modules: base-4.9.1.0:Control.Applicative
                          containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
                          text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
                          text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
-import  -/  Lib.Prelude 893c9c1b08f463d1684723fd8c9fedb8
+import  -/  Lib.Prelude 914eea393e1a17474c1568fd8d9bb619
   exports: 7f97854b2cbe78cf55994970281b4148
 import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
 import  -/  protolude-0.1.10@protolude-0.1.10-EbWghKT4Ra36YSCOzDFDKT:Show 85e670e8970a3ca39e889c4e75af963f
 import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Internal 9bfcbbbe07ecef48f631025a838df7da
-b3fcaa2b3425a0d40a694e5f6b2a52d0
+d1e374ccccfa95f1d6cdafff895a2de4
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module Lib.$trModule2 Lib.$trModule1) -}
-dce608e2b00bbe9ccb7ed7cd5c6d209b
+a21cc0635aa6ee4a1e333bb992e74a34
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "Lib"#) -}
-3ab5a52663df3eca8bc4a7bbb58df269
+8852c67a976a055fb72dfb10165ee2b6
   $trModule2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
-                   "gbacpFireflyProy-0.1.0.0-De45qhfjI9UBygrZNtqfxg"#) -}
-0b06a47c8f086ee53422a5730e3b6fd4
+                   "gbacpFireflyProy-0.1.0.0-DHj3Uqw3Jk62NvOqkHGcTW"#) -}
+02797c69b60851c3e8ccc5ffac9b8f51
   someFunc :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Lib.someFunc1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
-32aff1cfa3cfec97a2bb730043f4ab95
+dd5f6ec08e5cc7e0e38f72e00c3ce146
   someFunc1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -87,7 +87,7 @@ dce608e2b00bbe9ccb7ed7cd5c6d209b
                    GHC.IO.Handle.FD.stdout
                    '\n'#
                    ipv }) -}
-9e33ba3a93a74192d74383db37b46a12
+9680d680ff7665c683117991e7f89348
   someFunc2 :: Data.Text.Internal.Text
   {- Unfolding: (Data.Text.Show.unpackCString# "someFunc"#) -}
 vectorised variables:

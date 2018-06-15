@@ -1,0 +1,192 @@
+Configuring fast-math-1.0.2...
+Building fast-math-1.0.2...
+Preprocessing library fast-math-1.0.2...
+[1 of 4] Compiling Numeric.FastMath.SignedZeros ( Numeric/FastMath/SignedZeros.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Numeric/FastMath/SignedZeros.o )
+[2 of 4] Compiling Numeric.FastMath.NaN ( Numeric/FastMath/NaN.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Numeric/FastMath/NaN.o )
+[3 of 4] Compiling Numeric.FastMath.Approximation ( Numeric/FastMath/Approximation.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Numeric/FastMath/Approximation.o )
+
+Numeric/FastMath/Approximation.hs:19:1: warning: [-Wunused-imports]
+    The import of ‘Prelude’ is redundant
+      except perhaps to import instances from ‘Prelude’
+    To import instances alone, use: import Prelude()
+
+Numeric/FastMath/Approximation.hs:32:1: warning: [-Winline-rule-shadowing]
+    Rule "double *,+ distribute A" may never fire
+      because rule "*##" for ‘*##’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+
+Numeric/FastMath/Approximation.hs:35:1: warning: [-Winline-rule-shadowing]
+    Rule "double *,+ distribute B" may never fire
+      because rule "*##" for ‘*##’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+
+Numeric/FastMath/Approximation.hs:38:1: warning: [-Winline-rule-shadowing]
+    Rule "double *,+ distribute C" may never fire
+      because rule "*##" for ‘*##’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+
+Numeric/FastMath/Approximation.hs:41:1: warning: [-Winline-rule-shadowing]
+    Rule "double *,+ distribute D" may never fire
+      because rule "*##" for ‘*##’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+
+Numeric/FastMath/Approximation.hs:46:1: warning: [-Winline-rule-shadowing]
+    Rule "double *,- distribute A" may never fire
+      because rule "*##" for ‘*##’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+
+Numeric/FastMath/Approximation.hs:49:1: warning: [-Winline-rule-shadowing]
+    Rule "double *,- distribute B" may never fire
+      because rule "*##" for ‘*##’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+
+Numeric/FastMath/Approximation.hs:52:1: warning: [-Winline-rule-shadowing]
+    Rule "double *,- distribute C" may never fire
+      because rule "*##" for ‘*##’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+
+Numeric/FastMath/Approximation.hs:55:1: warning: [-Winline-rule-shadowing]
+    Rule "double *,- distribute D" may never fire
+      because rule "*##" for ‘*##’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+
+Numeric/FastMath/Approximation.hs:60:1: warning:
+    RULE left-hand side too complicated to desugar
+      Optimised lhs: case /## y2 x of wild_00 { __DEFAULT ->
+                     (case /## y1 x of wild_X2 { __DEFAULT -> +## wild_X2 }) wild_00
+                     }
+      Orig lhs: case /## y2 x of wild_00 { __DEFAULT ->
+                (case /## y1 x of wild_00 { __DEFAULT -> +## wild_00 }) wild_00
+                }
+
+Numeric/FastMath/Approximation.hs:63:1: warning:
+    RULE left-hand side too complicated to desugar
+      Optimised lhs: case /## y2 x of wild_00 { __DEFAULT ->
+                     (case /## y1 x of wild_X2 { __DEFAULT -> -## wild_X2 }) wild_00
+                     }
+      Orig lhs: case /## y2 x of wild_00 { __DEFAULT ->
+                (case /## y1 x of wild_00 { __DEFAULT -> -## wild_00 }) wild_00
+                }
+
+Numeric/FastMath/Approximation.hs:72:1: warning: [-Winline-rule-shadowing]
+    Rule "float *,+ distribute A" may never fire
+      because rule "timesFloat#" for ‘timesFloat#’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+
+Numeric/FastMath/Approximation.hs:75:1: warning: [-Winline-rule-shadowing]
+    Rule "float *,+ distribute B" may never fire
+      because rule "timesFloat#" for ‘timesFloat#’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+
+Numeric/FastMath/Approximation.hs:78:1: warning: [-Winline-rule-shadowing]
+    Rule "float *,+ distribute C" may never fire
+      because rule "timesFloat#" for ‘timesFloat#’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+
+Numeric/FastMath/Approximation.hs:81:1: warning: [-Winline-rule-shadowing]
+    Rule "float *,+ distribute D" may never fire
+      because rule "timesFloat#" for ‘timesFloat#’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+
+Numeric/FastMath/Approximation.hs:86:1: warning: [-Winline-rule-shadowing]
+    Rule "float *,- distribute A" may never fire
+      because rule "timesFloat#" for ‘timesFloat#’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+
+Numeric/FastMath/Approximation.hs:89:1: warning: [-Winline-rule-shadowing]
+    Rule "float *,- distribute B" may never fire
+      because rule "timesFloat#" for ‘timesFloat#’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+
+Numeric/FastMath/Approximation.hs:92:1: warning: [-Winline-rule-shadowing]
+    Rule "float *,- distribute C" may never fire
+      because rule "timesFloat#" for ‘timesFloat#’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+
+Numeric/FastMath/Approximation.hs:95:1: warning: [-Winline-rule-shadowing]
+    Rule "float *,- distribute D" may never fire
+      because rule "timesFloat#" for ‘timesFloat#’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+
+Numeric/FastMath/Approximation.hs:100:1: warning: [-Winline-rule-shadowing]
+    Rule "float /,+ distribute" may never fire
+      because rule "timesFloat#" for ‘timesFloat#’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+
+Numeric/FastMath/Approximation.hs:103:1: warning:
+    RULE left-hand side too complicated to desugar
+      Optimised lhs: case divideFloat# y2 x of wild_00 { __DEFAULT ->
+                     (case divideFloat# y1 x of wild_X2 { __DEFAULT ->
+                      minusFloat# wild_X2
+                      })
+                       wild_00
+                     }
+      Orig lhs: case divideFloat# y2 x of wild_00 { __DEFAULT ->
+                (case divideFloat# y1 x of wild_00 { __DEFAULT ->
+                 minusFloat# wild_00
+                 })
+                  wild_00
+                }
+
+Numeric/FastMath/Approximation.hs:165:1: warning: [-Winline-rule-shadowing]
+    Rule "double commute left *" may never fire
+      because rule "*##" for ‘*##’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+
+Numeric/FastMath/Approximation.hs:166:1: warning: [-Winline-rule-shadowing]
+    Rule "double associate left *" may never fire
+      because rule "*##" for ‘*##’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+
+Numeric/FastMath/Approximation.hs:168:1: warning: [-Winline-rule-shadowing]
+    Rule "double commute left +" may never fire
+      because rule "+##" for ‘+##’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+
+Numeric/FastMath/Approximation.hs:169:1: warning: [-Winline-rule-shadowing]
+    Rule "double associate left +" may never fire
+      because rule "+##" for ‘+##’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+
+Numeric/FastMath/Approximation.hs:175:1: warning: [-Winline-rule-shadowing]
+    Rule "float commute left *" may never fire
+      because rule "timesFloat#" for ‘timesFloat#’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+
+Numeric/FastMath/Approximation.hs:176:1: warning: [-Winline-rule-shadowing]
+    Rule "float associate left *" may never fire
+      because rule "timesFloat#" for ‘timesFloat#’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+
+Numeric/FastMath/Approximation.hs:178:1: warning: [-Winline-rule-shadowing]
+    Rule "float commute left +" may never fire
+      because rule "plusFloat#" for ‘plusFloat#’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+
+Numeric/FastMath/Approximation.hs:179:1: warning: [-Winline-rule-shadowing]
+    Rule "float associate left +" may never fire
+      because rule "plusFloat#" for ‘plusFloat#’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+
+Numeric/FastMath/Approximation.hs:191:1: warning: [-Winline-rule-shadowing]
+    Rule "double repmul 4" may never fire
+      because rule "*##" for ‘*##’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+
+Numeric/FastMath/Approximation.hs:210:1: warning: [-Winline-rule-shadowing]
+    Rule "double repmul 4" may never fire
+      because rule "timesFloat#" for ‘timesFloat#’ might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+[4 of 4] Compiling Numeric.FastMath ( Numeric/FastMath.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Numeric/FastMath.o )
+
+Numeric/FastMath.hs:10:7: warning: [-Wdodgy-exports]
+    The export item `module Numeric.FastMath.Approximation' exports nothing
+
+Numeric/FastMath.hs:11:7: warning: [-Wdodgy-exports]
+    The export item `module Numeric.FastMath.NaN' exports nothing
+
+Numeric/FastMath.hs:12:7: warning: [-Wdodgy-exports]
+    The export item `module Numeric.FastMath.SignedZeros' exports nothing
+Installing library in
+/Users/alfonsobustamante/.stack/snapshots/x86_64-osx/lts-9.8/8.0.2/lib/x86_64-osx-ghc-8.0.2/fast-math-1.0.2-CARWQAQG6KP3jsRfWywhpf
+Registering fast-math-1.0.2...

@@ -1,0 +1,157 @@
+Configuring cubicbezier-0.6.0.4...
+Building cubicbezier-0.6.0.4...
+Preprocessing library cubicbezier-0.6.0.4...
+[ 1 of 12] Compiling Math.BernsteinPoly ( Math/BernsteinPoly.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Math/BernsteinPoly.o )
+[ 2 of 12] Compiling Geom2D.CubicBezier.Numeric ( Geom2D/CubicBezier/Numeric.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Geom2D/CubicBezier/Numeric.o )
+
+Geom2D/CubicBezier/Numeric.hs:334:34: warning: [-Wname-shadowing]
+    This binding for ‘rows’ shadows the existing binding
+      imported from ‘Data.Matrix.Unboxed’ at Geom2D/CubicBezier/Numeric.hs:15:1-31
+      (and originally defined in ‘Data.Matrix.Generic’)
+
+Geom2D/CubicBezier/Numeric.hs:346:17: warning: [-Wname-shadowing]
+    This binding for ‘rows’ shadows the existing binding
+      imported from ‘Data.Matrix.Unboxed’ at Geom2D/CubicBezier/Numeric.hs:15:1-31
+      (and originally defined in ‘Data.Matrix.Generic’)
+[ 3 of 12] Compiling Geom2D           ( Geom2D.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Geom2D.o )
+
+Geom2D.hs:14:1: warning: [-Wunused-imports]
+    The import of ‘Numeric.FastMath’ is redundant
+      except perhaps to import instances from ‘Numeric.FastMath’
+    To import instances alone, use: import Numeric.FastMath()
+[ 4 of 12] Compiling Geom2D.CubicBezier.Basic ( Geom2D/CubicBezier/Basic.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Geom2D/CubicBezier/Basic.o )
+
+Geom2D/CubicBezier/Basic.hs:19:1: warning: [-Wunused-imports]
+    The import of ‘Data.List’ is redundant
+      except perhaps to import instances from ‘Data.List’
+    To import instances alone, use: import Data.List()
+
+Geom2D/CubicBezier/Basic.hs:20:1: warning: [-Wunused-imports]
+    The import of ‘Data.Function’ is redundant
+      except perhaps to import instances from ‘Data.Function’
+    To import instances alone, use: import Data.Function()
+
+Geom2D/CubicBezier/Basic.hs:21:1: warning: [-Wunused-imports]
+    The import of ‘Data.VectorSpace’ is redundant
+      except perhaps to import instances from ‘Data.VectorSpace’
+    To import instances alone, use: import Data.VectorSpace()
+
+Geom2D/CubicBezier/Basic.hs:22:1: warning: [-Wunused-imports]
+    The import of ‘Debug.Trace’ is redundant
+      except perhaps to import instances from ‘Debug.Trace’
+    To import instances alone, use: import Debug.Trace()
+
+Geom2D/CubicBezier/Basic.hs:176:27: warning: [-Wunused-matches]
+    Defined but not used: ‘p’
+[ 5 of 12] Compiling Geom2D.CubicBezier.Approximate ( Geom2D/CubicBezier/Approximate.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Geom2D/CubicBezier/Approximate.o )
+[ 6 of 12] Compiling Geom2D.CubicBezier.Intersection ( Geom2D/CubicBezier/Intersection.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Geom2D/CubicBezier/Intersection.o )
+
+Geom2D/CubicBezier/Intersection.hs:214:38: warning: [-Wunused-matches]
+    Defined but not used: ‘eps’
+[ 7 of 12] Compiling Geom2D.CubicBezier.Curvature ( Geom2D/CubicBezier/Curvature.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Geom2D/CubicBezier/Curvature.o )
+[ 8 of 12] Compiling Geom2D.CubicBezier.MetaPath ( Geom2D/CubicBezier/MetaPath.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Geom2D/CubicBezier/MetaPath.o )
+[ 9 of 12] Compiling Geom2D.CubicBezier.Outline ( Geom2D/CubicBezier/Outline.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Geom2D/CubicBezier/Outline.o )
+[10 of 12] Compiling Geom2D.CubicBezier.Overlap ( Geom2D/CubicBezier/Overlap.lhs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Geom2D/CubicBezier/Overlap.o )
+
+Geom2D/CubicBezier/Overlap.lhs:45:3: warning: [-Wunused-imports]
+    The import of ‘Geom2D.CubicBezier.Numeric’ is redundant
+      except perhaps to import instances from ‘Geom2D.CubicBezier.Numeric’
+    To import instances alone, use: import Geom2D.CubicBezier.Numeric()
+
+Geom2D/CubicBezier/Overlap.lhs:46:3: warning: [-Wunused-imports]
+    The import of ‘Math.BernsteinPoly’ is redundant
+      except perhaps to import instances from ‘Math.BernsteinPoly’
+    To import instances alone, use: import Math.BernsteinPoly()
+
+Geom2D/CubicBezier/Overlap.lhs:49:3: warning: [-Wunused-imports]
+    The import of ‘intercalate’ from module ‘Data.List’ is redundant
+
+Geom2D/CubicBezier/Overlap.lhs:59:3: warning: [-Wunused-imports]
+    The import of ‘Data.IORef’ is redundant
+      except perhaps to import instances from ‘Data.IORef’
+    To import instances alone, use: import Data.IORef()
+
+Geom2D/CubicBezier/Overlap.lhs:60:3: warning: [-Wunused-imports]
+    The import of ‘isJust’ from module ‘Data.Maybe’ is redundant
+
+Geom2D/CubicBezier/Overlap.lhs:189:3: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      showCurve :: CubicBezier Double -> [Char]
+
+Geom2D/CubicBezier/Overlap.lhs:212:3: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      assertTrace :: t2 -> t1 -> t -> t
+
+Geom2D/CubicBezier/Overlap.lhs:214:3: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      traceMessage :: Monad m => t -> m ()
+
+Geom2D/CubicBezier/Overlap.lhs:300:5: warning: [-Wunused-do-bind]
+    A do-notation statement discarded a result of type ‘XStruct’
+    Suppress this warning by saying ‘_ <- return str’
+
+Geom2D/CubicBezier/Overlap.lhs:304:5: warning: [-Wname-shadowing]
+    This binding for ‘str’ shadows the existing binding
+      bound at Geom2D/CubicBezier/Overlap.lhs:299:5
+
+Geom2D/CubicBezier/Overlap.lhs:305:5: warning: [-Wunused-do-bind]
+    A do-notation statement discarded a result of type ‘XStruct’
+    Suppress this warning by saying ‘_ <- return str’
+
+Geom2D/CubicBezier/Overlap.lhs:356:3: warning: [-Wunused-top-binds]
+    Defined but not used: ‘yStructOverlap’
+
+Geom2D/CubicBezier/Overlap.lhs:358:11: warning: [-Wname-shadowing]
+    This binding for ‘checkOverlap’ shadows the existing binding
+      defined at Geom2D/CubicBezier/Overlap.lhs:879:3
+
+Geom2D/CubicBezier/Overlap.lhs:445:3: warning: [-Wunused-top-binds]
+    Defined but not used: ‘belowLine’
+
+Geom2D/CubicBezier/Overlap.lhs:453:3: warning: [-Wunused-top-binds]
+    Defined but not used: ‘aboveLine’
+
+Geom2D/CubicBezier/Overlap.lhs:603:22: warning: [-Wname-shadowing]
+    This binding for ‘m’ shadows the existing binding
+      bound at Geom2D/CubicBezier/Overlap.lhs:599:15
+
+Geom2D/CubicBezier/Overlap.lhs:610:19: warning: [-Wname-shadowing]
+    This binding for ‘m’ shadows the existing binding
+      bound at Geom2D/CubicBezier/Overlap.lhs:599:15
+
+Geom2D/CubicBezier/Overlap.lhs:618:11: warning: [-Wname-shadowing]
+    This binding for ‘m’ shadows the existing binding
+      bound at Geom2D/CubicBezier/Overlap.lhs:599:15
+
+Geom2D/CubicBezier/Overlap.lhs:675:3: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      slope :: (Fractional t, Eq t) => Point t -> t
+
+Geom2D/CubicBezier/Overlap.lhs:879:3: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      checkOverlap :: CubicBezier Double -> CubicBezier Double -> Bool
+
+Geom2D/CubicBezier/Overlap.lhs:948:36: warning: [-Wunused-matches]
+    Defined but not used: ‘p0’
+
+Geom2D/CubicBezier/Overlap.lhs:948:43: warning: [-Wunused-matches]
+    Defined but not used: ‘p3’
+
+Geom2D/CubicBezier/Overlap.lhs:948:63: warning: [-Wunused-matches]
+    Defined but not used: ‘q0’
+
+Geom2D/CubicBezier/Overlap.lhs:948:70: warning: [-Wunused-matches]
+    Defined but not used: ‘q3’
+
+Geom2D/CubicBezier/Overlap.lhs:1149:3: warning: [-Wunused-top-binds]
+    Defined but not used: ‘union'’
+
+Geom2D/CubicBezier/Overlap.lhs:1149:3: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      union' :: [CubicBezier Double]
+                -> FillRule -> Double -> [ClosedPath Double]
+[11 of 12] Compiling Geom2D.CubicBezier ( Geom2D/CubicBezier.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Geom2D/CubicBezier.o )
+[12 of 12] Compiling Geom2D.CubicBezier.Stroke ( Geom2D/CubicBezier/Stroke.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Geom2D/CubicBezier/Stroke.o )
+Installing library in
+/Users/alfonsobustamante/.stack/snapshots/x86_64-osx/lts-9.8/8.0.2/lib/x86_64-osx-ghc-8.0.2/cubicbezier-0.6.0.4-FRoxEwG6Y5X2seTxq8VoAu
+Registering cubicbezier-0.6.0.4...

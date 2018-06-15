@@ -28,13 +28,6 @@
   (major1) == 4 && (major2) <  9 || \
   (major1) == 4 && (major2) == 9 && (minor) <= 1)
 
-/* package cairo-0.13.4.1 */
-#define VERSION_cairo "0.13.4.1"
-#define MIN_VERSION_cairo(major1,major2,minor) (\
-  (major1) <  0 || \
-  (major1) == 0 && (major2) <  13 || \
-  (major1) == 0 && (major2) == 13 && (minor) <= 4)
-
 /* package colour-2.3.3 */
 #define VERSION_colour "2.3.3"
 #define MIN_VERSION_colour(major1,major2,minor) (\
@@ -63,13 +56,6 @@
   (major1) == 4 && (major2) <  15 || \
   (major1) == 4 && (major2) == 15 && (minor) <= 4)
 
-/* package pango-0.13.4.0 */
-#define VERSION_pango "0.13.4.0"
-#define MIN_VERSION_pango(major1,major2,minor) (\
-  (major1) <  0 || \
-  (major1) == 0 && (major2) <  13 || \
-  (major1) == 0 && (major2) == 13 && (minor) <= 4)
-
 /* package protolude-0.1.10 */
 #define VERSION_protolude "0.1.10"
 #define MIN_VERSION_protolude(major1,major2,minor) (\
@@ -83,27 +69,6 @@
   (major1) <  1 || \
   (major1) == 1 && (major2) <  2 || \
   (major1) == 1 && (major2) == 2 && (minor) <= 2)
-
-/* package tasty-0.11.2.5 */
-#define VERSION_tasty "0.11.2.5"
-#define MIN_VERSION_tasty(major1,major2,minor) (\
-  (major1) <  0 || \
-  (major1) == 0 && (major2) <  11 || \
-  (major1) == 0 && (major2) == 11 && (minor) <= 2)
-
-/* package tasty-hunit-0.9.2 */
-#define VERSION_tasty_hunit "0.9.2"
-#define MIN_VERSION_tasty_hunit(major1,major2,minor) (\
-  (major1) <  0 || \
-  (major1) == 0 && (major2) <  9 || \
-  (major1) == 0 && (major2) == 9 && (minor) <= 2)
-
-/* package tasty-quickcheck-0.8.4 */
-#define VERSION_tasty_quickcheck "0.8.4"
-#define MIN_VERSION_tasty_quickcheck(major1,major2,minor) (\
-  (major1) <  0 || \
-  (major1) == 0 && (major2) <  8 || \
-  (major1) == 0 && (major2) == 8 && (minor) <= 4)
 
 /* tool alex-3.2.3 */
 #define TOOL_VERSION_alex "3.2.3"
@@ -168,14 +133,7 @@
   (major1) == 1 && (major2) <  24 || \
   (major1) == 1 && (major2) == 24 && (minor) <= 0)
 
-/* tool pkg-config-0.29.2 */
-#define TOOL_VERSION_pkg_config "0.29.2"
-#define MIN_TOOL_VERSION_pkg_config(major1,major2,minor) (\
-  (major1) <  0 || \
-  (major1) == 0 && (major2) <  29 || \
-  (major1) == 0 && (major2) == 29 && (minor) <= 2)
+#define CURRENT_COMPONENT_ID "gbacpFireflyProy-0.1.0.0-DHj3Uqw3Jk62NvOqkHGcTW"
 
-#define CURRENT_COMPONENT_ID "gbacpFireflyProy-0.1.0.0-De45qhfjI9UBygrZNtqfxg"
-
-#define CURRENT_PACKAGE_KEY "gbacpFireflyProy-0.1.0.0-De45qhfjI9UBygrZNtqfxg"
+#define CURRENT_PACKAGE_KEY "gbacpFireflyProy-0.1.0.0-DHj3Uqw3Jk62NvOqkHGcTW"
 
