@@ -1,18 +1,20 @@
 {-# LANGUAGE OverloadedStrings #-}
 module Main where
 
---import Protolude
---import Lib
-    
-import System.Environment
-import Web.Spock.Safe
+import Web.Spock
+import Web.Spock.Config
+import qualified Data.Text as Text
 
 main :: IO ()
 main = do
-    env <- getEnvironment
-    let port = maybe 8080 read $ lookup "PORT" env
-    runSpock port $ spockT id $
-      get "/" $ text "Hello, world!"
+  spockCfg <- defaultSpockCfg () PCNoDatabase ()
+  runSpock 8080 $ spock spockCfg $ do
+
+    get root $
+      text "Hello Spock!"
+
+    get ("hello" <//> var) $ \name ->
+      text (Text.concat ["Hello ", name, "!"])
 
 -- module Main where
 
