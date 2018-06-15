@@ -7,6 +7,7 @@ import Protolude
 import Web.Spock
 import Web.Spock.Config
 
+import Data.Semigroup ((<>))
 import Control.Monad.Trans
 import Data.Monoid
 import Data.IORef
