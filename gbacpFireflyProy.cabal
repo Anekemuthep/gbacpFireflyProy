@@ -38,7 +38,7 @@ library
   default-extensions:  OverloadedStrings, NoImplicitPrelude
 
 executable gbacpFireflyProy-exe
-  hs-source-dirs:      scr
+  hs-source-dirs:      app
   main-is:             Main.hs
   ghc-options:         -Wall -threaded -rtsopts -with-rtsopts=-N
   build-depends:       base
