@@ -7,7 +7,7 @@ import Protolude
 import Web.Spock
 import Web.Spock.Config
 
-import Data.Semigroup ((<>))
+import  qualified Data.Semigroup as SG
 import Control.Monad.Trans
 import Data.Monoid
 import Data.IORef
@@ -29,7 +29,7 @@ app =
        get ("hello" <//> var) $ \name ->
            do (DummyAppState ref) <- getState
               visitorNumber <- liftIO $ atomicModifyIORef' ref $ \i -> (i+1, i+1)
-              text ("Hello " <> name <> ", you are visitor number " <> T.pack (show visitorNumber))
+              text ("Hello " SG.<> name SG.<> ", you are visitor number " SG.<> T.pack (show visitorNumber))
 
 -- module Main where
 
