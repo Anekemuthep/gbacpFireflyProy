@@ -2,7 +2,7 @@
 module Main where
 
 --import Protolude
-import Lib.Prelude
+import Lib
 
 import Web.Spock
 import Web.Spock.Config
