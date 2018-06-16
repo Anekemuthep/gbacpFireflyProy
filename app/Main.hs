@@ -17,7 +17,7 @@ main = do
       text "Hello Spock!"
 
     Web.Spock.get ("hello" <//> var) $ \name ->
-      text (Text.concat ["Hello ", name, "!"])
+      text (Text.concat ["Hola ", name, " , como estas!"])
 
 -- module Main where
 
